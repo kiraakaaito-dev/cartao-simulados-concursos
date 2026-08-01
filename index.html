@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cartão&nbsp;— Simulados para Concursos</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="app-shell">
+
+  <!-- ============================== TOPBAR ============================== -->
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark">C</span>
+      <span>Cartão<small>Simulados para concursos</small></span>
+    </div>
+    <nav class="nav-tabs" id="navTabs">
+      <button data-view="home" class="active">Montar simulado</button>
+      <button data-view="dashboard">Meu painel</button>
+    </nav>
+    <div class="topbar-actions">
+      <div class="menu-dd" id="menuDropdown">
+        <button class="menu-toggle" id="menuToggleBtn" title="Menu" aria-label="Abrir menu">☰</button>
+        <div class="menu-dd-panel hidden" id="menuDropdownPanel">
+          <button type="button" data-view="home">📝 Montar simulado</button>
+          <button type="button" data-view="dashboard">📊 Meu painel</button>
+        </div>
+      </div>
+      <button class="theme-toggle" id="themeToggleBtn" title="Alternar tema" aria-label="Alternar tema claro/escuro">🌙</button>
+    </div>
+  </header>
+
+  <main class="view-wrap">
+
+    <!-- ============================== HOME / CONFIG ============================== -->
+    <section id="view-home">
+      <div class="hero">
+        <div>
+          <h1>Monte seu simulado</h1>
+          <p>Combine disciplina, banca, dificuldade e tipo de questão para treinar exatamente o que você precisa hoje.</p>
+        </div>
+        <div class="hero-cta">
+          <button class="btn btn-accent" id="btnScrollDashboard">Ver meu desempenho</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="section-title">
+          <h2>Filtros do simulado</h2>
+          <span class="hint">Combine quantos filtros quiser</span>
+        </div>
+
+        <form id="filtersForm" class="filters-form">
+          <div class="field">
+            <label>Disciplina</label>
+            <div class="dropdown-ms" id="fDisciplina"></div>
+            <span class="field-hint">Nenhuma selecionada = todas.</span>
+          </div>
+
+          <div class="field">
+            <label>Banca</label>
+            <div class="dropdown-ms" id="fBanca"></div>
+            <span class="field-hint">Nenhuma selecionada = todas as bancas.</span>
+          </div>
+
+          <div class="field">
+            <label>Assunto</label>
+            <div class="dropdown-ms" id="fAssunto"></div>
+            <span class="field-hint">Filtro fino, opcional.</span>
+          </div>
+
+          <div class="field">
+            <label>Tipo de questão</label>
+            <div class="chip-group" id="chipTipo">
+              <button type="button" class="chip active" data-value="Todos">Todos</button>
+              <button type="button" class="chip" data-value="Múltipla Escolha">Múltipla escolha</button>
+              <button type="button" class="chip" data-value="Certo ou Errado">Certo ou Errado</button>
+            </div>
+            <span class="field-hint" id="bancaStyleHint"></span>
+          </div>
+
+          <div class="field">
+            <label>Dificuldade</label>
+            <div class="chip-group" id="chipDificuldade">
+              <button type="button" class="chip active" data-value="Todas">Todas</button>
+              <button type="button" class="chip" data-value="Fácil">Fácil</button>
+              <button type="button" class="chip" data-value="Médio">Médio</button>
+              <button type="button" class="chip" data-value="Difícil">Difícil</button>
+            </div>
+          </div>
+
+          <div class="field">
+            <label>Quantidade de questões</label>
+            <div class="chip-group" id="chipQtd">
+              <button type="button" class="chip" data-value="5">5</button>
+              <button type="button" class="chip active" data-value="10">10</button>
+              <button type="button" class="chip" data-value="20">20</button>
+              <button type="button" class="chip" data-value="30">30</button>
+              <button type="button" class="chip" data-value="50">50</button>
+              <button type="button" class="chip" data-value="100">100</button>
+              <button type="button" class="chip" data-value="custom">Personalizado</button>
+              <button type="button" class="chip" data-value="all">Todas disponíveis</button>
+            </div>
+            <input type="number" id="qtdCustomInput" min="1" placeholder="Nº de questões" class="hidden" style="margin-top:8px; padding:9px 12px; border-radius:10px; border:1px solid var(--card-border); width:140px;">
+          </div>
+
+          <div class="field">
+            <label>Ano (opcional)</label>
+            <div style="display:flex; gap:8px; align-items:center;">
+              <input type="number" id="fAnoDe" placeholder="De" style="padding:10px 12px; border-radius:10px; border:1px solid var(--card-border); width:100%;">
+              <span class="field-hint">até</span>
+              <input type="number" id="fAnoAte" placeholder="Até" style="padding:10px 12px; border-radius:10px; border:1px solid var(--card-border); width:100%;">
+            </div>
+          </div>
+
+          <div class="field">
+            <label>Filtros avançados</label>
+            <div class="chip-group" id="chipAvancado">
+              <button type="button" class="chip" data-value="somenteErradas">Somente que já errei</button>
+              <button type="button" class="chip" data-value="ocultarRespondidas">Ocultar já respondidas antes</button>
+            </div>
+          </div>
+
+          <div class="field">
+            <label>Modo de estudo</label>
+            <div class="chip-group" id="chipModo">
+              <button type="button" class="chip active mode-accent" data-value="simulado">Modo Simulado</button>
+              <button type="button" class="chip" data-value="estudo">Modo Estudo</button>
+              <button type="button" class="chip" data-value="revisao">Modo Revisão (meus erros)</button>
+            </div>
+          </div>
+
+          <div class="field">
+            <label>Cronômetro</label>
+            <div class="chip-group" id="chipTimer">
+              <button type="button" class="chip active" data-value="up">Crescente</button>
+              <button type="button" class="chip" data-value="down">Regressivo</button>
+            </div>
+          </div>
+        </form>
+
+        <div class="form-footer">
+          <div class="result-count">Questões disponíveis com esses filtros: <strong id="matchCount">0</strong></div>
+          <div style="display:flex; gap:10px;">
+            <button class="btn btn-ghost" id="btnClearFilters">Limpar filtros</button>
+            <button class="btn btn-primary" id="btnStartSim">Iniciar simulado →</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== DASHBOARD ============================== -->
+    <section id="view-dashboard" class="hidden">
+      <div class="section-title">
+        <h2>Meu painel</h2>
+        <button class="btn btn-ghost btn-sm" id="btnDashboardHome">🏠 Voltar para montar simulado</button>
+      </div>
+      <p class="hint" style="margin-top:-10px; color:var(--muted); font-size:.85rem;">Seu histórico é salvo neste navegador (localStorage).</p>
+      <div class="grid cols-4" id="dashStats"></div>
+
+      <div class="card">
+        <div class="section-title"><h2>Desempenho por disciplina</h2></div>
+        <div id="dashByDiscipline"></div>
+      </div>
+
+      <div class="card">
+        <div class="section-title"><h2>Histórico de simulados</h2></div>
+        <div id="dashHistory" class="rev-list"></div>
+      </div>
+    </section>
+
+    <!-- ============================== SIMULADO ============================== -->
+    <section id="view-simulado" class="hidden">
+      <div class="exam-topbar">
+        <div class="exam-meta">
+          <h3 id="examTitle">Simulado de Concurso</h3>
+          <div class="breadcrumb" id="examBreadcrumb"></div>
+        </div>
+        <div style="display:flex; align-items:center; gap:10px;">
+          <button class="btn btn-ghost btn-sm mobile-omr-toggle" id="btnOpenOmr">Questões</button>
+          <div class="timer-chip">
+            <span>⏱</span>
+            <span class="timer-display" id="timerDisplay">00:00:00</span>
+            <button id="btnPauseTimer" title="Pausar/Continuar">⏸</button>
+          </div>
+          <button class="btn btn-danger-ghost btn-sm" id="btnFinishSim">Finalizar simulado</button>
+        </div>
+      </div>
+
+      <div class="exam-layout">
+        <div class="card question-card">
+          <div class="q-progress"><div id="qProgressBar" style="width:0%"></div></div>
+          <div class="q-head">
+            <span class="badge badge-muted" id="qDisciplinaBadge"></span>
+            <span class="badge badge-muted" id="qBancaBadge"></span>
+            <span class="badge badge-muted" id="qDificuldadeBadge"></span>
+            <span class="badge badge-accent" id="qAnoBadge"></span>
+          </div>
+          <div class="demo-flag" id="qDemoFlag">⚠ Questão demonstrativa — não oficial</div>
+          <div class="q-enunciado" id="qEnunciado"></div>
+          <div class="alt-list" id="qAltList"></div>
+
+          <button class="btn btn-primary" id="btnResponder" disabled style="margin-bottom:14px;">Responder</button>
+
+          <div id="feedbackArea"></div>
+
+          <div class="q-actions">
+            <div class="left-actions">
+              <button class="btn btn-ghost btn-sm" id="btnPrev">← Anterior</button>
+              <button class="btn btn-ghost btn-sm" id="btnNext">Próxima →</button>
+            </div>
+            <div class="right-actions">
+              <button class="btn btn-ghost btn-sm" id="btnClearAnswer">Limpar resposta</button>
+              <button class="btn btn-ghost btn-sm" id="btnMark">☆ Marcar para revisão</button>
+            </div>
+          </div>
+        </div>
+
+        <aside class="omr-panel card" id="omrPanel">
+          <h4>Cartão-resposta</h4>
+          <div class="omr-grid" id="omrGrid"></div>
+          <div class="omr-legend">
+            <div><span class="dot" style="background:var(--card-border); border:1px solid var(--muted-2)"></span>Não respondida</div>
+            <div><span class="dot" style="background:var(--ink)"></span>Respondida</div>
+            <div><span class="dot" style="background:var(--success)"></span>Correta (Modo Estudo)</div>
+            <div><span class="dot" style="background:var(--danger)"></span>Incorreta (Modo Estudo)</div>
+            <div>★ Marcada para revisão</div>
+          </div>
+        </aside>
+        <div class="omr-scrim" id="omrScrim"></div>
+      </div>
+    </section>
+
+    <!-- ============================== RESULTADO ============================== -->
+    <section id="view-resultado" class="hidden">
+      <div class="section-title"><h2>Resultado do simulado</h2></div>
+      <div class="card result-hero">
+        <div class="score-ring" id="scoreRing" style="--pct:0"><span class="score-text" id="scoreRingText">0%</span></div>
+        <div class="result-stats">
+          <div class="rs-item"><div class="v mono" id="resAcertos">0</div><div class="l">Acertos</div></div>
+          <div class="rs-item"><div class="v mono" id="resErros">0</div><div class="l">Erros</div></div>
+          <div class="rs-item"><div class="v mono" id="resBrancos">0</div><div class="l">Em branco</div></div>
+          <div class="rs-item"><div class="v mono" id="resTotal">0</div><div class="l">Questões</div></div>
+          <div class="rs-item"><div class="v mono" id="resTempo">0</div><div class="l">Tempo</div></div>
+          <div class="rs-item"><div class="v mono" id="resPontos">0</div><div class="l">Pontuação (regra da banca)</div></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="section-title"><h2>Desempenho por disciplina</h2></div>
+        <div id="resByDiscipline"></div>
+      </div>
+
+      <div class="card">
+        <div class="section-title"><h2>Pontos que precisam de revisão</h2></div>
+        <div id="resWeakSubjects" class="rev-list"></div>
+      </div>
+
+      <div class="card">
+        <div class="section-title">
+          <h2>Revisar questões</h2>
+        </div>
+        <div class="tabs-row" id="revTabs">
+          <button class="chip active" data-value="todas">Ver todas</button>
+          <button class="chip" data-value="acertos">Ver acertos</button>
+          <button class="chip" data-value="erros">Ver erros</button>
+          <button class="chip" data-value="marcadas">Ver marcadas</button>
+        </div>
+        <div id="revList"></div>
+      </div>
+
+      <div style="display:flex; gap:10px; margin-top:6px;">
+        <button class="btn btn-primary" id="btnRedoWrong">Refazer questões erradas</button>
+        <button class="btn btn-ghost" id="btnBackHome">Voltar para montar simulado</button>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<div id="modalRoot"></div>
+<div class="toast" id="toast"></div>
+
+
+
+
+
+
+
+
+
+<script src="js/questions.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
