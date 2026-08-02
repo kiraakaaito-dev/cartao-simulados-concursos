@@ -4235,5 +4235,1265 @@ const QUESTION_BANK = [
     "comentario": "O art. 11, VI, alineas a e b, atribui ao Auxiliar de Enfermagem orientar os pacientes na pos-consulta quanto ao cumprimento das prescricoes de enfermagem e medicas, e auxiliar o Enfermeiro e o Tecnico de Enfermagem na execucao dos programas de educacao para a saude.",
     "fundamento": "Art. 11, VI, alineas a e b, do Decreto no 94.406/1987.",
     "oficial": false
+  },
+
+  {
+    "id": 201,
+    "disciplina": "Estatuto Geral das Guardas Municipais",
+    "assunto": "Lei 13.022/14 — Objeto da lei",
+    "banca": "IDECAN",
+    "ano": 2023,
+    "dificuldade": "Fácil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Nos termos do art. 1º da Lei nº 13.022/2014, essa Lei institui normas gerais para as guardas municipais, disciplinando:",
+    "alternativas": {
+      "A": "o parágrafo 8º do art. 144 da Constituição Federal.",
+      "B": "o art. 37 da Constituição Federal, relativo aos princípios da Administração Pública.",
+      "C": "o art. 5º da Constituição Federal, relativo aos direitos e garantias fundamentais.",
+      "D": "o art. 18 da Constituição Federal, relativo à organização político-administrativa."
+    },
+    "gabarito": "A",
+    "comentario": "O art. 1º da Lei nº 13.022/2014 estabelece expressamente que a Lei institui normas gerais para as guardas municipais, disciplinando o § 8º do art. 144 da Constituição Federal, que trata da faculdade de os Municípios constituírem guardas municipais para proteção de seus bens, serviços e instalações.",
+    "fundamento": "Art. 1º da Lei nº 13.022/2014.",
+    "oficial": false
+  },
+
+  {
+    "id": 202,
+    "disciplina": "Estatuto Geral das Guardas Municipais",
+    "assunto": "Lei 13.022/14 — Natureza jurídica",
+    "banca": "IDECAN",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Segundo o art. 2º da Lei nº 13.022/2014, as guardas municipais são instituições de caráter:",
+    "alternativas": {
+      "A": "militar, subordinadas ao comando da Polícia Militar estadual.",
+      "B": "civil, uniformizadas e armadas conforme previsto em lei, com função de proteção municipal preventiva.",
+      "C": "exclusivamente civil e desarmado, sendo vedado, em qualquer hipótese, o uso de armas.",
+      "D": "misto civil-militar, com dupla subordinação ao Município e ao Estado."
+    },
+    "gabarito": "B",
+    "comentario": "O art. 2º define as guardas municipais como instituições de caráter civil, uniformizadas e armadas conforme previsto em lei, com a função de proteção municipal preventiva, ressalvadas as competências da União, dos Estados e do Distrito Federal.",
+    "fundamento": "Art. 2º da Lei nº 13.022/2014.",
+    "oficial": false
+  },
+
+  {
+    "id": 203,
+    "disciplina": "Estatuto Geral das Guardas Municipais",
+    "assunto": "Lei 13.022/14 — Princípios mínimos de atuação",
+    "banca": "IDECAN",
+    "ano": 2023,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "São princípios mínimos de atuação das guardas municipais, nos termos do art. 3º da Lei nº 13.022/2014, EXCETO:",
+    "alternativas": {
+      "A": "proteção dos direitos humanos fundamentais, do exercício da cidadania e das liberdades públicas.",
+      "B": "preservação da vida, redução do sofrimento e diminuição das perdas.",
+      "C": "hierarquia e disciplina militar, nos mesmos moldes das Polícias Militares estaduais.",
+      "D": "patrulhamento preventivo e uso progressivo da força."
+    },
+    "gabarito": "C",
+    "comentario": "Os princípios mínimos do art. 3º são: proteção dos direitos humanos fundamentais; preservação da vida, redução do sofrimento e diminuição das perdas; patrulhamento preventivo; compromisso com a evolução social da comunidade; e uso progressivo da força. A ideia de hierarquia e disciplina 'nos mesmos moldes' das Polícias Militares não consta desse rol — ao contrário, a própria Lei veda que a guarda fique sujeita a regulamentos disciplinares de natureza militar (art. 14, parágrafo único).",
+    "fundamento": "Art. 3º da Lei nº 13.022/2014.",
+    "oficial": false
+  },
+
+  {
+    "id": 204,
+    "disciplina": "Estatuto Geral das Guardas Municipais",
+    "assunto": "Lei 13.022/14 — Competência geral",
+    "banca": "IDECAN",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Nos termos do art. 4º da Lei nº 13.022/2014, é competência geral das guardas municipais a proteção de bens, serviços, logradouros públicos municipais e instalações do Município, sendo que os bens mencionados abrangem:",
+    "alternativas": {
+      "A": "apenas os bens de uso comum do povo, excluídos os demais.",
+      "B": "exclusivamente os bens dominiais desafetados.",
+      "C": "somente os bens móveis pertencentes diretamente ao patrimônio pessoal do Prefeito.",
+      "D": "os de uso comum, os de uso especial e os dominiais."
+    },
+    "gabarito": "D",
+    "comentario": "O parágrafo único do art. 4º esclarece que os bens mencionados no caput (protegidos pela guarda municipal) abrangem os de uso comum, os de uso especial e os dominiais, ou seja, toda a classificação tradicional dos bens públicos.",
+    "fundamento": "Art. 4º, caput e parágrafo único, da Lei nº 13.022/2014.",
+    "oficial": false
+  },
+
+  {
+    "id": 205,
+    "disciplina": "Estatuto Geral das Guardas Municipais",
+    "assunto": "Lei 13.022/14 — Competências específicas",
+    "banca": "IDECAN",
+    "ano": 2023,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Dentre as competências específicas das guardas municipais previstas no art. 5º da Lei nº 13.022/2014, está a de encaminhar ao delegado de polícia, diante de flagrante delito, o autor da infração, preservando o local do crime:",
+    "alternativas": {
+      "A": "quando possível e sempre que necessário, nos termos do inciso XIV do art. 5º.",
+      "B": "sendo vedado, em qualquer hipótese, que a guarda municipal atue nessa situação, por faltar-lhe competência constitucional.",
+      "C": "apenas mediante autorização prévia e expressa do Secretário Estadual de Segurança Pública.",
+      "D": "somente se a infração for de natureza eleitoral."
+    },
+    "gabarito": "A",
+    "comentario": "O art. 5º, XIV, da Lei nº 13.022/2014 estabelece, entre as competências específicas da guarda municipal, encaminhar ao delegado de polícia, diante de flagrante delito, o autor da infração, preservando o local do crime, quando possível e sempre que necessário.",
+    "fundamento": "Art. 5º, XIV, da Lei nº 13.022/2014.",
+    "oficial": false
+  },
+
+  {
+    "id": 206,
+    "disciplina": "Estatuto Geral das Guardas Municipais",
+    "assunto": "Lei 13.022/14 — Criação e subordinação",
+    "banca": "IDECAN",
+    "ano": 2024,
+    "dificuldade": "Fácil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Segundo o art. 6º da Lei nº 13.022/2014, o Município pode criar sua guarda municipal por lei, sendo que essa guarda fica subordinada:",
+    "alternativas": {
+      "A": "ao Presidente da Câmara Municipal.",
+      "B": "ao chefe do Poder Executivo municipal.",
+      "C": "ao Comandante-Geral da Polícia Militar do Estado.",
+      "D": "ao Secretário Nacional de Segurança Pública."
+    },
+    "gabarito": "B",
+    "comentario": "O art. 6º, parágrafo único, estabelece expressamente que a guarda municipal é subordinada ao chefe do Poder Executivo municipal (Prefeito).",
+    "fundamento": "Art. 6º, caput e parágrafo único, da Lei nº 13.022/2014.",
+    "oficial": false
+  },
+
+  {
+    "id": 207,
+    "disciplina": "Estatuto Geral das Guardas Municipais",
+    "assunto": "Lei 13.022/14 — Limites de efetivo",
+    "banca": "IDECAN",
+    "ano": 2023,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Nos termos do art. 7º da Lei nº 13.022/2014, as guardas municipais não poderão ter efetivo superior a 0,4% da população em Municípios com até 50.000 habitantes. Para Municípios com mais de 50.000 e menos de 500.000 habitantes, o limite é de:",
+    "alternativas": {
+      "A": "0,1% (um décimo por cento) da população.",
+      "B": "0,2% (dois décimos por cento) da população.",
+      "C": "0,3% (três décimos por cento) da população, desde que o efetivo não seja inferior ao limite do primeiro grupo.",
+      "D": "0,5% (cinco décimos por cento) da população, sem qualquer limite inferior."
+    },
+    "gabarito": "C",
+    "comentario": "O art. 7º estabelece uma escala regressiva: 0,4% para Municípios com até 50.000 habitantes; 0,3% para Municípios com mais de 50.000 e menos de 500.000 habitantes (desde que o efetivo não seja inferior ao limite anterior); e 0,2% para Municípios com mais de 500.000 habitantes (observada a mesma ressalva).",
+    "fundamento": "Art. 7º, incisos I a III, da Lei nº 13.022/2014.",
+    "oficial": false
+  },
+
+  {
+    "id": 208,
+    "disciplina": "Estatuto Geral das Guardas Municipais",
+    "assunto": "Lei 13.022/14 — Requisitos para investidura",
+    "banca": "IDECAN",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "São requisitos básicos para investidura em cargo público na guarda municipal, nos termos do art. 10 da Lei nº 13.022/2014, EXCETO:",
+    "alternativas": {
+      "A": "nacionalidade brasileira e gozo dos direitos políticos.",
+      "B": "quitação com as obrigações militares e eleitorais.",
+      "C": "nível médio completo de escolaridade e idade mínima de 18 anos.",
+      "D": "diploma de nível superior em Direito ou em Ciências Policiais."
+    },
+    "gabarito": "D",
+    "comentario": "O art. 10 exige nacionalidade brasileira, gozo dos direitos políticos, quitação com obrigações militares e eleitorais, nível médio completo de escolaridade, idade mínima de 18 anos, aptidão física/mental/psicológica e idoneidade moral comprovada. Não há exigência de diploma de nível superior específico como requisito básico geral da Lei — o que não impede que o edital municipal, dentro de sua autonomia, exija mais.",
+    "fundamento": "Art. 10, incisos I a VII, da Lei nº 13.022/2014.",
+    "oficial": false
+  },
+
+  {
+    "id": 209,
+    "disciplina": "Estatuto Geral das Guardas Municipais",
+    "assunto": "Lei 13.022/14 — Controle interno e externo",
+    "banca": "IDECAN",
+    "ano": 2023,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Segundo o art. 13 da Lei nº 13.022/2014, o controle interno das guardas municipais é exercido por corregedoria, obrigatória nas guardas com efetivo superior a:",
+    "alternativas": {
+      "A": "50 (cinquenta) servidores da guarda, e em todas as que utilizam arma de fogo.",
+      "B": "10 (dez) servidores da guarda, em qualquer hipótese.",
+      "C": "100 (cem) servidores da guarda, exclusivamente.",
+      "D": "não há exigência de efetivo mínimo; a corregedoria é sempre facultativa."
+    },
+    "gabarito": "A",
+    "comentario": "O art. 13, I, exige controle interno por corregedoria nas guardas municipais com efetivo superior a 50 (cinquenta) servidores e em todas as que utilizam arma de fogo, independentemente do efetivo. Já o controle externo, por ouvidoria, é exigido em todas as guardas municipais, qualquer que seja o número de servidores.",
+    "fundamento": "Art. 13, I e II, da Lei nº 13.022/2014.",
+    "oficial": false
+  },
+
+  {
+    "id": 210,
+    "disciplina": "Estatuto Geral das Guardas Municipais",
+    "assunto": "Lei 13.022/14 — Vedações e natureza do regime disciplinar",
+    "banca": "IDECAN",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Nos termos do art. 14, parágrafo único, e do art. 19 da Lei nº 13.022/2014, é correto afirmar que:",
+    "alternativas": {
+      "A": "as guardas municipais devem, obrigatoriamente, adotar regulamento disciplinar idêntico ao do Exército Brasileiro.",
+      "B": "as guardas municipais não podem ficar sujeitas a regulamentos disciplinares de natureza militar, nem podem utilizar denominação idêntica à das forças militares quanto a postos, graduações, títulos, uniformes, distintivos e condecorações.",
+      "C": "é permitido às guardas municipais utilizar postos e graduações idênticos aos das Polícias Militares, desde que autorizado por lei municipal.",
+      "D": "não há qualquer vedação quanto à nomenclatura de postos e graduações das guardas municipais."
+    },
+    "gabarito": "B",
+    "comentario": "A Lei veda expressamente que as guardas municipais fiquem sujeitas a regulamentos disciplinares de natureza militar (art. 14, parágrafo único) e que a estrutura hierárquica da guarda utilize denominação idêntica à das forças militares quanto a postos, graduações, títulos, uniformes, distintivos e condecorações (art. 19), reforçando o caráter civil da instituição.",
+    "fundamento": "Art. 14, parágrafo único, e art. 19 da Lei nº 13.022/2014.",
+    "oficial": false
+  },
+
+  {
+    "id": 211,
+    "disciplina": "Estatuto Geral das Guardas Municipais",
+    "assunto": "Situação-problema — Flagrante em bem municipal",
+    "banca": "IDECAN",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Durante ronda em uma escola municipal, um guarda civil municipal presencia um indivíduo subtraindo equipamentos de informática do laboratório. Considerando as competências previstas na Lei nº 13.022/2014, a conduta esperada do guarda é:",
+    "alternativas": {
+      "A": "abster-se de qualquer atuação, por faltar-lhe competência legal para tratar de infrações penais.",
+      "B": "aplicar, por conta própria, sanção penal ao autor do fato, sem qualquer encaminhamento posterior.",
+      "C": "encaminhar o autor da infração ao delegado de polícia, diante do flagrante delito, preservando o local do crime, quando possível e sempre que necessário.",
+      "D": "aguardar a chegada exclusiva da Polícia Civil, sendo vedado ao guarda qualquer contato com o autor do fato."
+    },
+    "gabarito": "C",
+    "comentario": "Trata-se de aplicação direta do art. 5º, XIV, da Lei nº 13.022/2014: encontrando-se em flagrante delito relacionado a bem municipal (competência específica da guarda), cabe ao guarda encaminhar o autor da infração ao delegado de polícia, preservando o local do crime quando possível e sempre que necessário.",
+    "fundamento": "Art. 5º, XIV, da Lei nº 13.022/2014.",
+    "oficial": false
+  },
+
+  {
+    "id": 212,
+    "disciplina": "Estatuto Geral das Guardas Municipais",
+    "assunto": "Situação-problema — Apoio a órgão de segurança pública",
+    "banca": "IDECAN",
+    "ano": 2023,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Um guarda municipal aciona a Polícia Militar para apoio em ocorrência de maior gravidade que extrapola suas atribuições. Ao chegar a guarnição policial, o guarda municipal deve, nos termos do parágrafo único do art. 5º da Lei nº 13.022/2014:",
+    "alternativas": {
+      "A": "retirar-se imediatamente do local, sendo vedada qualquer permanência após a chegada do órgão de segurança pública.",
+      "B": "assumir o comando da ocorrência, subordinando a atuação policial ao guarda municipal.",
+      "C": "exigir que a Polícia Militar se retire, por entender que a competência é exclusiva da guarda municipal.",
+      "D": "prestar todo o apoio à continuidade do atendimento, diante do comparecimento do órgão de segurança pública."
+    },
+    "gabarito": "D",
+    "comentario": "O parágrafo único do art. 5º estabelece que, nas hipóteses de atendimento de ocorrências emergenciais (incisos XIII e XIV), diante do comparecimento de órgão de segurança pública do art. 144 da CF/1988, a guarda municipal deverá prestar todo o apoio à continuidade do atendimento, e não se retirar ou assumir o comando da ocorrência.",
+    "fundamento": "Art. 5º, parágrafo único, da Lei nº 13.022/2014.",
+    "oficial": false
+  },
+
+  {
+    "id": 213,
+    "disciplina": "Estatuto Geral das Guardas Municipais",
+    "assunto": "Situação-problema — Cálculo de efetivo máximo",
+    "banca": "IDECAN",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Um Município possui 300.000 (trezentos mil) habitantes e pretende definir o efetivo máximo de sua guarda municipal, já atuante e regularmente constituída. Nos termos do art. 7º da Lei nº 13.022/2014, esse Município deverá observar o limite de:",
+    "alternativas": {
+      "A": "0,3% da população, por se enquadrar na faixa de mais de 50.000 e menos de 500.000 habitantes.",
+      "B": "0,4% da população, por se tratar do limite único aplicável a qualquer Município.",
+      "C": "0,2% da população, por se enquadrar na faixa de Municípios com mais de 500.000 habitantes.",
+      "D": "não há limite legal aplicável a Municípios com mais de 100.000 habitantes."
+    },
+    "gabarito": "A",
+    "comentario": "Como o Município possui 300.000 habitantes (entre 50.000 e 500.000), aplica-se o limite de 0,3% da população previsto no art. 7º, II, da Lei nº 13.022/2014, desde que esse efetivo não seja inferior ao limite do inciso I.",
+    "fundamento": "Art. 7º, II, da Lei nº 13.022/2014.",
+    "oficial": false
+  },
+
+  {
+    "id": 214,
+    "disciplina": "Estatuto Geral das Guardas Municipais",
+    "assunto": "Situação-problema — Denúncia de conduta irregular",
+    "banca": "IDECAN",
+    "ano": 2023,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Um cidadão deseja apresentar denúncia sobre a conduta de um guarda municipal durante uma abordagem, sem, contudo, ser ele próprio integrante do quadro da guarda. Nos termos do art. 13 da Lei nº 13.022/2014, essa manifestação deve ser dirigida:",
+    "alternativas": {
+      "A": "à corregedoria, órgão de controle interno destinado exclusivamente a apurar infrações disciplinares de integrantes do quadro.",
+      "B": "à ouvidoria, órgão de controle externo, independente da direção da guarda, destinado a receber, examinar e encaminhar reclamações, sugestões, elogios e denúncias sobre a conduta de dirigentes, integrantes e atividades do órgão.",
+      "C": "diretamente ao Ministério Público Estadual, sendo vedada qualquer manifestação perante a própria guarda municipal.",
+      "D": "ao Comando da Polícia Militar do Estado, único órgão competente para apurar condutas de guardas municipais."
+    },
+    "gabarito": "B",
+    "comentario": "A ouvidoria é o órgão de controle EXTERNO, independente da direção da guarda, destinado a receber, examinar e encaminhar reclamações, sugestões, elogios e denúncias de qualquer pessoa (não apenas integrantes do quadro) acerca da conduta de dirigentes e integrantes, bem como das atividades do órgão. Já a corregedoria (controle interno) apura infrações disciplinares atribuídas aos integrantes do próprio quadro.",
+    "fundamento": "Art. 13, I e II, da Lei nº 13.022/2014.",
+    "oficial": false
+  },
+
+  {
+    "id": 215,
+    "disciplina": "Estatuto Geral das Guardas Municipais",
+    "assunto": "Situação-problema — Uniforme e símbolos militares",
+    "banca": "IDECAN",
+    "ano": 2024,
+    "dificuldade": "Fácil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Determinado Município pretende adotar, para sua guarda civil municipal, postos, graduações e distintivos idênticos aos utilizados pela Polícia Militar estadual. Essa prática:",
+    "alternativas": {
+      "A": "é plenamente compatível com a Lei nº 13.022/2014, que não trata desse tema.",
+      "B": "é obrigatória por força do art. 19 da Lei nº 13.022/2014.",
+      "C": "viola o art. 19 da Lei nº 13.022/2014, que veda a utilização de denominação idêntica à das forças militares quanto a postos, graduações, títulos, uniformes, distintivos e condecorações.",
+      "D": "depende exclusivamente de autorização do Ministério da Defesa."
+    },
+    "gabarito": "C",
+    "comentario": "O art. 19 veda expressamente que a estrutura hierárquica da guarda municipal utilize denominação idêntica à das forças militares quanto a postos e graduações, títulos, uniformes, distintivos e condecorações, reforçando o caráter civil da instituição.",
+    "fundamento": "Art. 19 da Lei nº 13.022/2014.",
+    "oficial": false
+  },
+
+  {
+    "id": 216,
+    "disciplina": "Estatuto Geral das Guardas Municipais",
+    "assunto": "Situação-problema — Segurança escolar",
+    "banca": "IDECAN",
+    "ano": 2023,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Durante patrulhamento nos arredores de uma escola municipal, guardas civis identificam situação de risco envolvendo estudantes na saída das aulas. A atuação preventiva do guarda nesse contexto encontra amparo específico:",
+    "alternativas": {
+      "A": "no art. 16 da Lei nº 13.022/2014, que trata do porte de arma de fogo.",
+      "B": "no art. 18 da Lei nº 13.022/2014, que trata do recolhimento à cela do preso.",
+      "C": "em nenhum dispositivo da Lei nº 13.022/2014, tratando-se de competência exclusiva da Polícia Militar.",
+      "D": "no art. 5º, XVIII, da Lei nº 13.022/2014, que trata da atuação preventiva na segurança escolar, zelando pelo entorno e participando de ações educativas."
+    },
+    "gabarito": "D",
+    "comentario": "O art. 5º, XVIII, prevê, entre as competências específicas das guardas municipais, atuar mediante ações preventivas na segurança escolar, zelando pelo entorno e participando de ações educativas com o corpo discente e docente das unidades de ensino municipal.",
+    "fundamento": "Art. 5º, XVIII, da Lei nº 13.022/2014.",
+    "oficial": false
+  },
+
+  {
+    "id": 217,
+    "disciplina": "Estatuto Geral das Guardas Municipais",
+    "assunto": "Situação-problema — Prisão antes de condenação definitiva",
+    "banca": "IDECAN",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Um guarda municipal, no exercício de suas funções, vem a ser preso preventivamente, ainda sem condenação definitiva. Nos termos do art. 18 da Lei nº 13.022/2014, esse guarda tem assegurado o direito de:",
+    "alternativas": {
+      "A": "recolhimento à cela isoladamente dos demais presos, enquanto não houver condenação definitiva.",
+      "B": "ser posto em liberdade imediata, independentemente de decisão judicial.",
+      "C": "cumprir a prisão em regime domiciliar automático, sem qualquer análise judicial.",
+      "D": "ser processado exclusivamente pela Justiça Militar."
+    },
+    "gabarito": "A",
+    "comentario": "O art. 18 assegura ao guarda municipal o recolhimento à cela isoladamente dos demais presos, quando sujeito à prisão antes de condenação definitiva.",
+    "fundamento": "Art. 18 da Lei nº 13.022/2014.",
+    "oficial": false
+  },
+
+  {
+    "id": 218,
+    "disciplina": "Estatuto Geral das Guardas Municipais",
+    "assunto": "Situação-problema — Consórcio entre municípios",
+    "banca": "IDECAN",
+    "ano": 2023,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Dois Municípios vizinhos, de pequeno porte, pretendem compartilhar os serviços de suas guardas municipais para otimizar recursos, sem que isso implique a criação de uma única guarda municipal comum. Essa possibilidade encontra amparo:",
+    "alternativas": {
+      "A": "em nenhum dispositivo legal, sendo vedada qualquer forma de cooperação entre guardas municipais de Municípios distintos.",
+      "B": "no art. 8º da Lei nº 13.022/2014, que permite a Municípios limítrofes utilizar, reciprocamente, mediante consórcio público, os serviços da guarda municipal de maneira compartilhada.",
+      "C": "apenas mediante fusão administrativa dos dois Municípios em um único ente federativo.",
+      "D": "exclusivamente mediante autorização do Governador do Estado."
+    },
+    "gabarito": "B",
+    "comentario": "O art. 8º da Lei nº 13.022/2014 autoriza expressamente que Municípios limítrofes, mediante consórcio público, utilizem reciprocamente os serviços da guarda municipal de maneira compartilhada.",
+    "fundamento": "Art. 8º da Lei nº 13.022/2014.",
+    "oficial": false
+  },
+
+  {
+    "id": 219,
+    "disciplina": "Estatuto Geral das Guardas Municipais",
+    "assunto": "Situação-problema — Suspensão do porte de arma",
+    "banca": "IDECAN",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Um guarda municipal, após avaliação médica, apresenta contraindicação temporária ao uso de arma de fogo. Nos termos do art. 16, parágrafo único, da Lei nº 13.022/2014, essa situação:",
+    "alternativas": {
+      "A": "não produz qualquer efeito sobre o porte de arma, que é direito absoluto e incondicionado do guarda municipal.",
+      "B": "implica a exoneração automática e imediata do guarda municipal do seu cargo.",
+      "C": "suspende o direito ao porte de arma de fogo, já que a lei prevê a suspensão em razão de restrição médica, decisão judicial ou justificativa do respectivo dirigente.",
+      "D": "só pode ser aplicada mediante decisão do Ministério Público Federal."
+    },
+    "gabarito": "C",
+    "comentario": "O art. 16, parágrafo único, estabelece que o direito ao porte de arma de fogo se suspende em razão de restrição médica, decisão judicial ou justificativa da adoção da medida pelo respectivo dirigente, sendo essa exatamente a hipótese de restrição médica temporária.",
+    "fundamento": "Art. 16, parágrafo único, da Lei nº 13.022/2014.",
+    "oficial": false
+  },
+
+  {
+    "id": 220,
+    "disciplina": "Estatuto Geral das Guardas Municipais",
+    "assunto": "Situação-problema — Atuação conjunta em evento de grande porte",
+    "banca": "IDECAN",
+    "ano": 2023,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Durante evento público de grande porte no Município, com a presença de autoridades, a guarda municipal atua em conjunto com órgãos estaduais de segurança pública na proteção dos dignatários presentes. Essa atuação está expressamente prevista:",
+    "alternativas": {
+      "A": "no art. 6º da Lei nº 13.022/2014, que trata da criação da guarda municipal por lei.",
+      "B": "no art. 9º da Lei nº 13.022/2014, que trata do plano de cargos e salários.",
+      "C": "no art. 12 da Lei nº 13.022/2014, que trata da formação e capacitação dos integrantes.",
+      "D": "no art. 5º, XVII, da Lei nº 13.022/2014, que trata de auxiliar na segurança de grandes eventos e na proteção de autoridades e dignatários."
+    },
+    "gabarito": "D",
+    "comentario": "O art. 5º, XVII, prevê, entre as competências específicas das guardas municipais, auxiliar na segurança de grandes eventos e na proteção de autoridades e dignatários.",
+    "fundamento": "Art. 5º, XVII, da Lei nº 13.022/2014.",
+    "oficial": false
+  },
+
+  {
+    "id": 221,
+    "disciplina": "Direito Penal",
+    "assunto": "Teoria do crime — dolo e culpa",
+    "banca": "IDECAN",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Nos termos do art. 18 do Código Penal, diz-se o crime doloso quando o agente quis o resultado ou assumiu o risco de produzi-lo, e culposo quando o agente deu causa ao resultado por:",
+    "alternativas": {
+      "A": "imprudência, negligência ou imperícia.",
+      "B": "dolo eventual exclusivamente, não havendo outras modalidades de culpa.",
+      "C": "caso fortuito ou força maior, sempre que o resultado for objetivamente previsível.",
+      "D": "erro de tipo escusável, ainda que evitável."
+    },
+    "gabarito": "A",
+    "comentario": "O art. 18, II, do Código Penal define o crime culposo como aquele em que o agente deu causa ao resultado por imprudência, negligência ou imperícia, distinguindo-se do crime doloso (art. 18, I), em que o agente quis o resultado ou assumiu o risco de produzi-lo.",
+    "fundamento": "Art. 18, I e II, do Código Penal.",
+    "oficial": false
+  },
+
+  {
+    "id": 222,
+    "disciplina": "Direito Penal",
+    "assunto": "Excludentes de ilicitude — legítima defesa",
+    "banca": "IDECAN",
+    "ano": 2023,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Segundo o art. 25 do Código Penal, entende-se em legítima defesa quem, usando moderadamente dos meios necessários, repele injusta agressão, atual ou iminente, a direito seu ou de outrem. São requisitos da legítima defesa, EXCETO:",
+    "alternativas": {
+      "A": "agressão injusta, atual ou iminente.",
+      "B": "autorização prévia da autoridade policial para a reação defensiva.",
+      "C": "uso moderado dos meios necessários.",
+      "D": "proteção de direito próprio ou alheio."
+    },
+    "gabarito": "B",
+    "comentario": "Os requisitos da legítima defesa (art. 25, CP) são: agressão injusta, atual ou iminente; uso moderado dos meios necessários para repeli-la; e proteção de direito próprio ou alheio. Não há exigência de autorização prévia de qualquer autoridade, sendo a legítima defesa, por natureza, reação imediata do próprio agredido ou de terceiro.",
+    "fundamento": "Art. 25 do Código Penal.",
+    "oficial": false
+  },
+
+  {
+    "id": 223,
+    "disciplina": "Direito Penal",
+    "assunto": "Excludentes de ilicitude — estado de necessidade",
+    "banca": "IDECAN",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Considera-se em estado de necessidade, nos termos do art. 24 do Código Penal, quem pratica o fato para salvar de perigo atual, que não provocou por sua vontade, nem podia de outro modo evitar, direito próprio ou alheio, cujo sacrifício, nas circunstâncias, não era razoável exigir-se. Trata-se de:",
+    "alternativas": {
+      "A": "causa de aumento de pena.",
+      "B": "causa de extinção da punibilidade.",
+      "C": "excludente de ilicitude (causa de justificação).",
+      "D": "circunstância agravante genérica."
+    },
+    "gabarito": "C",
+    "comentario": "O estado de necessidade, previsto no art. 24 do CP, é uma das excludentes de ilicitude (causas de justificação) elencadas no art. 23 do Código Penal, ao lado da legítima defesa, do estrito cumprimento de dever legal e do exercício regular de direito.",
+    "fundamento": "Art. 23, I, e art. 24 do Código Penal.",
+    "oficial": false
+  },
+
+  {
+    "id": 224,
+    "disciplina": "Direito Penal",
+    "assunto": "Iter criminis — tentativa",
+    "banca": "IDECAN",
+    "ano": 2023,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Nos termos do art. 14, II, do Código Penal, diz-se o crime tentado quando, iniciada a execução, não se consuma por circunstâncias:",
+    "alternativas": {
+      "A": "dependentes da vontade do agente.",
+      "B": "de arrependimento eficaz do próprio agente, em qualquer hipótese.",
+      "C": "de desistência voluntária do próprio agente, em qualquer hipótese.",
+      "D": "alheias à vontade do agente."
+    },
+    "gabarito": "D",
+    "comentario": "O crime tentado, conforme o art. 14, II, do CP, ocorre quando, iniciada a execução, o crime não se consuma por circunstâncias alheias à vontade do agente — distinguindo-se da desistência voluntária e do arrependimento eficaz (art. 15, CP), em que a não consumação decorre da própria vontade do agente.",
+    "fundamento": "Art. 14, II, do Código Penal.",
+    "oficial": false
+  },
+
+  {
+    "id": 225,
+    "disciplina": "Direito Penal",
+    "assunto": "Crimes contra a Administração Pública — resistência",
+    "banca": "IDECAN",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Opor-se à execução de ato legal, mediante violência ou ameaça a funcionário competente para executá-lo ou a quem lhe esteja auxiliando, caracteriza o crime de:",
+    "alternativas": {
+      "A": "resistência.",
+      "B": "desobediência.",
+      "C": "desacato.",
+      "D": "coação no curso do processo."
+    },
+    "gabarito": "A",
+    "comentario": "O crime de resistência (art. 329, CP) caracteriza-se pela oposição, mediante violência ou ameaça, à execução de ato legal, praticada contra funcionário competente para executá-lo ou contra quem esteja lhe auxiliando.",
+    "fundamento": "Art. 329 do Código Penal.",
+    "oficial": false
+  },
+
+  {
+    "id": 226,
+    "disciplina": "Direito Penal",
+    "assunto": "Crimes contra a Administração Pública — desobediência",
+    "banca": "IDECAN",
+    "ano": 2023,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Desobedecer a ordem legal de funcionário público caracteriza, em regra, o crime de:",
+    "alternativas": {
+      "A": "resistência, previsto no art. 329 do Código Penal.",
+      "B": "desobediência, previsto no art. 330 do Código Penal.",
+      "C": "prevaricação, previsto no art. 319 do Código Penal.",
+      "D": "concussão, previsto no art. 316 do Código Penal."
+    },
+    "gabarito": "B",
+    "comentario": "O crime de desobediência (art. 330, CP) consiste em desobedecer a ordem legal de funcionário público, distinguindo-se da resistência (que envolve violência ou ameaça) e de crimes próprios de funcionário público como a prevaricação e a concussão.",
+    "fundamento": "Art. 330 do Código Penal.",
+    "oficial": false
+  },
+
+  {
+    "id": 227,
+    "disciplina": "Direito Penal",
+    "assunto": "Crimes contra a Administração Pública — desacato",
+    "banca": "IDECAN",
+    "ano": 2024,
+    "dificuldade": "Fácil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Desacatar funcionário público no exercício da função ou em razão dela caracteriza o crime de:",
+    "alternativas": {
+      "A": "injúria qualificada, prevista exclusivamente no Código Civil.",
+      "B": "abuso de autoridade, previsto exclusivamente na Lei nº 13.869/2019.",
+      "C": "desacato, previsto no art. 331 do Código Penal.",
+      "D": "falso testemunho, previsto no art. 342 do Código Penal."
+    },
+    "gabarito": "C",
+    "comentario": "O crime de desacato (art. 331, CP) consiste em desacatar funcionário público no exercício da função ou em razão dela, sendo distinto dos demais tipos penais mencionados nas demais alternativas.",
+    "fundamento": "Art. 331 do Código Penal.",
+    "oficial": false
+  },
+
+  {
+    "id": 228,
+    "disciplina": "Direito Penal",
+    "assunto": "Crimes contra o patrimônio — furto e roubo",
+    "banca": "IDECAN",
+    "ano": 2023,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A distinção fundamental entre os crimes de furto (art. 155, CP) e de roubo (art. 157, CP) reside no fato de que o roubo:",
+    "alternativas": {
+      "A": "é praticado exclusivamente contra bens públicos, ao passo que o furto é praticado exclusivamente contra bens privados.",
+      "B": "é crime culposo, ao passo que o furto é sempre crime doloso.",
+      "C": "só pode ser praticado por funcionário público, ao passo que o furto é crime comum.",
+      "D": "envolve o emprego de violência ou grave ameaça a pessoa, ou a utilização de qualquer meio que reduza a capacidade de resistência da vítima, elementos ausentes no furto."
+    },
+    "gabarito": "D",
+    "comentario": "O roubo (art. 157, CP) é a subtração de coisa alheia móvel mediante o emprego de violência ou grave ameaça a pessoa, ou depois de tê-la, por qualquer meio, reduzido à impossibilidade de resistência, elementos que o diferenciam do furto (art. 155, CP), que é a subtração sem esses meios.",
+    "fundamento": "Arts. 155 e 157 do Código Penal.",
+    "oficial": false
+  },
+
+  {
+    "id": 229,
+    "disciplina": "Direito Penal",
+    "assunto": "Prisão em flagrante — modalidades",
+    "banca": "IDECAN",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Segundo o art. 302 do Código de Processo Penal, considera-se em flagrante delito quem: está cometendo a infração penal; acaba de cometê-la; é perseguido, logo após, pela autoridade, pelo ofendido ou por qualquer pessoa, em situação que faça presumir ser autor da infração; ou é encontrado, logo depois, com instrumentos, armas, objetos ou papéis que façam presumir ser ele autor da infração. Essas quatro hipóteses correspondem, respectivamente, ao flagrante:",
+    "alternativas": {
+      "A": "próprio, próprio, impróprio (ou quase-flagrante) e presumido (ou ficto).",
+      "B": "presumido, presumido, próprio e impróprio.",
+      "C": "impróprio, presumido, próprio e próprio.",
+      "D": "próprio, presumido, presumido e impróprio."
+    },
+    "gabarito": "A",
+    "comentario": "Os incisos I e II do art. 302 do CPP (estar cometendo ou acabar de cometer) correspondem ao flagrante próprio; o inciso III (perseguição logo após) corresponde ao flagrante impróprio (ou quase-flagrante); e o inciso IV (encontrado logo depois com instrumentos que façam presumir autoria) corresponde ao flagrante presumido (ou ficto).",
+    "fundamento": "Art. 302, I a IV, do Código de Processo Penal.",
+    "oficial": false
+  },
+
+  {
+    "id": 230,
+    "disciplina": "Direito Penal",
+    "assunto": "Excludentes de ilicitude — rol do art. 23 CP",
+    "banca": "IDECAN",
+    "ano": 2023,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Não há crime quando o agente pratica o fato em estado de necessidade, em legítima defesa, em estrito cumprimento de dever legal ou em exercício regular de direito. Essas hipóteses constituem, nos termos do art. 23 do Código Penal:",
+    "alternativas": {
+      "A": "causas de extinção da punibilidade.",
+      "B": "causas excludentes de ilicitude (causas de justificação).",
+      "C": "causas de aumento de pena em dobro.",
+      "D": "circunstâncias que qualificam o crime."
+    },
+    "gabarito": "B",
+    "comentario": "O art. 23 do Código Penal elenca as causas excludentes de ilicitude (também chamadas causas de justificação): estado de necessidade, legítima defesa, estrito cumprimento de dever legal e exercício regular de direito, que afastam a ilicitude da conduta típica.",
+    "fundamento": "Art. 23, I a III, do Código Penal.",
+    "oficial": false
+  },
+
+  {
+    "id": 231,
+    "disciplina": "Direito Penal",
+    "assunto": "Situação-problema — Subtração sem violência",
+    "banca": "IDECAN",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Um guarda municipal presencia um indivíduo subtraindo um objeto do interior de um veículo estacionado, sem uso de violência, grave ameaça ou qualquer meio que reduza a capacidade de resistência de quem quer que seja (o veículo estava vazio). Diante da narrativa, a conduta amolda-se, em tese, ao crime de:",
+    "alternativas": {
+      "A": "roubo, por se tratar de subtração de bem móvel.",
+      "B": "latrocínio, por envolver veículo automotor.",
+      "C": "furto, por ausência de violência ou grave ameaça a pessoa na subtração do bem.",
+      "D": "extorsão, por envolver bem de terceiro."
+    },
+    "gabarito": "C",
+    "comentario": "Ausente violência, grave ameaça a pessoa ou redução da capacidade de resistência de alguém, a subtração de coisa alheia móvel amolda-se, em tese, ao tipo de furto (art. 155, CP), e não ao de roubo, que pressupõe justamente esses elementos.",
+    "fundamento": "Art. 155 do Código Penal (em contraste com o art. 157).",
+    "oficial": false
+  },
+
+  {
+    "id": 232,
+    "disciplina": "Direito Penal",
+    "assunto": "Situação-problema — Recusa a ordem legal",
+    "banca": "IDECAN",
+    "ano": 2023,
+    "dificuldade": "Fácil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Durante fiscalização de posturas municipais, um guarda civil determina, com base em competência legal, que um comerciante desobstrua a calçada. O comerciante, sem uso de violência ou ameaça, simplesmente se recusa a cumprir a determinação. Em tese, essa conduta pode configurar o crime de:",
+    "alternativas": {
+      "A": "resistência, por envolver oposição a ato legal.",
+      "B": "desacato, por atingir a honra do agente público.",
+      "C": "coação no curso do processo, por haver processo administrativo em curso.",
+      "D": "desobediência, por consistir em mero descumprimento de ordem legal, sem violência ou ameaça."
+    },
+    "gabarito": "D",
+    "comentario": "A simples recusa em cumprir ordem legal, sem o emprego de violência ou ameaça, amolda-se, em tese, ao crime de desobediência (art. 330, CP). O crime de resistência, por sua vez, exige o emprego de violência ou ameaça para se opor à execução do ato.",
+    "fundamento": "Art. 330 do Código Penal (em contraste com o art. 329).",
+    "oficial": false
+  },
+
+  {
+    "id": 233,
+    "disciplina": "Direito Penal",
+    "assunto": "Situação-problema — Contenção de pessoa em surto",
+    "banca": "IDECAN",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Um guarda municipal, durante patrulhamento, depara-se com pessoa em surto psiquiátrico armada com faca, ameaçando terceiros na via pública. Após tentativas de negociação, o guarda emprega força física moderada e estritamente necessária para desarmar o indivíduo e proteger os presentes, sem excessos. Essa conduta, em tese, pode ser amparada pela excludente de:",
+    "alternativas": {
+      "A": "legítima defesa de terceiro e/ou estrito cumprimento de dever legal, conforme as circunstâncias do caso concreto.",
+      "B": "coação moral irresistível, unicamente.",
+      "C": "inexigibilidade de conduta diversa, isoladamente considerada, sem qualquer outro fundamento.",
+      "D": "nenhuma excludente é aplicável, respondendo o guarda civil objetivamente pelo resultado."
+    },
+    "gabarito": "A",
+    "comentario": "A contenção proporcional e necessária de agressor que representa risco imediato a terceiros, realizada por agente público no exercício de suas funções, pode ser amparada, conforme as circunstâncias, pela legítima defesa de terceiro e/ou pelo estrito cumprimento de dever legal, desde que respeitados os limites da moderação e da necessidade.",
+    "fundamento": "Arts. 23 e 25 do Código Penal.",
+    "oficial": false
+  },
+
+  {
+    "id": 234,
+    "disciplina": "Direito Penal",
+    "assunto": "Situação-problema — Perseguição e captura",
+    "banca": "IDECAN",
+    "ano": 2023,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Após presenciar a subtração de um bem, um guarda municipal inicia perseguição ao autor, que foge do local. Minutos depois, ainda em perseguição contínua, o guarda consegue deter o indivíduo em via próxima. Essa situação caracteriza modalidade de flagrante delito denominada:",
+    "alternativas": {
+      "A": "flagrante próprio, por o indivíduo ainda estar cometendo a infração no momento da abordagem.",
+      "B": "flagrante impróprio (ou quase-flagrante), por a perseguição ter ocorrido logo após o fato, em situação que faz presumir a autoria.",
+      "C": "flagrante presumido, por o indivíduo ter sido encontrado com instrumentos do crime.",
+      "D": "não há flagrante nessa hipótese, por ter havido decurso de tempo entre o fato e a abordagem."
+    },
+    "gabarito": "B",
+    "comentario": "A perseguição iniciada logo após o fato, que resulta na captura do autor em situação que faz presumir a autoria, caracteriza o flagrante impróprio (ou quase-flagrante), previsto no art. 302, III, do CPP.",
+    "fundamento": "Art. 302, III, do Código de Processo Penal.",
+    "oficial": false
+  },
+
+  {
+    "id": 235,
+    "disciplina": "Direito Penal",
+    "assunto": "Situação-problema — Intervenção em briga com risco de lesão grave",
+    "banca": "IDECAN",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Um guarda municipal presencia briga generalizada em via pública, com risco iminente de lesão corporal grave a um dos envolvidos. O guarda intervém fisicamente, com força proporcional e necessária, para separar os agressores e evitar o dano. Essa intervenção, em tese, pode ser justificada pelo:",
+    "alternativas": {
+      "A": "estado de necessidade putativo, única excludente aplicável a agentes públicos.",
+      "B": "erro de proibição inevitável, unicamente.",
+      "C": "exercício regular de direito ou estrito cumprimento de dever legal, no exercício das atribuições de proteção da vida e da integridade física das pessoas.",
+      "D": "nenhuma excludente é aplicável, respondendo o guarda civil pelo crime de lesão corporal em qualquer hipótese."
+    },
+    "gabarito": "C",
+    "comentario": "A intervenção proporcional de agente público, no exercício de suas atribuições legais de proteção da vida e da integridade física, para conter agressão iminente entre terceiros, pode ser amparada pelo estrito cumprimento de dever legal ou pelo exercício regular de direito, excludentes de ilicitude previstas no art. 23 do Código Penal.",
+    "fundamento": "Art. 23, III, do Código Penal.",
+    "oficial": false
+  },
+
+  {
+    "id": 236,
+    "disciplina": "Direito Penal",
+    "assunto": "Situação-problema — Ordem de afastamento de área interditada",
+    "banca": "IDECAN",
+    "ano": 2023,
+    "dificuldade": "Fácil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Um guarda municipal determina, com base em interdição legalmente decretada, que um cidadão se afaste de área de risco. O cidadão, sem uso de violência, simplesmente ignora a ordem e permanece no local. Essa conduta pode configurar, em tese, o crime de:",
+    "alternativas": {
+      "A": "invasão de propriedade, exclusivamente.",
+      "B": "dano qualificado, exclusivamente.",
+      "C": "nenhum crime, por se tratar de mero ilícito administrativo em qualquer hipótese.",
+      "D": "desobediência, por descumprimento de ordem legal sem emprego de violência ou ameaça."
+    },
+    "gabarito": "D",
+    "comentario": "O descumprimento de ordem legal emanada de agente público competente, sem emprego de violência ou ameaça, amolda-se, em tese, ao crime de desobediência (art. 330, CP).",
+    "fundamento": "Art. 330 do Código Penal.",
+    "oficial": false
+  },
+
+  {
+    "id": 237,
+    "disciplina": "Direito Penal",
+    "assunto": "Situação-problema — Tentativa interrompida",
+    "banca": "IDECAN",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Um indivíduo inicia a execução de um furto em repartição pública municipal, mas é surpreendido e impedido de consumar a subtração pela chegada de um guarda civil, que interrompe a ação antes da retirada do bem da esfera de vigilância da vítima. Nessa hipótese, o crime, em tese, configura-se como:",
+    "alternativas": {
+      "A": "furto tentado, por ter sido iniciada a execução sem a consumação, em razão de circunstância alheia à vontade do agente.",
+      "B": "furto consumado, independentemente de o bem ter sido efetivamente subtraído.",
+      "C": "crime impossível, por absoluta ineficácia do meio empregado.",
+      "D": "ato preparatório impunível, por não ter havido início de execução."
+    },
+    "gabarito": "A",
+    "comentario": "Iniciada a execução do furto e interrompida a consumação por circunstância alheia à vontade do agente (a chegada do guarda civil), configura-se, em tese, o furto na forma tentada, nos termos do art. 14, II, do Código Penal.",
+    "fundamento": "Art. 14, II, do Código Penal, c/c art. 155.",
+    "oficial": false
+  },
+
+  {
+    "id": 238,
+    "disciplina": "Direito Penal",
+    "assunto": "Situação-problema — Menor flagrado em conduta análoga a furto",
+    "banca": "IDECAN",
+    "ano": 2023,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Um guarda municipal flagra um adolescente de 15 anos subtraindo mercadoria de um estabelecimento comercial. Em razão da idade do envolvido, é correto afirmar que:",
+    "alternativas": {
+      "A": "o adolescente responderá normalmente por furto, nos termos do Código Penal, como qualquer maior de idade.",
+      "B": "o adolescente é penalmente inimputável, sendo sua conduta tratada como ato infracional, sujeita às medidas socioeducativas do Estatuto da Criança e do Adolescente.",
+      "C": "o adolescente está isento de qualquer consequência jurídica, por ser absolutamente incapaz.",
+      "D": "cabe ao guarda civil aplicar, por conta própria, medida socioeducativa ao adolescente."
+    },
+    "gabarito": "B",
+    "comentario": "Menores de 18 anos são penalmente inimputáveis (art. 27, CP; art. 228, CF/1988), sujeitando-se, no caso de prática de conduta descrita como crime, às normas do Estatuto da Criança e do Adolescente (Lei nº 8.069/1990), que prevê medidas socioeducativas, e não penas do Código Penal.",
+    "fundamento": "Art. 27 do Código Penal; art. 228 da Constituição Federal de 1988; ECA (Lei nº 8.069/1990).",
+    "oficial": false
+  },
+
+  {
+    "id": 239,
+    "disciplina": "Direito Penal",
+    "assunto": "Situação-problema — Acidente de trânsito com vítima",
+    "banca": "IDECAN",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Um guarda municipal é chamado a atender ocorrência de acidente de trânsito em área municipal, no qual o condutor, por falta de atenção ao dirigir, colide com outro veículo, causando lesão corporal na vítima, sem qualquer intenção de causar o resultado. Em tese, essa conduta caracteriza crime na modalidade:",
+    "alternativas": {
+      "A": "dolosa, por assunção do risco de produzir o resultado.",
+      "B": "preterdolosa, exclusivamente, por haver resultado mais grave que o pretendido.",
+      "C": "culposa, por o agente ter dado causa ao resultado por imprudência, negligência ou imperícia, sem a intenção de produzi-lo.",
+      "D": "nenhuma das anteriores, por se tratar de ilícito exclusivamente civil."
+    },
+    "gabarito": "C",
+    "comentario": "A falta de atenção ao dirigir, sem intenção de produzir o resultado lesivo, caracteriza, em tese, conduta culposa (por imprudência ou negligência), nos termos do art. 18, II, do Código Penal.",
+    "fundamento": "Art. 18, II, do Código Penal.",
+    "oficial": false
+  },
+
+  {
+    "id": 240,
+    "disciplina": "Direito Penal",
+    "assunto": "Situação-problema — Abordagem com objeto ambíguo",
+    "banca": "IDECAN",
+    "ano": 2023,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Um guarda municipal aborda indivíduo que, ao ser surpreendido, empunha um objeto que, na penumbra do local, aparenta ser uma arma de fogo, mas que, após a contenção, revela-se um simulacro (arma de brinquedo). A avaliação da conduta do guarda, que reagiu proporcionalmente ao risco aparente no momento da ação, deve considerar:",
+    "alternativas": {
+      "A": "exclusivamente o resultado final constatado, desprezando-se qualquer análise sobre a percepção do agente no momento do fato.",
+      "B": "a responsabilização automática e objetiva do guarda, independentemente das circunstâncias do caso concreto.",
+      "C": "a impossibilidade absoluta de qualquer excludente, por não ter havido perigo real e efetivo.",
+      "D": "a chamada legítima defesa putativa (ou descriminante putativa), em que se analisa a razoabilidade da percepção do agente diante das circunstâncias concretas, ainda que, posteriormente, se constate a inexistência real do perigo."
+    },
+    "gabarito": "D",
+    "comentario": "Quando o agente, por erro plenamente justificado pelas circunstâncias, supõe situação de fato que, se existisse, tornaria a ação legítima, aplica-se a descriminante putativa (art. 20, § 1º, do Código Penal), avaliando-se a razoabilidade da percepção do agente no momento da ação.",
+    "fundamento": "Art. 20, § 1º, do Código Penal (descriminantes putativas).",
+    "oficial": false
+  },
+
+  {
+    "id": 241,
+    "disciplina": "Direitos Humanos e Uso da Força",
+    "assunto": "CF/88 — Vedação à tortura",
+    "banca": "IDECAN",
+    "ano": 2023,
+    "dificuldade": "Fácil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Nos termos do art. 5º, III, da Constituição Federal de 1988, é correto afirmar que:",
+    "alternativas": {
+      "A": "ninguém será submetido a tortura nem a tratamento desumano ou degradante.",
+      "B": "a tortura é admitida em situações excepcionais de urgência policial.",
+      "C": "o tratamento desumano é vedado apenas em relação a presos condenados definitivamente.",
+      "D": "a vedação à tortura aplica-se exclusivamente aos agentes federais de segurança pública."
+    },
+    "gabarito": "A",
+    "comentario": "O art. 5º, III, da CF/1988 estabelece, de forma absoluta e sem exceções, que ninguém será submetido a tortura nem a tratamento desumano ou degradante, garantia fundamental aplicável a qualquer pessoa, em qualquer circunstância.",
+    "fundamento": "Art. 5º, III, da Constituição Federal de 1988.",
+    "oficial": false
+  },
+
+  {
+    "id": 242,
+    "disciplina": "Direitos Humanos e Uso da Força",
+    "assunto": "Declaração Universal dos Direitos Humanos",
+    "banca": "IDECAN",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A Declaração Universal dos Direitos Humanos, adotada pela Assembleia Geral das Nações Unidas em 1948, estabelece, em seu artigo 1º, que:",
+    "alternativas": {
+      "A": "apenas os cidadãos de países signatários possuem direitos humanos garantidos.",
+      "B": "todos os seres humanos nascem livres e iguais em dignidade e direitos.",
+      "C": "os direitos humanos são concedidos exclusivamente pelo Estado, a critério deste.",
+      "D": "a dignidade humana é um conceito exclusivamente religioso, sem aplicação jurídica."
+    },
+    "gabarito": "B",
+    "comentario": "O artigo 1º da Declaração Universal dos Direitos Humanos (1948) proclama que todos os seres humanos nascem livres e iguais em dignidade e direitos, sendo dotados de razão e consciência.",
+    "fundamento": "Art. 1º da Declaração Universal dos Direitos Humanos (ONU, 1948).",
+    "oficial": false
+  },
+
+  {
+    "id": 243,
+    "disciplina": "Direitos Humanos e Uso da Força",
+    "assunto": "Princípios da ONU sobre uso da força e armas de fogo",
+    "banca": "IDECAN",
+    "ano": 2023,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Segundo os Princípios Básicos das Nações Unidas sobre o Uso da Força e Armas de Fogo pelos Funcionários Responsáveis pela Aplicação da Lei (1990), o uso de arma de fogo contra pessoas somente é admitido em casos de:",
+    "alternativas": {
+      "A": "qualquer resistência verbal a ordem legal, independentemente de risco concreto.",
+      "B": "fuga de suspeito de contravenção penal de menor potencial ofensivo, em qualquer hipótese.",
+      "C": "risco iminente de morte ou lesão grave, quando outros meios menos extremos se mostrarem insuficientes.",
+      "D": "necessidade de dispersar aglomerações pacíficas em espaços públicos."
+    },
+    "gabarito": "C",
+    "comentario": "Os Princípios Básicos da ONU (1990) estabelecem que o uso de arma de fogo é medida extrema, somente justificável diante de risco iminente de morte ou lesão grave, quando medidas menos extremas se mostrarem insuficientes.",
+    "fundamento": "Princípios Básicos das Nações Unidas sobre o Uso da Força e Armas de Fogo (1990), Princípio 9.",
+    "oficial": false
+  },
+
+  {
+    "id": 244,
+    "disciplina": "Direitos Humanos e Uso da Força",
+    "assunto": "Uso progressivo da força — conceito",
+    "banca": "IDECAN",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "O princípio do uso progressivo (ou diferenciado) da força, aplicável a agentes de segurança pública, incluindo guardas municipais, pressupõe que a intensidade da força empregada deve:",
+    "alternativas": {
+      "A": "ser sempre a máxima disponível, independentemente do nível de resistência ou ameaça apresentado.",
+      "B": "ser decidida exclusivamente após autorização judicial prévia, em cada caso concreto.",
+      "C": "ser aplicada de forma idêntica em todas as situações, independentemente do contexto.",
+      "D": "corresponder, de forma gradual e proporcional, ao nível de resistência ou ameaça efetivamente apresentado pela pessoa abordada, partindo da presença e verbalização até, em último caso, a força letal."
+    },
+    "gabarito": "D",
+    "comentario": "O uso progressivo da força pressupõe uma escala gradual e proporcional de intervenção — presença, verbalização, controle de contato, uso de instrumentos de menor potencial ofensivo e, apenas em último caso, força letal —, correspondente ao nível de resistência ou ameaça efetivamente apresentado.",
+    "fundamento": "Art. 3º, V, da Lei nº 13.022/2014; Princípios Básicos da ONU sobre Uso da Força (1990).",
+    "oficial": false
+  },
+
+  {
+    "id": 245,
+    "disciplina": "Direitos Humanos e Uso da Força",
+    "assunto": "Lei 13.060/2014 — Princípios do uso de instrumentos de menor potencial ofensivo",
+    "banca": "IDECAN",
+    "ano": 2023,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A Lei nº 13.060/2014, que disciplina o uso dos instrumentos de menor potencial ofensivo pelos agentes de segurança pública, estabelece que esse uso deverá obedecer aos princípios de:",
+    "alternativas": {
+      "A": "legalidade, necessidade, razoabilidade e proporcionalidade.",
+      "B": "discricionariedade absoluta e sigilo, sem qualquer parâmetro normativo.",
+      "C": "hierarquia militar e disciplina, exclusivamente.",
+      "D": "conveniência política do gestor público, sem qualquer vinculação normativa."
+    },
+    "gabarito": "A",
+    "comentario": "O art. 1º da Lei nº 13.060/2014 estabelece que o uso de instrumentos de menor potencial ofensivo pelos agentes de segurança pública, em todo o território nacional, obedecerá aos princípios de legalidade, necessidade, razoabilidade e proporcionalidade.",
+    "fundamento": "Art. 1º da Lei nº 13.060/2014.",
+    "oficial": false
+  },
+
+  {
+    "id": 246,
+    "disciplina": "Direitos Humanos e Uso da Força",
+    "assunto": "Lei 13.060/2014 — Vedação de arma de fogo contra pessoa em fuga desarmada",
+    "banca": "IDECAN",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Nos termos do art. 4º da Lei nº 13.060/2014, é vedado o uso de arma de fogo contra pessoa em fuga que esteja:",
+    "alternativas": {
+      "A": "portando qualquer objeto, ainda que não configure risco algum.",
+      "B": "desarmada ou que, mesmo na posse de algum tipo de arma, não represente risco imediato de morte ou lesão aos agentes de segurança pública ou a terceiros.",
+      "C": "acompanhada de qualquer pessoa, independentemente das circunstâncias.",
+      "D": "em local público, ainda que armada e representando risco imediato."
+    },
+    "gabarito": "B",
+    "comentario": "O art. 4º da Lei nº 13.060/2014 veda o uso de arma de fogo contra pessoa em fuga que esteja desarmada, ou que, mesmo portando algum tipo de arma, não represente risco imediato de morte ou lesão grave aos agentes de segurança pública ou a terceiros.",
+    "fundamento": "Art. 4º da Lei nº 13.060/2014.",
+    "oficial": false
+  },
+
+  {
+    "id": 247,
+    "disciplina": "Direitos Humanos e Uso da Força",
+    "assunto": "Diretrizes nacionais sobre uso da força",
+    "banca": "IDECAN",
+    "ano": 2023,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A Portaria Interministerial nº 4.226/2010 (Ministério da Justiça e Secretaria de Direitos Humanos) estabelece diretrizes nacionais sobre o uso da força pelos agentes de segurança pública, tendo como princípios norteadores, entre outros:",
+    "alternativas": {
+      "A": "hierarquia militar absoluta e obediência cega a ordens superiores.",
+      "B": "discricionariedade irrestrita do agente, sem qualquer controle posterior.",
+      "C": "legalidade, necessidade, proporcionalidade, moderação e conveniência.",
+      "D": "uso automático da força letal em qualquer abordagem de risco."
+    },
+    "gabarito": "C",
+    "comentario": "A Portaria Interministerial nº 4.226/2010 estabelece, entre os princípios norteadores do uso da força por agentes de segurança pública, a legalidade, a necessidade, a proporcionalidade, a moderação e a conveniência.",
+    "fundamento": "Portaria Interministerial MJ/SDH nº 4.226/2010.",
+    "oficial": false
+  },
+
+  {
+    "id": 248,
+    "disciplina": "Direitos Humanos e Uso da Força",
+    "assunto": "Conceito de instrumento de menor potencial ofensivo",
+    "banca": "IDECAN",
+    "ano": 2024,
+    "dificuldade": "Fácil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Nos termos do art. 2º da Lei nº 13.060/2014, considera-se instrumento de menor potencial ofensivo:",
+    "alternativas": {
+      "A": "qualquer arma de fogo de calibre reduzido, independentemente de sua letalidade.",
+      "B": "exclusivamente algemas e demais instrumentos de contenção mecânica.",
+      "C": "qualquer equipamento de proteção individual do próprio agente de segurança pública.",
+      "D": "todo aquele fabricado com a finalidade de, quando empregado, diminuir a probabilidade de lesões letais à integridade física de pessoas, em comparação com as armas de fogo de uso convencional."
+    },
+    "gabarito": "D",
+    "comentario": "O art. 2º da Lei nº 13.060/2014 define instrumento de menor potencial ofensivo como todo aquele fabricado com a finalidade de, quando empregado, diminuir a probabilidade de lesões letais à integridade física de pessoas, em comparação com as armas de fogo de uso convencional.",
+    "fundamento": "Art. 2º da Lei nº 13.060/2014.",
+    "oficial": false
+  },
+
+  {
+    "id": 249,
+    "disciplina": "Direitos Humanos e Uso da Força",
+    "assunto": "Devido processo legal e ampla defesa",
+    "banca": "IDECAN",
+    "ano": 2023,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Nos termos do art. 5º, LIV e LV, da Constituição Federal de 1988, é correto afirmar que:",
+    "alternativas": {
+      "A": "ninguém será privado da liberdade ou de seus bens sem o devido processo legal, e aos litigantes e acusados em geral são assegurados o contraditório e a ampla defesa, com os meios e recursos a ela inerentes.",
+      "B": "o devido processo legal aplica-se exclusivamente a processos judiciais criminais, não alcançando processos administrativos.",
+      "C": "a ampla defesa pode ser dispensada em situações de flagrante delito, a critério da autoridade que efetuar a prisão.",
+      "D": "o contraditório e a ampla defesa são garantias exclusivas de acusados em processos perante o Tribunal do Júri."
+    },
+    "gabarito": "A",
+    "comentario": "O art. 5º, LIV, consagra o devido processo legal, e o inciso LV assegura aos litigantes, em processo judicial ou administrativo, e aos acusados em geral, o contraditório e a ampla defesa, com os meios e recursos a ela inerentes.",
+    "fundamento": "Art. 5º, LIV e LV, da Constituição Federal de 1988.",
+    "oficial": false
+  },
+
+  {
+    "id": 250,
+    "disciplina": "Direitos Humanos e Uso da Força",
+    "assunto": "Princípio da proporcionalidade no uso da força",
+    "banca": "IDECAN",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "O princípio da proporcionalidade, aplicável ao uso da força por agentes de segurança pública, incluindo guardas municipais, exige que:",
+    "alternativas": {
+      "A": "a intensidade da força empregada seja sempre a máxima disponível, independentemente da gravidade da ameaça.",
+      "B": "haja equilíbrio entre o nível de força empregado e a gravidade da ameaça ou resistência efetivamente enfrentada, evitando-se excessos desnecessários.",
+      "C": "a força seja empregada apenas mediante autorização judicial prévia e específica para cada ocorrência.",
+      "D": "o agente público esteja isento de qualquer responsabilização pelo uso da força, independentemente das circunstâncias."
+    },
+    "gabarito": "B",
+    "comentario": "O princípio da proporcionalidade exige equilíbrio entre a intensidade da força empregada e a gravidade da ameaça ou resistência efetivamente enfrentada, vedando-se o uso de força excessiva ou desnecessária em relação ao risco concreto apresentado.",
+    "fundamento": "Portaria Interministerial MJ/SDH nº 4.226/2010; Princípios Básicos da ONU sobre Uso da Força (1990).",
+    "oficial": false
+  },
+
+  {
+    "id": 251,
+    "disciplina": "Direitos Humanos e Uso da Força",
+    "assunto": "Situação-problema — Pessoa desarmada em fuga",
+    "banca": "IDECAN",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Durante abordagem, um indivíduo suspeito empreende fuga a pé, sem portar qualquer arma e sem apresentar risco imediato a terceiros ou aos agentes. Nos termos da Lei nº 13.060/2014, o guarda municipal, nessa situação:",
+    "alternativas": {
+      "A": "está autorizado a efetuar disparo de arma de fogo contra o indivíduo, para impedir a fuga a qualquer custo.",
+      "B": "deve, obrigatoriamente, utilizar arma de fogo, sob pena de responsabilidade funcional por omissão.",
+      "C": "está impedido de utilizar arma de fogo contra o indivíduo, por se tratar de pessoa desarmada que não representa risco imediato de morte ou lesão grave.",
+      "D": "pode agir livremente, sem qualquer parâmetro legal aplicável a essa hipótese."
+    },
+    "gabarito": "C",
+    "comentario": "Nos termos do art. 4º da Lei nº 13.060/2014, é vedado o uso de arma de fogo contra pessoa em fuga que esteja desarmada ou que não represente risco imediato de morte ou lesão grave, devendo o agente buscar outros meios de contenção proporcionais à situação.",
+    "fundamento": "Art. 4º da Lei nº 13.060/2014.",
+    "oficial": false
+  },
+
+  {
+    "id": 252,
+    "disciplina": "Direitos Humanos e Uso da Força",
+    "assunto": "Situação-problema — Resistência passiva",
+    "banca": "IDECAN",
+    "ano": 2023,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Durante abordagem, uma pessoa não agride nem ameaça o guarda municipal, mas se recusa, de forma passiva, a se deslocar conforme solicitado (por exemplo, sentando-se no chão). Nos termos do princípio do uso progressivo da força, a resposta proporcional a essa resistência passiva é:",
+    "alternativas": {
+      "A": "o uso imediato de arma de fogo, por se tratar de qualquer forma de resistência.",
+      "B": "o uso de instrumento de menor potencial ofensivo de máxima intensidade, independentemente do contexto.",
+      "C": "nenhuma ação, devendo o guarda abandonar a abordagem em qualquer hipótese de resistência.",
+      "D": "técnicas de controle de contato e imobilização de menor intensidade, adequadas ao baixo nível de resistência apresentado, evitando o uso de força excessiva."
+    },
+    "gabarito": "D",
+    "comentario": "Diante de resistência passiva (sem agressividade ou ameaça), o uso progressivo da força recomenda técnicas de controle de contato e imobilização de menor intensidade, proporcionais ao baixo nível de resistência apresentado.",
+    "fundamento": "Princípio do uso progressivo da força; Portaria Interministerial MJ/SDH nº 4.226/2010.",
+    "oficial": false
+  },
+
+  {
+    "id": 253,
+    "disciplina": "Direitos Humanos e Uso da Força",
+    "assunto": "Situação-problema — Prioridade de instrumento de menor potencial ofensivo",
+    "banca": "IDECAN",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Um guarda municipal precisa conter pessoa agressiva que ameaça terceiros, dispondo, entre seus equipamentos, de instrumento de menor potencial ofensivo (por exemplo, dispositivo de condução elétrica) e de arma de fogo. Nos termos dos princípios de uso progressivo e proporcional da força, o guarda deve:",
+    "alternativas": {
+      "A": "priorizar, sempre que a situação concreta permitir e for suficiente para neutralizar o risco, o uso do instrumento de menor potencial ofensivo, reservando a arma de fogo para situações de risco iminente de morte ou lesão grave.",
+      "B": "utilizar diretamente a arma de fogo, por ser o instrumento mais eficaz para conter qualquer agressividade.",
+      "C": "utilizar ambos os instrumentos simultaneamente, independentemente do nível de resistência.",
+      "D": "abster-se de qualquer intervenção, aguardando a chegada exclusiva de outra corporação."
+    },
+    "gabarito": "A",
+    "comentario": "O princípio do uso progressivo e proporcional da força recomenda que, sempre que a situação concreta permitir e o instrumento de menor potencial ofensivo for suficiente para neutralizar o risco, este seja priorizado, reservando-se a arma de fogo para hipóteses de risco iminente de morte ou lesão grave.",
+    "fundamento": "Lei nº 13.060/2014; Princípios Básicos da ONU sobre Uso da Força (1990).",
+    "oficial": false
+  },
+
+  {
+    "id": 254,
+    "disciplina": "Direitos Humanos e Uso da Força",
+    "assunto": "Situação-problema — Assistência médica após uso da força",
+    "banca": "IDECAN",
+    "ano": 2023,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Após o emprego de força física necessária para conter um suspeito, que resulta em ferimento leve neste, o guarda municipal deve, nos termos dos princípios internacionais e nacionais sobre uso da força:",
+    "alternativas": {
+      "A": "ignorar o ferimento, por não ser de sua responsabilidade prestar qualquer assistência.",
+      "B": "assegurar que seja prestada assistência médica ao ferido, o mais rápido possível, informando familiares ou pessoas próximas, quando pertinente.",
+      "C": "aguardar decisão judicial para autorizar qualquer forma de assistência médica.",
+      "D": "prestar assistência somente se o ferido for capaz de solicitá-la expressamente."
+    },
+    "gabarito": "B",
+    "comentario": "Os Princípios Básicos da ONU sobre Uso da Força (1990) estabelecem o dever de assegurar assistência médica a qualquer pessoa ferida, o mais rápido possível, após o emprego da força, além de informar familiares ou pessoas próximas, quando pertinente e possível.",
+    "fundamento": "Princípios Básicos da ONU sobre Uso da Força e Armas de Fogo (1990), Princípio 5.",
+    "oficial": false
+  },
+
+  {
+    "id": 255,
+    "disciplina": "Direitos Humanos e Uso da Força",
+    "assunto": "Situação-problema — Uso desproporcional por colega",
+    "banca": "IDECAN",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Um guarda municipal presencia um colega de corporação empregando força manifestamente desproporcional contra pessoa já contida e sem oferecer qualquer resistência. Diante dessa situação, a conduta esperada, à luz dos princípios de direitos humanos aplicáveis à atuação das guardas municipais, é:",
+    "alternativas": {
+      "A": "ignorar o ocorrido, por se tratar de assunto interno entre colegas de farda.",
+      "B": "reproduzir a mesma conduta, por solidariedade profissional automática.",
+      "C": "intervir, se possível, para cessar o excesso, e relatar o ocorrido aos canais de controle competentes, como a corregedoria ou a ouvidoria da guarda municipal.",
+      "D": "aguardar denúncia espontânea da própria vítima, sem qualquer iniciativa do guarda que presenciou o fato."
+    },
+    "gabarito": "C",
+    "comentario": "O compromisso com os direitos humanos fundamentais, princípio expresso no art. 3º, I, da Lei nº 13.022/2014, impõe ao guarda municipal o dever de intervir, quando possível, para cessar excessos, e de relatar condutas irregulares aos órgãos de controle competentes.",
+    "fundamento": "Art. 3º, I, da Lei nº 13.022/2014; princípios de direitos humanos aplicados à segurança pública.",
+    "oficial": false
+  },
+
+  {
+    "id": 256,
+    "disciplina": "Direitos Humanos e Uso da Força",
+    "assunto": "Situação-problema — Manifestação pública com tensão",
+    "banca": "IDECAN",
+    "ano": 2023,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Durante manifestação pública pacífica, um pequeno grupo de participantes torna-se hostil, ameaçando a ordem pública. Nos termos dos princípios de moderação e gradualidade no uso da força, a atuação da guarda municipal deve priorizar:",
+    "alternativas": {
+      "A": "o uso imediato de força letal contra todos os presentes, para dispersar rapidamente a manifestação.",
+      "B": "a proibição preventiva de qualquer manifestação pública, independentemente de autorização legal.",
+      "C": "a retirada total da área, abandonando qualquer tentativa de controle da situação.",
+      "D": "medidas graduais e proporcionais, como diálogo, isolamento dos indivíduos hostis e uso comedido da força, preservando o direito de reunião pacífica dos demais manifestantes."
+    },
+    "gabarito": "D",
+    "comentario": "Os princípios de moderação, necessidade e proporcionalidade recomendam medidas graduais, preservando-se o direito constitucional de reunião pacífica dos demais manifestantes (art. 5º, XVI, CF/1988).",
+    "fundamento": "Art. 5º, XVI, da CF/1988; princípios de moderação e proporcionalidade no uso da força.",
+    "oficial": false
+  },
+
+  {
+    "id": 257,
+    "disciplina": "Direitos Humanos e Uso da Força",
+    "assunto": "Situação-problema — Necessidades básicas de pessoa detida",
+    "banca": "IDECAN",
+    "ano": 2024,
+    "dificuldade": "Fácil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Uma pessoa contida por guardas municipais, aguardando a chegada da autoridade policial competente, solicita acesso a água e a instalações sanitárias. Nos termos do respeito à dignidade da pessoa humana, a conduta correta é:",
+    "alternativas": {
+      "A": "atender, dentro do razoável e das condições de segurança disponíveis, as necessidades básicas da pessoa contida, em respeito à sua dignidade.",
+      "B": "negar o pedido, independentemente das circunstâncias, até a chegada da autoridade policial.",
+      "C": "condicionar o atendimento à confissão prévia da prática do ato investigado.",
+      "D": "transferir a responsabilidade integralmente à família da pessoa contida, sem qualquer providência imediata."
+    },
+    "gabarito": "A",
+    "comentario": "O respeito à dignidade da pessoa humana (art. 1º, III, CF/1988) impõe que necessidades básicas de qualquer pessoa sob custódia ou contenção, ainda que temporária, sejam atendidas dentro do razoável e das condições de segurança disponíveis.",
+    "fundamento": "Art. 1º, III, da CF/1988; princípios de direitos humanos aplicados à atuação de agentes de segurança.",
+    "oficial": false
+  },
+
+  {
+    "id": 258,
+    "disciplina": "Direitos Humanos e Uso da Força",
+    "assunto": "Situação-problema — Abordagem de adolescente",
+    "banca": "IDECAN",
+    "ano": 2023,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Um guarda municipal aborda adolescente suspeito da prática de ato infracional. Nos termos do Estatuto da Criança e do Adolescente e dos princípios de direitos humanos aplicáveis, essa abordagem deve observar:",
+    "alternativas": {
+      "A": "tratamento idêntico ao dispensado a adultos, sem qualquer distinção processual ou de garantias.",
+      "B": "tratamento diferenciado, com preservação da integridade física e psicológica do adolescente, encaminhamento às autoridades competentes e respeito às garantias processuais próprias do sistema socioeducativo.",
+      "C": "dispensa de qualquer garantia, por não se aplicar o devido processo legal a adolescentes.",
+      "D": "aplicação imediata de medida socioeducativa pelo próprio guarda municipal, no local da abordagem."
+    },
+    "gabarito": "B",
+    "comentario": "O ECA (Lei nº 8.069/1990) assegura ao adolescente suspeito de ato infracional tratamento diferenciado, com preservação de sua integridade física e psicológica, encaminhamento às autoridades competentes e observância das garantias processuais próprias do sistema de justiça juvenil.",
+    "fundamento": "Estatuto da Criança e do Adolescente (Lei nº 8.069/1990); princípios de direitos humanos aplicados à infância e juventude.",
+    "oficial": false
+  },
+
+  {
+    "id": 259,
+    "disciplina": "Direitos Humanos e Uso da Força",
+    "assunto": "Situação-problema — Uso de algemas",
+    "banca": "IDECAN",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Um guarda municipal efetua a condução de pessoa presa em flagrante que não oferece qualquer resistência, nem há fundado receio de fuga ou de perigo à integridade física própria, do agente ou de terceiros. Nos termos da Súmula Vinculante nº 11 do Supremo Tribunal Federal, o uso de algemas nessa hipótese:",
+    "alternativas": {
+      "A": "é sempre obrigatório, independentemente das circunstâncias do caso concreto.",
+      "B": "é vedado em qualquer hipótese, mesmo diante de resistência ativa e risco concreto.",
+      "C": "só se justifica em casos de resistência e de fundado receio de fuga ou de perigo à integridade física própria ou alheia, por parte do preso ou de terceiros, devendo a excepcionalidade ser justificada por escrito, sob pena de responsabilidade e de nulidade da prisão ou do ato processual.",
+      "D": "depende exclusivamente do critério pessoal e discricionário do agente, sem qualquer necessidade de justificativa."
+    },
+    "gabarito": "C",
+    "comentario": "A Súmula Vinculante nº 11 do STF estabelece que o uso de algemas só se justifica em caso de resistência e de fundado receio de fuga ou de perigo à integridade física própria ou alheia, justificada a excepcionalidade por escrito, sob pena de responsabilidade e de nulidade da prisão ou do ato processual a que se refere.",
+    "fundamento": "Súmula Vinculante nº 11 do Supremo Tribunal Federal.",
+    "oficial": false
+  },
+
+  {
+    "id": 260,
+    "disciplina": "Direitos Humanos e Uso da Força",
+    "assunto": "Situação-problema — Revista pessoal e respeito à dignidade",
+    "banca": "IDECAN",
+    "ano": 2023,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Ao realizar revista pessoal em indivíduo abordado por suspeita fundada, o guarda municipal deve conduzir o procedimento de forma a:",
+    "alternativas": {
+      "A": "expor deliberadamente a pessoa revistada à humilhação pública, como forma de intimidação preventiva.",
+      "B": "realizar a revista de forma idêntica, independentemente do gênero da pessoa revistada ou de qualquer outra circunstância.",
+      "C": "dispensar qualquer fundamentação ou motivo para a revista, que pode ser realizada de forma aleatória e sem critério.",
+      "D": "preservar, na medida do possível, a privacidade e a dignidade da pessoa revistada, limitando-se a revista ao estritamente necessário para a verificação de risco, sem excessos ou exposição desnecessária."
+    },
+    "gabarito": "D",
+    "comentario": "O respeito à dignidade da pessoa humana impõe que a revista pessoal, ainda que necessária por suspeita fundada, seja conduzida de forma a preservar, na medida do possível, a privacidade e a dignidade da pessoa revistada, limitando-se ao estritamente necessário para a verificação do risco.",
+    "fundamento": "Art. 1º, III, da CF/1988; princípios de direitos humanos aplicados à abordagem policial.",
+    "oficial": false
   }
 ];
