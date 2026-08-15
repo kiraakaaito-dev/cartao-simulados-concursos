@@ -6486,5 +6486,1325 @@ const QUESTION_BANK = [
     "comentario": "A cadeia de custodia, prevista nos arts. 158-A e seguintes do CPP, e o conjunto de procedimentos que visa manter e documentar a historia cronologica do vestigio coletado em locais ou vitimas de crimes, para rastrear sua posse e manuseio desde o reconhecimento ate o descarte, garantindo a idoneidade da prova pericial.",
     "fundamento": "Arts. 158-A a 158-F do Codigo de Processo Penal, incluidos pela Lei no 13.964/2019.",
     "oficial": false
+  },
+
+  {
+    "id": 306,
+    "disciplina": "Execução Penal",
+    "assunto": "Art. 112 LEP - fracoes de progressao",
+    "banca": "Instituto Avalia",
+    "ano": 2025,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Nos termos do art. 112 da LEP, na redacao dada pela Lei no 13.964/2019 (Pacote Anticrime), o condenado reincidente que pratica crime COM violencia a pessoa ou grave ameaca progride de regime apos cumprir:",
+    "alternativas": {
+      "A": "30% da pena.",
+      "B": "20% da pena.",
+      "C": "25% da pena.",
+      "D": "40% da pena.",
+      "E": "16% da pena."
+    },
+    "gabarito": "A",
+    "comentario": "O inciso IV do art. 112 exige o cumprimento de 30% da pena para o reincidente em crime cometido com violencia a pessoa ou grave ameaca. Cuidado com a pegadinha: 20% e para reincidente SEM violencia (inciso II); 25% e para primario COM violencia (inciso III).",
+    "fundamento": "Art. 112, IV, da Lei no 7.210/1984.",
+    "oficial": false
+  },
+
+  {
+    "id": 307,
+    "disciplina": "Execução Penal",
+    "assunto": "Art. 83 CP - livramento condicional",
+    "banca": "Instituto Avalia",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Segundo o art. 83 do Codigo Penal, ao condenado reincidente em crime doloso, o livramento condicional podera ser concedido apos cumprida:",
+    "alternativas": {
+      "A": "1/3 da pena, desde que tenha bons antecedentes.",
+      "B": "1/2 da pena.",
+      "C": "2/3 da pena, vedado se reincidente especifico em crimes dessa natureza.",
+      "D": "1/4 da pena, independentemente de qualquer requisito subjetivo.",
+      "E": "3/4 da pena, em qualquer hipotese de reincidencia."
+    },
+    "gabarito": "B",
+    "comentario": "O art. 83, II, do CP exige o cumprimento de mais da metade (1/2) da pena para o reincidente em crime doloso. A fracao de 1/3 e para o condenado nao reincidente com bons antecedentes (inciso I); a de 2/3, vedada ao reincidente especifico, aplica-se aos crimes hediondos e equiparados (art. 83, V).",
+    "fundamento": "Art. 83, I, II e V, do Codigo Penal.",
+    "oficial": false
+  },
+
+  {
+    "id": 308,
+    "disciplina": "Execução Penal",
+    "assunto": "Art. 52 LEP - duracao do RDD",
+    "banca": "Instituto Avalia",
+    "ano": 2025,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "O Regime Disciplinar Diferenciado (RDD), apos as alteracoes da Lei no 13.964/2019, tem duracao maxima de:",
+    "alternativas": {
+      "A": "360 dias, vedada qualquer repeticao.",
+      "B": "180 dias, renovaveis por igual periodo em caso de reincidencia em falta grave da mesma especie.",
+      "C": "ate 2 anos, sem prejuizo de repeticao da sancao por nova falta grave de mesma especie.",
+      "D": "6 meses, prorrogaveis uma unica vez.",
+      "E": "1 ano, improrrogaveis em qualquer circunstancia."
+    },
+    "gabarito": "C",
+    "comentario": "A redacao atual do art. 52 fixa a duracao maxima do RDD em ate 2 anos, sem prejuizo de repeticao da sancao por nova falta grave de mesma especie. A antiga redacao (anterior a 2019) previa 360 dias, prorrogaveis por igual periodo ate o limite de 1/6 da pena aplicada — regra ja superada, classica pegadinha de prova.",
+    "fundamento": "Art. 52 da Lei no 7.210/1984, com redacao dada pela Lei no 13.964/2019.",
+    "oficial": false
+  },
+
+  {
+    "id": 309,
+    "disciplina": "Execução Penal",
+    "assunto": "Art. 52 LEP - requisitos do RDD",
+    "banca": "Instituto Avalia",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Constitui requisito para a inclusao do preso no Regime Disciplinar Diferenciado, nos termos do art. 52, §1o, da LEP, o fato de o preso apresentar alto risco para a ordem e a seguranca do estabelecimento penal ou da sociedade, ou:",
+    "alternativas": {
+      "A": "haver mera desconfianca da direcao do estabelecimento, dispensada qualquer fundamentacao.",
+      "B": "ter o preso menos de 21 anos de idade na data do fato.",
+      "C": "ter o preso descumprido, uma unica vez, ordem administrativa de natureza leve.",
+      "D": "recair sobre o preso fundadas suspeitas de envolvimento ou participacao, a qualquer titulo, em organizacao criminosa, associacao criminosa ou milicia privada.",
+      "E": "ser o preso, comprovadamente, primario e de bons antecedentes."
+    },
+    "gabarito": "D",
+    "comentario": "O art. 52, §1o, autoriza a inclusao no RDD quando recaiam sobre o preso fundadas suspeitas de envolvimento ou participacao, a qualquer titulo, em organizacao criminosa, associacao criminosa ou milicia privada, independentemente da pratica de falta grave. A palavra-chave e \"fundadas suspeitas\" — mera desconfianca sem fundamentacao nao basta.",
+    "fundamento": "Art. 52, §1o, da Lei no 7.210/1984.",
+    "oficial": false
+  },
+
+  {
+    "id": 310,
+    "disciplina": "Execução Penal",
+    "assunto": "Art. 126 LEP - remicao pelo trabalho e estudo",
+    "banca": "Instituto Avalia",
+    "ano": 2025,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A remicao da pena pelo trabalho observa a proporcao de 1 dia de pena para cada 3 dias trabalhados; ja a remicao pelo estudo observa a proporcao de 1 dia de pena para cada:",
+    "alternativas": {
+      "A": "24 horas de frequencia escolar, divididas em, no minimo, 2 dias.",
+      "B": "18 horas de frequencia escolar, em qualquer numero de dias.",
+      "C": "6 horas de frequencia escolar, divididas em, no minimo, 5 dias.",
+      "D": "12 horas de frequencia escolar, em um unico dia consecutivo.",
+      "E": "12 horas de frequencia escolar, divididas, no minimo, em 3 dias."
+    },
+    "gabarito": "E",
+    "comentario": "O art. 126, §1o, II, da LEP fixa a remicao pelo estudo na proporcao de 1 dia de pena a cada 12 horas de frequencia escolar (atividade de ensino fundamental, medio, superior, profissionalizante, requalificacao profissional ou remicao pela leitura), divididas, no minimo, em 3 dias.",
+    "fundamento": "Art. 126, §1o, da Lei no 7.210/1984.",
+    "oficial": false
+  },
+
+  {
+    "id": 311,
+    "disciplina": "Execução Penal",
+    "assunto": "Art. 123 LEP - requisitos da saida temporaria",
+    "banca": "Instituto Avalia",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Sao requisitos para a concessao de saida temporaria ao condenado que cumpre pena em regime semiaberto, EXCETO:",
+    "alternativas": {
+      "A": "comportamento adequado.",
+      "B": "cumprimento minimo de 1/6 da pena, se o condenado for primario.",
+      "C": "cumprimento minimo de 1/4 da pena, se o condenado for reincidente.",
+      "D": "compatibilidade do beneficio com os objetivos da pena.",
+      "E": "cumprimento minimo de 1/3 da pena, independentemente de reincidencia, por se tratar de regra geral unica."
+    },
+    "gabarito": "E",
+    "comentario": "O art. 123 exige comportamento adequado, cumprimento minimo de 1/6 da pena (primario) ou 1/4 (reincidente), e compatibilidade do beneficio com os objetivos da pena — nao existe fracao unica de 1/3 independente da reincidencia, o que torna a alternativa E incorreta e, portanto, o gabarito da questao (que pede a excecao).",
+    "fundamento": "Art. 123 da Lei no 7.210/1984.",
+    "oficial": false
+  },
+
+  {
+    "id": 312,
+    "disciplina": "Execução Penal",
+    "assunto": "Art. 122 LEP - saida temporaria e crime hediondo com resultado morte",
+    "banca": "Instituto Avalia",
+    "ano": 2025,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Tratando-se de condenado por crime hediondo com resultado morte, a jurisprudencia e a legislacao contemporanea sinalizam maior rigor para a saida temporaria, exigindo-se, nessa hipotese especifica, o cumprimento de fracao da pena:",
+    "alternativas": {
+      "A": "mais elevada que a fracao geral do art. 123, evidenciando tratamento mais severo para o resultado morte.",
+      "B": "identica a exigida para os demais crimes, isto e, 1/6 ou 1/4.",
+      "C": "inferior a exigida para os crimes comuns, como estimulo antecipado.",
+      "D": "dispensada, sendo a saida temporaria automaticamente vedada em qualquer crime hediondo, sem excecao.",
+      "E": "irrelevante, pois a saida temporaria e sempre concedida por mero decurso de tempo, independentemente da natureza do crime."
+    },
+    "gabarito": "A",
+    "comentario": "A disciplina legal relativa a crimes hediondos com resultado morte estabelece exigencia de cumprimento de fracao mais elevada da pena para a saida temporaria, tratamento mais rigoroso do que a regra geral do art. 123 (1/6 ou 1/4), refletindo a maior gravidade do resultado morte.",
+    "fundamento": "Art. 122 da Lei no 7.210/1984 e legislacao correlata sobre crimes hediondos.",
+    "oficial": false
+  },
+
+  {
+    "id": 313,
+    "disciplina": "Execução Penal",
+    "assunto": "Art. 50 LEP - rol de faltas graves",
+    "banca": "Instituto Avalia",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Comete falta grave o condenado a pena privativa de liberdade que, nos termos do art. 50 da LEP:",
+    "alternativas": {
+      "A": "recusa-se a participar de curso de capacitacao profissional de carater facultativo.",
+      "B": "tem em sua posse, utiliza ou fornece aparelho telefonico, de radio ou similar que permita a comunicacao com outros presos ou com o ambiente externo.",
+      "C": "solicita, por escrito, revisao de sua classificacao penal perante a Comissao Tecnica.",
+      "D": "deixa de comparecer a atividade religiosa, de carater facultativo.",
+      "E": "critica, em correspondencia dirigida ao juiz da execucao, as condicoes do estabelecimento penal."
+    },
+    "gabarito": "B",
+    "comentario": "O art. 50, VII, da LEP tipifica como falta grave ter o preso em sua posse, utilizar ou fornecer aparelho telefonico, de radio ou similar que permita a comunicacao com outros presos ou com o ambiente externo — dispositivo incluido pela Lei no 11.466/2007. As demais alternativas descrevem condutas licitas ou o exercicio de direitos do preso.",
+    "fundamento": "Art. 50, VII, da Lei no 7.210/1984.",
+    "oficial": false
+  },
+
+  {
+    "id": 314,
+    "disciplina": "Execução Penal",
+    "assunto": "Sumula 439 STJ - exame criminologico",
+    "banca": "Instituto Avalia",
+    "ano": 2025,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Segundo a Sumula no 439 do Superior Tribunal de Justica, a exigencia de exame criminologico para a progressao de regime:",
+    "alternativas": {
+      "A": "e sempre obrigatoria, independentemente de fundamentacao, em qualquer crime.",
+      "B": "e vedada em qualquer hipotese, ainda que o juiz identifique peculiaridades do caso concreto.",
+      "C": "e admissivel pelas peculiaridades do caso, desde que em decisao motivada.",
+      "D": "depende exclusivamente de requerimento do Ministerio Publico, sendo vedada de oficio.",
+      "E": "aplica-se apenas a condenados reincidentes, sendo vedada para primarios."
+    },
+    "gabarito": "C",
+    "comentario": "A Sumula 439/STJ estabelece que \"admite-se o exame criminologico pelas peculiaridades do caso, desde que em decisao motivada\", nao se tratando, portanto, de exigencia automatica nem de vedacao absoluta.",
+    "fundamento": "Sumula no 439 do Superior Tribunal de Justica.",
+    "oficial": false
+  },
+
+  {
+    "id": 315,
+    "disciplina": "Execução Penal",
+    "assunto": "Art. 118 LEP - regressao de regime",
+    "banca": "Instituto Avalia",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A regressao de regime, prevista no art. 118 da LEP, exige, como regra, previa oitiva do condenado, sendo essa formalidade dispensada apenas na hipotese de:",
+    "alternativas": {
+      "A": "o condenado ser reincidente em crime doloso.",
+      "B": "ter o condenado praticado falta grave de natureza leve.",
+      "C": "o condenado ser primario, hipotese em que a oitiva e sempre dispensada.",
+      "D": "o condenado estar foragido (fuga), circunstancia que impossibilita, por evidente, a sua oitiva previa.",
+      "E": "haver mera suspeita, sem qualquer comprovacao, de descumprimento de dever."
+    },
+    "gabarito": "D",
+    "comentario": "O art. 118, §2o, da LEP exige a previa oitiva do condenado antes da regressao de regime, ressalvada a hipotese de fuga, circunstancia que, por sua propria natureza, torna inviavel a oitiva previa do condenado foragido.",
+    "fundamento": "Art. 118, §2o, da Lei no 7.210/1984.",
+    "oficial": false
+  },
+
+  {
+    "id": 316,
+    "disciplina": "Execução Penal",
+    "assunto": "Art. 24 LEP - natureza da assistencia religiosa",
+    "banca": "Instituto Avalia",
+    "ano": 2025,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A assistencia religiosa, prevista na Lei de Execucao Penal, tem natureza:",
+    "alternativas": {
+      "A": "obrigatoria, sendo vedada ao preso a recusa de participacao em pelo menos um culto semanal.",
+      "B": "restrita a uma unica confissao religiosa, definida pela direcao do estabelecimento.",
+      "C": "condicionada ao bom comportamento carcerario do preso, podendo ser suspensa como sancao disciplinar.",
+      "D": "vedada em estabelecimentos penais federais, por forca do principio da laicidade do Estado.",
+      "E": "facultativa quanto a participacao do preso em atividade religiosa, com liberdade de culto."
+    },
+    "gabarito": "E",
+    "comentario": "O art. 24 da LEP assegura a assistencia religiosa, com liberdade de culto, sendo facultada ao preso a participacao em atividade religiosa e permitida a posse de livros de instrucao religiosa — a participacao nao e obrigatoria nem pode ser imposta como condicao.",
+    "fundamento": "Art. 24 da Lei no 7.210/1984.",
+    "oficial": false
+  },
+
+  {
+    "id": 317,
+    "disciplina": "Execução Penal",
+    "assunto": "Art. 25 LEP - assistencia ao egresso",
+    "banca": "Instituto Avalia",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A assistencia ao egresso, nos termos do art. 25 da LEP, consiste em orientacao e apoio para reintegra-lo a vida em liberdade, incluindo, quando necessario, alojamento e alimentacao em estabelecimento adequado, pelo prazo de:",
+    "alternativas": {
+      "A": "2 meses, prorrogaveis uma unica vez, comprovado, por declaracao do assistente social, o empenho na obtencao de emprego.",
+      "B": "1 mes, improrrogavel.",
+      "C": "6 meses, prorrogaveis por igual periodo, uma unica vez.",
+      "D": "15 dias, sem qualquer possibilidade de prorrogacao.",
+      "E": "1 ano, renovavel indefinidamente, a criterio da direcao do estabelecimento."
+    },
+    "gabarito": "A",
+    "comentario": "O art. 25, paragrafo unico, da LEP fixa o prazo de alojamento e alimentacao ao egresso em 2 meses, prorrogaveis uma unica vez, mediante comprovacao, por declaracao do assistente social, de empenho na obtencao de emprego.",
+    "fundamento": "Art. 25, paragrafo unico, da Lei no 7.210/1984.",
+    "oficial": false
+  },
+
+  {
+    "id": 318,
+    "disciplina": "Execução Penal",
+    "assunto": "Art. 36 LEP - trabalho externo em regime fechado",
+    "banca": "Instituto Avalia",
+    "ano": 2025,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "O trabalho externo, admissivel aos condenados que cumprem pena em regime fechado, e limitado a servicos ou obras publicas realizadas por orgaos da Administracao ou entidades privadas, desde que tomadas as cautelas contra a fuga e em favor da disciplina, exigindo-se, ainda, o cumprimento minimo de:",
+    "alternativas": {
+      "A": "1/10 da pena.",
+      "B": "1/6 da pena.",
+      "C": "1/4 da pena.",
+      "D": "1/3 da pena.",
+      "E": "metade da pena."
+    },
+    "gabarito": "B",
+    "comentario": "O art. 37 da LEP exige, para o trabalho externo do preso em regime fechado, o cumprimento minimo de 1/6 da pena, alem da aptidao, disciplina e responsabilidade do condenado, restrito o trabalho a servicos ou obras publicas realizadas por orgaos da Administracao ou entidades privadas, com as cautelas do art. 36.",
+    "fundamento": "Arts. 36 e 37 da Lei no 7.210/1984.",
+    "oficial": false
+  },
+
+  {
+    "id": 319,
+    "disciplina": "Execução Penal",
+    "assunto": "Art. 70 LEP - Conselho Penitenciario",
+    "banca": "Instituto Avalia",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "O Conselho Penitenciario, orgao previsto na Lei de Execucao Penal, tem natureza:",
+    "alternativas": {
+      "A": "jurisdicional, competindo-lhe julgar recursos de decisoes do juiz da execucao.",
+      "B": "meramente administrativa, sem qualquer atribuicao relacionada a livramento condicional ou indulto.",
+      "C": "consultiva e fiscalizadora da execucao da pena, integrado por membros nomeados pelo Governador do Estado.",
+      "D": "policial, com competencia para investigar faltas disciplinares no interior dos estabelecimentos.",
+      "E": "exclusivamente federal, nao existindo Conselhos Penitenciarios estaduais."
+    },
+    "gabarito": "C",
+    "comentario": "O Conselho Penitenciario e orgao consultivo e fiscalizador da execucao da pena, cujos membros sao nomeados pelo Governador do Estado, competindo-lhe, entre outras atribuicoes, emitir parecer sobre livramento condicional, indulto e comutacao de penas.",
+    "fundamento": "Arts. 69 e 70 da Lei no 7.210/1984.",
+    "oficial": false
+  },
+
+  {
+    "id": 320,
+    "disciplina": "Execução Penal",
+    "assunto": "Art. 78 LEP - Patronato",
+    "banca": "Instituto Avalia",
+    "ano": 2025,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "O Patronato, orgao previsto na Lei de Execucao Penal, destina-se a prestar assistencia aos albergados e aos egressos, competindo-lhe, ainda:",
+    "alternativas": {
+      "A": "julgar recursos administrativos interpostos pelos condenados.",
+      "B": "decretar a prisao preventiva de condenados foragidos.",
+      "C": "substituir integralmente as atribuicoes do juiz da execucao penal.",
+      "D": "orientar os condenados a pena restritiva de direitos e fiscalizar o cumprimento das penas de prestacao de servicos a comunidade e de limitacao de fim de semana.",
+      "E": "aplicar sancoes disciplinares no ambito das penitenciarias."
+    },
+    "gabarito": "D",
+    "comentario": "O Patronato presta assistencia aos albergados e aos egressos, orienta os condenados a pena restritiva de direitos e fiscaliza o cumprimento das penas de prestacao de servicos a comunidade e de limitacao de fim de semana, conforme o art. 79 da LEP.",
+    "fundamento": "Arts. 78 e 79 da Lei no 7.210/1984.",
+    "oficial": false
+  },
+
+  {
+    "id": 321,
+    "disciplina": "Execução Penal",
+    "assunto": "Art. 93/94 LEP - Casa do Albergado",
+    "banca": "Instituto Avalia",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A Casa do Albergado, estabelecimento destinado ao cumprimento de pena privativa de liberdade em regime aberto e da pena de limitacao de fim de semana, caracteriza-se por:",
+    "alternativas": {
+      "A": "possuir obstaculos fisicos contra a fuga, como muros altos e grades reforcadas.",
+      "B": "abrigar exclusivamente presos provisorios, jamais condenados definitivos.",
+      "C": "exigir a presenca permanente de agentes penitenciarios armados em seu interior.",
+      "D": "ser identica, em estrutura, a colonia agricola ou industrial do regime semiaberto.",
+      "E": "nao possuir obstaculos fisicos contra a fuga, fundando-se o regime no senso de responsabilidade do condenado."
+    },
+    "gabarito": "E",
+    "comentario": "O art. 94 da LEP estabelece que a Casa do Albergado nao devera ter obstaculos fisicos contra a fuga, fundando-se o regime aberto no senso de responsabilidade e no autodisciplinamento do condenado, distinguindo-se estruturalmente da penitenciaria (fechado) e da colonia (semiaberto).",
+    "fundamento": "Arts. 93 e 94 da Lei no 7.210/1984.",
+    "oficial": false
+  },
+
+  {
+    "id": 322,
+    "disciplina": "Execução Penal",
+    "assunto": "Art. 102/103 LEP - Cadeia Publica",
+    "banca": "Instituto Avalia",
+    "ano": 2025,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A cadeia publica, estabelecimento destinado ao recolhimento de presos provisorios, deve ser instalada, em regra:",
+    "alternativas": {
+      "A": "em local proximo de centro urbano, com separacao dos presos por criterios que preservem a ordem e a disciplina, e separacao por sexo.",
+      "B": "em area agricola distante do centro urbano, para facilitar o trabalho externo.",
+      "C": "obrigatoriamente anexa a penitenciaria de regime fechado, sem qualquer separacao estrutural.",
+      "D": "exclusivamente em capitais de Estado, sendo vedada sua existencia em outros municipios.",
+      "E": "sem qualquer criterio legal de separacao entre presos, bastando a existencia de vagas."
+    },
+    "gabarito": "A",
+    "comentario": "O art. 103 da LEP exige que a cadeia publica seja instalada proxima de centro urbano, observando-se, entre outros criterios, a separacao dos presos por sexo, alem de garantir a ordem e a disciplina no estabelecimento destinado aos presos provisorios.",
+    "fundamento": "Arts. 102 e 103 da Lei no 7.210/1984.",
+    "oficial": false
+  },
+
+  {
+    "id": 323,
+    "disciplina": "Execução Penal",
+    "assunto": "Art. 41 LEP - direitos do preso",
+    "banca": "Instituto Avalia",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Constitui direito do preso, expressamente previsto no art. 41 da LEP:",
+    "alternativas": {
+      "A": "porte de arma de fogo dentro do estabelecimento, para autodefesa.",
+      "B": "contato com o mundo exterior por meio de correspondencia escrita, da leitura e de outros meios de informacao que nao comprometam a moral e os bons costumes.",
+      "C": "livre transito entre estabelecimentos penais de regimes distintos, independentemente de autorizacao judicial.",
+      "D": "isencao automatica de qualquer sancao disciplinar apos 5 anos de bom comportamento.",
+      "E": "acesso irrestrito a aparelhos de telefonia movel, sem qualquer fiscalizacao."
+    },
+    "gabarito": "B",
+    "comentario": "O art. 41, XV, da LEP assegura ao preso o contato com o mundo exterior por meio de correspondencia escrita, da leitura e de outros meios de informacao que nao comprometam a moral e os bons costumes — direito compativel com a disciplina do estabelecimento, distinto do acesso irrestrito a telefonia movel (vedado e tipificado como falta grave).",
+    "fundamento": "Art. 41, XV, da Lei no 7.210/1984.",
+    "oficial": false
+  },
+
+  {
+    "id": 324,
+    "disciplina": "Execução Penal",
+    "assunto": "Art. 39 LEP - deveres do condenado",
+    "banca": "Instituto Avalia",
+    "ano": 2025,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Constituem deveres do condenado, nos termos do art. 39 da LEP, entre outros:",
+    "alternativas": {
+      "A": "exclusivamente o comparecimento as audiencias judiciais, sendo os demais itens meras recomendacoes.",
+      "B": "custeio integral de sua propria defesa tecnica, ainda que hipossuficiente.",
+      "C": "execucao do trabalho, das tarefas e das ordens recebidas, submissao a sancao disciplinar imposta, e indenizacao ao Estado das despesas realizadas com sua manutencao, quando solvente.",
+      "D": "participacao obrigatoria em qualquer culto religioso designado pela direcao do estabelecimento.",
+      "E": "renuncia expressa a todos os direitos nao mencionados no art. 41."
+    },
+    "gabarito": "C",
+    "comentario": "O art. 39 da LEP elenca, entre os deveres do condenado, a execucao do trabalho, das tarefas e das ordens recebidas, a submissao a sancao disciplinar imposta, e a indenizacao ao Estado, quando solvente, das despesas realizadas com sua manutencao, alem da indenizacao a vitima ou a seus sucessores.",
+    "fundamento": "Art. 39 da Lei no 7.210/1984.",
+    "oficial": false
+  },
+
+  {
+    "id": 325,
+    "disciplina": "Execução Penal",
+    "assunto": "Art. 10/11 LEP - assistencia material",
+    "banca": "Instituto Avalia",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A assistencia material ao preso e ao internado, prevista nos arts. 10 e 12 da LEP, consistira, no minimo, em fornecimento de:",
+    "alternativas": {
+      "A": "remuneracao mensal equivalente a um salario minimo, independentemente do exercicio de trabalho.",
+      "B": "passagens aereas para visita familiar mensal, custeadas pelo estabelecimento penal.",
+      "C": "aparelho de televisao individual em cada cela, como direito subjetivo incondicionado.",
+      "D": "vestuario, alimentacao e instalacoes higienicas, sendo dever do Estado e nao mera liberalidade.",
+      "E": "veiculo automotor para uso apos a progressao ao regime aberto."
+    },
+    "gabarito": "D",
+    "comentario": "O art. 12 da LEP estabelece que a assistencia material ao preso e ao internado consistira no fornecimento de alimentacao, vestuario e instalacoes higienicas, sendo dever do Estado (art. 10) e nao mera liberalidade ou faculdade da Administracao Penitenciaria.",
+    "fundamento": "Arts. 10 e 12 da Lei no 7.210/1984.",
+    "oficial": false
+  },
+
+  {
+    "id": 326,
+    "disciplina": "Legislação Específica",
+    "assunto": "Lei 8.072/90 - rol taxativo de hediondos",
+    "banca": "Instituto Avalia",
+    "ano": 2025,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Assinale a alternativa que apresenta um crime que NAO consta do rol de crimes hediondos previsto no art. 1o da Lei no 8.072/1990:",
+    "alternativas": {
+      "A": "latrocinio.",
+      "B": "estupro de vulneravel.",
+      "C": "epidemia com resultado morte.",
+      "D": "genocidio.",
+      "E": "furto qualificado pelo concurso de pessoas, sem emprego de violencia ou grave ameaca."
+    },
+    "gabarito": "E",
+    "comentario": "O furto qualificado, ainda que pelo concurso de pessoas, NAO integra o rol dos crimes hediondos da Lei no 8.072/1990 — esse rol e taxativo e abrange, entre outros, latrocinio, estupro de vulneravel, epidemia com resultado morte e genocidio (este ultimo por forca da Lei no 8.930/1994).",
+    "fundamento": "Art. 1o da Lei no 8.072/1990.",
+    "oficial": false
+  },
+
+  {
+    "id": 327,
+    "disciplina": "Legislação Específica",
+    "assunto": "Lei 8.072/90 - lesao corporal contra agente de seguranca",
+    "banca": "Instituto Avalia",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Apos a alteracao promovida pela Lei no 13.142/2015, passou a ser considerada hedionda a lesao corporal:",
+    "alternativas": {
+      "A": "gravissima ou seguida de morte, quando praticada contra autoridade ou agente descrito nos arts. 142 e 144 da Constituicao Federal, integrantes do sistema prisional e da Forca Nacional de Seguranca Publica, no exercicio da funcao ou em decorrencia dela.",
+      "B": "de natureza leve, praticada contra qualquer pessoa, independentemente da funcao exercida.",
+      "C": "culposa, praticada em acidente de transito envolvendo agente de seguranca publica.",
+      "D": "de natureza leve, praticada por agente de seguranca publica contra particular.",
+      "E": "dolosa simples, praticada entre particulares, sem qualquer relacao com agentes de seguranca."
+    },
+    "gabarito": "A",
+    "comentario": "A Lei no 13.142/2015 incluiu no rol de crimes hediondos a lesao corporal de natureza gravissima ou seguida de morte quando praticada contra autoridade ou agente descrito nos arts. 142 e 144 da CF/1988, integrantes do sistema prisional e da Forca Nacional de Seguranca Publica, no exercicio da funcao ou em decorrencia dela.",
+    "fundamento": "Art. 1o, paragrafo unico, I, da Lei no 8.072/1990, incluido pela Lei no 13.142/2015.",
+    "oficial": false
+  },
+
+  {
+    "id": 328,
+    "disciplina": "Legislação Específica",
+    "assunto": "Lei 8.072/90 - beneficios vedados",
+    "banca": "Instituto Avalia",
+    "ano": 2025,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Sao insuscetiveis de anistia, graca, indulto e fianca, nos termos do art. 2o da Lei no 8.072/1990, os crimes hediondos e os equiparados, EXCETO:",
+    "alternativas": {
+      "A": "pratica da tortura.",
+      "B": "furto simples, sem qualificadora.",
+      "C": "trafico ilicito de entorpecentes.",
+      "D": "terrorismo.",
+      "E": "latrocinio, crime hediondo por definicao legal expressa."
+    },
+    "gabarito": "B",
+    "comentario": "O furto simples nao e crime hediondo nem equiparado, de modo que nao se sujeita as vedacoes do art. 2o da Lei no 8.072/1990 (anistia, graca, indulto e fianca). Os equiparados a hediondos por forca constitucional (art. 5o, XLIII, CF) sao tortura, trafico ilicito de entorpecentes e terrorismo.",
+    "fundamento": "Art. 2o da Lei no 8.072/1990; art. 5o, XLIII, da Constituicao Federal de 1988.",
+    "oficial": false
+  },
+
+  {
+    "id": 329,
+    "disciplina": "Legislação Específica",
+    "assunto": "Lei 11.343/06 - pena do trafico (art. 33, caput)",
+    "banca": "Instituto Avalia",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A pena cominada ao crime de trafico de drogas na forma do caput do art. 33 da Lei no 11.343/2006 e de reclusao de:",
+    "alternativas": {
+      "A": "2 a 6 anos, e multa.",
+      "B": "3 a 10 anos, e multa.",
+      "C": "5 a 15 anos, e multa.",
+      "D": "8 a 20 anos, e multa.",
+      "E": "1 a 4 anos, sem multa cumulativa."
+    },
+    "gabarito": "C",
+    "comentario": "O art. 33, caput, da Lei no 11.343/2006 comina pena de reclusao de 5 a 15 anos e pagamento de 500 a 1.500 dias-multa para o trafico de drogas em sua forma basica.",
+    "fundamento": "Art. 33, caput, da Lei no 11.343/2006.",
+    "oficial": false
+  },
+
+  {
+    "id": 330,
+    "disciplina": "Legislação Específica",
+    "assunto": "Lei 11.343/06 - associacao para o trafico",
+    "banca": "Instituto Avalia",
+    "ano": 2025,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "O crime de associacao para o trafico, previsto no art. 35 da Lei no 11.343/2006, exige a reuniao de duas ou mais pessoas, de forma estavel e permanente, para o fim de praticar os crimes dos arts. 33, caput e §1o, e 34, sendo a pena cominada de reclusao de:",
+    "alternativas": {
+      "A": "1 a 3 anos, sem multa cumulativa.",
+      "B": "8 a 20 anos, equiparada ao trafico em sua forma qualificada.",
+      "C": "4 a 6 anos e multa, identica a pena do porte para uso pessoal.",
+      "D": "3 a 10 anos, e pagamento de 700 a 1.200 dias-multa.",
+      "E": "6 meses a 2 anos, na forma de detencao."
+    },
+    "gabarito": "D",
+    "comentario": "O art. 35 da Lei no 11.343/2006 comina pena de reclusao de 3 a 10 anos e pagamento de 700 a 1.200 dias-multa para a associacao de duas ou mais pessoas, de forma estavel e permanente, para a pratica dos crimes de trafico (art. 33, caput e §1o) e de maquinismo/insumo (art. 34).",
+    "fundamento": "Art. 35 da Lei no 11.343/2006.",
+    "oficial": false
+  },
+
+  {
+    "id": 331,
+    "disciplina": "Legislação Específica",
+    "assunto": "Lei 11.343/06 - liberdade provisoria",
+    "banca": "Instituto Avalia",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Sobre a liberdade provisoria no crime de trafico de drogas, e correto afirmar que:",
+    "alternativas": {
+      "A": "e vedada em qualquer hipotese, por expressa disposicao do art. 44 da Lei no 11.343/2006, ainda vigente e aplicavel.",
+      "B": "e sempre concedida automaticamente, independentemente de qualquer analise dos requisitos cautelares.",
+      "C": "depende exclusivamente do pagamento de fianca em valor fixado pela propria lei de drogas.",
+      "D": "e vedada apenas ao reincidente especifico, sendo automatica para o agente primario.",
+      "E": "a vedacao generica prevista originalmente no art. 44 da Lei no 11.343/2006 foi declarada inconstitucional pelo STF, exigindo-se analise fundamentada dos requisitos do art. 312 do CPP em cada caso concreto."
+    },
+    "gabarito": "E",
+    "comentario": "O STF, no julgamento do HC 104.339, declarou incidentalmente a inconstitucionalidade da vedacao generica e abstrata a liberdade provisoria prevista no art. 44 da Lei no 11.343/2006, exigindo-se, desde entao, a analise fundamentada dos requisitos cautelares do art. 312 do CPP em cada caso concreto.",
+    "fundamento": "STF, HC 104.339; art. 44 da Lei no 11.343/2006.",
+    "oficial": false
+  },
+
+  {
+    "id": 332,
+    "disciplina": "Legislação Específica",
+    "assunto": "Lei 12.850/13 - pena da organizacao criminosa",
+    "banca": "Instituto Avalia",
+    "ano": 2025,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A pena cominada ao crime de promover, constituir, financiar ou integrar organizacao criminosa, previsto no art. 2o da Lei no 12.850/2013, e de reclusao de:",
+    "alternativas": {
+      "A": "3 a 8 anos, e multa, sem prejuizo das penas correspondentes as demais infracoes praticadas.",
+      "B": "1 a 3 anos, e multa.",
+      "C": "2 a 5 anos, e multa.",
+      "D": "6 a 12 anos, e multa.",
+      "E": "5 a 15 anos, equiparada ao trafico de entorpecentes."
+    },
+    "gabarito": "A",
+    "comentario": "O art. 2o, caput, da Lei no 12.850/2013 comina pena de reclusao de 3 a 8 anos e multa, sem prejuizo das penas correspondentes as demais infracoes penais praticadas, para quem promove, constitui, financia ou integra, pessoalmente ou por interposta pessoa, organizacao criminosa.",
+    "fundamento": "Art. 2o, caput, da Lei no 12.850/2013.",
+    "oficial": false
+  },
+
+  {
+    "id": 333,
+    "disciplina": "Legislação Específica",
+    "assunto": "Lei 12.850/13 - causa de aumento por arma de fogo",
+    "banca": "Instituto Avalia",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Nos termos do art. 2o, §2o, da Lei no 12.850/2013, a pena do crime de organizacao criminosa e aumentada:",
+    "alternativas": {
+      "A": "em ate 1/6, se ha qualquer tipo de arma, ainda que branca.",
+      "B": "em ate metade, se ha emprego de arma de fogo.",
+      "C": "em dobro, sempre que houver emprego de arma de fogo de uso restrito.",
+      "D": "de 1/6 a 2/3, se a organizacao envolver menores de idade.",
+      "E": "em ate a metade, se ha emprego de arma de fogo, mesma majorante aplicavel quando ha participacao de crianca ou adolescente."
+    },
+    "gabarito": "B",
+    "comentario": "O §2o do art. 2o preve o aumento de ate a metade se ha emprego de arma de fogo; ja o §4o, IV, preve aumento de 1/6 a 2/3 se ha participacao de crianca ou adolescente — sao majorantes distintas, com fundamentos e percentuais diferentes, sendo comum a pegadinha de confundi-las.",
+    "fundamento": "Art. 2o, §§2o e 4o, da Lei no 12.850/2013.",
+    "oficial": false
+  },
+
+  {
+    "id": 334,
+    "disciplina": "Legislação Específica",
+    "assunto": "Lei 12.850/13 - prazo da infiltracao de agentes",
+    "banca": "Instituto Avalia",
+    "ano": 2025,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A infiltracao de agentes de policia, meio de obtencao de prova disciplinado pela Lei no 12.850/2013, sera autorizada pelo prazo:",
+    "alternativas": {
+      "A": "indeterminado, ate a conclusao da investigacao.",
+      "B": "de ate 1 ano, prorrogavel uma unica vez.",
+      "C": "nao superior a 6 meses, sem prejuizo de eventuais renovacoes, desde que comprovada sua necessidade.",
+      "D": "de 30 dias, improrrogaveis.",
+      "E": "de 2 anos, correspondente ao prazo maximo da acao controlada."
+    },
+    "gabarito": "C",
+    "comentario": "O art. 10, §3o, da Lei no 12.850/2013 estabelece que a infiltracao sera autorizada pelo prazo nao superior a 6 meses, sem prejuizo de eventuais renovacoes, desde que comprovada sua necessidade, mediante decisao judicial fundamentada.",
+    "fundamento": "Art. 10, §3o, da Lei no 12.850/2013.",
+    "oficial": false
+  },
+
+  {
+    "id": 335,
+    "disciplina": "Legislação Específica",
+    "assunto": "Lei 9.455/97 - pena da tortura (caput)",
+    "banca": "Instituto Avalia",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A pena cominada ao crime de tortura na forma basica do art. 1o, inciso I, da Lei no 9.455/1997, e de reclusao de:",
+    "alternativas": {
+      "A": "1 a 4 anos.",
+      "B": "4 a 10 anos.",
+      "C": "6 a 12 anos.",
+      "D": "2 a 8 anos.",
+      "E": "8 a 16 anos."
+    },
+    "gabarito": "D",
+    "comentario": "O art. 1o, §caput e incisos, da Lei no 9.455/1997 comina pena de reclusao de 2 a 8 anos para as condutas de tortura descritas no inciso I; ja a modalidade de tortura-castigo (inciso II) tem pena de reclusao de 1 a 4 anos — distincao classica cobrada em pegadinhas.",
+    "fundamento": "Art. 1o, §caput e §2o (penas), da Lei no 9.455/1997.",
+    "oficial": false
+  },
+
+  {
+    "id": 336,
+    "disciplina": "Legislação Específica",
+    "assunto": "Lei 9.455/97 - tortura-castigo",
+    "banca": "Instituto Avalia",
+    "ano": 2025,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A modalidade de tortura conhecida como \"tortura-castigo\", prevista no art. 1o, II, da Lei no 9.455/1997, consiste em submeter alguem, sob guarda, poder ou autoridade, com emprego de violencia ou grave ameaca, a intenso sofrimento fisico ou mental, como forma de aplicar castigo pessoal ou medida de carater preventivo, sendo a pena cominada de reclusao de:",
+    "alternativas": {
+      "A": "2 a 8 anos.",
+      "B": "3 a 6 anos.",
+      "C": "5 a 10 anos.",
+      "D": "6 a 14 anos.",
+      "E": "1 a 4 anos."
+    },
+    "gabarito": "E",
+    "comentario": "O art. 1o, II, da Lei no 9.455/1997 tipifica a tortura-castigo, cominando pena de reclusao de 1 a 4 anos — pena inferior a modalidade do inciso I (2 a 8 anos), o que costuma ser explorado em questoes de pegadinha por troca dos intervalos.",
+    "fundamento": "Art. 1o, II e §caput (pena), da Lei no 9.455/1997.",
+    "oficial": false
+  },
+
+  {
+    "id": 337,
+    "disciplina": "Legislação Específica",
+    "assunto": "Lei 9.455/97 - regime inicial de cumprimento",
+    "banca": "Instituto Avalia",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "O condenado por crime de tortura iniciara o cumprimento da pena, nos termos do art. 1o, §7o, da Lei no 9.455/1997, em regime:",
+    "alternativas": {
+      "A": "fechado.",
+      "B": "aberto, salvo reincidencia especifica.",
+      "C": "semiaberto, independentemente da pena aplicada.",
+      "D": "a criterio exclusivo do condenado, mediante requerimento ao juiz.",
+      "E": "domiciliar, por se tratar de crime praticado, em regra, por agente publico."
+    },
+    "gabarito": "A",
+    "comentario": "O art. 1o, §7o, da Lei no 9.455/1997 determina que o condenado por crime de tortura iniciara o cumprimento da pena em regime fechado, regra especial que se sobrepoe as regras gerais de fixacao de regime do Codigo Penal.",
+    "fundamento": "Art. 1o, §7o, da Lei no 9.455/1997.",
+    "oficial": false
+  },
+
+  {
+    "id": 338,
+    "disciplina": "Legislação Específica",
+    "assunto": "Lei 13.869/19 - pena-regra geral",
+    "banca": "Instituto Avalia",
+    "ano": 2025,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Nos crimes previstos na Lei no 13.869/2019 (Lei de Abuso de Autoridade) para os quais nao haja cominacao de pena especifica no proprio tipo, aplica-se, como regra geral estabelecida no art. 32, a pena de:",
+    "alternativas": {
+      "A": "reclusao de 1 a 4 anos.",
+      "B": "detencao de 6 meses a 2 anos.",
+      "C": "reclusao de 2 a 8 anos.",
+      "D": "detencao de 3 meses a 1 ano.",
+      "E": "multa isolada, sem pena privativa de liberdade."
+    },
+    "gabarito": "B",
+    "comentario": "A maioria dos tipos da Lei no 13.869/2019 comina expressamente detencao de 6 meses a 2 anos e multa, padrao que se repete ao longo da lei para diversas condutas, embora alguns tipos especificos tragam penas distintas.",
+    "fundamento": "Lei no 13.869/2019 (v.g. arts. 9o, 10, 12, 13, 15, entre outros).",
+    "oficial": false
+  },
+
+  {
+    "id": 339,
+    "disciplina": "Legislação Específica",
+    "assunto": "Lei 13.869/19 - natureza da acao penal",
+    "banca": "Instituto Avalia",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A acao penal nos crimes previstos na Lei no 13.869/2019 e, nos termos do art. 3o, de iniciativa:",
+    "alternativas": {
+      "A": "privada, mediante queixa-crime exclusiva da vitima.",
+      "B": "publica condicionada a representacao do ofendido.",
+      "C": "publica incondicionada.",
+      "D": "publica condicionada a requisicao do Ministro da Justica.",
+      "E": "privada subsidiaria da publica, apenas em caso de inercia do Ministerio Publico."
+    },
+    "gabarito": "C",
+    "comentario": "O art. 3o da Lei no 13.869/2019 estabelece que os crimes nela previstos sao de acao penal publica incondicionada, dispensando representacao da vitima ou qualquer outra condicao de procedibilidade.",
+    "fundamento": "Art. 3o da Lei no 13.869/2019.",
+    "oficial": false
+  },
+
+  {
+    "id": 340,
+    "disciplina": "Legislação Específica",
+    "assunto": "Lei 13.869/19 - exclusao de abuso de autoridade",
+    "banca": "Instituto Avalia",
+    "ano": 2025,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Nao constitui abuso de autoridade, nos termos do art. 1o, §2o, da Lei no 13.869/2019:",
+    "alternativas": {
+      "A": "qualquer conduta de agente publico, desde que praticada sem dolo especifico, ainda que gravemente lesiva a direitos.",
+      "B": "condutas praticadas por particulares em concurso com agente publico.",
+      "C": "excesso de prazo na conclusao de investigacao, desde que superior a 1 ano.",
+      "D": "a discordancia na interpretacao de lei ou na avaliacao de fatos e provas, desde que fundamentada, ainda que se conclua posteriormente por sua incorrecao.",
+      "E": "a divulgacao de informacoes sigilosas, quando de interesse da imprensa."
+    },
+    "gabarito": "D",
+    "comentario": "O art. 1o, §2o, expressamente exclui do ambito de incidencia da lei a divergencia na interpretacao de lei ou na avaliacao de fatos e provas, principio que resguarda a livre convicção fundamentada de autoridades e agentes publicos no exercicio regular de suas funcoes.",
+    "fundamento": "Art. 1o, §2o, da Lei no 13.869/2019.",
+    "oficial": false
+  },
+
+  {
+    "id": 341,
+    "disciplina": "Legislação Específica",
+    "assunto": "Lei 10.826/03 - pena da posse irregular",
+    "banca": "Instituto Avalia",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A posse irregular de arma de fogo de uso permitido, tipificada no art. 12 da Lei no 10.826/2003, e punida com pena de:",
+    "alternativas": {
+      "A": "reclusao de 2 a 4 anos, e multa.",
+      "B": "reclusao de 3 a 6 anos, e multa.",
+      "C": "detencao de 6 meses a 2 anos, e multa.",
+      "D": "reclusao de 4 a 8 anos, sem multa.",
+      "E": "detencao de 1 a 3 anos, e multa."
+    },
+    "gabarito": "E",
+    "comentario": "O art. 12 da Lei no 10.826/2003 comina pena de detencao de 1 a 3 anos e multa para a posse irregular de arma de fogo de uso permitido — a pena e mais branda que o porte ilegal (art. 14, reclusao de 2 a 4 anos), por se tratar de conduta praticada no interior da residencia ou local de trabalho.",
+    "fundamento": "Art. 12 da Lei no 10.826/2003.",
+    "oficial": false
+  },
+
+  {
+    "id": 342,
+    "disciplina": "Legislação Específica",
+    "assunto": "Lei 10.826/03 - pena do porte ilegal",
+    "banca": "Instituto Avalia",
+    "ano": 2025,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "O porte ilegal de arma de fogo de uso permitido, tipificado no art. 14 da Lei no 10.826/2003, e punido com pena de reclusao de:",
+    "alternativas": {
+      "A": "2 a 4 anos, e multa.",
+      "B": "1 a 3 anos, e multa.",
+      "C": "6 meses a 2 anos, e multa.",
+      "D": "3 a 6 anos, e multa.",
+      "E": "4 a 8 anos, sem multa."
+    },
+    "gabarito": "A",
+    "comentario": "O art. 14 da Lei no 10.826/2003 comina pena de reclusao de 2 a 4 anos e multa para o porte ilegal de arma de fogo de uso permitido, tratamento mais severo do que a posse irregular (art. 12, detencao de 1 a 3 anos), justamente por envolver o risco inerente ao transporte da arma fora do ambiente controlado.",
+    "fundamento": "Art. 14 da Lei no 10.826/2003.",
+    "oficial": false
+  },
+
+  {
+    "id": 343,
+    "disciplina": "Legislação Específica",
+    "assunto": "Lei 10.826/03 - arma de uso restrito",
+    "banca": "Instituto Avalia",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A posse ou o porte de arma de fogo, acessorio ou municao de uso restrito, sem autorizacao e em desacordo com determinacao legal ou regulamentar, tipificado no art. 16 da Lei no 10.826/2003, e punido com pena de reclusao de:",
+    "alternativas": {
+      "A": "1 a 3 anos, e multa, identica a posse irregular de arma de uso permitido.",
+      "B": "3 a 6 anos, e multa, pena mais grave que as condutas envolvendo arma de uso permitido.",
+      "C": "2 a 4 anos, e multa, identica ao porte ilegal de arma de uso permitido.",
+      "D": "6 meses a 2 anos, e multa, pena mais branda que as condutas de uso permitido.",
+      "E": "4 a 10 anos, sem possibilidade de multa cumulativa."
+    },
+    "gabarito": "B",
+    "comentario": "O art. 16 da Lei no 10.826/2003 comina pena de reclusao de 3 a 6 anos e multa para condutas envolvendo arma de fogo, acessorio ou municao de uso restrito ou proibido, tratamento mais severo que as condutas equivalentes envolvendo armas de uso permitido (arts. 12 e 14).",
+    "fundamento": "Art. 16 da Lei no 10.826/2003.",
+    "oficial": false
+  },
+
+  {
+    "id": 344,
+    "disciplina": "Legislação Específica",
+    "assunto": "Lei 10.826/03 - disparo de arma de fogo",
+    "banca": "Instituto Avalia",
+    "ano": 2025,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "O crime de disparo de arma de fogo, tipificado no art. 15 da Lei no 10.826/2003, consiste em disparar arma de fogo ou acionar municao em local habitado ou em suas adjacencias, em via publica ou em direcao a ela, desde que a conduta:",
+    "alternativas": {
+      "A": "seja sempre punida cumulativamente com o crime posteriormente praticado, ainda que unico o contexto factico.",
+      "B": "seja praticada exclusivamente por agente de seguranca publica em servico.",
+      "C": "nao tenha como finalidade a pratica de outro crime, hipotese em que o disparo e absorvido pelo crime-fim.",
+      "D": "envolva, obrigatoriamente, arma de fogo de uso restrito.",
+      "E": "resulte, necessariamente, em lesao corporal a terceiro."
+    },
+    "gabarito": "C",
+    "comentario": "O art. 15, paragrafo unico, da Lei no 10.826/2003 estabelece que o crime de disparo de arma de fogo e absorvido quando a conduta tem como finalidade a pratica de outro crime, aplicando-se, nesse caso, somente as penas relativas ao delito-fim.",
+    "fundamento": "Art. 15 da Lei no 10.826/2003.",
+    "oficial": false
+  },
+
+  {
+    "id": 345,
+    "disciplina": "Legislação Específica",
+    "assunto": "Lei 12.850/13 - conceito de organizacao criminosa (requisito numerico)",
+    "banca": "Instituto Avalia",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Para a caracterizacao da organizacao criminosa nos termos do art. 1o, §1o, da Lei no 12.850/2013, exige-se a associacao de, no minimo:",
+    "alternativas": {
+      "A": "2 (duas) pessoas.",
+      "B": "3 (tres) pessoas.",
+      "C": "5 (cinco) pessoas.",
+      "D": "4 (quatro) pessoas.",
+      "E": "10 (dez) pessoas, por analogia ao crime de rixa qualificada."
+    },
+    "gabarito": "D",
+    "comentario": "O art. 1o, §1o, exige a associacao de 4 (quatro) ou mais pessoas — numero superior ao exigido para a associacao criminosa comum do art. 288 do Codigo Penal (3 ou mais pessoas), distincao classica explorada em pegadinhas de prova.",
+    "fundamento": "Art. 1o, §1o, da Lei no 12.850/2013; art. 288 do Codigo Penal.",
+    "oficial": false
+  },
+
+  {
+    "id": 346,
+    "disciplina": "Direito Penal e Processo Penal",
+    "assunto": "Art. 14 CP - tentativa",
+    "banca": "Instituto Avalia",
+    "ano": 2025,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Salvo disposicao em contrario, pune-se a tentativa com a pena correspondente ao crime consumado, diminuida de:",
+    "alternativas": {
+      "A": "1/6 a 1/3.",
+      "B": "1/3 a 1/2.",
+      "C": "1/2 a 2/3.",
+      "D": "1/4 a 1/2.",
+      "E": "1 a 2/3."
+    },
+    "gabarito": "E",
+    "comentario": "O art. 14, paragrafo unico, do CP determina que, salvo disposicao em contrario, a pena do crime tentado e a do consumado diminuida de 1 (um) a 2/3 (dois tercos) — atencao a pegadinha: nao se trata de fracao entre dois numeros menores que 1, mas de 1 inteiro a 2/3.",
+    "fundamento": "Art. 14, paragrafo unico, do Codigo Penal.",
+    "oficial": false
+  },
+
+  {
+    "id": 347,
+    "disciplina": "Direito Penal e Processo Penal",
+    "assunto": "Art. 15 CP - desistencia voluntaria e arrependimento eficaz",
+    "banca": "Instituto Avalia",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Na desistencia voluntaria e no arrependimento eficaz, disciplinados pelo art. 15 do CP, o agente que voluntariamente desiste de prosseguir na execucao ou impede que o resultado se produza:",
+    "alternativas": {
+      "A": "so responde pelos atos ja praticados, caso estes, por si sos, constituam crime.",
+      "B": "e isento de qualquer pena, ainda que os atos ja praticados configurem, por si sos, outro crime.",
+      "C": "responde sempre pela tentativa do crime originalmente pretendido, com pena reduzida.",
+      "D": "e beneficiado com perdao judicial automatico, independentemente de qualquer outra circunstancia.",
+      "E": "responde pelo crime consumado, mas com atenuante generica de arrependimento."
+    },
+    "gabarito": "A",
+    "comentario": "Nos casos de desistencia voluntaria e arrependimento eficaz (\"ponte de ouro\"), o agente so responde pelos atos ja praticados, caso estes, por si sos, constituam crime — nao ha isencao total de pena se a conduta ja praticada configurar outro delito autonomo.",
+    "fundamento": "Art. 15 do Codigo Penal.",
+    "oficial": false
+  },
+
+  {
+    "id": 348,
+    "disciplina": "Direito Penal e Processo Penal",
+    "assunto": "Art. 16 CP - arrependimento posterior",
+    "banca": "Instituto Avalia",
+    "ano": 2025,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "O arrependimento posterior, previsto no art. 16 do Codigo Penal, reduz a pena de 1/3 a 2/3 quando, nos crimes cometidos SEM violencia ou grave ameaca a pessoa, o agente repara o dano ou restitui a coisa ate:",
+    "alternativas": {
+      "A": "o transito em julgado da sentenca condenatoria.",
+      "B": "o recebimento da denuncia ou queixa, por ato voluntario do agente.",
+      "C": "o oferecimento da denuncia ou queixa.",
+      "D": "a citacao do reu, independentemente de voluntariedade.",
+      "E": "a audiencia de instrucao e julgamento, mediante requerimento da defesa."
+    },
+    "gabarito": "B",
+    "comentario": "O art. 16 do CP exige a reparacao do dano ou a restituicao da coisa por ato voluntario do agente, ate o recebimento da denuncia ou da queixa, em crimes cometidos sem violencia ou grave ameaca a pessoa, para a reducao de pena de 1/3 a 2/3.",
+    "fundamento": "Art. 16 do Codigo Penal.",
+    "oficial": false
+  },
+
+  {
+    "id": 349,
+    "disciplina": "Direito Penal e Processo Penal",
+    "assunto": "Art. 20 CP - erro de tipo",
+    "banca": "Instituto Avalia",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "O erro sobre elemento constitutivo do tipo legal de crime (erro de tipo), disciplinado no art. 20 do CP, exclui o dolo, mas permite a punicao por crime culposo, se:",
+    "alternativas": {
+      "A": "o erro for inevitavel, ainda que preveja a lei a modalidade culposa.",
+      "B": "o agente for reincidente, independentemente da previsao legal do crime culposo.",
+      "C": "previsto em lei o crime culposo correspondente e o erro for evitavel (vencivel).",
+      "D": "a vitima for menor de idade, independentemente de qualquer outro requisito.",
+      "E": "o erro decorrer de embriaguez voluntaria, ainda que nao preexista previsao de modalidade culposa."
+    },
+    "gabarito": "C",
+    "comentario": "O erro de tipo, quando evitavel (vencivel), exclui o dolo mas permite a punicao a titulo de culpa, desde que haja previsao legal expressa da modalidade culposa para aquele crime; se inevitavel (invencivel), exclui tanto o dolo quanto a culpa, isentando o agente de pena.",
+    "fundamento": "Art. 20, caput, do Codigo Penal.",
+    "oficial": false
+  },
+
+  {
+    "id": 350,
+    "disciplina": "Direito Penal e Processo Penal",
+    "assunto": "Art. 21 CP - erro de proibicao",
+    "banca": "Instituto Avalia",
+    "ano": 2025,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "O erro sobre a ilicitude do fato (erro de proibicao), quando evitavel, permite a diminuicao da pena de:",
+    "alternativas": {
+      "A": "1/6 a 1/3.",
+      "B": "1/3 a 1/2.",
+      "C": "1/2 a 2/3.",
+      "D": "1 a 2/3.",
+      "E": "isenta integralmente de pena."
+    },
+    "gabarito": "A",
+    "comentario": "O art. 21, caput, do CP estabelece que o erro de proibicao evitavel (vencivel) permite a diminuicao da pena de 1/6 a 1/3; ja o erro de proibicao inevitavel (invencivel) isenta de pena o agente — a alternativa E descreve, incorretamente, a consequencia do erro evitavel, quando na verdade se aplica ao inevitavel.",
+    "fundamento": "Art. 21, caput, do Codigo Penal.",
+    "oficial": false
+  },
+
+  {
+    "id": 351,
+    "disciplina": "Direito Penal e Processo Penal",
+    "assunto": "Art. 44 CP - substituicao por penas restritivas de direitos",
+    "banca": "Instituto Avalia",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Sao requisitos, entre outros, para a substituicao da pena privativa de liberdade por restritiva de direitos, nos termos do art. 44 do CP:",
+    "alternativas": {
+      "A": "pena aplicada nao superior a 8 anos, independentemente da natureza do crime.",
+      "B": "ser o condenado primario, ainda que a pena aplicada seja superior a 4 anos e o crime cometido com violencia.",
+      "C": "pena aplicada nao superior a 2 anos, exclusivamente em crimes culposos.",
+      "D": "pena aplicada nao superior a 4 anos, em crime cometido sem violencia ou grave ameaca a pessoa, ou qualquer crime culposo, e nao ser o condenado reincidente em crime doloso.",
+      "E": "reincidencia em crime doloso, desde que a reincidencia nao seja especifica."
+    },
+    "gabarito": "D",
+    "comentario": "O art. 44, I, do CP exige, para a substituicao, que a pena aplicada nao seja superior a 4 anos, em crime cometido sem violencia ou grave ameaca a pessoa, ou que se trate de crime culposo, alem de o condenado nao ser reincidente em crime doloso (inciso II) e as circunstancias judiciais serem favoraveis (inciso III).",
+    "fundamento": "Art. 44, I a III, do Codigo Penal.",
+    "oficial": false
+  },
+
+  {
+    "id": 352,
+    "disciplina": "Direito Penal e Processo Penal",
+    "assunto": "Art. 65 CP - atenuantes genericas (idade)",
+    "banca": "Instituto Avalia",
+    "ano": 2025,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Constitui circunstancia que sempre atenua a pena, nos termos do art. 65, I, do Codigo Penal, ser o agente:",
+    "alternativas": {
+      "A": "menor de 18 (dezoito) anos, na data do fato, ou maior de 65 (sessenta e cinco) anos, na data da sentenca.",
+      "B": "menor de 21 anos na data da sentenca, ou maior de 60 anos na data do fato.",
+      "C": "maior de 18 e menor de 21 anos, exclusivamente, sem qualquer previsao para idosos.",
+      "D": "maior de 70 anos, tanto na data do fato quanto na data da sentenca, cumulativamente.",
+      "E": "menor de 21 (vinte e um) anos, na data do fato, ou maior de 70 (setenta) anos, na data da sentenca."
+    },
+    "gabarito": "E",
+    "comentario": "O art. 65, I, do CP estabelece como circunstancia atenuante ser o agente menor de 21 anos, na data do fato, ou maior de 70 anos, na data da sentenca — atencao ao momento de afericao de cada idade, frequentemente trocado nas alternativas de pegadinha.",
+    "fundamento": "Art. 65, I, do Codigo Penal.",
+    "oficial": false
+  },
+
+  {
+    "id": 353,
+    "disciplina": "Direito Penal e Processo Penal",
+    "assunto": "Art. 61/62 CP - agravantes genericas",
+    "banca": "Instituto Avalia",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Constitui circunstancia que sempre agrava a pena, quando nao integre ou qualifique o crime, ter o agente cometido o crime:",
+    "alternativas": {
+      "A": "por motivo futil ou torpe, ou a traicao, de emboscada, ou mediante dissimulacao ou outro recurso que dificulte a defesa do ofendido.",
+      "B": "sob a influencia de multidao em tumulto, quando nao o provocou.",
+      "C": "sob coacao resistivel, ou em cumprimento de ordem de autoridade superior manifestamente ilegal, quando reconhecida a ilegalidade.",
+      "D": "para evitar mal maior, em situacao proxima ao estado de necessidade.",
+      "E": "por relevante valor social ou moral, hipotese que configura, na verdade, atenuante e nao agravante."
+    },
+    "gabarito": "A",
+    "comentario": "O art. 61, II, \"a\" e \"c\", do CP elenca como agravantes o motivo futil ou torpe, e a traicao, emboscada, dissimulacao ou outro recurso que dificulte ou torne impossivel a defesa do ofendido. A alternativa E descreve corretamente uma atenuante (art. 65, III, \"a\"), nao uma agravante — pegadinha classica de troca de categoria.",
+    "fundamento": "Art. 61, II, do Codigo Penal.",
+    "oficial": false
+  },
+
+  {
+    "id": 354,
+    "disciplina": "Direito Penal e Processo Penal",
+    "assunto": "Art. 5o CPP - instauracao do inquerito policial",
+    "banca": "Instituto Avalia",
+    "ano": 2025,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Nos crimes de acao penal publica, o inquerito policial sera iniciado, entre outras hipoteses, de oficio, ou mediante requisicao da autoridade judiciaria ou do Ministerio Publico, ou a requerimento:",
+    "alternativas": {
+      "A": "do ofendido ou de quem tiver qualidade para representa-lo.",
+      "B": "exclusivo do Ministerio Publico, sendo vedada qualquer outra forma de provocacao.",
+      "C": "exclusivo da autoridade policial, sem qualquer outra forma de instauracao.",
+      "D": "do investigado, mediante autodenuncia formal.",
+      "E": "de qualquer pessoa do povo, sem qualquer distincao quanto a legitimidade."
+    },
+    "gabarito": "A",
+    "comentario": "O art. 5o, II, do CPP autoriza a instauracao do inquerito, nos crimes de acao publica, mediante requerimento do ofendido ou de quem tiver qualidade para representa-lo, alem da instauracao de oficio ou por requisicao da autoridade judiciaria ou do Ministerio Publico (inciso I).",
+    "fundamento": "Art. 5o do Codigo de Processo Penal.",
+    "oficial": false
+  },
+
+  {
+    "id": 355,
+    "disciplina": "Direito Penal e Processo Penal",
+    "assunto": "Art. 310 CPP - audiencia de custodia",
+    "banca": "Instituto Avalia",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Apos a realizacao da prisao em flagrante, o preso devera ser conduzido a presenca do juiz, para a chamada audiencia de custodia, no prazo maximo de:",
+    "alternativas": {
+      "A": "12 horas.",
+      "B": "24 horas.",
+      "C": "48 horas.",
+      "D": "72 horas.",
+      "E": "5 dias."
+    },
+    "gabarito": "B",
+    "comentario": "O art. 310, caput, do CPP, com redacao dada pela Lei no 13.964/2019, exige a apresentacao do preso ao juiz, para a audiencia de custodia, no prazo de ate 24 horas, contadas da lavratura do auto de prisao em flagrante.",
+    "fundamento": "Art. 310, caput, do Codigo de Processo Penal.",
+    "oficial": false
+  },
+
+  {
+    "id": 356,
+    "disciplina": "Direito Penal e Processo Penal",
+    "assunto": "Art. 311 CPP - vedacao a decretacao de oficio",
+    "banca": "Instituto Avalia",
+    "ano": 2025,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Apos as alteracoes promovidas pela Lei no 13.964/2019 (Pacote Anticrime), a prisao preventiva, durante a fase de investigacao:",
+    "alternativas": {
+      "A": "pode ser decretada de oficio pelo juiz, sempre que verificar a presenca dos requisitos legais.",
+      "B": "depende exclusivamente de determinacao do Conselho Nacional de Justica.",
+      "C": "somente pode ser decretada mediante representacao da autoridade policial ou por requerimento do Ministerio Publico, do querelante ou do assistente, sendo vedada a decretacao de oficio pelo juiz.",
+      "D": "pode ser decretada de oficio, desde que o juiz fundamente a decisao em pelo menos dois requisitos do art. 312.",
+      "E": "e sempre automatica em crimes hediondos, dispensada qualquer provocacao."
+    },
+    "gabarito": "C",
+    "comentario": "Apos o Pacote Anticrime, o art. 311 do CPP passou a vedar expressamente a decretacao de oficio da prisao preventiva pelo juiz durante a investigacao criminal, exigindo representacao da autoridade policial ou requerimento do Ministerio Publico, do querelante ou do assistente — mudanca relevante e frequentemente cobrada em pegadinhas.",
+    "fundamento": "Art. 311 do Codigo de Processo Penal, com redacao dada pela Lei no 13.964/2019.",
+    "oficial": false
+  },
+
+  {
+    "id": 357,
+    "disciplina": "Direito Penal e Processo Penal",
+    "assunto": "Art. 313 CPP - hipoteses de cabimento da preventiva",
+    "banca": "Instituto Avalia",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A prisao preventiva podera ser decretada, entre outras hipoteses do art. 313 do CPP, nos crimes dolosos punidos com pena privativa de liberdade maxima superior a:",
+    "alternativas": {
+      "A": "2 anos.",
+      "B": "3 anos.",
+      "C": "5 anos.",
+      "D": "4 anos.",
+      "E": "6 anos."
+    },
+    "gabarito": "D",
+    "comentario": "O art. 313, I, do CPP admite a prisao preventiva nos crimes dolosos punidos com pena privativa de liberdade maxima superior a 4 anos, alem das demais hipoteses (reincidencia em crime doloso, violencia domestica com risco a medidas protetivas, ou duvida sobre a identidade civil).",
+    "fundamento": "Art. 313, I, do Codigo de Processo Penal.",
+    "oficial": false
+  },
+
+  {
+    "id": 358,
+    "disciplina": "Direito Penal e Processo Penal",
+    "assunto": "Art. 316 CPP - revisao periodica da preventiva",
+    "banca": "Instituto Avalia",
+    "ano": 2025,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Apos as alteracoes da Lei no 13.964/2019, o juiz que decretar a prisao preventiva devera revisar a necessidade de sua manutencao, mediante decisao fundamentada, de oficio ou mediante provocacao, no prazo maximo de:",
+    "alternativas": {
+      "A": "30 dias.",
+      "B": "60 dias.",
+      "C": "180 dias.",
+      "D": "1 ano.",
+      "E": "90 dias."
+    },
+    "gabarito": "E",
+    "comentario": "O art. 316, paragrafo unico, do CPP exige a revisao da necessidade da prisao preventiva a cada 90 dias, mediante decisao fundamentada, de oficio ou mediante provocacao, sob pena de tornar a prisao ilegal, se descumprido o prazo.",
+    "fundamento": "Art. 316, paragrafo unico, do Codigo de Processo Penal.",
+    "oficial": false
+  },
+
+  {
+    "id": 359,
+    "disciplina": "Direito Penal e Processo Penal",
+    "assunto": "Art. 155 CPP - livre convicção motivada e elementos da investigacao",
+    "banca": "Instituto Avalia",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "O juiz formara sua convicção pela livre apreciacao da prova produzida em contraditorio judicial, nao podendo fundamentar sua decisao:",
+    "alternativas": {
+      "A": "exclusivamente nos elementos informativos colhidos na investigacao, ressalvadas as provas cautelares, nao repetiveis e antecipadas.",
+      "B": "em qualquer prova pericial produzida durante a instrucao processual.",
+      "C": "em depoimento de testemunhas ouvidas sob contraditorio judicial.",
+      "D": "em confissao do reu, prestada em juizo na presenca de seu defensor.",
+      "E": "em prova documental juntada aos autos com ciencia das partes."
+    },
+    "gabarito": "A",
+    "comentario": "O art. 155, caput, do CPP veda ao juiz fundamentar sua decisao exclusivamente nos elementos informativos colhidos na investigacao (fase inquisitorial, sem contraditorio), ressalvando, contudo, as provas cautelares, nao repetiveis e antecipadas, que podem ser valoradas mesmo tendo sido produzidas na fase investigativa.",
+    "fundamento": "Art. 155, caput, do Codigo de Processo Penal.",
+    "oficial": false
+  },
+
+  {
+    "id": 360,
+    "disciplina": "Direito Penal e Processo Penal",
+    "assunto": "Art. 212 CPP - inquiricao de testemunhas",
+    "banca": "Instituto Avalia",
+    "ano": 2025,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Na inquiricao de testemunhas, o sistema adotado pelo art. 212 do CPP (apos a Lei no 11.690/2008) e o do exame direto e cruzado, segundo o qual:",
+    "alternativas": {
+      "A": "as perguntas sao formuladas exclusivamente pelo juiz, vedada qualquer pergunta direta das partes.",
+      "B": "as perguntas sao formuladas diretamente pelas partes a testemunha, podendo o juiz complementar a inquiricao sobre pontos nao esclarecidos.",
+      "C": "somente a acusacao pode formular perguntas diretamente, cabendo a defesa formula-las por intermedio do juiz.",
+      "D": "as testemunhas sao inquiridas exclusivamente por escrito, mediante quesitos previamente formulados.",
+      "E": "e vedada a reinquiricao de testemunha ja ouvida em fase de inquerito policial."
+    },
+    "gabarito": "B",
+    "comentario": "O art. 212 do CPP, apos a Lei no 11.690/2008, adotou o sistema do exame direto e cruzado (\"cross examination\"), pelo qual as perguntas sao formuladas diretamente pelas partes a testemunha, cabendo ao juiz complementar a inquiricao sobre os pontos nao esclarecidos.",
+    "fundamento": "Art. 212 do Codigo de Processo Penal.",
+    "oficial": false
+  },
+
+  {
+    "id": 361,
+    "disciplina": "Direito Penal e Processo Penal",
+    "assunto": "Art. 5o, LXII, CF - comunicacao da prisao",
+    "banca": "Instituto Avalia",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Nos termos do art. 5o, LXII, da Constituicao Federal de 1988, a prisao de qualquer pessoa devera ser comunicada imediatamente:",
+    "alternativas": {
+      "A": "apenas ao Ministerio Publico, dispensada comunicacao a familia do preso.",
+      "B": "somente ao juiz competente, vedada qualquer comunicacao a terceiros por sigilo do processo.",
+      "C": "ao juiz competente e a familia do preso ou a pessoa por ele indicada.",
+      "D": "exclusivamente a Defensoria Publica, independentemente da vontade do preso.",
+      "E": "ao Conselho Nacional de Justica, para fins estatisticos."
+    },
+    "gabarito": "C",
+    "comentario": "O art. 5o, LXII, da CF/1988 determina que a prisao de qualquer pessoa sera imediatamente comunicada ao juiz competente e a familia do preso ou a pessoa por ele indicada, garantia fundamental que viabiliza o controle judicial imediato e a assistencia ao preso.",
+    "fundamento": "Art. 5o, LXII, da Constituicao Federal de 1988.",
+    "oficial": false
+  },
+
+  {
+    "id": 362,
+    "disciplina": "Direito Penal e Processo Penal",
+    "assunto": "Art. 302 CPP - flagrante preparado (crime impossivel)",
+    "banca": "Instituto Avalia",
+    "ano": 2025,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Segundo a Sumula no 145 do STF, nao ha crime, quando a preparacao do flagrante pela policia torna impossivel a sua consumacao, hipotese conhecida como:",
+    "alternativas": {
+      "A": "flagrante proprio.",
+      "B": "flagrante esperado.",
+      "C": "flagrante prorrogado ou retardado (acao controlada), sempre licito.",
+      "D": "flagrante preparado (crime de ensaio ou provocado), que configura crime impossivel.",
+      "E": "flagrante ficto ou presumido."
+    },
+    "gabarito": "D",
+    "comentario": "A Sumula 145/STF estabelece que nao ha crime quando a preparacao do flagrante pela policia torna impossivel a sua consumacao — hipotese do flagrante preparado (crime de ensaio ou provocado), distinta do flagrante esperado (licito, quando a policia apenas aguarda a pratica do crime ja planejado pelo agente, sem induzi-lo).",
+    "fundamento": "Sumula no 145 do STF; art. 302 do Codigo de Processo Penal.",
+    "oficial": false
+  },
+
+  {
+    "id": 363,
+    "disciplina": "Direito Penal e Processo Penal",
+    "assunto": "Art. 158-A CPP - cadeia de custodia (etapas)",
+    "banca": "Instituto Avalia",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A cadeia de custodia, disciplinada pelos arts. 158-A a 158-F do CPP, compreende o rastreamento do vestigio, envolvendo etapas como reconhecimento, isolamento, fixacao, coleta, acondicionamento, transporte, recebimento, processamento, armazenamento e:",
+    "alternativas": {
+      "A": "leilao publico do material apreendido.",
+      "B": "destruicao imediata, independentemente de qualquer registro.",
+      "C": "doacao a instituicoes de ensino, sem qualquer formalidade.",
+      "D": "venda a particulares, mediante autorizacao judicial.",
+      "E": "descarte."
+    },
+    "gabarito": "E",
+    "comentario": "O art. 158-A e seguintes do CPP disciplinam as etapas da cadeia de custodia, que vai do reconhecimento do vestigio ate seu descarte, passando por isolamento, fixacao, coleta, acondicionamento, transporte, recebimento, processamento e armazenamento, garantindo a rastreabilidade e a idoneidade da prova pericial.",
+    "fundamento": "Arts. 158-A a 158-F do Codigo de Processo Penal.",
+    "oficial": false
+  },
+
+  {
+    "id": 364,
+    "disciplina": "Direito Penal e Processo Penal",
+    "assunto": "Art. 33 CP - regimes de cumprimento de pena",
+    "banca": "Instituto Avalia",
+    "ano": 2025,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Segundo o art. 33, §2o, do Codigo Penal, o condenado nao reincidente cuja pena seja superior a 4 anos e nao exceda a 8 anos podera, desde o inicio, cumprir a pena em regime:",
+    "alternativas": {
+      "A": "semiaberto.",
+      "B": "fechado, exclusivamente.",
+      "C": "aberto, independentemente de qualquer outro requisito.",
+      "D": "fechado ou semiaberto, a livre escolha do condenado.",
+      "E": "domiciliar, por forca de lei."
+    },
+    "gabarito": "A",
+    "comentario": "O art. 33, §2o, \"b\", do CP estabelece que o condenado nao reincidente, cuja pena seja superior a 4 e nao exceda a 8 anos, podera, desde o inicio, cumprir a pena em regime semiaberto — regra que se soma a fixacao do regime fechado (pena superior a 8 anos) e do regime aberto (pena igual ou inferior a 4 anos, condenado nao reincidente).",
+    "fundamento": "Art. 33, §2o, do Codigo Penal.",
+    "oficial": false
+  },
+
+  {
+    "id": 365,
+    "disciplina": "Direito Penal e Processo Penal",
+    "assunto": "Art. 63/64 CP - reincidencia e periodo depurador",
+    "banca": "Instituto Avalia",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Verifica-se a reincidencia, nos termos do art. 63 do Codigo Penal, quando o agente comete novo crime depois de transitar em julgado a sentenca que, no Brasil ou no estrangeiro, o tenha condenado por crime anterior. Nao prevalece, todavia, a condenacao anterior para esse efeito, se entre a data do cumprimento ou extincao da pena e a infracao posterior tiver decorrido periodo de tempo superior a:",
+    "alternativas": {
+      "A": "2 anos.",
+      "B": "5 anos, o chamado periodo depurador da reincidencia.",
+      "C": "3 anos.",
+      "D": "8 anos.",
+      "E": "10 anos."
+    },
+    "gabarito": "B",
+    "comentario": "O art. 64, I, do CP fixa em 5 anos o periodo depurador, contado da data do cumprimento ou extincao da pena (computado o periodo de prova da suspensao ou do livramento condicional, se nao ocorrer revogacao). Ultrapassado esse prazo, a condenacao anterior deixa de gerar reincidencia, podendo, ainda assim, ser considerada como maus antecedentes.",
+    "fundamento": "Art. 64, I, do Codigo Penal.",
+    "oficial": false
   }
 ];
