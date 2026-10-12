@@ -188,6 +188,17 @@ svg.prof{width:170px;height:auto}
     {tipo:"fim",titulo:"Aula concluída",
      fala:"Missão cumprida! Agora é com você: vá ao simulado e resolva as questões de segurado empregado, na disciplina Direito Previdenciário. Bons estudos, e até a próxima aula!"}
   ];
+  // Narração gravada (ElevenLabs). Cena sem arquivo usa a voz do navegador.
+  var AUDIO_BASE="audio/segurado-empregado/";
+  var AUDIO={
+    0:{n:"cena01_abertura.mp3"}, 1:{n:"cena02_o_que_a_lei_diz.mp3"}, 2:{n:"cena03_quem_mais_e_empregado.mp3"},
+    3:{h:"caso1_1_historia.mp3",p:"caso1_2_pergunta.mp3",a:"caso1_3_se_acertou.mp3",e:"caso1_4_se_errou.mp3"},
+    4:{h:"caso2_1_historia.mp3",p:"caso2_2_pergunta.mp3",a:"caso2_3_se_acertou.mp3",e:"caso2_4_se_errou.mp3"},
+    5:{h:"caso3_1_historia.mp3",p:"caso3_2_pergunta.mp3",a:"caso3_3_se_acertou.mp3",e:"caso3_4_se_errou.mp3"},
+    6:{h:"caso4_1_historia.mp3",p:"caso4_2_pergunta.mp3"}
+  };
+  CENAS.forEach(function(c,k){ var a=AUDIO[k]; if(!a) return; c.audio=a.n||a.h; c.audioP=a.p; c.audioA=a.a; c.audioE=a.e; });
+
 
   var board=document.getElementById("board"), bubble=document.getElementById("bubble"), teacher=document.getElementById("teacher"),
       btnPlay=document.getElementById("btnPlay"), btnPrev=document.getElementById("btnPrev"), btnNext=document.getElementById("btnNext"),
@@ -217,25 +228,40 @@ svg.prof{width:170px;height:auto}
   chkGrave.addEventListener("change",function(){ if(started) falar("Este é o tom da voz para a aula.", null); });
   if(voice){ pickVoice(); try{speechSynthesis.onvoiceschanged=pickVoice;}catch(e){} } else { selVoice.style.display="none"; chkGrave.parentNode.style.display="none"; }
 
-  function falar(texto, depois){
+  var aud=null;
+  function falar(texto, depois, src){
     var my=++token;
     clearTimeout(timer);
     try{ if(voice) speechSynthesis.cancel(); }catch(e){}
+    try{ if(aud){ aud.onended=null; aud.onerror=null; aud.pause(); aud=null; } }catch(e){}
     bubble.textContent=texto;
     var fim=function(){ if(my!==token) return; teacher.classList.remove("speaking"); if(depois) depois(); };
     teacher.classList.add("speaking");
-    if(voice && btnVoice.getAttribute("aria-pressed")==="true" && started){
+    var tts=function(){
+      if(voice && btnVoice.getAttribute("aria-pressed")==="true" && started){
+        try{
+          var u=new SpeechSynthesisUtterance(texto);
+          u.lang="pt-BR"; if(ptVoice) u.voice=ptVoice; u.rate=1; u.pitch=chkGrave.checked?0.7:1;
+          u.onend=fim; u.onerror=fim;
+          speechSynthesis.speak(u);
+          return;
+        }catch(e){}
+      }
+      timer=setTimeout(fim, Math.max(2500, texto.length*62));
+    };
+    if(src && started && btnVoice.getAttribute("aria-pressed")==="true"){
       try{
-        var u=new SpeechSynthesisUtterance(texto);
-        u.lang="pt-BR"; if(ptVoice) u.voice=ptVoice; u.rate=1; u.pitch=chkGrave.checked?0.7:1;
-        u.onend=fim; u.onerror=fim;
-        speechSynthesis.speak(u);
+        aud=new Audio(AUDIO_BASE+src);
+        aud.onended=fim;
+        aud.onerror=function(){ if(my===token) tts(); };
+        var pr=aud.play();
+        if(pr && pr.catch) pr.catch(function(){ if(my===token) tts(); });
         return;
       }catch(e){}
     }
-    timer=setTimeout(fim, Math.max(2500, texto.length*62));
+    tts();
   }
-  function parar(){ token++; clearTimeout(timer); try{ if(voice) speechSynthesis.cancel(); }catch(e){} teacher.classList.remove("speaking"); }
+  function parar(){ token++; clearTimeout(timer); try{ if(aud){ aud.onended=null; aud.onerror=null; aud.pause(); aud=null; } }catch(e){} try{ if(voice) speechSynthesis.cancel(); }catch(e){} teacher.classList.remove("speaking"); }
 
   function esc(s){var d=document.createElement("div");d.textContent=s;return d.innerHTML;}
 
@@ -270,7 +296,7 @@ svg.prof{width:170px;height:auto}
       var show=function(){
         var cl=document.getElementById("claim"), bt=document.getElementById("btns");
         if(cl) cl.style.display="block"; if(bt) bt.style.display="flex";
-        if(!respondida[i]) falar("Agora é com você! Julgue o item: Nessa situação, "+c.afirm+" Certo ou errado?", null);
+        if(!respondida[i]) falar("Agora é com você! Julgue o item: Nessa situação, "+c.afirm+" Certo ou errado?", null, c.audioP);
       };
       var bt0=board.querySelector("#btns");
       bt0.addEventListener("click",function(ev){
@@ -290,7 +316,7 @@ svg.prof{width:170px;height:auto}
       falar(c.fala, function(){
         if(c.tipo==="caso"){ if(pendente){var p=pendente;pendente=null;p();} return; }
         if(auto && i<CENAS.length-1){ setTimeout(function(){ ir(i+1); }, 700); }
-      });
+      }, c.audio);
     } else { bubble.textContent=c.expl; }
   }
   var pendente=null;
@@ -302,7 +328,7 @@ svg.prof{width:170px;height:auto}
     atualizaScore(); parar(); mostraFeedback(r);
     falar((r===c.gab?"Mandou bem! ":"Quase! Vamos entender. ")+c.expl, function(){
       if(auto && i<CENAS.length-1){ setTimeout(function(){ ir(i+1); }, 700); }
-    });
+    }, r===c.gab?c.audioA:c.audioE);
   }
   function mostraFeedback(r){
     var c=CENAS[i], fb=document.getElementById("fb"), ok=(r===c.gab);
