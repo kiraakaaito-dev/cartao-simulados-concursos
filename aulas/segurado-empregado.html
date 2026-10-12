@@ -135,6 +135,8 @@ svg.prof{width:170px;height:auto}
       <div class="bar" aria-hidden="true"><i id="bar"></i></div>
       <span class="score" id="score"></span>
       <button class="ctl" id="btnVoice" aria-pressed="true">🔊 Voz: ligada</button>
+      <select class="ctl" id="selVoice" aria-label="Escolher voz"></select>
+      <label class="ctl" style="display:flex;align-items:center;gap:6px"><input type="checkbox" id="chkGrave"> Tom grave</label>
     </div>
   </div>
   <p class="note">Material demonstrativo e original, produzido para estudo. Confira sempre o texto da lei atualizado. A narração usa a voz em português do seu navegador; se não houver voz disponível, a aula segue com legendas.</p>
@@ -193,12 +195,27 @@ svg.prof{width:170px;height:auto}
   var i=0, auto=false, voice=("speechSynthesis" in window), token=0, timer=null, acertos=0, respondidas=0, started=false, ptVoice=null;
   var respondida={}; // cena -> true
 
+  var selVoice=document.getElementById("selVoice"), chkGrave=document.getElementById("chkGrave");
+  var MASC=/(daniel|felipe|ant[oô]nio|ricardo|jorge|fernando|lucas|male|masculin|google portugu[eê]s do brasil.*male)/i;
+  var FEM=/(francisca|luciana|maria|helena|vit[oó]ria|camila|female|feminin|google portugu[eê]s do brasil)/i;
   function pickVoice(){
     if(!voice) return;
-    var vs=speechSynthesis.getVoices()||[];
-    ptVoice=vs.filter(function(v){return /^pt(-|_)BR/i.test(v.lang);})[0]||vs.filter(function(v){return /^pt/i.test(v.lang);})[0]||null;
+    var vs=(speechSynthesis.getVoices()||[]).filter(function(v){return /^pt/i.test(v.lang);});
+    vs.sort(function(a,b){return (/^pt(-|_)BR/i.test(b.lang)?1:0)-(/^pt(-|_)BR/i.test(a.lang)?1:0);});
+    var saved=null; try{saved=localStorage.getItem("cartao_voz_aula");}catch(e){}
+    selVoice.innerHTML=vs.map(function(v){return '<option value="'+esc(v.name)+'">'+esc(v.name)+' ('+esc(v.lang)+')</option>';}).join("");
+    if(!vs.length){ selVoice.style.display="none"; ptVoice=null; return; }
+    var chosen=vs.filter(function(v){return v.name===saved;})[0]||vs.filter(function(v){return MASC.test(v.name);})[0]||vs[0];
+    ptVoice=chosen; selVoice.value=chosen.name; selVoice.style.display="";
   }
-  if(voice){ pickVoice(); try{speechSynthesis.onvoiceschanged=pickVoice;}catch(e){} }
+  selVoice.addEventListener("change",function(){
+    var vs=speechSynthesis.getVoices()||[];
+    ptVoice=vs.filter(function(v){return v.name===selVoice.value;})[0]||null;
+    try{localStorage.setItem("cartao_voz_aula",selVoice.value);}catch(e){}
+    if(started) falar("Esta é a voz escolhida para a aula.", null);
+  });
+  chkGrave.addEventListener("change",function(){ if(started) falar("Este é o tom da voz para a aula.", null); });
+  if(voice){ pickVoice(); try{speechSynthesis.onvoiceschanged=pickVoice;}catch(e){} } else { selVoice.style.display="none"; chkGrave.parentNode.style.display="none"; }
 
   function falar(texto, depois){
     var my=++token;
@@ -210,7 +227,7 @@ svg.prof{width:170px;height:auto}
     if(voice && btnVoice.getAttribute("aria-pressed")==="true" && started){
       try{
         var u=new SpeechSynthesisUtterance(texto);
-        u.lang="pt-BR"; if(ptVoice) u.voice=ptVoice; u.rate=1;
+        u.lang="pt-BR"; if(ptVoice) u.voice=ptVoice; u.rate=1; u.pitch=chkGrave.checked?0.7:1;
         u.onend=fim; u.onerror=fim;
         speechSynthesis.speak(u);
         return;
