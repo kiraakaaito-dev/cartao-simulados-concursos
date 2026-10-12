@@ -406,6 +406,21 @@ function popularSelectsDeFiltro() {
   dropdowns.assunto = criarDropdownMultiselect("fAssunto", assuntos, "assuntos");
 }
 
+/**
+ * Filtro em cascata: as opções de "Assunto" mostram apenas os assuntos das
+ * disciplinas (e bancas) atualmente selecionadas. Se nada estiver selecionado,
+ * mostra todos. Assuntos já marcados que deixam de ser válidos são desmarcados.
+ */
+function atualizarAssuntosDisponiveis() {
+  if (!dropdowns.assunto) return;
+  const d = state.filters.disciplinas || [];
+  const b = state.filters.bancas || [];
+  const base = QUESTION_BANK.filter(q =>
+    (d.length === 0 || d.includes(q.disciplina)) &&
+    (b.length === 0 || b.includes(q.banca)));
+  dropdowns.assunto.setValores(unico(base.map(q => q.assunto)).sort());
+}
+
 const dropdowns = {}; // guarda os handles dos dropdowns (disciplina/banca/assunto) para poder resetá-los
 
 /**
@@ -421,7 +436,7 @@ function criarDropdownMultiselect(containerId, valores, filtroKey) {
       <span class="dd-label">Todas</span><span class="dd-arrow">▾</span>
     </button>
     <div class="dd-panel hidden">
-      ${valores.map(v => `<label class="dd-option"><input type="checkbox" value="${v}"> ${v}</label>`).join("")}
+      <div class="dd-options"></div>
       <div class="dd-actions">
         <button type="button" data-action="all">Selecionar todas</button>
         <button type="button" data-action="none">Limpar</button>
@@ -431,6 +446,16 @@ function criarDropdownMultiselect(containerId, valores, filtroKey) {
   const toggle = container.querySelector(".dd-toggle");
   const panel = container.querySelector(".dd-panel");
   const label = container.querySelector(".dd-label");
+  const optionsBox = container.querySelector(".dd-options");
+
+  function escAttr(v) { return String(v).replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;"); }
+
+  function renderOpcoes(lista, marcados) {
+    const set = new Set(marcados || []);
+    optionsBox.innerHTML = lista.map(v =>
+      `<label class="dd-option"><input type="checkbox" value="${escAttr(v)}"${set.has(v) ? " checked" : ""}> ${escAttr(v)}</label>`
+    ).join("");
+  }
 
   function atualizarLabel() {
     const marcados = Array.from(container.querySelectorAll("input:checked")).map(i => i.value);
@@ -438,8 +463,12 @@ function criarDropdownMultiselect(containerId, valores, filtroKey) {
     label.textContent = marcados.length === 0 ? "Todas"
       : marcados.length === 1 ? marcados[0]
       : `${marcados.length} selecionadas`;
+    // disciplina e banca alteram as opções disponíveis em "Assunto"
+    if (filtroKey === "disciplinas" || filtroKey === "bancas") atualizarAssuntosDisponiveis();
     atualizarContagemFiltro();
   }
+
+  renderOpcoes(valores, []);
 
   toggle.addEventListener("click", (e) => {
     e.stopPropagation();
@@ -449,7 +478,10 @@ function criarDropdownMultiselect(containerId, valores, filtroKey) {
     container.classList.toggle("open", !panel.classList.contains("hidden"));
   });
   panel.addEventListener("click", (e) => e.stopPropagation());
-  container.querySelectorAll('input[type="checkbox"]').forEach(cb => cb.addEventListener("change", atualizarLabel));
+  // delegação: funciona mesmo depois de as opções serem recriadas
+  panel.addEventListener("change", (e) => {
+    if (e.target && e.target.matches('input[type="checkbox"]')) atualizarLabel();
+  });
   container.querySelector('[data-action="all"]').addEventListener("click", () => {
     container.querySelectorAll('input[type="checkbox"]').forEach(cb => (cb.checked = true));
     atualizarLabel();
@@ -462,6 +494,12 @@ function criarDropdownMultiselect(containerId, valores, filtroKey) {
   return {
     reset: () => {
       container.querySelectorAll('input[type="checkbox"]').forEach(cb => (cb.checked = false));
+      atualizarLabel();
+    },
+    // troca a lista de opções, mantendo marcadas só as que continuam válidas
+    setValores: (lista) => {
+      const marcados = Array.from(container.querySelectorAll("input:checked")).map(i => i.value);
+      renderOpcoes(lista, marcados.filter(v => lista.includes(v)));
       atualizarLabel();
     }
   };

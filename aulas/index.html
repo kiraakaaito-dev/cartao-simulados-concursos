@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Videoaulas — Cartão</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#14213D;--accent:#E8A33D;--bg:#F5F6FA;--card:#fff;--text:#1B2338;--muted:#5C6684;--line:#E2E6F0}
+:root[data-theme="dark"]{--bg:#0E1424;--card:#18203A;--text:#E8ECF8;--muted:#9AA5C7;--line:#2A3558}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,sans-serif;line-height:1.5}
+header.top{background:var(--ink);color:#fff;padding:12px 16px;display:flex;align-items:center;justify-content:space-between}
+header.top a{color:#fff;text-decoration:none;font-weight:600;font-size:.9rem}
+.brand{font-family:"Space Grotesk",sans-serif;font-weight:700;display:flex;align-items:center;gap:8px}
+.brand span{background:var(--accent);color:var(--ink);width:28px;height:28px;border-radius:8px;display:grid;place-items:center}
+main{max-width:800px;margin:0 auto;padding:20px 16px 40px}
+h1{font-family:"Space Grotesk",sans-serif;font-size:1.4rem;margin:0 0 4px}
+p.sub{color:var(--muted);margin:0 0 18px}
+.list{display:grid;gap:12px}
+a.aula{display:block;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;text-decoration:none;color:inherit;border-left:5px solid var(--accent)}
+a.aula:hover{box-shadow:0 6px 20px rgba(20,33,61,.12)}
+a.aula b{font-family:"Space Grotesk",sans-serif;font-size:1.05rem;display:block}
+a.aula small{color:var(--muted)}
+</style>
+</head>
+<body>
+<header class="top"><div class="brand"><span>C</span> Cartão · Videoaulas</div><a href="../index.html">← Voltar ao simulado</a></header>
+<main>
+  <h1>Videoaulas com o Professor Cartão</h1>
+  <p class="sub">Direito Previdenciário · teoria da lei + casos práticos de Certo ou Errado</p>
+  <div class="list">
+    <a class="aula" href="segurado-empregado.html"><b>1. Segurado Empregado</b><small>Lei 8.213/91, art. 11, I · 9 cenas, 4 casos</small></a>
+    <a class="aula" href="empregado-domestico.html"><b>2. Empregado Doméstico</b><small>LC 150/15, art. 1º · 11 cenas, 4 casos</small></a>
+  </div>
+</main>
+<script>try{var t=localStorage.getItem("cartao_tema");if(t==="dark"||(!t&&matchMedia("(prefers-color-scheme: dark)").matches))document.documentElement.setAttribute("data-theme","dark");}catch(e){}</script>
+</body>
+</html>

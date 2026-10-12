@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Videoaula: Empregado Doméstico — Cartão</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#14213D; --accent:#E8A33D; --bg:#F5F6FA; --card:#FFFFFF; --text:#1B2338; --muted:#5C6684;
+  --line:#E2E6F0; --ok:#1E8E5A; --okbg:#E4F5EC; --bad:#C23B3B; --badbg:#FBE8E8; --soft:#EEF1F8;
+}
+:root[data-theme="dark"]{
+  --bg:#0E1424; --card:#18203A; --text:#E8ECF8; --muted:#9AA5C7; --line:#2A3558; --soft:#212B4A;
+  --ok:#4CC38A; --okbg:#173A2B; --bad:#F07878; --badbg:#3E1D22;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,sans-serif;line-height:1.5}
+header.top{background:var(--ink);color:#fff;padding:12px 16px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+header.top a{color:#fff;text-decoration:none;font-weight:600;font-size:.9rem}
+header.top .brand{font-family:"Space Grotesk",sans-serif;font-weight:700;display:flex;align-items:center;gap:8px}
+header.top .brand span{background:var(--accent);color:var(--ink);width:28px;height:28px;border-radius:8px;display:grid;place-items:center}
+main{max-width:1000px;margin:0 auto;padding:18px 16px 40px}
+h1{font-family:"Space Grotesk",sans-serif;font-size:1.3rem;margin:0 0 4px}
+.sub{color:var(--muted);font-size:.9rem;margin:0 0 14px}
+.player{background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;box-shadow:0 6px 24px rgba(20,33,61,.08)}
+.stage{display:grid;grid-template-columns:1fr 260px;gap:0;min-height:430px}
+.board{padding:22px;display:flex;flex-direction:column;gap:14px;border-right:1px solid var(--line)}
+.step{font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:700}
+.title{font-family:"Space Grotesk",sans-serif;font-size:1.45rem;font-weight:700;margin:0}
+.tag{display:inline-block;background:var(--accent);color:var(--ink);font-weight:700;font-size:.75rem;padding:3px 10px;border-radius:99px;width:fit-content}
+.items{display:grid;gap:10px;margin:0;padding:0;list-style:none}
+.items li{background:var(--soft);border-left:4px solid var(--accent);border-radius:10px;padding:10px 14px;opacity:0;transform:translateY(8px);transition:all .4s ease}
+.items li.show{opacity:1;transform:none}
+.items li b{display:block;font-family:"Space Grotesk",sans-serif}
+.items li small{color:var(--muted)}
+.case{background:var(--soft);border-radius:14px;padding:14px 16px;display:flex;gap:12px;align-items:flex-start}
+.avatar{flex:none;width:44px;height:44px;border-radius:50%;background:var(--ink);color:#fff;display:grid;place-items:center;font-family:"Space Grotesk",sans-serif;font-weight:700}
+.case p{margin:0}
+.claim{border:2px dashed var(--accent);border-radius:12px;padding:10px 14px;font-weight:600}
+.btns{display:flex;gap:10px;flex-wrap:wrap}
+.btn{border:2px solid var(--ink);background:var(--card);color:var(--ink);font-weight:700;border-radius:10px;padding:9px 20px;cursor:pointer;font-size:.95rem;font-family:inherit}
+:root[data-theme="dark"] .btn{border-color:var(--accent);color:var(--text)}
+.btn:hover{background:var(--accent);color:var(--ink);border-color:var(--accent)}
+.btn:disabled{opacity:.5;cursor:default}
+.feedback{border-radius:12px;padding:10px 14px;font-weight:600;display:none}
+.feedback.ok{display:block;background:var(--okbg);color:var(--ok)}
+.feedback.bad{display:block;background:var(--badbg);color:var(--bad)}
+.feedback small{display:block;font-weight:400;color:var(--text);margin-top:4px}
+.teacher{padding:14px;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;background:linear-gradient(180deg,var(--soft),var(--card))}
+.bubble{background:var(--card);border:2px solid var(--ink);border-radius:16px;padding:10px 12px;font-size:.88rem;position:relative;margin-bottom:12px;max-height:200px;overflow:auto;width:100%}
+:root[data-theme="dark"] .bubble{border-color:var(--accent)}
+.bubble::after{content:"";position:absolute;bottom:-10px;left:50%;margin-left:-8px;border:8px solid transparent;border-top-color:var(--ink);border-bottom:0}
+:root[data-theme="dark"] .bubble::after{border-top-color:var(--accent)}
+svg.prof{width:170px;height:auto}
+.mouth-open{transform-box:fill-box;transform-origin:center;transform:scaleY(.15)}
+.speaking .mouth-open{animation:talk .28s infinite alternate ease-in-out}
+@keyframes talk{to{transform:scaleY(1.5)}}
+.eye{transform-box:fill-box;transform-origin:center;animation:blink 4s infinite}
+@keyframes blink{0%,94%,100%{transform:scaleY(1)}97%{transform:scaleY(.1)}}
+.speaking .prof-body{animation:bob .6s infinite alternate ease-in-out}
+@keyframes bob{to{transform:translateY(-3px)}}
+.arm{transform-box:fill-box;transform-origin:20% 10%;transition:transform .4s}
+.speaking .arm{animation:wave 1.2s infinite alternate ease-in-out}
+@keyframes wave{to{transform:rotate(-14deg)}}
+.controls{display:flex;align-items:center;gap:10px;padding:12px 16px;border-top:1px solid var(--line);flex-wrap:wrap}
+.ctl{border:1px solid var(--line);background:var(--card);color:var(--text);border-radius:10px;padding:8px 14px;cursor:pointer;font-weight:600;font-family:inherit}
+.ctl.main{background:var(--ink);color:#fff;border-color:var(--ink)}
+:root[data-theme="dark"] .ctl.main{background:var(--accent);color:var(--ink);border-color:var(--accent)}
+.ctl:disabled{opacity:.4;cursor:default}
+.bar{flex:1;min-width:120px;height:8px;background:var(--soft);border-radius:99px;overflow:hidden}
+.bar i{display:block;height:100%;width:0;background:var(--accent);transition:width .4s}
+.score{font-weight:700;color:var(--muted);font-size:.85rem}
+.note{margin-top:14px;color:var(--muted);font-size:.8rem}
+.final-card{text-align:center;padding:10px}
+.final-card a{display:inline-block;margin-top:8px;background:var(--ink);color:#fff;text-decoration:none;padding:10px 18px;border-radius:10px;font-weight:700}
+@media(max-width:720px){
+  .stage{grid-template-columns:1fr}
+  .board{border-right:0;border-bottom:1px solid var(--line)}
+  .teacher{flex-direction:row;gap:10px;align-items:center;justify-content:flex-start;padding:10px}
+  .bubble{margin:0;max-height:140px}
+  .bubble::after{display:none}
+  svg.prof{width:90px;flex:none}
+}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="brand"><span>C</span> Cartão · Videoaulas</div>
+  <a href="../index.html">← Voltar ao simulado</a>
+</header>
+<main>
+  <h1>Empregado Doméstico</h1>
+  <p class="sub">Direito Previdenciário · LC 150/15, art. 1º · teoria e casos práticos no estilo CEBRASPE</p>
+
+  <div class="player" id="player">
+    <div class="stage">
+      <div class="board" id="board" aria-live="polite"></div>
+      <div class="teacher" id="teacher">
+        <div class="bubble" id="bubble">Clique em “Começar aula” para ouvir o Professor Cartão.</div>
+        <svg class="prof" viewBox="0 0 200 270" role="img" aria-label="Professor Cartão, personagem desenhado">
+          <g class="prof-body">
+            <path d="M40 270 L40 190 Q40 160 75 156 L125 156 Q160 160 160 190 L160 270 Z" fill="#14213D"/>
+            <path d="M82 156 L100 190 L118 156 Z" fill="#fff"/>
+            <path d="M94 168 L106 168 L110 186 L100 200 L90 186 Z" fill="#E8A33D"/>
+            <rect x="88" y="136" width="24" height="24" rx="8" fill="#E2B48A"/>
+            <circle cx="100" cy="100" r="46" fill="#EDC49A"/>
+            <path d="M52 94 Q54 52 100 50 Q146 52 148 94 Q130 70 100 72 Q70 70 52 94 Z" fill="#2B2B3A"/>
+            <circle cx="54" cy="104" r="7" fill="#E2B48A"/><circle cx="146" cy="104" r="7" fill="#E2B48A"/>
+            <circle cx="82" cy="102" r="15" fill="#fff" fill-opacity=".55" stroke="#14213D" stroke-width="3"/>
+            <circle cx="118" cy="102" r="15" fill="#fff" fill-opacity=".55" stroke="#14213D" stroke-width="3"/>
+            <path d="M97 102 L103 102" stroke="#14213D" stroke-width="3"/>
+            <circle class="eye" cx="82" cy="103" r="4.5" fill="#14213D"/>
+            <circle class="eye" cx="118" cy="103" r="4.5" fill="#14213D"/>
+            <path d="M70 80 Q82 74 94 80" stroke="#2B2B3A" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+            <path d="M106 80 Q118 74 130 80" stroke="#2B2B3A" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+            <path d="M100 108 Q96 120 102 122" stroke="#C99468" stroke-width="3" fill="none" stroke-linecap="round"/>
+            <ellipse class="mouth-open" cx="100" cy="132" rx="11" ry="9" fill="#7A2E2E"/>
+            <path d="M88 130 Q100 140 112 130" stroke="#7A2E2E" stroke-width="3" fill="none" stroke-linecap="round"/>
+            <g class="arm">
+              <path d="M150 178 Q182 176 186 142" stroke="#14213D" stroke-width="20" fill="none" stroke-linecap="round"/>
+              <circle cx="186" cy="136" r="10" fill="#EDC49A"/>
+              <rect x="184" y="70" width="5" height="68" rx="2.5" fill="#E8A33D"/>
+            </g>
+          </g>
+        </svg>
+      </div>
+    </div>
+    <div class="controls">
+      <button class="ctl main" id="btnPlay">▶ Começar aula</button>
+      <button class="ctl" id="btnPrev" aria-label="Cena anterior" disabled>◀</button>
+      <button class="ctl" id="btnNext" aria-label="Próxima cena">▶▶</button>
+      <div class="bar" aria-hidden="true"><i id="bar"></i></div>
+      <span class="score" id="score"></span>
+      <button class="ctl" id="btnVoice" aria-pressed="true">🔊 Voz: ligada</button>
+      <select class="ctl" id="selVoice" aria-label="Escolher voz"></select>
+      <label class="ctl" style="display:flex;align-items:center;gap:6px"><input type="checkbox" id="chkGrave"> Tom grave</label>
+    </div>
+  </div>
+  <p class="note">Material demonstrativo e original, produzido para estudo. Confira sempre o texto da lei atualizado. A narração usa a voz em português do seu navegador; se não houver voz disponível, a aula segue com legendas.</p>
+</main>
+
+<script>
+(function(){
+  try{
+    var t=localStorage.getItem("cartao_tema");
+    if(t==="dark"||(!t&&window.matchMedia&&matchMedia("(prefers-color-scheme: dark)").matches)) document.documentElement.setAttribute("data-theme","dark");
+  }catch(e){}
+
+  var CENAS=[
+    {"tipo": "abertura", "titulo": "Empregado Doméstico", "fala": "Olá! Eu sou o Professor Cartão. Hoje vamos estudar o empregado doméstico, um tema que sempre cai em prova, principalmente na pegadinha da diarista. Primeiro vemos o que a lei diz. Depois, resolvemos casos práticos de certo ou errado."},
+    {"tipo": "lista", "titulo": "O que a lei diz", "tag": "Lei Complementar 150/15, art. 1º", "fala": "Empregado doméstico é quem presta serviços de forma contínua, subordinada, onerosa e pessoal, com finalidade não lucrativa, à pessoa ou à família, no âmbito residencial delas, por mais de dois dias por semana. Faltou algum desses requisitos, a pessoa não é empregada doméstica.", "itens": [["Mais de 2 dias por semana", "Serviço contínuo, para a mesma pessoa ou família."], ["Subordinado, oneroso e pessoal", "Recebe ordens, é pago e não pode mandar outra pessoa no lugar."], ["Finalidade não lucrativa", "O trabalho não pode servir a uma atividade econômica."], ["Âmbito residencial", "Na casa da pessoa ou da família, ou de lazer, sem fim econômico."]]},
+    {"tipo": "lista", "titulo": "Quem costuma ser doméstico", "tag": "Lei Complementar 150/15 e Decreto 3.048/99, art. 9º, II", "fala": "São exemplos de empregados domésticos: cozinheira, governanta, babá, lavadeira, faxineira, vigia da residência, motorista particular da família, jardineiro, acompanhante de idosos contratado diretamente pela família e o caseiro de casa ou sítio de lazer. Atenção: é vedada a contratação de menor de dezoito anos para o trabalho doméstico.", "itens": [["Serviços da casa", "Cozinheira, babá, lavadeira, faxineira, governanta."], ["Serviços da família", "Motorista particular, jardineiro, vigia da residência."], ["Cuidador contratado direto", "Acompanhante de idosos, contratado pela própria família."], ["Caseiro de lazer", "Casa ou sítio de lazer, sem exploração econômica."], ["Menor de 18 anos", "Contratação vedada para o trabalho doméstico."]]},
+    {"tipo": "lista", "titulo": "Quem NÃO é doméstico", "tag": "As pegadinhas", "fala": "Cuidado com as pegadinhas. A diarista que trabalha até dois dias por semana na mesma casa é contribuinte individual. O caseiro de propriedade que explora atividade com fins lucrativos é empregado comum, não doméstico. O motorista que dirige veículo de empresa é empregado. E o cuidador contratado por empresa de home care é empregado da empresa, e não da família.", "itens": [["Diarista (até 2 dias)", "Contribuinte individual."], ["Caseiro de local com fim lucrativo", "Empregado comum, não doméstico."], ["Motorista de empresa", "Segurado empregado."], ["Cuidador via empresa de home care", "Empregado da empresa."]]},
+    {"tipo": "caso", "titulo": "Caso 1 · Faxina duas vezes por semana", "nome": "Joana", "fala": "Primeiro caso. Joana faz faxina na casa do doutor Paulo às terças e quintas, recebendo por dia de trabalho. Ela só trabalha duas vezes por semana nessa residência.", "historia": "Joana faz faxina na casa de Dr. Paulo às terças e quintas, recebendo por dia de trabalho. Só trabalha duas vezes por semana nessa residência.", "afirm": "Joana é contribuinte individual, e não empregada doméstica.", "gab": "C", "expl": "Correto. A diarista que trabalha até dois dias por semana na mesma residência não é empregada doméstica. É contribuinte individual."},
+    {"tipo": "caso", "titulo": "Caso 2 · Faxina três vezes por semana", "nome": "Mônica", "fala": "Segundo caso. Mônica faz faxina três dias por semana, sempre na mesma residência, com pagamento mensal e horário combinado.", "historia": "Mônica faz faxina três dias por semana, sempre na mesma residência, com pagamento mensal e horário combinado.", "afirm": "Mônica é contribuinte individual, por ser faxineira diarista.", "gab": "E", "expl": "Errado. Prestando serviço por mais de dois dias por semana, de forma contínua, subordinada e onerosa, no âmbito residencial, Mônica é empregada doméstica. O que define é a frequência, não o nome da função."},
+    {"tipo": "caso", "titulo": "Caso 3 · Chácara de eventos", "nome": "Aderbal", "fala": "Terceiro caso. Dona Lúcia mantém uma chácara de recreio e a aluga para festas e eventos, cobrando por isso. Contratou Aderbal para cuidar do local em tempo integral, com salário.", "historia": "Dona Lúcia mantém uma chácara de recreio e a aluga para festas e eventos, cobrando por isso. Contratou Aderbal para cuidar do local, em tempo integral, com salário.", "afirm": "Aderbal é empregado doméstico, pois exerce a função de caseiro no âmbito residencial.", "gab": "E", "expl": "Errado. O aluguel para eventos dá à atividade finalidade lucrativa, o que descaracteriza o trabalho doméstico. Aderbal é empregado comum."},
+    {"tipo": "caso", "titulo": "Caso 4 · Cuidadora contratada pela família", "nome": "Sônia", "fala": "Último caso. Sônia é cuidadora de idosos, contratada diretamente pelos filhos para acompanhar a mãe idosa, todos os dias, na residência da família, mediante salário.", "historia": "Sônia é cuidadora de idosos, contratada diretamente pelos filhos para acompanhar a mãe idosa, todos os dias, na residência da família, mediante salário.", "afirm": "Sônia é empregada doméstica.", "gab": "C", "expl": "Correto. Ela é contratada diretamente pela família, em atividade residencial e sem fim lucrativo. A cuidadora contratada por empresa de home care seria empregada da empresa."},
+    {"tipo": "lista", "titulo": "Contribuição e benefícios", "tag": "LC 150/15, art. 34 · Lei 8.213/91", "fala": "Agora, contribuição e benefícios. O empregador doméstico paga oito por cento sobre a remuneração, mais zero vírgula oito por cento de seguro contra acidentes de trabalho. A parcela do empregado é descontada do salário, e tudo é recolhido em guia única, no Simples Doméstico. A empregada doméstica gestante não precisa de carência para o salário-maternidade, que é pago direto pelo INSS. No auxílio-doença, o INSS paga desde o início da incapacidade, e não a partir do décimo sexto dia. E o doméstico tem direito ao salário-família.", "itens": [["Contribuição patronal", "8% sobre a remuneração + 0,8% de seguro contra acidentes (20% é da empresa)."], ["Recolhimento", "Guia única, no Simples Doméstico; a parcela do empregado é descontada."], ["Salário-maternidade", "Sem carência; pago diretamente pelo INSS."], ["Auxílio-doença", "INSS paga desde o início da incapacidade (a regra dos 15 dias é do empregado)."], ["Salário-família", "O doméstico tem direito."]]},
+    {"tipo": "lista", "titulo": "Macetes para a prova", "tag": "Resumo", "fala": "Para fechar, quatro macetes. Primeiro: conte os dias. Até dois por semana é diarista, contribuinte individual. Mais de dois por semana é doméstica. Segundo: o que manda é a finalidade. Casa de lazer é doméstico; local com fim lucrativo é empregado comum. Terceiro: quem contrata importa. Cuidador ou motorista contratado direto pela família é doméstico; contratado por empresa, não. Quarto: menor de dezoito anos não pode ser contratado como doméstico.", "itens": [["Conte os dias", "Até 2 por semana: contribuinte individual. Mais de 2: doméstico."], ["Veja a finalidade", "Não lucrativa: doméstico. Lucrativa: empregado comum."], ["Veja quem contrata", "Família: doméstico. Empresa: empregado da empresa."], ["Veja a idade", "Menor de 18 anos: contratação vedada."]]},
+    {"tipo": "fim", "titulo": "Aula concluída", "fala": "Aula concluída! Agora, vá ao simulado e resolva as questões de empregado doméstico, na disciplina Direito Previdenciário. Bons estudos!"}
+  ];
+
+  var board=document.getElementById("board"), bubble=document.getElementById("bubble"), teacher=document.getElementById("teacher"),
+      btnPlay=document.getElementById("btnPlay"), btnPrev=document.getElementById("btnPrev"), btnNext=document.getElementById("btnNext"),
+      btnVoice=document.getElementById("btnVoice"), bar=document.getElementById("bar"), scoreEl=document.getElementById("score");
+  var i=0, auto=false, voice=("speechSynthesis" in window), token=0, timer=null, acertos=0, respondidas=0, started=false, ptVoice=null;
+  var respondida={}; // cena -> true
+
+  var selVoice=document.getElementById("selVoice"), chkGrave=document.getElementById("chkGrave");
+  var MASC=/(daniel|felipe|ant[oô]nio|ricardo|jorge|fernando|lucas|male|masculin|google portugu[eê]s do brasil.*male)/i;
+  var FEM=/(francisca|luciana|maria|helena|vit[oó]ria|camila|female|feminin|google portugu[eê]s do brasil)/i;
+  function pickVoice(){
+    if(!voice) return;
+    var vs=(speechSynthesis.getVoices()||[]).filter(function(v){return /^pt/i.test(v.lang);});
+    vs.sort(function(a,b){return (/^pt(-|_)BR/i.test(b.lang)?1:0)-(/^pt(-|_)BR/i.test(a.lang)?1:0);});
+    var saved=null; try{saved=localStorage.getItem("cartao_voz_aula");}catch(e){}
+    selVoice.innerHTML=vs.map(function(v){return '<option value="'+esc(v.name)+'">'+esc(v.name)+' ('+esc(v.lang)+')</option>';}).join("");
+    if(!vs.length){ selVoice.style.display="none"; ptVoice=null; return; }
+    var chosen=vs.filter(function(v){return v.name===saved;})[0]||vs.filter(function(v){return MASC.test(v.name);})[0]||vs[0];
+    ptVoice=chosen; selVoice.value=chosen.name; selVoice.style.display="";
+  }
+  selVoice.addEventListener("change",function(){
+    var vs=speechSynthesis.getVoices()||[];
+    ptVoice=vs.filter(function(v){return v.name===selVoice.value;})[0]||null;
+    try{localStorage.setItem("cartao_voz_aula",selVoice.value);}catch(e){}
+    if(started) falar("Esta é a voz escolhida para a aula.", null);
+  });
+  chkGrave.addEventListener("change",function(){ if(started) falar("Este é o tom da voz para a aula.", null); });
+  if(voice){ pickVoice(); try{speechSynthesis.onvoiceschanged=pickVoice;}catch(e){} } else { selVoice.style.display="none"; chkGrave.parentNode.style.display="none"; }
+
+  function falar(texto, depois){
+    var my=++token;
+    clearTimeout(timer);
+    try{ if(voice) speechSynthesis.cancel(); }catch(e){}
+    bubble.textContent=texto;
+    var fim=function(){ if(my!==token) return; teacher.classList.remove("speaking"); if(depois) depois(); };
+    teacher.classList.add("speaking");
+    if(voice && btnVoice.getAttribute("aria-pressed")==="true" && started){
+      try{
+        var u=new SpeechSynthesisUtterance(texto);
+        u.lang="pt-BR"; if(ptVoice) u.voice=ptVoice; u.rate=1; u.pitch=chkGrave.checked?0.7:1;
+        u.onend=fim; u.onerror=fim;
+        speechSynthesis.speak(u);
+        return;
+      }catch(e){}
+    }
+    timer=setTimeout(fim, Math.max(2500, texto.length*62));
+  }
+  function parar(){ token++; clearTimeout(timer); try{ if(voice) speechSynthesis.cancel(); }catch(e){} teacher.classList.remove("speaking"); }
+
+  function esc(s){var d=document.createElement("div");d.textContent=s;return d.innerHTML;}
+
+  function render(){
+    var c=CENAS[i];
+    bar.style.width=((i+1)/CENAS.length*100)+"%";
+    btnPrev.disabled=(i===0);
+    btnNext.disabled=(i===CENAS.length-1);
+    var h='<div class="step">Cena '+(i+1)+' de '+CENAS.length+'</div><h2 class="title">'+esc(c.titulo)+'</h2>';
+    if(c.tag) h+='<span class="tag">'+esc(c.tag)+'</span>';
+    if(c.tipo==="lista"){
+      h+='<ul class="items">'+c.itens.map(function(it){return '<li><b>'+esc(it[0])+'</b><small>'+esc(it[1])+'</small></li>';}).join("")+'</ul>';
+    } else if(c.tipo==="caso"){
+      h+='<div class="case"><div class="avatar">'+esc(c.nome.charAt(0))+'</div><p>'+esc(c.historia)+'</p></div>';
+      h+='<div class="claim" id="claim" style="display:none">Nessa situação, '+esc(c.afirm)+'</div>';
+      h+='<div class="btns" id="btns" style="display:none"><button class="btn" data-r="C">Certo</button><button class="btn" data-r="E">Errado</button></div>';
+      h+='<div class="feedback" id="fb"></div>';
+    } else if(c.tipo==="abertura"){
+      h+='<div class="case"><div class="avatar">C</div><p>Direito Previdenciário · tipos de segurados. Aula curta com teoria e casos práticos para treinar o formato Certo ou Errado.</p></div>';
+    } else if(c.tipo==="fim"){
+      h+='<div class="final-card"><p><b>Seu desempenho nos casos:</b> <span id="fin">'+acertos+' de '+respondidas+'</span></p><a href="../index.html">Ir para o simulado</a></div>';
+    }
+    board.innerHTML=h;
+    atualizaScore();
+    if(c.tipo==="lista"){
+      var lis=board.querySelectorAll(".items li");
+      var n=lis.length, passo=Math.max(900, (c.fala.length*62)/(n+1));
+      Array.prototype.forEach.call(lis,function(li,k){ setTimeout(function(){li.classList.add("show");}, 400+k*passo*0.8); });
+      if(!started) Array.prototype.forEach.call(lis,function(li){li.classList.add("show");});
+    }
+    if(c.tipo==="caso"){
+      var show=function(){
+        var cl=document.getElementById("claim"), bt=document.getElementById("btns");
+        if(cl) cl.style.display="block"; if(bt) bt.style.display="flex";
+        if(!respondida[i]) falar("Agora, julgue o item: Nessa situação, "+c.afirm+" Certo ou errado?", null);
+      };
+      var bt0=board.querySelector("#btns");
+      bt0.addEventListener("click",function(ev){
+        var b=ev.target.closest("button[data-r]"); if(!b||respondida[i]) return;
+        responder(b.getAttribute("data-r"));
+      });
+      if(respondida[i]){ document.getElementById("claim").style.display="block"; bt0.style.display="flex"; mostraFeedback(respondida[i]); }
+      else { pendente=show; }
+    }
+    if(c.tipo==="fim") { var f=document.getElementById("fin"); if(f) f.textContent=acertos+" de "+respondidas; }
+    if(!started){
+      if(c.tipo==="caso"){ var p0=pendente; pendente=null; if(p0){ var cl=document.getElementById("claim"), bt=document.getElementById("btns"); if(cl) cl.style.display="block"; if(bt) bt.style.display="flex"; } }
+      return;
+    }
+    // narração
+    if(!(c.tipo==="caso" && respondida[i])){
+      falar(c.fala, function(){
+        if(c.tipo==="caso"){ if(pendente){var p=pendente;pendente=null;p();} return; }
+        if(auto && i<CENAS.length-1){ setTimeout(function(){ ir(i+1); }, 700); }
+      });
+    } else { bubble.textContent=c.expl; }
+  }
+  var pendente=null;
+
+  function atualizaScore(){ scoreEl.textContent = respondidas? ("Acertos: "+acertos+"/"+respondidas):""; }
+
+  function responder(r){
+    var c=CENAS[i]; respondida[i]=r; respondidas++; if(r===c.gab) acertos++;
+    atualizaScore(); parar(); mostraFeedback(r);
+    falar((r===c.gab?"Isso mesmo! ":"Não foi dessa vez. ")+c.expl, function(){
+      if(auto && i<CENAS.length-1){ setTimeout(function(){ ir(i+1); }, 700); }
+    });
+  }
+  function mostraFeedback(r){
+    var c=CENAS[i], fb=document.getElementById("fb"), ok=(r===c.gab);
+    fb.className="feedback "+(ok?"ok":"bad");
+    fb.innerHTML=(ok?"Você acertou! ":"Você errou. ")+"Gabarito: "+(c.gab==="C"?"Certo":"Errado")+"<small>"+esc(c.expl)+"</small>";
+    var bs=board.querySelectorAll("#btns .btn"); Array.prototype.forEach.call(bs,function(b){b.disabled=true;});
+  }
+
+  function ir(n){ if(n<0||n>=CENAS.length) return; parar(); pendente=null; i=n; render(); }
+
+  btnPlay.addEventListener("click",function(){
+    if(!started){ started=true; auto=true; btnPlay.textContent="⏸ Pausar"; render(); return; }
+    if(auto){ auto=false; parar(); btnPlay.textContent="▶ Continuar"; }
+    else { auto=true; btnPlay.textContent="⏸ Pausar"; render(); }
+  });
+  btnPrev.addEventListener("click",function(){ ir(i-1); });
+  btnNext.addEventListener("click",function(){ ir(i+1); });
+  btnVoice.addEventListener("click",function(){
+    var on=btnVoice.getAttribute("aria-pressed")!=="true";
+    btnVoice.setAttribute("aria-pressed",on?"true":"false");
+    btnVoice.textContent=on?"🔊 Voz: ligada":"🔇 Voz: desligada";
+    if(!on) parar();
+  });
+  if(!voice){ btnVoice.disabled=true; btnVoice.textContent="Voz indisponível"; btnVoice.setAttribute("aria-pressed","false"); }
+
+  render();
+})();
+</script>
+</body>
+</html>
