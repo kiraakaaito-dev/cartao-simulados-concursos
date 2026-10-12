@@ -7806,5 +7806,1086 @@ const QUESTION_BANK = [
     "comentario": "O art. 64, I, do CP fixa em 5 anos o periodo depurador, contado da data do cumprimento ou extincao da pena (computado o periodo de prova da suspensao ou do livramento condicional, se nao ocorrer revogacao). Ultrapassado esse prazo, a condenacao anterior deixa de gerar reincidencia, podendo, ainda assim, ser considerada como maus antecedentes.",
     "fundamento": "Art. 64, I, do Codigo Penal.",
     "oficial": false
+  },
+
+  {
+    "id": 366,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado empregado",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Fácil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Carlos trabalha, de segunda a sexta, como atendente em uma loja de roupas. Recebe salário mensal e cumpre ordens e horários definidos pela gerente. O proprietário nunca assinou a sua CTPS.\n\nNessa situação, Carlos é segurado obrigatório do RGPS na categoria de empregado, pois a falta de registro em carteira não afasta o enquadramento quando presentes não eventualidade, subordinação e onerosidade.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. O enquadramento como empregado decorre da realidade da relação (trabalho não eventual, subordinado e remunerado), e não da formalidade do registro. A ausência de CTPS é irregularidade do empregador, que não retira a condição de segurado.",
+    "fundamento": "Lei 8.213/91, art. 11, I, a; Decreto 3.048/99, art. 9º, I, a.",
+    "oficial": false
+  },
+  {
+    "id": 367,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado empregado",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Marina foi eleita diretora de uma sociedade anônima por decisão da assembleia. Ela não é subordinada a ninguém, recebe honorários mensais e jamais manteve vínculo de emprego com a companhia.\n\nNessa situação, Marina é segurada empregada da sociedade anônima, por exercer cargo de direção na empresa.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. O diretor não empregado de S/A (e o membro de conselho de administração) é contribuinte individual. Só é empregado o diretor que mantém os requisitos da relação de emprego, em especial a subordinação.",
+    "fundamento": "Lei 8.213/91, art. 11, V; Decreto 3.048/99, art. 9º, V.",
+    "oficial": false
+  },
+  {
+    "id": 368,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado empregado",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Roberto era contador com carteira assinada em uma sociedade anônima e foi promovido ao cargo de diretor. Continua cumprindo horário, submetido às ordens do presidente da companhia e recebendo salário com CTPS registrada.\n\nNessa situação, com a promoção, Roberto deixou de ser empregado e passou à condição de contribuinte individual.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. O diretor que mantém a subordinação e os demais elementos da relação de emprego continua segurado empregado. O regulamento fala expressamente em empregado, \"inclusive como diretor empregado\".",
+    "fundamento": "Lei 8.213/91, art. 11, I, a; Decreto 3.048/99, art. 9º, I, a.",
+    "oficial": false
+  },
+  {
+    "id": 369,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado empregado",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Ana foi contratada por uma empresa de trabalho temporário, nos termos da Lei 6.019/74, para atender por dois meses o aumento de vendas de uma rede de lojas, tomadora dos serviços.\n\nNessa situação, Ana é segurada empregada, e o vínculo previdenciário se estabelece com a empresa de trabalho temporário.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. Quem é contratado por empresa de trabalho temporário para atender necessidade transitória da tomadora é segurado empregado, sendo a empresa de trabalho temporário a responsável pelas obrigações previdenciárias.",
+    "fundamento": "Lei 8.213/91, art. 11, I, b; Decreto 3.048/99, art. 9º, I, b.",
+    "oficial": false
+  },
+  {
+    "id": 370,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado empregado",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Paulo, brasileiro, foi contratado e é domiciliado no Brasil por uma empresa nacional para trabalhar na filial que ela mantém em Lisboa.\n\nNessa situação, Paulo é segurado obrigatório do RGPS, na categoria de empregado.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. O brasileiro ou estrangeiro domiciliado e contratado no Brasil para trabalhar como empregado em sucursal ou agência de empresa nacional no exterior é segurado empregado.",
+    "fundamento": "Lei 8.213/91, art. 11, I, c; Decreto 3.048/99, art. 9º, I, c.",
+    "oficial": false
+  },
+  {
+    "id": 371,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado empregado",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Fernanda, brasileira, mudou-se para Madri e lá foi contratada por uma empresa espanhola, sem qualquer vínculo com empresa brasileira ou com a União.\n\nNessa situação, Fernanda é segurada empregada obrigatória do RGPS, pois a nacionalidade brasileira basta para a filiação obrigatória.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. A nacionalidade não gera filiação obrigatória. Quem trabalha no exterior para empresa estrangeira, sem se enquadrar nas hipóteses do art. 11, não é segurado obrigatório, podendo apenas filiar-se como facultativo.",
+    "fundamento": "Lei 8.213/91, arts. 11 e 13.",
+    "oficial": false
+  },
+  {
+    "id": 372,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado empregado",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Júlio foi nomeado para cargo exclusivamente em comissão, sem vínculo efetivo, em uma autarquia federal.\n\nNessa situação, por ser servidor público, Júlio está obrigatoriamente vinculado ao regime próprio de previdência da União, e não ao RGPS.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. O servidor ocupante de cargo em comissão sem vínculo efetivo com a União, autarquias e fundações públicas federais é segurado empregado do RGPS.",
+    "fundamento": "Lei 8.213/91, art. 11, I, g; Decreto 3.048/99, art. 9º, I.",
+    "oficial": false
+  },
+  {
+    "id": 373,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado empregado",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Sandra é servidora efetiva de um município que possui regime próprio de previdência (RPPS). Foi eleita vereadora no mesmo município.\n\nNessa situação, em relação ao mandato eletivo, Sandra não é enquadrada como segurada empregada do RGPS, pois está vinculada a regime próprio de previdência social.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. O exercente de mandato eletivo é segurado empregado do RGPS somente se não estiver vinculado a regime próprio. Sendo Sandra vinculada ao RPPS, a regra não se aplica a ela.",
+    "fundamento": "Lei 8.213/91, art. 11, I, j; Decreto 3.048/99, art. 9º, I.",
+    "oficial": false
+  },
+  {
+    "id": 374,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado empregado",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Antônio se aposentou por tempo de contribuição pelo RGPS e, meses depois, voltou a trabalhar com carteira assinada em uma padaria.\n\nNessa situação, Antônio é segurado obrigatório em relação à nova atividade e deve contribuir, mas não fará jus a nova prestação em razão dela, salvo salário-família e reabilitação profissional.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. O aposentado que permanece ou retorna à atividade sujeita ao RGPS continua segurado obrigatório e contribui, mas, em regra, só tem direito a salário-família e reabilitação profissional, quando empregado.",
+    "fundamento": "Lei 8.213/91, art. 11, § 3º, e art. 18, § 2º.",
+    "oficial": false
+  },
+  {
+    "id": 375,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado empregado",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Lucas, estudante universitário, faz estágio em empresa privada, nos termos da Lei 11.788/08, e recebe bolsa-auxílio.\n\nNessa situação, Lucas é segurado empregado da empresa concedente do estágio.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. O estágio regular não cria vínculo empregatício. O estagiário não é segurado obrigatório, podendo inscrever-se e contribuir como segurado facultativo.",
+    "fundamento": "Lei 11.788/08, arts. 3º e 12, § 2º; Decreto 3.048/99, art. 11.",
+    "oficial": false
+  },
+  {
+    "id": 376,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado empregado",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Gabriel, de 15 anos, foi contratado por uma indústria como aprendiz, com CTPS assinada e contrato de aprendizagem regular.\n\nNessa situação, Gabriel é segurado empregado, embora tenha menos de 16 anos.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. A Constituição veda o trabalho a menores de 16 anos, salvo na condição de aprendiz a partir dos 14. O aprendiz regularmente contratado é empregado e, portanto, segurado obrigatório.",
+    "fundamento": "CF/88, art. 7º, XXXIII; CLT, art. 428; Decreto 3.048/99, art. 9º, I.",
+    "oficial": false
+  },
+  {
+    "id": 377,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado empregado",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Rafaela, de 15 anos, trabalha em uma lanchonete com horário fixo e salário, mas sem contrato de aprendizagem. Os pais autorizaram o trabalho.\n\nNessa situação, com a autorização dos pais, Rafaela pode filiar-se regularmente ao RGPS como segurada empregada.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. Abaixo de 16 anos, só é permitido o trabalho na condição de aprendiz (a partir de 14). A autorização dos pais não supre a vedação constitucional, e a filiação regular exige a idade mínima.",
+    "fundamento": "CF/88, art. 7º, XXXIII; Lei 8.213/91, art. 11.",
+    "oficial": false
+  },
+  {
+    "id": 378,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado empregado",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Valdir foi contratado por um produtor rural pessoa física, por contrato de safra de quatro meses, para colher laranja. Cumpre horário, recebe ordens do contratante e é pago mensalmente.\n\nNessa situação, Valdir é segurado empregado, pois o art. 11 abrange o prestador de serviço urbano ou rural.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. A lei fala em prestador de serviço urbano ou rural a empresa ou equiparado, em caráter não eventual, sob subordinação e mediante remuneração. O contrato de safra é contrato por prazo determinado de empregado rural.",
+    "fundamento": "Lei 8.213/91, art. 11, I, a; Lei 5.889/73.",
+    "oficial": false
+  },
+  {
+    "id": 379,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado empregado",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "João, pintor, foi chamado uma única vez por Dona Lúcia para pintar o muro da casa dela em dois dias. Combinou o preço da obra e trabalhou sem horário e sem receber ordens.\n\nNessa situação, João é segurado empregado de Dona Lúcia.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. Faltam não eventualidade e subordinação. O prestador de serviço eventual, sem vínculo empregatício, é contribuinte individual.",
+    "fundamento": "Lei 8.213/91, art. 11, V, g; Decreto 3.048/99, art. 9º, V.",
+    "oficial": false
+  },
+  {
+    "id": 380,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado empregado",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Dois sócios cotistas de uma sociedade limitada administram o negócio. Um deles trabalha na gerência da empresa e retira pró-labore mensal.\n\nNessa situação, o sócio que recebe pró-labore pela atuação na gerência é segurado empregado da sociedade.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. O sócio que participa da gestão e recebe pró-labore é contribuinte individual, e não empregado.",
+    "fundamento": "Lei 8.213/91, art. 11, V, f; Decreto 3.048/99, art. 9º, V.",
+    "oficial": false
+  },
+  {
+    "id": 381,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado empregado",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Pedro é associado de uma cooperativa de trabalho de costureiros. A cooperativa o coloca para prestar serviços a diversas empresas, e ele recebe pela produção.\n\nNessa situação, Pedro é empregado da cooperativa, pois depende dela para obter trabalho.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. O cooperado que presta serviços por intermédio da cooperativa de trabalho é contribuinte individual, não empregado, pois não há relação de emprego entre ele e a cooperativa.",
+    "fundamento": "Lei 8.213/91, art. 11, V; Decreto 3.048/99, art. 9º, V.",
+    "oficial": false
+  },
+  {
+    "id": 382,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado empregado",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Hélio, brasileiro civil domiciliado em Genebra, foi lá contratado para trabalhar para a União em organismo internacional do qual o Brasil é membro efetivo. Ele não é segurado de nenhum regime previdenciário suíço.\n\nNessa situação, Hélio é segurado empregado do RGPS, ainda que domiciliado e contratado no exterior.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. O brasileiro civil que trabalha para a União, no exterior, em organismos oficiais brasileiros ou internacionais dos quais o Brasil seja membro efetivo é empregado, ainda que lá domiciliado e contratado, salvo se segurado pela legislação do país do domicílio.",
+    "fundamento": "Lei 8.213/91, art. 11, I, d; Decreto 3.048/99, art. 9º, I, d.",
+    "oficial": false
+  },
+  {
+    "id": 383,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado empregado",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Tânia, brasileira, foi contratada como secretária pela embaixada de um país estrangeiro em Brasília. Ela não é coberta por regime próprio do país de origem da embaixada.\n\nNessa situação, Tânia não é segurada obrigatória do RGPS, por trabalhar para entidade estrangeira.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. O empregado de organismo oficial internacional ou estrangeiro em funcionamento no Brasil é segurado empregado, salvo quando coberto por regime próprio de previdência social.",
+    "fundamento": "Lei 8.213/91, art. 11, I; Decreto 3.048/99, art. 9º, I.",
+    "oficial": false
+  },
+  {
+    "id": 384,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado empregado",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Lúcia, empregada com carteira assinada em uma farmácia, adoeceu e ficou incapacitada para o trabalho por 30 dias, com atestado médico.\n\nNessa situação, o INSS deve pagar o auxílio-doença a Lúcia desde o primeiro dia de afastamento da atividade.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. Ao segurado empregado, o auxílio-doença é devido a partir do 16º dia de afastamento. Nos primeiros 15 dias, cabe à empresa pagar o salário integral.",
+    "fundamento": "Lei 8.213/91, art. 60, caput e § 3º.",
+    "oficial": false
+  },
+  {
+    "id": 385,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado empregado",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Marcos mantém dois empregos formais, em empresas diferentes. A soma das suas remunerações supera o limite máximo do salário de contribuição.\n\nNessa situação, por serem vínculos distintos, Marcos deve contribuir sobre o total das duas remunerações, sem limitação ao teto do salário de contribuição.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. O salário de contribuição tem limite máximo, aplicado à soma das remunerações quando há atividades concomitantes. O segurado não contribui acima do teto.",
+    "fundamento": "Lei 8.212/91, art. 28, §§ 3º a 5º.",
+    "oficial": false
+  },
+  {
+    "id": 386,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado especial",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Fácil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Seu Antônio é proprietário de um sítio de 3 módulos fiscais, onde planta milho e feijão com a esposa e dois filhos maiores. A família vive da roça e não tem empregados permanentes.\n\nNessa situação, Antônio é segurado especial.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. O produtor rural proprietário que explora atividade agropecuária em área de até 4 módulos fiscais, em regime de economia familiar e sem empregados permanentes, é segurado especial.",
+    "fundamento": "Lei 8.213/91, art. 11, VII, a, e § 1º.",
+    "oficial": false
+  },
+  {
+    "id": 387,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado especial",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Seu Osvaldo é proprietário de um imóvel rural de 6 módulos fiscais, onde cultiva soja com a família, sem empregados permanentes.\n\nNessa situação, Osvaldo é segurado especial, pois explora a terra em regime de economia familiar.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. A condição de produtor segurado especial exige exploração de área de até 4 módulos fiscais. Em área maior, o enquadramento é outro (contribuinte individual).",
+    "fundamento": "Lei 8.213/91, art. 11, VII, a.",
+    "oficial": false
+  },
+  {
+    "id": 388,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado especial",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Sebastião, meeiro outorgado, explora com a esposa e o filho a lavoura de mandioca de um imóvel de 2 módulos fiscais, mediante contrato de meação. Não há empregados permanentes.\n\nNessa situação, Sebastião é segurado especial.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. Parceiro e meeiro outorgados que exploram atividade agropecuária em regime de economia familiar são segurados especiais.",
+    "fundamento": "Lei 8.213/91, art. 11, VII, a.",
+    "oficial": false
+  },
+  {
+    "id": 389,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado especial",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Fácil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Josué pesca em embarcação pequena, com auxílio do filho adulto. Vende o pescado na comunidade, e a pesca é o seu principal meio de vida.\n\nNessa situação, Josué é segurado especial, na condição de pescador artesanal.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. O pescador artesanal que faz da pesca profissão habitual ou principal meio de vida é segurado especial.",
+    "fundamento": "Lei 8.213/91, art. 11, VII, b.",
+    "oficial": false
+  },
+  {
+    "id": 390,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado especial",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Marcelo atua como pescador em traineira de uma empresa de pesca industrial. Tem carteira assinada e recebe salário.\n\nNessa situação, Marcelo é segurado especial, por ser pescador.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. O pescador empregado de empresa pesqueira é segurado empregado. A condição de segurado especial é do pescador artesanal ou assemelhado, que trabalha de forma autônoma ou em regime de economia familiar.",
+    "fundamento": "Lei 8.213/91, art. 11, I, a, e VII, b.",
+    "oficial": false
+  },
+  {
+    "id": 391,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado especial",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Dona Rita é esposa de segurado especial, e o filho do casal, de 18 anos, também trabalha na lavoura. Comprovadamente, ambos trabalham com o grupo familiar.\n\nNessa situação, Rita e o filho também são segurados especiais.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. O cônjuge ou companheiro e o filho maior de 16 anos (ou equiparado) do segurado especial, que comprovadamente trabalhem com o grupo familiar, são segurados especiais.",
+    "fundamento": "Lei 8.213/91, art. 11, VII, c.",
+    "oficial": false
+  },
+  {
+    "id": 392,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado especial",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Pedro, de 15 anos, ajuda os pais na roça nos fins de semana. Seus pais são segurados especiais.\n\nNessa situação, Pedro, por integrar o grupo familiar, é segurado especial independentemente da idade.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. A lei exige que o filho seja maior de 16 anos (ou equiparado) para ser segurado especial. O mero pertencimento ao grupo familiar não basta.",
+    "fundamento": "Lei 8.213/91, art. 11, VII, c.",
+    "oficial": false
+  },
+  {
+    "id": 393,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado especial",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Uma família proprietária de 3 módulos fiscais contratou 4 trabalhadores temporários por 20 dias na época da colheita, no mesmo ano civil, sem empregados permanentes.\n\nNessa situação, a contratação não descaracteriza a condição de segurado especial da família, porque a lei admite contratação em época de safra, até 120 pessoas/dia no ano civil.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. O grupo familiar pode utilizar empregados contratados por prazo determinado em época de safra, à razão de no máximo 120 pessoas/dia no ano civil. Aqui foram 80 pessoas/dia (4 x 20).",
+    "fundamento": "Lei 8.213/91, art. 11, § 7º.",
+    "oficial": false
+  },
+  {
+    "id": 394,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado especial",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Um agricultor familiar, com 3 módulos fiscais, contratou durante todo o ano um empregado com carteira assinada para auxiliá-lo na lavoura.\n\nNessa situação, a contratação de empregado é compatível com a condição de segurado especial, que admite o auxílio de terceiros sem restrições.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. O regime de economia familiar pressupõe a ausência de empregados permanentes. Auxílio de terceiros só é admitido a título de mútua colaboração ou por contratação temporária na safra, nos limites legais.",
+    "fundamento": "Lei 8.213/91, art. 11, § 1º e § 7º.",
+    "oficial": false
+  },
+  {
+    "id": 395,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado especial",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Pedro, segurado especial, é proprietário de imóvel de 3 módulos fiscais. Por contrato escrito de parceria, outorgou 40% do imóvel a outro agricultor, e ambos continuam a trabalhar na terra.\n\nNessa situação, a outorga não descaracteriza a condição de segurado especial de Pedro.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. Não descaracteriza a outorga, por contrato escrito de parceria, meação ou comodato, de até 50% de imóvel de área total não superior a 4 módulos, desde que outorgante e outorgado continuem exercendo a atividade.",
+    "fundamento": "Lei 8.213/91, art. 11, § 8º, I.",
+    "oficial": false
+  },
+  {
+    "id": 396,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado especial",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Uma família de segurados especiais explora, na propriedade rural, atividade turística com hospedagem, por 100 dias ao ano.\n\nNessa situação, a atividade turística não descaracteriza a condição de segurados especiais, pois não ultrapassa 120 dias por ano.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. A exploração da atividade turística da propriedade rural, inclusive com hospedagem, por não mais de 120 dias ao ano, não descaracteriza a condição.",
+    "fundamento": "Lei 8.213/91, art. 11, § 8º, II.",
+    "oficial": false
+  },
+  {
+    "id": 397,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado especial",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Seu José, segurado especial, trabalhou como pedreiro para uma construtora por 90 dias, corridos ou não, no período de entressafra do ano civil.\n\nNessa situação, José não perde a condição de segurado especial em razão dessa atividade remunerada.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. Não é excluído o membro do grupo familiar que exerce atividade remunerada em período de entressafra ou do defeso, por no máximo 120 dias, corridos ou intercalados, no ano civil.",
+    "fundamento": "Lei 8.213/91, art. 11, § 9º, III.",
+    "oficial": false
+  },
+  {
+    "id": 398,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado especial",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Seu Manoel, segurado especial, trabalhou 150 dias no ano civil como pedreiro para uma construtora, em período de entressafra.\n\nNessa situação, por se tratar de entressafra, Manoel mantém integralmente a condição de segurado especial, ainda que tenha trabalhado além de 120 dias.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. O limite para atividade remunerada em entressafra ou defeso é de 120 dias no ano civil. Ultrapassado esse prazo, deixa de haver a ressalva e ocorre a exclusão da condição de segurado especial.",
+    "fundamento": "Lei 8.213/91, art. 11, §§ 9º, III, e 10.",
+    "oficial": false
+  },
+  {
+    "id": 399,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado especial",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Raimundo é segurado especial no município X, onde cultiva sua roça. Foi eleito vereador do mesmo município X.\n\nNessa situação, o exercício do mandato de vereador no município em que desenvolve a atividade rural não retira a condição de segurado especial de Raimundo.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. O exercício de mandato de vereador do município em que desenvolva a atividade rural não descaracteriza a condição de segurado especial.",
+    "fundamento": "Lei 8.213/91, art. 11, § 9º, V.",
+    "oficial": false
+  },
+  {
+    "id": 400,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado especial",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Antônio, segurado especial no município X, foi eleito vereador do município vizinho Y.\n\nNessa situação, o mandato em município diferente daquele em que desenvolve a atividade rural não impede a manutenção da condição de segurado especial.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. A ressalva legal vale apenas para o mandato de vereador do município em que o segurado desenvolve a atividade rural. Em outro município, o segurado se enquadra em categoria diversa e deixa de ser especial.",
+    "fundamento": "Lei 8.213/91, art. 11, §§ 9º, V, e 10.",
+    "oficial": false
+  },
+  {
+    "id": 401,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado especial",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Luzia cultiva hortaliças com a família em área de 2 módulos fiscais e também é proprietária de uma loja de materiais de construção, da qual retira renda regular.\n\nNessa situação, Luzia continua sendo segurada especial, pois a renda do comércio é complementar à atividade rural.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. Não é segurado especial o membro do grupo familiar que possui outra fonte de rendimento, ressalvadas as exceções legais. O comércio próprio não está entre elas.",
+    "fundamento": "Lei 8.213/91, art. 11, § 9º.",
+    "oficial": false
+  },
+  {
+    "id": 402,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado especial",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Ana é segurada especial e recebe pensão por morte do RGPS em valor superior ao do menor benefício de prestação continuada da Previdência Social.\n\nNessa situação, o recebimento dessa pensão não afeta a condição de segurada especial de Ana.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. A pensão por morte, o auxílio-acidente ou o auxílio-reclusão só são admitidos sem perda da condição se o valor não superar o do menor benefício de prestação continuada.",
+    "fundamento": "Lei 8.213/91, art. 11, § 9º, I.",
+    "oficial": false
+  },
+  {
+    "id": 403,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado especial",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Valmir é segurado especial e vende toda a sua produção rural a um frigorífico, pessoa jurídica.\n\nNessa situação, o segurado especial contribui obrigatoriamente com 20% sobre o valor do salário mínimo mensal, independentemente da comercialização da produção.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. A contribuição do segurado especial incide sobre a receita bruta da comercialização da produção (1,2% mais 0,1% para o SAT, total 1,3%), e não sobre o salário mínimo. Sendo o adquirente pessoa jurídica, ele é responsável por reter e recolher.",
+    "fundamento": "Lei 8.212/91, arts. 25 e 30, III.",
+    "oficial": false
+  },
+  {
+    "id": 404,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado especial",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Maria, de 55 anos, trabalha desde jovem na lavoura em regime de economia familiar, com 18 anos de atividade rural comprovada. Requereu aposentadoria por idade.\n\nNessa situação, Maria faz jus à aposentadoria por idade como segurada especial, no valor de um salário mínimo, com idade reduzida em 5 anos em relação à urbana.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. O trabalhador rural em economia familiar tem idade reduzida (60 anos para o homem e 55 para a mulher) e precisa comprovar 15 anos de atividade rural. O benefício, nessa modalidade, é de um salário mínimo.",
+    "fundamento": "CF/88, art. 201, § 7º, II; Lei 8.213/91, arts. 39, I, e 48, §§ 1º e 2º.",
+    "oficial": false
+  },
+  {
+    "id": 405,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado especial",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Joana é segurada especial, está grávida e, nos 10 meses imediatamente anteriores ao parto, exerceu atividade rural, mesmo de forma descontínua.\n\nNessa situação, para receber o salário-maternidade, Joana precisa comprovar o recolhimento de 12 contribuições mensais.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. A segurada especial deve comprovar o exercício de atividade rural nos 10 meses imediatamente anteriores ao início do benefício, mesmo que de forma descontínua. Não se exige recolhimento de contribuições.",
+    "fundamento": "Lei 8.213/91, art. 39, parágrafo único, e art. 25, III.",
+    "oficial": false
+  },
+  {
+    "id": 406,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Empregado doméstico",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Fácil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Helena trabalha cinco dias por semana, com salário mensal e horário fixo, como cozinheira na residência de uma família, em atividade sem fins lucrativos.\n\nNessa situação, Helena é empregada doméstica.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. Doméstico é quem presta serviço contínuo, subordinado, oneroso e pessoal, de finalidade não lucrativa, no âmbito residencial, por mais de dois dias por semana.",
+    "fundamento": "LC 150/15, art. 1º; Decreto 3.048/99, art. 9º, II.",
+    "oficial": false
+  },
+  {
+    "id": 407,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Empregado doméstico",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Joana faz faxina na casa de Dr. Paulo às terças e quintas, recebendo por dia de trabalho. Só trabalha duas vezes por semana nessa residência.\n\nNessa situação, Joana é contribuinte individual, e não empregada doméstica.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. A diarista que trabalha até dois dias por semana na mesma residência não é empregada doméstica. É contribuinte individual.",
+    "fundamento": "LC 150/15, art. 1º; Lei 8.213/91, art. 11, V.",
+    "oficial": false
+  },
+  {
+    "id": 408,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Empregado doméstico",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Mônica faz faxina três dias por semana, sempre na mesma residência, com pagamento mensal e horário combinado.\n\nNessa situação, Mônica é empregada doméstica.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. Prestando serviço por mais de dois dias por semana, de forma contínua, subordinada e onerosa, no âmbito residencial, ela é empregada doméstica.",
+    "fundamento": "LC 150/15, art. 1º.",
+    "oficial": false
+  },
+  {
+    "id": 409,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Empregado doméstico",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Seu Ademir é caseiro de um sítio de lazer que uma família usa nos fins de semana. Não há qualquer exploração econômica, e ele trabalha diariamente, com salário e subordinação.\n\nNessa situação, Seu Ademir é empregado doméstico.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. A finalidade não lucrativa e o âmbito residencial (o sítio de lazer da família) caracterizam o trabalho doméstico, inclusive para o caseiro.",
+    "fundamento": "LC 150/15, art. 1º; Decreto 3.048/99, art. 9º, II.",
+    "oficial": false
+  },
+  {
+    "id": 410,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Empregado doméstico",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Seu Raul é caseiro de uma fazenda em que o proprietário produz e comercializa gado e grãos. Mora no local, recebe salário e cumpre ordens.\n\nNessa situação, Seu Raul é empregado doméstico, pois exerce a função de caseiro.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. Há atividade com fim lucrativo. Falta a finalidade não lucrativa do trabalho doméstico, e Raul é empregado (rural) do empreendimento.",
+    "fundamento": "LC 150/15, art. 1º; Lei 8.213/91, art. 11, I, a.",
+    "oficial": false
+  },
+  {
+    "id": 411,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Empregado doméstico",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Larissa, de 17 anos, foi contratada por uma família para trabalhar como babá, com salário e horário fixo, todos os dias da semana.\n\nNessa situação, a contratação de Larissa como empregada doméstica é vedada pela legislação, em razão da idade.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. É vedada a contratação de menor de 18 anos para o trabalho doméstico, conforme a Convenção 182 da OIT e o Decreto 6.481/08 (lista TIP).",
+    "fundamento": "LC 150/15, art. 1º, parágrafo único.",
+    "oficial": false
+  },
+  {
+    "id": 412,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Empregado doméstico",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Renato dirige diariamente o veículo da empresa de seu empregador, levando executivos a reuniões. É pago mensalmente e cumpre ordens.\n\nNessa situação, Renato é empregado doméstico, pois exerce a função de motorista.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. Como serve à atividade empresarial, falta a finalidade não lucrativa e o âmbito residencial. Renato é segurado empregado, e não doméstico.",
+    "fundamento": "LC 150/15, art. 1º; Lei 8.213/91, art. 11, I, a.",
+    "oficial": false
+  },
+  {
+    "id": 413,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Empregado doméstico",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Dona Zélia, cuidadora de idosos, é contratada por uma empresa especializada em home care, que a aloca para atender a idosa na residência da cliente, com salário pago pela empresa.\n\nNessa situação, Dona Zélia é empregada doméstica da idosa atendida.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. O vínculo é com a empresa prestadora do serviço, que tem finalidade lucrativa. Dona Zélia é empregada da empresa. Doméstica seria a cuidadora contratada diretamente pela pessoa ou família.",
+    "fundamento": "LC 150/15, art. 1º; Lei 8.213/91, art. 11, I, a.",
+    "oficial": false
+  },
+  {
+    "id": 414,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Empregado doméstico",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Uma família contratou Rita como empregada doméstica, de segunda a sexta, com registro e salário mensal.\n\nNessa situação, o empregador doméstico deve contribuir à Previdência com 8% sobre a remuneração do empregado e 0,8% para o financiamento do seguro contra acidentes do trabalho.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. A contribuição patronal do empregador doméstico é de 8% sobre a remuneração, somada a 0,8% de seguro contra acidentes de trabalho, no regime unificado (Simples Doméstico).",
+    "fundamento": "LC 150/15, art. 34.",
+    "oficial": false
+  },
+  {
+    "id": 415,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Empregado doméstico",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Cláudia, empregada doméstica com registro, adoeceu e ficou incapacitada para o trabalho por 40 dias, conforme atestado médico.\n\nNessa situação, os primeiros 15 dias de afastamento devem ser pagos pelo empregador doméstico, cabendo ao INSS o auxílio-doença a partir do 16º dia.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. A regra dos 15 dias é do segurado empregado. Para os demais segurados, inclusive a doméstica, o auxílio-doença é devido a partir da data do início da incapacidade, pago pelo INSS.",
+    "fundamento": "Lei 8.213/91, art. 60, caput.",
+    "oficial": false
+  },
+  {
+    "id": 416,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Trabalhador avulso",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Fácil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Wellington, sindicalizado, é escalado pelo órgão gestor de mão de obra para estivar navios em porto organizado. Trabalha em dias diferentes para vários operadores portuários, sem vínculo empregatício.\n\nNessa situação, Wellington é trabalhador avulso.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. Avulso é quem presta serviço, a diversas empresas, sem vínculo empregatício, com intermediação do órgão gestor de mão de obra (portuário) ou do sindicato. A estiva é atividade típica de avulso.",
+    "fundamento": "Lei 8.213/91, art. 11, VI; Decreto 3.048/99, art. 9º, VI.",
+    "oficial": false
+  },
+  {
+    "id": 417,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Trabalhador avulso",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Edson ensaca café, em diversos armazéns, sem vínculo empregatício, sempre por intermédio do sindicato da categoria, que o escala para cada tomador.\n\nNessa situação, Edson é trabalhador avulso.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. O ensacador de café, cacau, sal e similares, que presta serviço a diversas empresas por intermédio do sindicato, é trabalhador avulso.",
+    "fundamento": "Lei 8.213/91, art. 11, VI; Decreto 3.048/99, art. 9º, VI.",
+    "oficial": false
+  },
+  {
+    "id": 418,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Trabalhador avulso",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Cíntia foi contratada por um operador portuário, por prazo indeterminado, como conferente de carga, com CTPS assinada e vínculo de emprego.\n\nNessa situação, Cíntia é trabalhadora avulsa, porque exerce atividade portuária típica.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. O avulso não tem vínculo empregatício. A natureza da atividade portuária não basta: com vínculo empregatício por prazo indeterminado, Cíntia é segurada empregada.",
+    "fundamento": "Lei 8.213/91, art. 11, I, a, e VI; Lei 12.815/13, art. 40.",
+    "oficial": false
+  },
+  {
+    "id": 419,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Trabalhador avulso",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Carlos faz carga e descarga de mercadorias em caminhões. É procurado diretamente por diferentes comerciantes, sem intermediação de sindicato ou de órgão gestor de mão de obra.\n\nNessa situação, Carlos é trabalhador avulso, pois presta serviço a diversas empresas sem vínculo empregatício.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. A intermediação do sindicato ou do órgão gestor de mão de obra é requisito do trabalhador avulso. Sem ela, Carlos é contribuinte individual (autônomo ou eventual).",
+    "fundamento": "Decreto 3.048/99, art. 9º, VI; Lei 12.023/09.",
+    "oficial": false
+  },
+  {
+    "id": 420,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Trabalhador avulso",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Operadores portuários utilizam avulsos escalados pelo órgão gestor de mão de obra (OGMO). Cabe ao OGMO efetuar o pagamento da remuneração dos avulsos.\n\nNessa situação, o OGMO é obrigado a recolher a contribuição previdenciária dos avulsos, descontada da remuneração deles.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. O operador portuário e o órgão gestor de mão de obra ficam obrigados a recolher a contribuição do trabalhador portuário avulso, descontando-a da remuneração.",
+    "fundamento": "Lei 8.212/91, art. 30, VI; Lei 12.815/13, art. 33.",
+    "oficial": false
+  },
+  {
+    "id": 421,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Trabalhador avulso",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Mauro, trabalhador avulso portuário, adoeceu e ficou incapacitado por 30 dias.\n\nNessa situação, o auxílio-doença é devido a Mauro desde o início da incapacidade, pois a regra dos 15 dias a cargo da empresa vale apenas para o empregado.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. Somente para o segurado empregado o auxílio-doença é devido a partir do 16º dia. Para os demais, inclusive o avulso, é devido a partir do início da incapacidade.",
+    "fundamento": "Lei 8.213/91, art. 60, caput.",
+    "oficial": false
+  },
+  {
+    "id": 422,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Trabalhador avulso",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Fábio, trabalhador avulso, sofreu acidente de trabalho e, após a alta, ficou com sequela que reduz a sua capacidade para o trabalho que habitualmente exercia.\n\nNessa situação, Fábio não faz jus ao auxílio-acidente, por não ser segurado empregado.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. O auxílio-acidente é devido ao empregado, ao avulso e ao segurado especial, entre outros. O avulso tem direito ao benefício.",
+    "fundamento": "Lei 8.213/91, art. 18, § 1º, e art. 86.",
+    "oficial": false
+  },
+  {
+    "id": 423,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Trabalhador avulso",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Fabiana, trabalhadora avulsa portuária, deu à luz.\n\nNessa situação, o salário-maternidade de Fabiana é pago diretamente pela Previdência Social.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. À trabalhadora avulsa o salário-maternidade é pago diretamente pela Previdência Social.",
+    "fundamento": "Lei 8.213/91, arts. 71 e 72, § 3º.",
+    "oficial": false
+  },
+  {
+    "id": 424,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Trabalhador avulso",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Roberto, conferente de carga em porto, não é filiado a sindicato, mas é escalado pelo órgão gestor de mão de obra e atende diversos operadores sem vínculo empregatício.\n\nNessa situação, Roberto não pode ser considerado trabalhador avulso, porque não é sindicalizado.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. O avulso pode ser sindicalizado ou não. O que o caracteriza é a prestação a diversas empresas, sem vínculo empregatício, com a intermediação obrigatória do órgão gestor ou do sindicato.",
+    "fundamento": "Decreto 3.048/99, art. 9º, VI.",
+    "oficial": false
+  },
+  {
+    "id": 425,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Trabalhador avulso",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Um operador portuário utilizou avulsos escalados pelo OGMO ao longo do mês e lhes remunerou, por intermédio do OGMO.\n\nNessa situação, a empresa tomadora deve recolher contribuição de 20% sobre o total das remunerações pagas ou creditadas aos avulsos que lhe prestaram serviços.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. A contribuição da empresa é de 20% sobre o total das remunerações pagas ou creditadas, no decorrer do mês, aos segurados empregados e trabalhadores avulsos que lhe prestem serviços.",
+    "fundamento": "Lei 8.212/91, art. 22, I.",
+    "oficial": false
   }
 ];
