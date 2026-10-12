@@ -8887,5 +8887,1086 @@ const QUESTION_BANK = [
     "comentario": "Correto. A contribuição da empresa é de 20% sobre o total das remunerações pagas ou creditadas, no decorrer do mês, aos segurados empregados e trabalhadores avulsos que lhe prestem serviços.",
     "fundamento": "Lei 8.212/91, art. 22, I.",
     "oficial": false
+  },
+
+  {
+    "id": 426,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Contribuinte individual",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Fácil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Dr. Henrique é dentista e atende pacientes em consultório próprio, sem horário imposto por ninguém e sem vínculo com qualquer empresa.\n\nNessa situação, Henrique é segurado obrigatório do RGPS, na categoria de contribuinte individual.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. A pessoa física que exerce, por conta própria, atividade econômica de natureza urbana, com fins lucrativos ou não, é contribuinte individual.",
+    "fundamento": "Lei 8.213/91, art. 11, V, h; Decreto 3.048/99, art. 9º, V.",
+    "oficial": false
+  },
+  {
+    "id": 427,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Contribuinte individual",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Rosana é titular de firma individual urbana, sem empregados, e administra pessoalmente o seu negócio de venda de calçados.\n\nNessa situação, Rosana é segurada empregada da própria firma, pois trabalha diariamente nela.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. O titular de firma individual, urbana ou rural, é contribuinte individual. Não há subordinação nem contrato de trabalho consigo mesmo.",
+    "fundamento": "Lei 8.213/91, art. 11, V, f; Decreto 3.048/99, art. 9º, V.",
+    "oficial": false
+  },
+  {
+    "id": 428,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Contribuinte individual",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Dois irmãos são sócios cotistas de uma sociedade limitada. Um deles não participa da gestão da empresa e não recebe nenhuma remuneração decorrente de trabalho nela. Apenas recebe a sua parte nos lucros.\n\nNessa situação, esse sócio cotista não é segurado obrigatório do RGPS como contribuinte individual por causa dessa condição de sócio.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. O sócio cotista só é contribuinte individual se participar da gestão ou receber remuneração decorrente de seu trabalho na empresa. Distribuição de lucros não gera filiação.",
+    "fundamento": "Lei 8.213/91, art. 11, V, f; Decreto 3.048/99, art. 9º, V.",
+    "oficial": false
+  },
+  {
+    "id": 429,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Contribuinte individual",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Frei Joaquim é membro de uma ordem religiosa e se dedica integralmente às atividades religiosas da congregação.\n\nNessa situação, Joaquim é segurado empregado da ordem religiosa, porque dela recebe o sustento.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. O ministro de confissão religiosa e o membro de instituto de vida consagrada, de congregação ou de ordem religiosa são contribuintes individuais.",
+    "fundamento": "Lei 8.213/91, art. 11, V, c; Decreto 3.048/99, art. 9º, V.",
+    "oficial": false
+  },
+  {
+    "id": 430,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Contribuinte individual",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Osvaldo é proprietário de uma fazenda de 6 módulos fiscais, onde explora atividade agropecuária com a ajuda da família e de alguns trabalhadores.\n\nNessa situação, Osvaldo é contribuinte individual, pois a área explorada supera 4 módulos fiscais.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. A pessoa física, proprietária ou não, que explora atividade agropecuária em área superior a 4 módulos fiscais é contribuinte individual.",
+    "fundamento": "Lei 8.213/91, art. 11, V, a; Decreto 3.048/99, art. 9º, V.",
+    "oficial": false
+  },
+  {
+    "id": 431,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Contribuinte individual",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Mário é proprietário de um sítio de 3 módulos fiscais e mantém, durante todo o ano, dois empregados permanentes para ajudá-lo na lavoura.\n\nNessa situação, Mário é contribuinte individual, e não segurado especial.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. Mesmo em área de até 4 módulos fiscais, quem explora atividade agropecuária com o auxílio de empregados, fora das hipóteses permitidas, é contribuinte individual. A presença de empregados permanentes é incompatível com a economia familiar.",
+    "fundamento": "Lei 8.213/91, art. 11, V, a, e § 1º.",
+    "oficial": false
+  },
+  {
+    "id": 432,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Contribuinte individual",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Sérgio explora, por conta própria, uma área de garimpo, trabalhando sozinho, sem empregados e sem prepostos.\n\nNessa situação, Sérgio é segurado especial, pois trabalha sem o auxílio de empregados.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. Quem explora atividade de extração mineral (garimpo), em caráter permanente ou temporário, com ou sem o auxílio de empregados, é contribuinte individual.",
+    "fundamento": "Lei 8.213/91, art. 11, V, b; Decreto 3.048/99, art. 9º, V.",
+    "oficial": false
+  },
+  {
+    "id": 433,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Contribuinte individual",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Camila está cursando residência médica em hospital público e recebe bolsa nos termos da Lei 6.932/81.\n\nNessa situação, Camila é segurada empregada do hospital, por prestar serviços com subordinação.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. O médico residente é segurado obrigatório do RGPS na categoria de contribuinte individual, nos termos da Lei 6.932/81.",
+    "fundamento": "Lei 8.212/91, art. 12, V; Decreto 3.048/99, art. 9º, V; Lei 6.932/81.",
+    "oficial": false
+  },
+  {
+    "id": 434,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Contribuinte individual",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "O condomínio de um edifício elegeu Sr. Paulo como síndico e passou a pagar-lhe remuneração mensal pela administração.\n\nNessa situação, Paulo é segurado facultativo, pois o cargo de síndico é eletivo.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. O síndico ou administrador eleito para atividade de direção condominial, quando recebe remuneração, é contribuinte individual. Seria facultativo se não fosse remunerado.",
+    "fundamento": "Lei 8.213/91, art. 11, V, f; Decreto 3.048/99, art. 9º, V.",
+    "oficial": false
+  },
+  {
+    "id": 435,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Contribuinte individual",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Lauro é eletricista autônomo. Eventualmente, duas empresas diferentes o chamam para consertos pontuais, sem qualquer habitualidade ou subordinação.\n\nNessa situação, Lauro é contribuinte individual.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. Quem presta serviço de natureza urbana ou rural, em caráter eventual, a uma ou mais empresas, sem relação de emprego, é contribuinte individual.",
+    "fundamento": "Lei 8.213/91, art. 11, V, g; Decreto 3.048/99, art. 9º, V.",
+    "oficial": false
+  },
+  {
+    "id": 436,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Contribuinte individual",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "A empresa Alfa Ltda. contratou os serviços de um engenheiro autônomo, pessoa física, e lhe pagou remuneração mensal pelo trabalho.\n\nNessa situação, a empresa deve descontar 11% da remuneração do contribuinte individual (observado o teto) e recolher o valor com a contribuição a seu cargo até o dia 20 do mês seguinte.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. A empresa é obrigada a arrecadar a contribuição do contribuinte individual a seu serviço, descontando-a da remuneração, e a recolhê-la juntamente com a sua até o dia 20 do mês seguinte.",
+    "fundamento": "Lei 10.666/03, art. 4º; Lei 8.212/91, art. 30.",
+    "oficial": false
+  },
+  {
+    "id": 437,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Contribuinte individual",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Dona Marta, pessoa física, contratou um pintor autônomo para pintar o interior de sua casa. Pagou-lhe o valor da obra.\n\nNessa situação, Dona Marta, como tomadora pessoa física, é responsável por descontar e recolher a contribuição do pintor.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. A obrigação de reter e recolher recai sobre a empresa. Quando o serviço é prestado a pessoa física, o contribuinte individual recolhe a contribuição por iniciativa própria.",
+    "fundamento": "Lei 8.212/91, art. 30, II; Lei 10.666/03, art. 4º.",
+    "oficial": false
+  },
+  {
+    "id": 438,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Contribuinte individual",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Rui, contribuinte individual, recolheu 11% sobre o salário mínimo (plano simplificado). Anos depois, quer contar esse tempo para fins de contagem recíproca em um regime próprio.\n\nNessa situação, Rui precisa complementar a contribuição, recolhendo a diferença entre o percentual pago e 20%, sobre o limite mínimo, com juros moratórios.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. Quem contribuiu pelo plano simplificado (11%) e quiser contar esse tempo para contagem recíproca (ou aposentadoria por tempo de contribuição) deve complementar a diferença até 20%, acrescida de juros.",
+    "fundamento": "Lei 8.212/91, art. 21, §§ 2º e 3º.",
+    "oficial": false
+  },
+  {
+    "id": 439,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Contribuinte individual",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Beto é microempreendedor individual (MEI) e recolhe mensalmente o DAS, que inclui a contribuição previdenciária calculada sobre o salário mínimo.\n\nNessa situação, Beto é contribuinte individual, e a alíquota previdenciária do MEI é de 5% sobre o salário mínimo.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. O MEI é contribuinte individual e contribui com 5% do limite mínimo do salário de contribuição, no regime simplificado do Simples Nacional.",
+    "fundamento": "Lei 8.212/91, art. 21, § 2º, I; LC 123/06, art. 18-A.",
+    "oficial": false
+  },
+  {
+    "id": 440,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Contribuinte individual",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Teresa se inscreveu como contribuinte individual em junho de 2026 e pagou em dia essa primeira contribuição. Depois, recolheu em atraso as contribuições de janeiro a maio de 2026, em que já trabalhava por conta própria.\n\nNessa situação, essas contribuições em atraso, de competências anteriores, serão consideradas para fins de carência.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. Para o contribuinte individual, a carência conta a partir do pagamento da primeira contribuição sem atraso, não sendo consideradas as recolhidas em atraso referentes a competências anteriores.",
+    "fundamento": "Lei 8.213/91, art. 27, II.",
+    "oficial": false
+  },
+  {
+    "id": 441,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Contribuinte individual",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Álvaro se aposentou por idade pelo RGPS e depois voltou a trabalhar como profissional autônomo.\n\nNessa situação, Álvaro é segurado obrigatório do RGPS em relação à nova atividade e deve contribuir.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. O aposentado pelo RGPS que permanecer em atividade sujeita ao regime, ou a ele retornar, é segurado obrigatório e deve contribuir.",
+    "fundamento": "Lei 8.213/91, art. 11, § 3º.",
+    "oficial": false
+  },
+  {
+    "id": 442,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Contribuinte individual",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Heloísa é advogada autônoma, tem três filhos menores e recebe remuneração baixa.\n\nNessa situação, por ser contribuinte individual com baixa renda, Heloísa faz jus ao salário-família.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. O salário-família é devido ao segurado empregado (inclusive o doméstico) e ao trabalhador avulso, e não ao contribuinte individual.",
+    "fundamento": "Lei 8.213/91, art. 65.",
+    "oficial": false
+  },
+  {
+    "id": 443,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Contribuinte individual",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Fábio, contribuinte individual, tem 8 contribuições mensais pagas em dia e adoeceu de doença comum, sem acidente e sem se enquadrar na lista de doenças graves que dispensam carência.\n\nNessa situação, Fábio não preenche a carência exigida para o auxílio por incapacidade temporária (auxílio-doença).",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. A carência do auxílio-doença é de 12 contribuições mensais, dispensada somente em casos como acidente de qualquer natureza, doença profissional ou do trabalho e doenças graves listadas.",
+    "fundamento": "Lei 8.213/91, arts. 25, I, e 26, II.",
+    "oficial": false
+  },
+  {
+    "id": 444,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Contribuinte individual",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Lia, contribuinte individual, tem 7 contribuições mensais pagas e teve seu parto antecipado em 3 meses.\n\nNessa situação, a carência do salário-maternidade (10 contribuições) não é reduzida pelo parto antecipado, de modo que Lia não faz jus ao benefício.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. Ocorrendo parto antecipado, a carência é reduzida em número de contribuições equivalente ao número de meses de antecipação. Com 3 meses de antecipação, a carência cai para 7, que Lia possui.",
+    "fundamento": "Lei 8.213/91, art. 25, III e parágrafo único.",
+    "oficial": false
+  },
+  {
+    "id": 445,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Contribuinte individual",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Júlio, contribuinte individual, contribuiu por 5 anos (60 contribuições mensais) e deixou de recolher as contribuições. Ele não recebe benefício e não exerce atividade que o enquadre em outra categoria.\n\nNessa situação, quinze meses após a última contribuição, Júlio ainda manteria a qualidade de segurado, por ter menos de 120 contribuições mensais.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. O prazo geral de manutenção da qualidade de segurado após cessar as contribuições é de até 12 meses. A prorrogação para 24 meses exige mais de 120 contribuições sem perda da qualidade, o que Júlio não tem.",
+    "fundamento": "Lei 8.213/91, art. 15, II e § 1º.",
+    "oficial": false
+  },
+  {
+    "id": 446,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado facultativo",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Fácil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Joana é dona de casa, nunca trabalhou fora e não possui renda própria. Ela decide contribuir voluntariamente para a Previdência.\n\nNessa situação, Joana pode filiar-se ao RGPS como segurada facultativa.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. É segurado facultativo o maior de 14 anos que se filia ao RGPS mediante contribuição, desde que não incluído como segurado obrigatório. A dona de casa é exemplo clássico.",
+    "fundamento": "Lei 8.213/91, art. 13; Decreto 3.048/99, art. 11.",
+    "oficial": false
+  },
+  {
+    "id": 447,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado facultativo",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Tiago, de 14 anos, é estudante, não trabalha e quer contribuir para a Previdência por conta própria.\n\nNessa situação, Tiago pode inscrever-se como segurado facultativo, pois já completou a idade mínima.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. A idade mínima para a filiação como segurado facultativo é 14 anos completos.",
+    "fundamento": "Lei 8.213/91, art. 13.",
+    "oficial": false
+  },
+  {
+    "id": 448,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado facultativo",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Bia tem 13 anos, é estudante e quer contribuir para o RGPS por conta própria.\n\nNessa situação, Bia pode filiar-se como segurada facultativa, bastando a autorização dos pais.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. É segurado facultativo o maior de 14 anos. Aos 13 anos não há filiação, mesmo com autorização dos pais.",
+    "fundamento": "Lei 8.213/91, art. 13.",
+    "oficial": false
+  },
+  {
+    "id": 449,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado facultativo",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Sr. Valter é síndico de um condomínio. A assembleia dispensou o pagamento de qualquer remuneração pelo cargo, e ele não exerce nenhuma outra atividade.\n\nNessa situação, Valter pode filiar-se como segurado facultativo.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. O síndico de condomínio, quando não remunerado, e que não exerça atividade que o torne segurado obrigatório, pode filiar-se como facultativo.",
+    "fundamento": "Decreto 3.048/99, art. 11, § 1º.",
+    "oficial": false
+  },
+  {
+    "id": 450,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado facultativo",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Dra. Sônia é servidora efetiva do estado, participante do regime próprio de previdência (RPPS), e deseja também contribuir ao RGPS como facultativa.\n\nNessa situação, Sônia pode se inscrever no RGPS como segurada facultativa, bastando recolher a contribuição.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. A Constituição veda a filiação ao RGPS, na qualidade de segurado facultativo, de pessoa participante de regime próprio de previdência social.",
+    "fundamento": "CF/88, art. 201, § 5º; Lei 8.213/91, art. 13.",
+    "oficial": false
+  },
+  {
+    "id": 451,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado facultativo",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Ricardo é brasileiro, mora e trabalha no exterior para empresa estrangeira e não está vinculado a nenhum regime previdenciário. Quer contribuir ao RGPS.\n\nNessa situação, Ricardo pode filiar-se como segurado facultativo.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. O brasileiro residente ou domiciliado no exterior, desde que não vinculado a regime previdenciário, pode filiar-se como segurado facultativo.",
+    "fundamento": "Decreto 3.048/99, art. 11, § 1º.",
+    "oficial": false
+  },
+  {
+    "id": 452,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado facultativo",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Eliane trabalhou 6 anos como empregada, foi dispensada e não exerce mais nenhuma atividade. Quer manter-se filiada ao RGPS.\n\nNessa situação, Eliane pode contribuir como segurada facultativa.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. Quem deixou de ser segurado obrigatório e não exerce atividade que o enquadre nessa condição pode manter-se filiado como facultativo.",
+    "fundamento": "Decreto 3.048/99, art. 11, § 1º.",
+    "oficial": false
+  },
+  {
+    "id": 453,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado facultativo",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Letícia, segurada facultativa, pretende recolher sobre um valor inferior ao salário mínimo para pagar menos.\n\nNessa situação, o salário de contribuição do facultativo pode ser livremente fixado por ele, inclusive abaixo do salário mínimo.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. O salário de contribuição do facultativo é o valor por ele declarado, mas observados os limites mínimo (salário mínimo) e máximo (teto) do RGPS.",
+    "fundamento": "Lei 8.212/91, arts. 14 e 28, IV.",
+    "oficial": false
+  },
+  {
+    "id": 454,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado facultativo",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Dona Clara, dona de casa, pertence a família de baixa renda inscrita no CadÚnico, com renda familiar de até 2 salários mínimos. Ela se dedica exclusivamente ao trabalho doméstico em sua residência e não tem renda própria.\n\nNessa situação, Clara pode optar pela alíquota de 5% sobre o salário mínimo, como segurada facultativa de baixa renda.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. A alíquota de 5% é aplicável ao facultativo sem renda própria que se dedique exclusivamente ao trabalho doméstico no âmbito de sua residência, em família de baixa renda (CadÚnico e renda de até 2 salários mínimos).",
+    "fundamento": "Lei 8.212/91, art. 21, § 2º, II, b.",
+    "oficial": false
+  },
+  {
+    "id": 455,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado facultativo",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Débora é dona de casa, mas também trabalha como diarista de segunda a quinta, o que lhe gera renda própria. A família tem renda inferior a 2 salários mínimos.\n\nNessa situação, Débora pode contribuir com a alíquota de 5%, pois sua família é de baixa renda.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. A alíquota de 5% exige dedicação exclusiva ao trabalho doméstico em sua residência e ausência de renda própria. Débora tem renda como diarista (contribuinte individual).",
+    "fundamento": "Lei 8.212/91, art. 21, § 2º, II, b.",
+    "oficial": false
+  },
+  {
+    "id": 456,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado facultativo",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Márcio, segurado facultativo, deixou de recolher as contribuições e está sem contribuir há 8 meses.\n\nNessa situação, Márcio já perdeu a qualidade de segurado, pois o prazo de manutenção para o facultativo é de 6 meses.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. O segurado facultativo mantém a qualidade por até 6 meses após a cessação das contribuições. Passado esse prazo (8 meses), perdeu a qualidade.",
+    "fundamento": "Lei 8.213/91, art. 15, VI.",
+    "oficial": false
+  },
+  {
+    "id": 457,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado facultativo",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Nilza, que se inscreveu hoje como facultativa, deseja pagar contribuições referentes aos últimos 3 anos, para ter tempo retroativo, alegando que já poderia ter se filiado antes.\n\nNessa situação, a filiação do facultativo ocorre a partir da inscrição e do primeiro recolhimento, não sendo possível a filiação retroativa.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. O segurado facultativo não pode recolher retroativamente contribuições de períodos em que não estava inscrito. A filiação se dá com a inscrição e o primeiro pagamento.",
+    "fundamento": "Lei 8.213/91, art. 13; Decreto 3.048/99, art. 20.",
+    "oficial": false
+  },
+  {
+    "id": 458,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado facultativo",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Roberta, segurada facultativa, sofreu um acidente doméstico e ficou com sequela que reduz sua capacidade para o trabalho.\n\nNessa situação, Roberta faz jus ao auxílio-acidente, benefício devido a todos os segurados que sofram redução da capacidade.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. O auxílio-acidente só é devido ao empregado, ao empregado doméstico, ao trabalhador avulso e ao segurado especial, não ao facultativo nem ao contribuinte individual.",
+    "fundamento": "Lei 8.213/91, art. 18, § 1º.",
+    "oficial": false
+  },
+  {
+    "id": 459,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado facultativo",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Ilda é segurada facultativa, tem dois filhos pequenos e baixa renda familiar.\n\nNessa situação, Ilda faz jus ao salário-família, por ser segurada de baixa renda com filhos menores.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. O salário-família é devido ao empregado (inclusive o doméstico) e ao trabalhador avulso. O facultativo não tem direito a ele.",
+    "fundamento": "Lei 8.213/91, art. 65.",
+    "oficial": false
+  },
+  {
+    "id": 460,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado facultativo",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Elisa, segurada facultativa, trabalhava apenas em casa. Há 3 meses começou a trabalhar com carteira assinada em uma padaria.\n\nNessa situação, com o início do emprego, Elisa passou a ser segurada obrigatória na categoria de empregada, deixando de ser facultativa.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. O facultativo que passa a exercer atividade que o enquadre como segurado obrigatório deixa a categoria de facultativo e passa à categoria correspondente.",
+    "fundamento": "Lei 8.213/91, art. 13 (\"desde que não incluído nas disposições do art. 11\").",
+    "oficial": false
+  },
+  {
+    "id": 461,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado facultativo",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Nara, segurada facultativa, quer receber salário-maternidade pelo nascimento do filho. Ela possui 10 contribuições mensais pagas.\n\nNessa situação, Nara cumpriu a carência exigida para o salário-maternidade da segurada facultativa.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. A carência do salário-maternidade para a contribuinte individual, a facultativa e a segurada especial é de 10 contribuições mensais (no caso da especial, 10 meses de atividade rural).",
+    "fundamento": "Lei 8.213/91, art. 25, III.",
+    "oficial": false
+  },
+  {
+    "id": 462,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado facultativo",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Cláudio contribuiu pelo plano simplificado (11% sobre o salário mínimo) como facultativo e, depois, deseja contar o tempo para contagem recíproca sem pagar mais nada.\n\nNessa situação, Cláudio pode contar o tempo normalmente, pois o plano simplificado produz os mesmos efeitos do plano normal de 20%.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. Para contagem recíproca (ou aposentadoria por tempo de contribuição), o segurado que contribuiu a 11% precisa complementar a diferença até 20%, com juros moratórios.",
+    "fundamento": "Lei 8.212/91, art. 21, § 3º.",
+    "oficial": false
+  },
+  {
+    "id": 463,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado facultativo",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Aline é segurada facultativa e quer recolher a sua contribuição mensal.\n\nNessa situação, o prazo para o recolhimento é o dia 20 do mês seguinte ao da competência, por iniciativa do próprio facultativo.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. O facultativo e o contribuinte individual (quando prestam serviço a pessoa física ou por conta própria) recolhem por iniciativa própria até o dia 15 do mês seguinte à competência. O dia 20 é o prazo da empresa para recolher o que reteve.",
+    "fundamento": "Lei 8.212/91, art. 30, II.",
+    "oficial": false
+  },
+  {
+    "id": 464,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado facultativo",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Gustavo, estudante, fez a inscrição como segurado facultativo no sistema da Previdência, mas ainda não pagou nenhuma contribuição.\n\nNessa situação, Gustavo já é segurado facultativo desde a mera inscrição, ainda que não tenha feito nenhum recolhimento.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. A filiação do facultativo só se concretiza com a inscrição e o pagamento da primeira contribuição. A mera inscrição, sem recolhimento, não gera a qualidade de segurado.",
+    "fundamento": "Decreto 3.048/99, art. 20; Lei 8.213/91, art. 13.",
+    "oficial": false
+  },
+  {
+    "id": 465,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Segurado facultativo",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Rafael foi segurado facultativo, contribuiu por 3 anos e parou de recolher. Sem exercer atividade, tem menos de 120 contribuições.\n\nNessa situação, Rafael manterá a qualidade de segurado por 12 meses após a última contribuição, como os segurados obrigatórios.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. O segurado facultativo mantém a qualidade de segurado por até 6 meses após a cessação das contribuições. O prazo de 12 meses é do segurado que deixa de exercer atividade ou de receber benefício (art. 15, II).",
+    "fundamento": "Lei 8.213/91, art. 15, II e VI.",
+    "oficial": false
+  },
+  {
+    "id": 466,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Empregado doméstico",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Fabiana trabalha há dois meses como empregada doméstica de uma família, de segunda a sexta, com registro, e engravidou.\n\nNessa situação, Fabiana é dispensada da carência para o salário-maternidade, e o benefício é pago diretamente pelo INSS.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. Para a empregada doméstica, o salário-maternidade independe de carência e é pago diretamente pela Previdência Social.",
+    "fundamento": "Lei 8.213/91, arts. 26, VI, e 73, I.",
+    "oficial": false
+  },
+  {
+    "id": 467,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Empregado doméstico",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Sr. Otávio é empregado doméstico, com registro e salário mensal. Tem quatro filhos menores de 14 anos e remuneração dentro do limite legal para o benefício.\n\nNessa situação, Otávio faz jus ao salário-família.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. O salário-família é devido ao segurado empregado, inclusive o doméstico, e ao trabalhador avulso, observado o limite de renda.",
+    "fundamento": "Lei 8.213/91, art. 65.",
+    "oficial": false
+  },
+  {
+    "id": 468,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Empregado doméstico",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Uma família contratou Iara como doméstica e recolhe mensalmente as contribuições por meio do regime unificado (Simples Doméstico), em guia única, sendo a parcela da empregada descontada de sua remuneração.\n\nNessa situação, a sistemática é correta, pois o empregador doméstico desconta a contribuição do empregado e recolhe-a com a sua em guia única do Simples Doméstico.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. O Simples Doméstico unifica o recolhimento dos tributos, contribuições e encargos, e o empregador desconta a parcela previdenciária do empregado.",
+    "fundamento": "LC 150/15, arts. 31 a 34.",
+    "oficial": false
+  },
+  {
+    "id": 469,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Empregado doméstico",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Maria trabalha três dias por semana na casa da família Silva e outros três dias por semana na casa da família Rocha, com horário e salário combinados em cada uma.\n\nNessa situação, Maria é empregada doméstica de cada uma das famílias, pois trabalha mais de dois dias por semana para cada uma delas.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. O critério dos mais de dois dias por semana é aplicado em relação a cada família contratante. Havendo mais de dois dias por semana em cada residência, há dois vínculos domésticos.",
+    "fundamento": "LC 150/15, art. 1º.",
+    "oficial": false
+  },
+  {
+    "id": 470,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Empregado doméstico",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Renato é motorista particular de uma família. Dirige o carro dos patrões todos os dias, levando os filhos à escola e a patroa às atividades pessoais. Tem registro e salário mensal.\n\nNessa situação, Renato é empregado doméstico.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. O motorista particular da família, em serviço de natureza não lucrativa, é empregado doméstico.",
+    "fundamento": "LC 150/15, art. 1º; Decreto 3.048/99, art. 9º, II.",
+    "oficial": false
+  },
+  {
+    "id": 471,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Empregado doméstico",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Sônia é cuidadora de idosos, contratada diretamente pelos filhos para acompanhar a mãe idosa, todos os dias, na residência da família, mediante salário.\n\nNessa situação, Sônia é empregada doméstica.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. Ela é contratada diretamente pela família, em atividade residencial e sem fim lucrativo. A cuidadora contratada por empresa de home care seria empregada da empresa.",
+    "fundamento": "LC 150/15, art. 1º; Decreto 3.048/99, art. 9º, II.",
+    "oficial": false
+  },
+  {
+    "id": 472,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Empregado doméstico",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Adriano é empregado doméstico com registro em carteira. O empregador considera que, por ser trabalho no lar, a filiação previdenciária dele depende de seu pedido de inscrição, como se fosse facultativo.\n\nNessa situação, Adriano é segurado facultativo, e a contribuição depende de adesão voluntária dele.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. O empregado doméstico é segurado obrigatório do RGPS. O empregador é obrigado a recolher as contribuições.",
+    "fundamento": "Decreto 3.048/99, art. 9º, II; LC 150/15, art. 34.",
+    "oficial": false
+  },
+  {
+    "id": 473,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Empregado doméstico",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Dona Lúcia mantém uma chácara de recreio e a aluga para festas e eventos, cobrando por isso. Contratou Aderbal para cuidar do local, em tempo integral, com salário.\n\nNessa situação, Aderbal é empregado doméstico, pois exerce a função de caseiro no âmbito residencial.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. O aluguel para eventos dá à atividade finalidade lucrativa, o que descaracteriza o trabalho doméstico. Aderbal é empregado comum.",
+    "fundamento": "LC 150/15, art. 1º.",
+    "oficial": false
+  },
+  {
+    "id": 474,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Empregado doméstico",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Uma família contratou Helena como empregada doméstica, com registro em carteira e salário de um salário mínimo.\n\nNessa situação, a contribuição patronal do empregador doméstico é de 20% sobre a remuneração do empregado, como a das empresas em geral.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. A contribuição patronal do empregador doméstico é de 8% sobre a remuneração, mais 0,8% de seguro contra acidentes do trabalho. Os 20% são da empresa.",
+    "fundamento": "LC 150/15, art. 34; Lei 8.212/91, art. 22, I.",
+    "oficial": false
+  },
+  {
+    "id": 475,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Empregado doméstico",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Dona Neide, empregada doméstica, aposentou-se por idade pelo RGPS e continuou trabalhando para a mesma família, com registro.\n\nNessa situação, Neide deixou de ser segurada obrigatória, pois quem já se aposentou não pode mais contribuir.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. O aposentado pelo RGPS que permanece em atividade sujeita ao regime é segurado obrigatório e deve contribuir, mas, em regra, só terá direito a salário-família e reabilitação profissional.",
+    "fundamento": "Lei 8.213/91, art. 11, § 3º, e art. 18, § 2º.",
+    "oficial": false
+  },
+  {
+    "id": 476,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Trabalhador avulso",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Os trabalhadores portuários avulsos de um porto são cadastrados e escalados pelo OGMO, que organiza o trabalho entre os diversos operadores.\n\nNessa situação, o OGMO é o empregador dos avulsos, como em qualquer relação de emprego.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. O trabalhador avulso não tem vínculo de emprego com o OGMO nem com o operador portuário. O OGMO apenas intermedia a mão de obra, escala os trabalhadores e arrecada e repassa a remuneração.",
+    "fundamento": "Lei 12.815/13, arts. 32 e 33; Lei 8.213/91, art. 11, VI.",
+    "oficial": false
+  },
+  {
+    "id": 477,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Trabalhador avulso",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Ivo opera guindastes em terminal portuário, escalado pelo OGMO, para diversos operadores, sem vínculo empregatício.\n\nNessa situação, Ivo, como guindasteiro, é trabalhador avulso.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. O guindasteiro está entre as categorias de avulso previstas no regulamento, desde que a intermediação seja feita pelo OGMO ou pelo sindicato, sem vínculo empregatício.",
+    "fundamento": "Decreto 3.048/99, art. 9º, VI, i.",
+    "oficial": false
+  },
+  {
+    "id": 478,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Trabalhador avulso",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Zeca amarra embarcações no porto, sempre escalado pelo OGMO. Trabalha para diversos operadores, a cada vez que for chamado.\n\nNessa situação, por ser amarrador de embarcação, Zeca é empregado do operador portuário para o qual trabalhar em cada dia.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. O amarrador de embarcação, escalado pelo OGMO e sem vínculo empregatício, é trabalhador avulso. Não se forma vínculo de emprego com cada tomador.",
+    "fundamento": "Decreto 3.048/99, art. 9º, VI.",
+    "oficial": false
+  },
+  {
+    "id": 479,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Trabalhador avulso",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Pedro carrega e descarrega mercadorias em um armazém não portuário, escalado pelo sindicato da sua categoria, e presta serviço, em dias diferentes, a várias empresas, sem vínculo de emprego.\n\nNessa situação, Pedro pode ser enquadrado como trabalhador avulso, ainda que não atue em atividade portuária.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. A atividade de avulso não se limita ao porto. Abrange serviços urbanos ou rurais, por intermédio do sindicato da categoria, como a movimentação de mercadorias em geral (Lei 12.023/09).",
+    "fundamento": "Lei 8.213/91, art. 11, VI; Decreto 3.048/99, art. 9º, VI; Lei 12.023/09.",
+    "oficial": false
+  },
+  {
+    "id": 480,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Trabalhador avulso",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Márcia trabalha na indústria de extração de sal, prestando serviço a diversas empresas por intermédio do sindicato da categoria, sem vínculo empregatício.\n\nNessa situação, Márcia é trabalhadora avulsa.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. O trabalhador na indústria de extração de sal, nessas condições, consta entre os que são enquadrados como avulsos.",
+    "fundamento": "Decreto 3.048/99, art. 9º, VI, f.",
+    "oficial": false
+  },
+  {
+    "id": 481,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Trabalhador avulso",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Os valores devidos a um avulso foram pagos pelo OGMO, com a contribuição previdenciária do trabalhador descontada na remuneração.\n\nNessa situação, o próprio avulso deve recolher sua contribuição mensal por carnê, por conta própria, como o contribuinte individual.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. O OGMO (ou o sindicato, nas atividades não portuárias) é obrigado a descontar e recolher a contribuição do avulso. O avulso não recolhe por carnê.",
+    "fundamento": "Lei 8.212/91, art. 30, VI.",
+    "oficial": false
+  },
+  {
+    "id": 482,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Trabalhador avulso",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Cláudia é trabalhadora avulsa portuária, está grávida e tem filho menor de 14 anos de outra gestação. Sua remuneração está dentro do limite legal para o salário-família.\n\nNessa situação, Cláudia não faz jus ao salário-família, por não ser empregada.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. O salário-família é devido ao empregado (inclusive o doméstico) e ao trabalhador avulso, na proporção do número de filhos, observado o limite de renda.",
+    "fundamento": "Lei 8.213/91, art. 65.",
+    "oficial": false
+  },
+  {
+    "id": 483,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Trabalhador avulso",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Paulo é trabalhador avulso portuário há mais de 20 anos, sempre escalado pelo OGMO, e acaba de completar 65 anos.\n\nNessa situação, para a aposentadoria por idade, o avulso, assim como os demais segurados, precisa cumprir a carência exigida em lei.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Correto. A aposentadoria por idade exige carência de contribuições, aplicável ao avulso como aos demais segurados. O avulso não é dispensado dela.",
+    "fundamento": "Lei 8.213/91, arts. 25, II, e 48.",
+    "oficial": false
+  },
+  {
+    "id": 484,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Trabalhador avulso",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Letícia, trabalhadora avulsa portuária, deu à luz e deseja receber o salário-maternidade.\n\nNessa situação, o benefício será pago pelo OGMO, que arca com o valor e o compensa depois, como faz a empresa com a empregada.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. O salário-maternidade da trabalhadora avulsa é pago diretamente pela Previdência Social. A compensação pela empresa é regra da empregada.",
+    "fundamento": "Lei 8.213/91, art. 72, § 3º.",
+    "oficial": false
+  },
+  {
+    "id": 485,
+    "disciplina": "Direito Previdenciário",
+    "assunto": "Trabalhador avulso",
+    "banca": "CEBRASPE",
+    "ano": 2024,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Antônio carrega bagagens de passageiros em um porto, sem escala, sem OGMO e sem sindicato. Cada passageiro o chama e lhe paga diretamente o serviço.\n\nNessa situação, Antônio é trabalhador avulso, pois presta serviço a pessoas diferentes sem vínculo empregatício.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "Errado. Sem a intermediação do OGMO ou do sindicato da categoria, falta requisito do avulso. Antônio é contribuinte individual (autônomo).",
+    "fundamento": "Decreto 3.048/99, art. 9º, VI.",
+    "oficial": false
   }
 ];
