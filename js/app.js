@@ -849,15 +849,31 @@ function inicializarEventos() {
   });
   document.getElementById("btnScrollDashboard").addEventListener("click", () => setView("dashboard"));
 
-  // simulado pronto: PMPE — Soldado (60 questões, distribuição do edital: 10 por disciplina)
-  document.getElementById("btnPmpe").addEventListener("click", () => {
-    const ordem = ["Português", "História de Pernambuco", "Raciocínio Lógico", "Informática", "Direito Constitucional", "Direitos Humanos e Legislação Extravagante"];
-    let lista = [];
-    ordem.forEach(d => {
-      const doBloco = QUESTION_BANK.filter(q => q.concurso === "PMPE – Soldado" && q.disciplina === d);
-      lista = lista.concat(embaralhar(doBloco));
+  // simulados prontos da PMPE, com a distribuição de questões do edital
+  const SIMULADOS_PMPE = {
+    btnPmpe: {
+      concurso: "PMPE – Soldado",
+      titulo: "Simulado PMPE — Soldado (QPMG)",
+      ordem: ["Português", "História de Pernambuco", "Raciocínio Lógico", "Informática", "Direito Constitucional", "Direitos Humanos e Legislação Extravagante"]
+    },
+    btnPmpeOficial: {
+      concurso: "PMPE – 2º Tenente (QOPM)",
+      titulo: "Simulado PMPE — 2º Tenente (QOPM)",
+      ordem: ["Português", "Língua Estrangeira (Inglês)", "Raciocínio Lógico", "Estatística", "Informática",
+              "Direito Constitucional", "Direito Administrativo", "Direito Penal", "Direito Processual Penal",
+              "Direitos e Garantias Fundamentais", "Direito Penal Militar", "Direito Processual Penal Militar"]
+    }
+  };
+  Object.keys(SIMULADOS_PMPE).forEach(id => {
+    document.getElementById(id).addEventListener("click", () => {
+      const cfg = SIMULADOS_PMPE[id];
+      let lista = [];
+      cfg.ordem.forEach(d => {
+        const doBloco = QUESTION_BANK.filter(q => q.concurso === cfg.concurso && q.disciplina === d);
+        lista = lista.concat(embaralhar(doBloco));
+      });
+      iniciarSimulado(lista, "simulado", "up", cfg.titulo);
     });
-    iniciarSimulado(lista, "simulado", "up", "Simulado PMPE — Soldado (QPMG)");
   });
 
   // tema
