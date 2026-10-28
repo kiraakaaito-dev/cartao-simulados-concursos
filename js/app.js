@@ -169,7 +169,7 @@ function sortearQuestoes(lista, quantidade) {
 /* ---------------------------------------------------------------------------
    5) MOTOR DO SIMULADO
 --------------------------------------------------------------------------- */
-function iniciarSimulado(listaQuestoes, modo, timerMode) {
+function iniciarSimulado(listaQuestoes, modo, timerMode, titulo) {
   if (!listaQuestoes.length) {
     mostrarToast("Nenhuma questão encontrada com os filtros selecionados.");
     return;
@@ -185,6 +185,7 @@ function iniciarSimulado(listaQuestoes, modo, timerMode) {
     elapsedSeconds: 0,
     paused: false,
     finished: false,
+    titulo: titulo || null,
     startedAt: new Date().toISOString(),
     countdownTotal: listaQuestoes.length * 180 // heurística: 3min por questão no regressivo
   };
@@ -523,7 +524,7 @@ function renderSimulado() {
   const q = questaoAtual();
   const total = sim.questions.length;
 
-  document.getElementById("examTitle").textContent =
+  document.getElementById("examTitle").textContent = sim.titulo ? sim.titulo :
     sim.modo === "estudo" ? "Simulado — Modo Estudo" :
     sim.modo === "revisao" ? "Simulado — Modo Revisão" : "Simulado de Concurso";
 
@@ -847,6 +848,17 @@ function inicializarEventos() {
     btn.addEventListener("click", () => setView(btn.dataset.view));
   });
   document.getElementById("btnScrollDashboard").addEventListener("click", () => setView("dashboard"));
+
+  // simulado pronto: PMPE — Soldado (60 questões, distribuição do edital: 10 por disciplina)
+  document.getElementById("btnPmpe").addEventListener("click", () => {
+    const ordem = ["Português", "História de Pernambuco", "Raciocínio Lógico", "Informática", "Direito Constitucional", "Direitos Humanos e Legislação Extravagante"];
+    let lista = [];
+    ordem.forEach(d => {
+      const doBloco = QUESTION_BANK.filter(q => q.concurso === "PMPE – Soldado" && q.disciplina === d);
+      lista = lista.concat(embaralhar(doBloco));
+    });
+    iniciarSimulado(lista, "simulado", "up", "Simulado PMPE — Soldado (QPMG)");
+  });
 
   // tema
   document.getElementById("themeToggleBtn").addEventListener("click", alternarTema);
