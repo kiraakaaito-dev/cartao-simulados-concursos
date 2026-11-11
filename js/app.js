@@ -865,6 +865,24 @@ function inicializarEventos() {
       ordem: ["Português", "Língua Estrangeira (Inglês)", "Raciocínio Lógico", "Estatística", "Informática",
               "Direito Constitucional", "Direito Administrativo", "Direito Penal", "Direito Processual Penal",
               "Direitos e Garantias Fundamentais", "Direito Penal Militar", "Direito Processual Penal Militar"]
+    },
+    // Corpo de Bombeiros (CBMPE): disciplinas novas vêm marcadas "CBMPE"; as demais usam o banco geral
+    btnCbmpe: {
+      concurso: "CBMPE",
+      titulo: "Simulado CBMPE — Soldado (QBMG)",
+      livre: ["Português", "Informática", "Raciocínio Lógico", "Direito Constitucional", "História de Pernambuco"],
+      qtd: { "Português": 10, "Informática": 5, "Matemática": 10, "Raciocínio Lógico": 5, "Física": 5, "Biologia": 5,
+             "Direito Constitucional": 10, "Atualidades": 5, "História de Pernambuco": 5 },
+      ordem: ["Português", "Informática", "Matemática", "Raciocínio Lógico", "Física", "Biologia", "Direito Constitucional", "Atualidades", "História de Pernambuco"]
+    },
+    btnCbmpeOficial: {
+      concurso: "CBMPE",
+      titulo: "Simulado CBMPE — 2º Tenente (QOC)",
+      livre: ["Português", "Língua Estrangeira (Inglês)", "Informática", "Estatística", "Direito Constitucional", "Direito Administrativo", "Direito Penal Militar"],
+      qtd: { "Português": 5, "Língua Estrangeira (Inglês)": 5, "Informática": 5, "Estatística": 5, "Matemática": 5, "Física": 5, "Química": 5,
+             "Biologia": 5, "Direito Constitucional": 8, "Direito Administrativo": 7, "Direito Penal Militar": 5 },
+      ordem: ["Português", "Língua Estrangeira (Inglês)", "Informática", "Estatística", "Matemática", "Física", "Química", "Biologia",
+              "Direito Constitucional", "Direito Administrativo", "Direito Penal Militar"]
     }
   };
   Object.keys(SIMULADOS_PMPE).forEach(id => {
@@ -872,8 +890,11 @@ function inicializarEventos() {
       const cfg = SIMULADOS_PMPE[id];
       let lista = [];
       cfg.ordem.forEach(d => {
-        const doBloco = QUESTION_BANK.filter(q => q.concurso === cfg.concurso && q.disciplina === d);
-        lista = lista.concat(embaralhar(doBloco));
+        const livre = (cfg.livre || []).includes(d);
+        const doBloco = QUESTION_BANK.filter(q => q.disciplina === d && (livre || q.concurso === cfg.concurso));
+        let sel = embaralhar(doBloco);
+        if (cfg.qtd && cfg.qtd[d]) sel = sel.slice(0, cfg.qtd[d]);
+        lista = lista.concat(sel);
       });
       iniciarSimulado(lista, "simulado", "up", cfg.titulo);
     });

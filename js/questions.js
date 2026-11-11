@@ -12830,5 +12830,2420 @@ const QUESTION_BANK = [
     "fundamento": "CPPM, arts. 254 e 255 (item 12).",
     "oficial": false,
     "concurso": "PMPE – 2º Tenente (QOPM)"
+  },
+
+  {
+    "id": 616,
+    "disciplina": "Física",
+    "assunto": "Grandezas e vetores",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Fácil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Entre as grandezas físicas abaixo, a única que é vetorial é",
+    "alternativas": {
+      "A": "a massa.",
+      "B": "o tempo.",
+      "C": "a temperatura.",
+      "D": "a energia.",
+      "E": "a força."
+    },
+    "gabarito": "E",
+    "comentario": "Grandezas vetoriais exigem módulo, direção e sentido para serem completamente descritas. É o caso da força. Massa, tempo, temperatura e energia são escalares.",
+    "fundamento": "Física (edital CBMPE, item 1: grandezas vetoriais e escalares).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 617,
+    "disciplina": "Física",
+    "assunto": "Grandezas e vetores",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Fácil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A distância de 0,00045 m escrita em notação científica é",
+    "alternativas": {
+      "A": "4,5 × 10⁻³ m",
+      "B": "45 × 10⁻⁵ m",
+      "C": "4,5 × 10⁻⁴ m",
+      "D": "0,45 × 10⁻² m",
+      "E": "4,5 × 10⁴ m"
+    },
+    "gabarito": "C",
+    "comentario": "Para obter um número entre 1 e 10, deslocamos a vírgula quatro casas para a direita: 4,5 × 10⁻⁴. As formas 45 × 10⁻⁵ e 0,45 × 10⁻² equivalem em valor, mas não estão em notação científica; 4,5 × 10⁻³ e 4,5 × 10⁴ têm outro valor.",
+    "fundamento": "Física (edital CBMPE, item 1: notação científica).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 618,
+    "disciplina": "Física",
+    "assunto": "Grandezas e vetores",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Duas forças perpendiculares entre si, de 6 N e 8 N, atuam sobre um mesmo ponto material. O módulo da força resultante é",
+    "alternativas": {
+      "A": "14 N",
+      "B": "2 N",
+      "C": "7 N",
+      "D": "10 N",
+      "E": "48 N"
+    },
+    "gabarito": "D",
+    "comentario": "Forças perpendiculares formam um triângulo retângulo: R² = 6² + 8² = 100, logo R = 10 N. A soma simples (14 N) só vale para forças de mesma direção e sentido.",
+    "fundamento": "Física (edital CBMPE, item 1: operações com vetores).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 619,
+    "disciplina": "Física",
+    "assunto": "Cinemática",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Fácil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Um veículo trafega a 72 km/h em movimento uniforme. A distância percorrida por ele em 20 s é de",
+    "alternativas": {
+      "A": "1.440 m",
+      "B": "400 m",
+      "C": "72 m",
+      "D": "200 m",
+      "E": "3,6 m"
+    },
+    "gabarito": "B",
+    "comentario": "72 km/h ÷ 3,6 = 20 m/s. Em movimento uniforme, d = v·t = 20 × 20 = 400 m.",
+    "fundamento": "Física (edital CBMPE, item 2: movimento uniforme).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 620,
+    "disciplina": "Física",
+    "assunto": "Cinemática",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Um corpo parte do repouso com aceleração constante de 2 m/s². A distância que ele percorre nos primeiros 5 s é de",
+    "alternativas": {
+      "A": "10 m",
+      "B": "25 m",
+      "C": "50 m",
+      "D": "5 m",
+      "E": "12,5 m"
+    },
+    "gabarito": "B",
+    "comentario": "No MUV a partir do repouso, d = ½·a·t² = ½ · 2 · 25 = 25 m. Os 10 m seriam a velocidade final (2 × 5), não a distância.",
+    "fundamento": "Física (edital CBMPE, item 2: movimento uniformemente variado).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 621,
+    "disciplina": "Física",
+    "assunto": "Cinemática",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Uma pedra é abandonada, a partir do repouso, do alto de um prédio de 45 m. Desprezando a resistência do ar e adotando g = 10 m/s², o tempo de queda é de",
+    "alternativas": {
+      "A": "4,5 s",
+      "B": "3 s",
+      "C": "9 s",
+      "D": "2 s",
+      "E": "6 s"
+    },
+    "gabarito": "B",
+    "comentario": "Na queda livre, h = ½·g·t². Assim, 45 = 5·t², t² = 9 e t = 3 s.",
+    "fundamento": "Física (edital CBMPE, item 2: queda livre).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 622,
+    "disciplina": "Física",
+    "assunto": "Leis de Newton",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Fácil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Um carro de 1.200 kg acelera a 2,5 m/s². A força resultante sobre ele é de",
+    "alternativas": {
+      "A": "480 N",
+      "B": "3.000 N",
+      "C": "1.202,5 N",
+      "D": "12.000 N",
+      "E": "300 N"
+    },
+    "gabarito": "B",
+    "comentario": "Pela 2ª lei de Newton, F = m·a = 1.200 × 2,5 = 3.000 N.",
+    "fundamento": "Física (edital CBMPE, item 2: leis de Newton).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 623,
+    "disciplina": "Física",
+    "assunto": "Leis de Newton",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Fácil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Quando um ônibus freia bruscamente, os passageiros em pé tendem a ser projetados para a frente. Esse fenômeno é explicado",
+    "alternativas": {
+      "A": "pela inércia, a tendência de o corpo manter o seu estado de movimento.",
+      "B": "pela ação da força centrípeta sobre os passageiros.",
+      "C": "pela lei da gravitação universal.",
+      "D": "pelo princípio de Pascal.",
+      "E": "pelo aumento do peso dos passageiros."
+    },
+    "gabarito": "A",
+    "comentario": "Os passageiros tendem a manter a velocidade que tinham, e o ônibus desacelera. Trata-se da 1ª lei de Newton (inércia). Não há aumento de peso nem ação de força centrípeta nesse caso.",
+    "fundamento": "Física (edital CBMPE, item 2: conceito de inércia).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 624,
+    "disciplina": "Física",
+    "assunto": "Leis de Newton",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Segundo a 3ª lei de Newton, as forças de ação e reação",
+    "alternativas": {
+      "A": "atuam no mesmo corpo e por isso se anulam.",
+      "B": "têm módulos diferentes quando as massas são diferentes.",
+      "C": "atuam sempre em corpos de mesma massa.",
+      "D": "só existem quando os corpos estão em movimento.",
+      "E": "atuam em corpos diferentes, têm mesmo módulo e sentidos opostos."
+    },
+    "gabarito": "E",
+    "comentario": "Ação e reação têm sempre mesmo módulo, mesma direção e sentidos opostos, mas atuam em corpos distintos, razão pela qual não se anulam. Valem também para corpos em repouso.",
+    "fundamento": "Física (edital CBMPE, item 2: leis de Newton).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 625,
+    "disciplina": "Física",
+    "assunto": "Leis de Newton",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Um astronauta tem massa de 60 kg. Na Lua, onde g = 1,6 m/s², o seu peso é de",
+    "alternativas": {
+      "A": "600 N",
+      "B": "60 N",
+      "C": "37,5 N",
+      "D": "96 N",
+      "E": "9,6 N"
+    },
+    "gabarito": "D",
+    "comentario": "O peso é P = m·g = 60 × 1,6 = 96 N. A massa (60 kg) não muda de um local para outro; o peso, sim. Os 600 N seriam o peso na Terra, com g = 10 m/s².",
+    "fundamento": "Física (edital CBMPE, item 2: força peso).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 626,
+    "disciplina": "Física",
+    "assunto": "Atrito",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Um bloco de 20 kg repousa sobre uma superfície horizontal cujo coeficiente de atrito estático é 0,5. Adotando g = 10 m/s², a força mínima para iniciar o movimento do bloco é de",
+    "alternativas": {
+      "A": "10 N",
+      "B": "200 N",
+      "C": "40 N",
+      "D": "100 N",
+      "E": "400 N"
+    },
+    "gabarito": "D",
+    "comentario": "A normal é N = m·g = 200 N. A força de atrito estático máxima é μ·N = 0,5 × 200 = 100 N, que é o valor a vencer para o bloco começar a se mover.",
+    "fundamento": "Física (edital CBMPE, item 2: força de atrito e força normal).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 627,
+    "disciplina": "Física",
+    "assunto": "Quantidade de movimento",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Uma moto de 200 kg se desloca a 15 m/s. A quantidade de movimento dela, em kg·m/s, é",
+    "alternativas": {
+      "A": "215",
+      "B": "13,3",
+      "C": "3.000",
+      "D": "1.500",
+      "E": "30.000"
+    },
+    "gabarito": "C",
+    "comentario": "Q = m·v = 200 × 15 = 3.000 kg·m/s.",
+    "fundamento": "Física (edital CBMPE, item 2: quantidade de movimento).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 628,
+    "disciplina": "Física",
+    "assunto": "Quantidade de movimento",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Uma força constante de 50 N atua sobre um corpo durante 4 s. O impulso dessa força e a variação da quantidade de movimento do corpo valem, respectivamente,",
+    "alternativas": {
+      "A": "12,5 N·s e 12,5 kg·m/s",
+      "B": "200 N·s e 200 kg·m/s",
+      "C": "200 N·s e 12,5 kg·m/s",
+      "D": "54 N·s e 54 kg·m/s",
+      "E": "100 N·s e 200 kg·m/s"
+    },
+    "gabarito": "B",
+    "comentario": "O impulso é I = F·Δt = 50 × 4 = 200 N·s. Pelo teorema do impulso, ele é igual à variação da quantidade de movimento: 200 kg·m/s.",
+    "fundamento": "Física (edital CBMPE, item 2: teorema do impulso).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 629,
+    "disciplina": "Física",
+    "assunto": "Equilíbrio e torque",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Uma força de 40 N é aplicada perpendicularmente a uma chave de roda, a 0,5 m do eixo de rotação. O momento (torque) dessa força é de",
+    "alternativas": {
+      "A": "80 N·m",
+      "B": "40,5 N·m",
+      "C": "20 N·m",
+      "D": "0,0125 N·m",
+      "E": "200 N·m"
+    },
+    "gabarito": "C",
+    "comentario": "M = F·d = 40 × 0,5 = 20 N·m, pois a força é perpendicular ao braço da alavanca.",
+    "fundamento": "Física (edital CBMPE, item 2: momento de uma força).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 630,
+    "disciplina": "Física",
+    "assunto": "Equilíbrio e torque",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Em uma gangorra em equilíbrio, uma criança de 30 kg está a 2 m do apoio. A outra criança está a 1,5 m do apoio do lado oposto. A massa da segunda criança é de",
+    "alternativas": {
+      "A": "22,5 kg",
+      "B": "30 kg",
+      "C": "45 kg",
+      "D": "40 kg",
+      "E": "60 kg"
+    },
+    "gabarito": "D",
+    "comentario": "No equilíbrio, os torques se igualam: 30 × 2 = m × 1,5, logo m = 60 / 1,5 = 40 kg. Quem está mais perto do apoio precisa ser mais pesado.",
+    "fundamento": "Física (edital CBMPE, item 2: condições de equilíbrio de corpos rígidos).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 631,
+    "disciplina": "Física",
+    "assunto": "Hidrostática",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Considere a água com densidade de 1.000 kg/m³ e g = 10 m/s². A pressão hidrostática exercida pela coluna de água a 5 m de profundidade é de",
+    "alternativas": {
+      "A": "5.000 Pa",
+      "B": "500 Pa",
+      "C": "50 Pa",
+      "D": "500.000 Pa",
+      "E": "50.000 Pa"
+    },
+    "gabarito": "E",
+    "comentario": "Pelo teorema de Stevin, p = ρ·g·h = 1.000 × 10 × 5 = 50.000 Pa. Essa é a parte da pressão devida somente à coluna de líquido.",
+    "fundamento": "Física (edital CBMPE, item 2: princípio de Stevin).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 632,
+    "disciplina": "Física",
+    "assunto": "Hidrostática",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Um corpo de volume 0,002 m³ está totalmente imerso na água (1.000 kg/m³). Adotando g = 10 m/s², o empuxo sobre ele é de",
+    "alternativas": {
+      "A": "20 N",
+      "B": "2 N",
+      "C": "200 N",
+      "D": "0,2 N",
+      "E": "2.000 N"
+    },
+    "gabarito": "A",
+    "comentario": "Pelo princípio de Arquimedes, E = ρ·g·V = 1.000 × 10 × 0,002 = 20 N.",
+    "fundamento": "Física (edital CBMPE, item 2: empuxo e princípio de Arquimedes).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 633,
+    "disciplina": "Física",
+    "assunto": "Hidrostática",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Em uma prensa hidráulica, os êmbolos têm áreas de 10 cm² e 200 cm². Aplicando 50 N no êmbolo menor, a força obtida no êmbolo maior é de",
+    "alternativas": {
+      "A": "2,5 N",
+      "B": "250 N",
+      "C": "20 N",
+      "D": "10.000 N",
+      "E": "1.000 N"
+    },
+    "gabarito": "E",
+    "comentario": "Pelo princípio de Pascal, a pressão se transmite integralmente: F₁/A₁ = F₂/A₂. Então F₂ = 50 × 200 / 10 = 1.000 N.",
+    "fundamento": "Física (edital CBMPE, item 2: princípio de Pascal).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 634,
+    "disciplina": "Física",
+    "assunto": "Energia, trabalho e potência",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Fácil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Um corpo de 4 kg se move a 5 m/s. A sua energia cinética é de",
+    "alternativas": {
+      "A": "100 J",
+      "B": "20 J",
+      "C": "10 J",
+      "D": "25 J",
+      "E": "50 J"
+    },
+    "gabarito": "E",
+    "comentario": "Ec = ½·m·v² = ½ × 4 × 25 = 50 J. Esquecer o fator ½ leva a 100 J.",
+    "fundamento": "Física (edital CBMPE, item 3: energia cinética).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 635,
+    "disciplina": "Física",
+    "assunto": "Energia, trabalho e potência",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Fácil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Uma força de 20 N desloca um corpo por 3 m, na mesma direção e sentido da força. O trabalho realizado é de",
+    "alternativas": {
+      "A": "6,7 J",
+      "B": "23 J",
+      "C": "17 J",
+      "D": "60 J",
+      "E": "600 J"
+    },
+    "gabarito": "D",
+    "comentario": "O trabalho é W = F·d·cos 0° = 20 × 3 = 60 J.",
+    "fundamento": "Física (edital CBMPE, item 3: conceito de trabalho).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 636,
+    "disciplina": "Física",
+    "assunto": "Energia, trabalho e potência",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Um objeto de 2 kg é abandonado do repouso de uma altura de 5 m. Desprezando o atrito e adotando g = 10 m/s², a velocidade com que ele atinge o solo é de",
+    "alternativas": {
+      "A": "5 m/s",
+      "B": "50 m/s",
+      "C": "10 m/s",
+      "D": "25 m/s",
+      "E": "100 m/s"
+    },
+    "gabarito": "C",
+    "comentario": "Pela conservação da energia mecânica, m·g·h = ½·m·v², logo v = √(2·g·h) = √100 = 10 m/s. A massa se cancela.",
+    "fundamento": "Física (edital CBMPE, item 3: conservação da energia mecânica).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 637,
+    "disciplina": "Física",
+    "assunto": "Eletricidade",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Fácil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Um resistor de 4 Ω é submetido a uma tensão de 12 V. A corrente elétrica que o atravessa é de",
+    "alternativas": {
+      "A": "48 A",
+      "B": "3 A",
+      "C": "8 A",
+      "D": "0,33 A",
+      "E": "16 A"
+    },
+    "gabarito": "B",
+    "comentario": "Pela lei de Ohm, i = V/R = 12/4 = 3 A.",
+    "fundamento": "Física (edital CBMPE, item 5: lei de Ohm).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 638,
+    "disciplina": "Física",
+    "assunto": "Eletricidade",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Um chuveiro elétrico de 4.400 W é ligado a uma rede de 220 V. A corrente elétrica que o percorre é de",
+    "alternativas": {
+      "A": "0,05 A",
+      "B": "200 A",
+      "C": "968 A",
+      "D": "10 A",
+      "E": "20 A"
+    },
+    "gabarito": "E",
+    "comentario": "De P = V·i, tem-se i = P/V = 4.400/220 = 20 A.",
+    "fundamento": "Física (edital CBMPE, item 5: potência elétrica).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 639,
+    "disciplina": "Física",
+    "assunto": "Eletricidade",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Fácil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Três resistores de 2 Ω, 3 Ω e 5 Ω são ligados em série. A resistência equivalente é de",
+    "alternativas": {
+      "A": "30 Ω",
+      "B": "10 Ω",
+      "C": "0,97 Ω",
+      "D": "3,33 Ω",
+      "E": "1 Ω"
+    },
+    "gabarito": "B",
+    "comentario": "Em série, as resistências se somam: 2 + 3 + 5 = 10 Ω.",
+    "fundamento": "Física (edital CBMPE, item 5: circuitos elétricos simples).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 640,
+    "disciplina": "Física",
+    "assunto": "Ondas e óptica",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Uma onda tem frequência de 50 Hz e comprimento de onda de 4 m. A velocidade de propagação dela é de",
+    "alternativas": {
+      "A": "12,5 m/s",
+      "B": "54 m/s",
+      "C": "46 m/s",
+      "D": "200 m/s",
+      "E": "0,08 m/s"
+    },
+    "gabarito": "D",
+    "comentario": "Pela equação fundamental da ondulatória, v = λ·f = 4 × 50 = 200 m/s.",
+    "fundamento": "Física (edital CBMPE, item 6: relação entre velocidade, frequência e comprimento de onda).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 641,
+    "disciplina": "Física",
+    "assunto": "Termologia",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Qual é a quantidade de calor necessária para aquecer 200 g de água, de calor específico 1 cal/g·°C, em 30 °C?",
+    "alternativas": {
+      "A": "6.000 cal",
+      "B": "230 cal",
+      "C": "6,7 cal",
+      "D": "600 cal",
+      "E": "60.000 cal"
+    },
+    "gabarito": "A",
+    "comentario": "Q = m·c·ΔT = 200 × 1 × 30 = 6.000 cal.",
+    "fundamento": "Física (edital CBMPE, item 7: calor específico).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 642,
+    "disciplina": "Física",
+    "assunto": "Termologia",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Fácil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "O calor do Sol chega à Terra através do vácuo do espaço. O processo de transferência de calor envolvido é a",
+    "alternativas": {
+      "A": "condução.",
+      "B": "convecção.",
+      "C": "dilatação.",
+      "D": "sublimação.",
+      "E": "irradiação."
+    },
+    "gabarito": "E",
+    "comentario": "A condução e a convecção exigem meio material. A irradiação (radiação térmica) se propaga por ondas eletromagnéticas, inclusive no vácuo.",
+    "fundamento": "Física (edital CBMPE, item 7: transferência de calor).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 643,
+    "disciplina": "Física",
+    "assunto": "Termodinâmica",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Um gás recebe 500 J de calor e realiza um trabalho de 200 J sobre o meio. De acordo com a 1ª lei da termodinâmica, a variação da energia interna do gás é de",
+    "alternativas": {
+      "A": "+700 J",
+      "B": "−300 J",
+      "C": "+200 J",
+      "D": "−700 J",
+      "E": "+300 J"
+    },
+    "gabarito": "E",
+    "comentario": "A 1ª lei diz que ΔU = Q − W = 500 − 200 = +300 J. O gás recebeu mais energia do que cedeu em forma de trabalho.",
+    "fundamento": "Física (edital CBMPE, item 7: leis da termodinâmica).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 644,
+    "disciplina": "Física",
+    "assunto": "Gravitação",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "De acordo com a 2ª lei de Kepler, um planeta em órbita elíptica em torno do Sol tem maior velocidade",
+    "alternativas": {
+      "A": "no afélio, o ponto mais distante do Sol.",
+      "B": "no periélio, o ponto mais próximo do Sol.",
+      "C": "em qualquer ponto, pois a velocidade é constante.",
+      "D": "apenas nos equinócios.",
+      "E": "quando está mais afastado do Sol."
+    },
+    "gabarito": "B",
+    "comentario": "A linha que liga o planeta ao Sol varre áreas iguais em tempos iguais. Para isso, o planeta deve se mover mais rápido quando está mais perto do Sol, isto é, no periélio.",
+    "fundamento": "Física (edital CBMPE, item 4: leis de Kepler).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 645,
+    "disciplina": "Física",
+    "assunto": "Magnetismo",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Fácil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Ao se aproximarem dois ímãs permanentes, ocorre",
+    "alternativas": {
+      "A": "repulsão entre polos de mesmo nome e atração entre polos de nomes diferentes.",
+      "B": "atração entre polos de mesmo nome.",
+      "C": "repulsão entre polos de nomes diferentes.",
+      "D": "atração sempre, qualquer que seja a posição dos polos.",
+      "E": "repulsão sempre, qualquer que seja a posição dos polos."
+    },
+    "gabarito": "A",
+    "comentario": "Polos magnéticos iguais se repelem e polos diferentes se atraem, de modo análogo às cargas elétricas.",
+    "fundamento": "Física (edital CBMPE, item 5: ímãs permanentes e campo magnético).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 646,
+    "disciplina": "Biologia",
+    "assunto": "Citologia",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Fácil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A membrana plasmática tem como principal função",
+    "alternativas": {
+      "A": "produzir energia na forma de ATP.",
+      "B": "controlar a entrada e a saída de substâncias da célula.",
+      "C": "armazenar a informação genética.",
+      "D": "sintetizar proteínas.",
+      "E": "digerir partículas ingeridas."
+    },
+    "gabarito": "B",
+    "comentario": "A membrana plasmática é seletivamente permeável: regula o que entra e o que sai. A energia vem das mitocôndrias, a informação genética fica no núcleo e as proteínas são sintetizadas nos ribossomos.",
+    "fundamento": "Biologia (edital CBMPE, item 1: estrutura e fisiologia celular).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 647,
+    "disciplina": "Biologia",
+    "assunto": "Citologia",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Fácil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A organela responsável pela maior parte da produção de ATP na respiração celular aeróbia é",
+    "alternativas": {
+      "A": "a mitocôndria.",
+      "B": "o ribossomo.",
+      "C": "o complexo golgiense.",
+      "D": "o lisossomo.",
+      "E": "o retículo endoplasmático liso."
+    },
+    "gabarito": "A",
+    "comentario": "A fase final da respiração aeróbia (ciclo de Krebs e cadeia respiratória) ocorre na mitocôndria, onde se produz a maior parte do ATP celular.",
+    "fundamento": "Biologia (edital CBMPE, item 1: metabolismo energético).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 648,
+    "disciplina": "Biologia",
+    "assunto": "Citologia",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A diferença fundamental entre células procariontes e eucariontes é que as procariontes",
+    "alternativas": {
+      "A": "não possuem material genético.",
+      "B": "não possuem ribossomos.",
+      "C": "não possuem núcleo delimitado por membrana.",
+      "D": "não possuem membrana plasmática.",
+      "E": "são sempre multicelulares."
+    },
+    "gabarito": "C",
+    "comentario": "As procariontes (como as bactérias) têm o material genético disperso no citoplasma, sem carioteca. Elas possuem membrana plasmática, ribossomos e DNA, e são unicelulares.",
+    "fundamento": "Biologia (edital CBMPE, item 1: origem e evolução das células).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 649,
+    "disciplina": "Biologia",
+    "assunto": "Divisão celular",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A meiose é um tipo de divisão celular que",
+    "alternativas": {
+      "A": "origina duas células geneticamente idênticas à célula-mãe.",
+      "B": "ocorre apenas em células da pele.",
+      "C": "origina quatro células com metade do número de cromossomos da célula-mãe.",
+      "D": "mantém o número de cromossomos da célula-mãe.",
+      "E": "é responsável pelo crescimento e pela cicatrização dos tecidos."
+    },
+    "gabarito": "C",
+    "comentario": "A meiose reduz à metade o número de cromossomos e forma os gametas (quatro células haploides). Crescimento e cicatrização dependem da mitose, que origina duas células idênticas.",
+    "fundamento": "Biologia (edital CBMPE, item 1: divisão celular).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 650,
+    "disciplina": "Biologia",
+    "assunto": "Metabolismo energético",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Fácil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Na fotossíntese, as plantas utilizam energia luminosa para produzir",
+    "alternativas": {
+      "A": "gás carbônico e água a partir de glicose e gás oxigênio.",
+      "B": "apenas ATP, sem formar glicose.",
+      "C": "proteínas a partir do nitrogênio do ar.",
+      "D": "glicose e gás oxigênio a partir de gás carbônico e água.",
+      "E": "gás carbônico a partir do gás oxigênio."
+    },
+    "gabarito": "D",
+    "comentario": "6 CO₂ + 6 H₂O + luz → C₆H₁₂O₆ + 6 O₂. A alternativa que inverte os reagentes e os produtos descreve a respiração celular, e não a fotossíntese.",
+    "fundamento": "Biologia (edital CBMPE, item 1: fotossíntese e respiração).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 651,
+    "disciplina": "Biologia",
+    "assunto": "Metabolismo energético",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Na respiração celular, a glicólise, etapa inicial de quebra da glicose,",
+    "alternativas": {
+      "A": "ocorre no interior da mitocôndria e exige oxigênio.",
+      "B": "ocorre no núcleo da célula.",
+      "C": "ocorre nos cloroplastos.",
+      "D": "ocorre no citoplasma e não depende de oxigênio.",
+      "E": "produz grande quantidade de gás oxigênio."
+    },
+    "gabarito": "D",
+    "comentario": "A glicólise ocorre no hialoplasma (citoplasma) e é anaeróbia. Ela transforma a glicose em duas moléculas de piruvato, com saldo de 2 ATP.",
+    "fundamento": "Biologia (edital CBMPE, item 1: metabolismo celular).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 652,
+    "disciplina": "Biologia",
+    "assunto": "Genética molecular",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Fácil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Uma diferença entre o DNA e o RNA é que o RNA",
+    "alternativas": {
+      "A": "possui a base nitrogenada timina.",
+      "B": "possui a pentose desoxirribose.",
+      "C": "é sempre de fita dupla.",
+      "D": "não participa da síntese de proteínas.",
+      "E": "possui a base nitrogenada uracila no lugar da timina."
+    },
+    "gabarito": "E",
+    "comentario": "O RNA tem ribose, costuma ser de fita simples e apresenta uracila no lugar da timina. Participa diretamente da síntese de proteínas (mRNA, tRNA e rRNA).",
+    "fundamento": "Biologia (edital CBMPE, item 1: codificação da informação genética).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 653,
+    "disciplina": "Biologia",
+    "assunto": "Genética molecular",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Na síntese proteica, a sequência de aminoácidos da proteína é determinada pela sequência de",
+    "alternativas": {
+      "A": "lipídios da membrana plasmática.",
+      "B": "glicídios do citoplasma.",
+      "C": "carboidratos da parede celular.",
+      "D": "códons do RNA mensageiro, lidos nos ribossomos.",
+      "E": "vitaminas do núcleo."
+    },
+    "gabarito": "D",
+    "comentario": "O DNA é transcrito em RNA mensageiro. Cada trinca de bases (códon) é lida nos ribossomos, com o auxílio do RNA transportador, e define um aminoácido na proteína.",
+    "fundamento": "Biologia (edital CBMPE, item 1: síntese proteica).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 654,
+    "disciplina": "Biologia",
+    "assunto": "Genética",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "O cruzamento entre dois indivíduos heterozigotos (Aa × Aa), com dominância completa, gera descendentes com genótipo aa na proporção de",
+    "alternativas": {
+      "A": "50%",
+      "B": "25%",
+      "C": "75%",
+      "D": "100%",
+      "E": "0%"
+    },
+    "gabarito": "B",
+    "comentario": "Aa × Aa gera AA, Aa, Aa e aa na proporção de 1:2:1. O genótipo aa (homozigoto recessivo) aparece em 1/4, ou seja, 25%.",
+    "fundamento": "Biologia (edital CBMPE, item 1: codificação da informação genética).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 655,
+    "disciplina": "Biologia",
+    "assunto": "Biotecnologia",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A produção de insulina humana por bactérias geneticamente modificadas é um exemplo de aplicação da",
+    "alternativas": {
+      "A": "clonagem reprodutiva de mamíferos.",
+      "B": "seleção natural.",
+      "C": "vacinação em massa.",
+      "D": "tecnologia do DNA recombinante.",
+      "E": "fermentação alcoólica."
+    },
+    "gabarito": "D",
+    "comentario": "O gene humano da insulina é inserido no DNA da bactéria, que passa a produzir o hormônio. Esse processo é a tecnologia do DNA recombinante, aplicada à produção de fármacos.",
+    "fundamento": "Biologia (edital CBMPE, item 1: biotecnologia na produção de fármacos).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 656,
+    "disciplina": "Biologia",
+    "assunto": "Biotecnologia",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A comparação de perfis de DNA é utilizada na investigação criminal e na determinação da paternidade porque",
+    "alternativas": {
+      "A": "o DNA muda a cada ano de vida da pessoa.",
+      "B": "cada pessoa, exceto gêmeos idênticos, possui uma sequência de DNA única.",
+      "C": "todas as pessoas têm DNA idêntico.",
+      "D": "o DNA só pode ser obtido do sangue.",
+      "E": "o perfil de DNA depende da alimentação da pessoa."
+    },
+    "gabarito": "B",
+    "comentario": "Regiões variáveis do DNA formam um perfil individual, mantido ao longo da vida e obtido de várias fontes (sangue, saliva, fios de cabelo). Gêmeos idênticos são a exceção.",
+    "fundamento": "Biologia (edital CBMPE, item 1: tecnologias do DNA em investigações).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 657,
+    "disciplina": "Biologia",
+    "assunto": "Biotecnologia",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "As células-tronco são importantes para a medicina regenerativa porque",
+    "alternativas": {
+      "A": "não possuem material genético.",
+      "B": "têm capacidade de autorrenovação e de se diferenciar em outros tipos celulares.",
+      "C": "se diferenciam apenas em células nervosas.",
+      "D": "só existem em plantas.",
+      "E": "não se dividem."
+    },
+    "gabarito": "B",
+    "comentario": "As células-tronco se multiplicam mantendo-se indiferenciadas e podem originar células especializadas, o que sustenta terapias de reposição de tecidos.",
+    "fundamento": "Biologia (edital CBMPE, item 1: células-tronco, clonagem e terapia gênica).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 658,
+    "disciplina": "Biologia",
+    "assunto": "Evolução",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Segundo a teoria da seleção natural, proposta por Charles Darwin,",
+    "alternativas": {
+      "A": "os seres vivos mudam por vontade própria para se adaptar.",
+      "B": "características adquiridas durante a vida são herdadas pelos filhos.",
+      "C": "todas as espécies surgiram simultaneamente.",
+      "D": "indivíduos mais adaptados ao ambiente tendem a sobreviver e a deixar mais descendentes.",
+      "E": "o uso de um órgão o faz se desenvolver na próxima geração."
+    },
+    "gabarito": "D",
+    "comentario": "A seleção natural atua sobre a variabilidade existente: os mais aptos ao ambiente deixam mais descendentes. A herança de caracteres adquiridos e a lei do uso e desuso são ideias de Lamarck.",
+    "fundamento": "Biologia (edital CBMPE, item 2: evolução e diversidade biológica).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 659,
+    "disciplina": "Biologia",
+    "assunto": "Classificação dos seres vivos",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Os fungos, como os cogumelos e as leveduras, são seres",
+    "alternativas": {
+      "A": "procariontes e autotróficos.",
+      "B": "eucariontes e fotossintetizantes.",
+      "C": "procariontes que se alimentam por ingestão.",
+      "D": "autótrofos que produzem glicose a partir da luz.",
+      "E": "eucariontes e heterotróficos, que se alimentam por absorção."
+    },
+    "gabarito": "E",
+    "comentario": "Os fungos são eucariontes, não realizam fotossíntese e absorvem nutrientes do meio após a digestão extracelular. Por isso são heterótrofos.",
+    "fundamento": "Biologia (edital CBMPE, item 2: diversidade biológica e classificação).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 660,
+    "disciplina": "Biologia",
+    "assunto": "Fisiologia humana",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Fácil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "O transporte de gás oxigênio pelo sangue é feito principalmente",
+    "alternativas": {
+      "A": "pelos leucócitos.",
+      "B": "pelas plaquetas.",
+      "C": "pelo plasma, sem auxílio de proteínas.",
+      "D": "pelos linfócitos.",
+      "E": "pela hemoglobina presente nas hemácias."
+    },
+    "gabarito": "E",
+    "comentario": "A hemoglobina, proteína das hemácias, liga-se ao O₂ nos pulmões e o transporta aos tecidos. Os leucócitos atuam na defesa e as plaquetas na coagulação.",
+    "fundamento": "Biologia (edital CBMPE, item 2: fisiologia humana).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 661,
+    "disciplina": "Biologia",
+    "assunto": "Fisiologia humana",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Na circulação humana, as veias pulmonares transportam sangue",
+    "alternativas": {
+      "A": "oxigenado dos pulmões para o átrio esquerdo.",
+      "B": "pobre em oxigênio do coração para os pulmões.",
+      "C": "oxigenado do ventrículo esquerdo para o corpo.",
+      "D": "pobre em oxigênio do corpo para o átrio direito.",
+      "E": "oxigenado do ventrículo direito para os pulmões."
+    },
+    "gabarito": "A",
+    "comentario": "As veias pulmonares são exceção: levam sangue rico em O₂ dos pulmões ao átrio esquerdo. As artérias pulmonares levam sangue pobre em O₂ do ventrículo direito aos pulmões.",
+    "fundamento": "Biologia (edital CBMPE, item 2: anatomia e fisiologia humana).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 662,
+    "disciplina": "Biologia",
+    "assunto": "Fisiologia humana",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Fácil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Em humanos, as trocas gasosas entre o ar e o sangue ocorrem principalmente",
+    "alternativas": {
+      "A": "na traqueia.",
+      "B": "nos brônquios.",
+      "C": "na laringe.",
+      "D": "nas cavidades nasais.",
+      "E": "nos alvéolos pulmonares."
+    },
+    "gabarito": "E",
+    "comentario": "Os alvéolos têm parede fina e rica em capilares, o que permite a difusão de O₂ para o sangue e de CO₂ para o ar. Traqueia, brônquios e laringe apenas conduzem o ar.",
+    "fundamento": "Biologia (edital CBMPE, item 2: fisiologia humana).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 663,
+    "disciplina": "Biologia",
+    "assunto": "Fisiologia humana",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A maior parte da absorção de nutrientes no sistema digestório humano ocorre",
+    "alternativas": {
+      "A": "no estômago.",
+      "B": "no esôfago.",
+      "C": "no intestino grosso, principalmente.",
+      "D": "no intestino delgado, graças às vilosidades da mucosa.",
+      "E": "na boca."
+    },
+    "gabarito": "D",
+    "comentario": "As dobras e vilosidades do intestino delgado ampliam muito a superfície de absorção. O intestino grosso absorve sobretudo água e sais.",
+    "fundamento": "Biologia (edital CBMPE, item 2: anatomia e fisiologia humana).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 664,
+    "disciplina": "Biologia",
+    "assunto": "Fisiologia humana",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A unidade funcional dos rins, responsável pela filtração do sangue e pela formação da urina, é",
+    "alternativas": {
+      "A": "o alvéolo.",
+      "B": "o neurônio.",
+      "C": "o néfron.",
+      "D": "a vilosidade.",
+      "E": "o sarcômero."
+    },
+    "gabarito": "C",
+    "comentario": "Cada rim possui cerca de um milhão de néfrons, que filtram o plasma, reabsorvem o que é útil e eliminam os excretas na urina.",
+    "fundamento": "Biologia (edital CBMPE, item 2: fisiologia humana).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 665,
+    "disciplina": "Biologia",
+    "assunto": "Embriologia",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "No desenvolvimento embrionário humano, o ectoderma dá origem",
+    "alternativas": {
+      "A": "aos músculos e aos ossos.",
+      "B": "à epiderme e ao sistema nervoso.",
+      "C": "ao revestimento do tubo digestório.",
+      "D": "ao sistema circulatório.",
+      "E": "apenas ao fígado."
+    },
+    "gabarito": "B",
+    "comentario": "O ectoderma forma a epiderme e o sistema nervoso. O mesoderma forma músculos, ossos e sistema circulatório. O endoderma forma o revestimento do tubo digestório e de órgãos como o fígado.",
+    "fundamento": "Biologia (edital CBMPE, item 2: embriologia).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 666,
+    "disciplina": "Biologia",
+    "assunto": "Ecologia",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Fácil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Entre os fatores abaixo, aquele que é considerado abiótico em um ecossistema é",
+    "alternativas": {
+      "A": "a luminosidade.",
+      "B": "os produtores.",
+      "C": "os decompositores.",
+      "D": "os predadores.",
+      "E": "os parasitas."
+    },
+    "gabarito": "A",
+    "comentario": "Fatores abióticos são os componentes não vivos do ambiente (luz, temperatura, água, solo). Produtores, decompositores, predadores e parasitas são seres vivos, ou seja, fatores bióticos.",
+    "fundamento": "Biologia (edital CBMPE, item 3: fatores bióticos e abióticos).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 667,
+    "disciplina": "Biologia",
+    "assunto": "Ecologia",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Em uma cadeia alimentar, a energia disponível entre os níveis tróficos",
+    "alternativas": {
+      "A": "diminui a cada nível, pois parte é perdida como calor e no metabolismo.",
+      "B": "aumenta a cada nível trófico.",
+      "C": "permanece a mesma em todos os níveis.",
+      "D": "é totalmente reciclada pelos consumidores.",
+      "E": "só é perdida nos decompositores."
+    },
+    "gabarito": "A",
+    "comentario": "O fluxo de energia é unidirecional e decrescente: em cada nível, parte é dissipada como calor e usada no metabolismo. Por isso as cadeias têm poucos níveis.",
+    "fundamento": "Biologia (edital CBMPE, item 3: teia alimentar e fluxo de energia).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 668,
+    "disciplina": "Biologia",
+    "assunto": "Ecologia",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Na ecologia, o conjunto de relações e funções que uma espécie desempenha no ecossistema (o que come, quem a come, onde se reproduz) é chamado de",
+    "alternativas": {
+      "A": "habitat.",
+      "B": "comunidade.",
+      "C": "bioma.",
+      "D": "população.",
+      "E": "nicho ecológico."
+    },
+    "gabarito": "E",
+    "comentario": "O habitat é o local onde a espécie vive, ou seja, o seu “endereço”. O nicho ecológico é o seu “papel” no ecossistema: alimentação, relações e interações.",
+    "fundamento": "Biologia (edital CBMPE, item 3: habitat e nicho ecológico).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 669,
+    "disciplina": "Biologia",
+    "assunto": "Ecologia",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "O aumento da concentração de gás carbônico e de metano na atmosfera intensifica",
+    "alternativas": {
+      "A": "a camada de ozônio, que fica mais espessa.",
+      "B": "o resfriamento global, por refletir a luz solar.",
+      "C": "o efeito estufa e contribui para o aquecimento global.",
+      "D": "a chuva ácida, apenas.",
+      "E": "a fotossíntese de forma ilimitada."
+    },
+    "gabarito": "C",
+    "comentario": "CO₂ e CH₄ são gases de efeito estufa: retêm calor na atmosfera e intensificam o aquecimento global e as mudanças climáticas.",
+    "fundamento": "Biologia (edital CBMPE, item 3: problemas ambientais, efeito estufa e mudanças climáticas).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 670,
+    "disciplina": "Biologia",
+    "assunto": "Ecologia",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Fácil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "O bioma predominante no sertão pernambucano, de clima semiárido e vegetação adaptada à seca, é",
+    "alternativas": {
+      "A": "a Amazônia.",
+      "B": "o Pampa.",
+      "C": "a Caatinga.",
+      "D": "o Pantanal.",
+      "E": "o Cerrado."
+    },
+    "gabarito": "C",
+    "comentario": "A Caatinga, bioma exclusivamente brasileiro, predomina no semiárido nordestino. Tem plantas adaptadas à estiagem, como cactáceas e espécies que perdem as folhas na seca.",
+    "fundamento": "Biologia (edital CBMPE, item 3: biomas brasileiros).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 671,
+    "disciplina": "Biologia",
+    "assunto": "Ecologia",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A eutrofização de lagos e rios, causada principalmente pelo despejo de esgoto e de fertilizantes, caracteriza-se",
+    "alternativas": {
+      "A": "pelo aumento do oxigênio dissolvido na água.",
+      "B": "pela redução do crescimento de algas.",
+      "C": "pela purificação natural da água.",
+      "D": "pelo aumento da biodiversidade aquática.",
+      "E": "pelo excesso de nutrientes, que provoca proliferação de algas e queda do oxigênio dissolvido."
+    },
+    "gabarito": "E",
+    "comentario": "O excesso de nitrogênio e fósforo estimula o crescimento de algas. Sua decomposição consome oxigênio e leva à morte de peixes e outros organismos aquáticos.",
+    "fundamento": "Biologia (edital CBMPE, item 3: poluição da água).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 672,
+    "disciplina": "Biologia",
+    "assunto": "Saúde e qualidade de vida",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Fácil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A dengue é transmitida pela picada da fêmea do mosquito Aedes aegypti. A principal medida de prevenção é",
+    "alternativas": {
+      "A": "tomar banhos frios diariamente.",
+      "B": "evitar o contato físico com pessoas doentes.",
+      "C": "eliminar os criadouros, evitando água parada em recipientes.",
+      "D": "lavar as mãos antes das refeições, apenas.",
+      "E": "consumir somente água filtrada."
+    },
+    "gabarito": "C",
+    "comentario": "O mosquito se reproduz em água parada limpa (pneus, vasos, caixas-d’água). Eliminar esses criadouros é a medida mais eficaz de controle.",
+    "fundamento": "Biologia (edital CBMPE, item 4: doenças que afetam a população brasileira, prevenção e profilaxia).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 673,
+    "disciplina": "Biologia",
+    "assunto": "Saúde e qualidade de vida",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Diante de uma pessoa adulta inconsciente que não respira normalmente, a conduta inicial recomendada em primeiros socorros é",
+    "alternativas": {
+      "A": "acionar o socorro especializado (193 ou 192) e iniciar imediatamente as compressões torácicas.",
+      "B": "dar-lhe água para que recobre a consciência.",
+      "C": "deixá-la sentada, aguardando que ela acorde.",
+      "D": "aplicar massagem nas pernas para melhorar a circulação.",
+      "E": "esperar a chegada de familiares antes de qualquer ação."
+    },
+    "gabarito": "A",
+    "comentario": "Na parada cardiorrespiratória, a rapidez é decisiva: chama-se o serviço de emergência (193, Bombeiros, ou 192, SAMU) e começam as compressões torácicas contínuas, firmes e rápidas, no centro do tórax. Não se oferece líquido a quem está inconsciente.",
+    "fundamento": "Biologia (edital CBMPE, item 4: noções de primeiros socorros).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 674,
+    "disciplina": "Biologia",
+    "assunto": "Saúde e qualidade de vida",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "O uso do preservativo (camisinha) nas relações sexuais é importante porque",
+    "alternativas": {
+      "A": "reduz significativamente o risco de transmissão de infecções sexualmente transmissíveis.",
+      "B": "cura as infecções sexualmente transmissíveis.",
+      "C": "dispensa o tratamento médico em caso de infecção.",
+      "D": "protege contra doenças transmitidas por mosquitos.",
+      "E": "só tem efeito contraceptivo, sem prevenir infecções."
+    },
+    "gabarito": "A",
+    "comentario": "O preservativo é barreira física que, além de contraceptiva, reduz o risco de IST como HIV, sífilis e gonorreia. Não cura nem substitui o tratamento.",
+    "fundamento": "Biologia (edital CBMPE, item 4: Infecções Sexualmente Transmissíveis).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 675,
+    "disciplina": "Biologia",
+    "assunto": "Saúde e qualidade de vida",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "O conceito de Saúde Única (One Health) parte da ideia de que",
+    "alternativas": {
+      "A": "a saúde humana independe do ambiente em que se vive.",
+      "B": "apenas os animais domésticos influenciam a saúde humana.",
+      "C": "a saúde humana, a saúde animal e o equilíbrio ambiental estão interligados.",
+      "D": "a saúde animal é tema exclusivo da veterinária, sem relação com a saúde pública.",
+      "E": "o ambiente só importa quando há epidemias."
+    },
+    "gabarito": "C",
+    "comentario": "A abordagem de Saúde Única integra saúde humana, animal e ambiental, o que é essencial para o controle de zoonoses, a resistência a antimicrobianos e os impactos da degradação ambiental.",
+    "fundamento": "Biologia (edital CBMPE, item 4: Saúde Única).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 676,
+    "disciplina": "Matemática",
+    "assunto": "Porcentagem",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Fácil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Um equipamento custava R$ 250,00 e sofreu um aumento de 20%. O novo preço é",
+    "alternativas": {
+      "A": "R$ 270,00",
+      "B": "R$ 200,00",
+      "C": "R$ 350,00",
+      "D": "R$ 255,00",
+      "E": "R$ 300,00"
+    },
+    "gabarito": "E",
+    "comentario": "20% de 250 = 50. O novo preço é 250 + 50 = R$ 300,00 (ou 250 × 1,2).",
+    "fundamento": "Matemática (edital CBMPE, item 1: porcentagem).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 677,
+    "disciplina": "Matemática",
+    "assunto": "Juros",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Um capital de R$ 2.000,00 é aplicado a juros simples, à taxa de 3% ao mês, por 5 meses. O juro obtido é de",
+    "alternativas": {
+      "A": "R$ 30,00",
+      "B": "R$ 300,00",
+      "C": "R$ 600,00",
+      "D": "R$ 2.300,00",
+      "E": "R$ 100,00"
+    },
+    "gabarito": "B",
+    "comentario": "J = C·i·t = 2.000 × 0,03 × 5 = R$ 300,00. O montante seria R$ 2.300,00.",
+    "fundamento": "Matemática (edital CBMPE, item 1: juros).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 678,
+    "disciplina": "Matemática",
+    "assunto": "Grandezas proporcionais",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Seis bombeiros limpam uma área em 12 dias. Mantido o ritmo de trabalho de cada um, 8 bombeiros limpariam a mesma área em",
+    "alternativas": {
+      "A": "16 dias",
+      "B": "9 dias",
+      "C": "10 dias",
+      "D": "6 dias",
+      "E": "8 dias"
+    },
+    "gabarito": "B",
+    "comentario": "As grandezas são inversamente proporcionais: 6 × 12 = 8 × x, logo x = 72/8 = 9 dias.",
+    "fundamento": "Matemática (edital CBMPE, item 1: relações de dependência entre grandezas).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 679,
+    "disciplina": "Matemática",
+    "assunto": "Progressões",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "O décimo termo de uma progressão aritmética de primeiro termo 3 e razão 4 é",
+    "alternativas": {
+      "A": "39",
+      "B": "43",
+      "C": "36",
+      "D": "40",
+      "E": "31"
+    },
+    "gabarito": "A",
+    "comentario": "a₁₀ = a₁ + 9r = 3 + 9 × 4 = 39.",
+    "fundamento": "Matemática (edital CBMPE, item 1: sequências e progressões).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 680,
+    "disciplina": "Matemática",
+    "assunto": "Progressões",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "O quinto termo da progressão geométrica 2, 6, 18, … é",
+    "alternativas": {
+      "A": "54",
+      "B": "486",
+      "C": "90",
+      "D": "162",
+      "E": "38"
+    },
+    "gabarito": "D",
+    "comentario": "A razão é 3. a₅ = a₁·q⁴ = 2 × 81 = 162.",
+    "fundamento": "Matemática (edital CBMPE, item 1: sequências e progressões).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 681,
+    "disciplina": "Matemática",
+    "assunto": "Divisibilidade",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Duas viaturas saem juntas de um posto às 8 h. Uma retorna a cada 12 minutos e a outra a cada 18 minutos. Elas voltarão a se encontrar no posto às",
+    "alternativas": {
+      "A": "8 h 30 min",
+      "B": "8 h 06 min",
+      "C": "8 h 36 min",
+      "D": "9 h 00 min",
+      "E": "8 h 54 min"
+    },
+    "gabarito": "C",
+    "comentario": "O MMC de 12 e 18 é 36, e o encontro ocorre após 36 minutos: 8 h 36 min.",
+    "fundamento": "Matemática (edital CBMPE, item 1: divisibilidade e fatoração).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 682,
+    "disciplina": "Matemática",
+    "assunto": "Geometria",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Fácil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Em um triângulo retângulo, os catetos medem 9 cm e 12 cm. A hipotenusa mede",
+    "alternativas": {
+      "A": "21 cm",
+      "B": "10,5 cm",
+      "C": "15 cm",
+      "D": "108 cm",
+      "E": "3 cm"
+    },
+    "gabarito": "C",
+    "comentario": "Pelo teorema de Pitágoras, h² = 81 + 144 = 225, logo h = 15 cm (trio 3-4-5 ampliado).",
+    "fundamento": "Matemática (edital CBMPE, item 2: relações métricas nos triângulos).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 683,
+    "disciplina": "Matemática",
+    "assunto": "Geometria",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Um reservatório cilíndrico tem raio da base de 2 m e altura de 5 m. O seu volume é de",
+    "alternativas": {
+      "A": "10π m³",
+      "B": "40π m³",
+      "C": "20π m³",
+      "D": "25π m³",
+      "E": "4π m³"
+    },
+    "gabarito": "C",
+    "comentario": "V = π·r²·h = π × 4 × 5 = 20π m³.",
+    "fundamento": "Matemática (edital CBMPE, item 2: áreas e volumes).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 684,
+    "disciplina": "Matemática",
+    "assunto": "Geometria",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Um poste de 2 m projeta uma sombra de 3 m no mesmo instante em que um prédio projeta uma sombra de 45 m. A altura do prédio é de",
+    "alternativas": {
+      "A": "22,5 m",
+      "B": "67,5 m",
+      "C": "30 m",
+      "D": "15 m",
+      "E": "90 m"
+    },
+    "gabarito": "C",
+    "comentario": "Os triângulos formados são semelhantes: 2/3 = h/45, então h = 30 m.",
+    "fundamento": "Matemática (edital CBMPE, item 2: semelhança de triângulos).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 685,
+    "disciplina": "Matemática",
+    "assunto": "Trigonometria",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Uma escada de 10 m de comprimento está apoiada em uma parede e forma 30° com o chão. Sabendo que sen 30° = 0,5, a altura atingida na parede é de",
+    "alternativas": {
+      "A": "10 m",
+      "B": "5 m",
+      "C": "8,66 m",
+      "D": "20 m",
+      "E": "15 m"
+    },
+    "gabarito": "B",
+    "comentario": "sen 30° = h/10, logo h = 10 × 0,5 = 5 m.",
+    "fundamento": "Matemática (edital CBMPE, item 2: trigonometria do ângulo agudo).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 686,
+    "disciplina": "Matemática",
+    "assunto": "Geometria",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A soma dos ângulos internos de um hexágono é de",
+    "alternativas": {
+      "A": "540°",
+      "B": "720°",
+      "C": "360°",
+      "D": "900°",
+      "E": "1.080°"
+    },
+    "gabarito": "B",
+    "comentario": "S = (n − 2) × 180° = 4 × 180° = 720°.",
+    "fundamento": "Matemática (edital CBMPE, item 2: ângulos e figuras planas).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 687,
+    "disciplina": "Matemática",
+    "assunto": "Funções",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Uma corrida de táxi custa uma bandeirada de R$ 5,00 mais R$ 3,00 por km rodado. O valor de uma corrida de 12 km é",
+    "alternativas": {
+      "A": "R$ 41,00",
+      "B": "R$ 36,00",
+      "C": "R$ 17,00",
+      "D": "R$ 60,00",
+      "E": "R$ 15,00"
+    },
+    "gabarito": "A",
+    "comentario": "A função é f(x) = 5 + 3x. Para x = 12, f = 5 + 36 = R$ 41,00.",
+    "fundamento": "Matemática (edital CBMPE, item 4: funções do 1º grau).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 688,
+    "disciplina": "Matemática",
+    "assunto": "Funções",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "O valor mínimo da função f(x) = x² − 6x + 5 é",
+    "alternativas": {
+      "A": "5",
+      "B": "3",
+      "C": "−6",
+      "D": "0",
+      "E": "−4"
+    },
+    "gabarito": "E",
+    "comentario": "O vértice ocorre em x = −b/2a = 3, e f(3) = 9 − 18 + 5 = −4. Como a > 0, a parábola tem concavidade para cima, então −4 é o mínimo. O valor 3 é a abscissa do vértice, não o mínimo.",
+    "fundamento": "Matemática (edital CBMPE, item 4: funções do 2º grau).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 689,
+    "disciplina": "Matemática",
+    "assunto": "Funções",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A solução da equação exponencial 2^(x+1) = 32 é",
+    "alternativas": {
+      "A": "x = 5",
+      "B": "x = 16",
+      "C": "x = 4",
+      "D": "x = 3",
+      "E": "x = 31"
+    },
+    "gabarito": "C",
+    "comentario": "32 = 2⁵, então x + 1 = 5 e x = 4.",
+    "fundamento": "Matemática (edital CBMPE, item 4: funções exponenciais).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 690,
+    "disciplina": "Matemática",
+    "assunto": "Funções",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "O valor de log₂ 64 é",
+    "alternativas": {
+      "A": "32",
+      "B": "8",
+      "C": "4",
+      "D": "6",
+      "E": "2"
+    },
+    "gabarito": "D",
+    "comentario": "Como 2⁶ = 64, log₂ 64 = 6.",
+    "fundamento": "Matemática (edital CBMPE, item 4: funções logarítmicas).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 691,
+    "disciplina": "Matemática",
+    "assunto": "Estatística e probabilidade",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A mediana do conjunto de dados 3, 9, 5, 7, 11, 1 é",
+    "alternativas": {
+      "A": "5",
+      "B": "6",
+      "C": "7",
+      "D": "6,5",
+      "E": "36"
+    },
+    "gabarito": "B",
+    "comentario": "Em ordem crescente: 1, 3, 5, 7, 9, 11. Como há seis valores, a mediana é a média dos dois centrais: (5 + 7)/2 = 6.",
+    "fundamento": "Matemática (edital CBMPE, item 3: medidas de tendência central).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 692,
+    "disciplina": "Matemática",
+    "assunto": "Estatística e probabilidade",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Ao lançar um dado comum de seis faces, a probabilidade de obter um número par maior que 2 é de",
+    "alternativas": {
+      "A": "1/2",
+      "B": "1/3",
+      "C": "1/6",
+      "D": "2/3",
+      "E": "1/4"
+    },
+    "gabarito": "B",
+    "comentario": "Os resultados favoráveis são 4 e 6, ou seja, 2 em 6 possíveis: 2/6 = 1/3.",
+    "fundamento": "Matemática (edital CBMPE, item 3: noções de probabilidade).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 693,
+    "disciplina": "Matemática",
+    "assunto": "Álgebra",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Sendo x + y = 10 e x − y = 2, o valor do produto x·y é",
+    "alternativas": {
+      "A": "20",
+      "B": "16",
+      "C": "12",
+      "D": "24",
+      "E": "36"
+    },
+    "gabarito": "D",
+    "comentario": "Somando as equações, 2x = 12 e x = 6, logo y = 4. Então x·y = 24.",
+    "fundamento": "Matemática (edital CBMPE, item 5: sistemas de equações).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 694,
+    "disciplina": "Matemática",
+    "assunto": "Geometria analítica",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "No plano cartesiano, a distância entre os pontos A(1, 2) e B(4, 6) é",
+    "alternativas": {
+      "A": "7",
+      "B": "25",
+      "C": "3",
+      "D": "5",
+      "E": "√7"
+    },
+    "gabarito": "D",
+    "comentario": "d = √[(4−1)² + (6−2)²] = √(9 + 16) = √25 = 5.",
+    "fundamento": "Matemática (edital CBMPE, item 5: plano cartesiano).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 695,
+    "disciplina": "Matemática",
+    "assunto": "Análise combinatória",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "De um grupo de 6 bombeiros, deseja-se formar duplas para uma missão. O número de duplas distintas possíveis é",
+    "alternativas": {
+      "A": "15",
+      "B": "30",
+      "C": "12",
+      "D": "36",
+      "E": "6"
+    },
+    "gabarito": "A",
+    "comentario": "A ordem não importa: C(6,2) = 6·5/2 = 15. O valor 30 seria o de arranjos, em que a ordem conta.",
+    "fundamento": "Matemática (edital CBMPE, item 1: princípios de contagem).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 696,
+    "disciplina": "Química",
+    "assunto": "Estrutura da matéria",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Fácil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Entre as misturas abaixo, a que é homogênea é",
+    "alternativas": {
+      "A": "água com óleo.",
+      "B": "água com sal de cozinha totalmente dissolvido.",
+      "C": "água com areia.",
+      "D": "granito.",
+      "E": "leite com pedaços de fruta."
+    },
+    "gabarito": "B",
+    "comentario": "Mistura homogênea tem uma única fase. A água com sal dissolvido forma uma solução. As demais apresentam mais de uma fase visível.",
+    "fundamento": "Química (edital CBMPE – 2º Tenente, item 1: substâncias e misturas).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 697,
+    "disciplina": "Química",
+    "assunto": "Tabela periódica",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Elementos químicos de um mesmo grupo (família) da tabela periódica apresentam",
+    "alternativas": {
+      "A": "o mesmo número de elétrons na camada de valência.",
+      "B": "o mesmo número atômico.",
+      "C": "o mesmo número de camadas eletrônicas.",
+      "D": "a mesma massa atômica.",
+      "E": "o mesmo número de nêutrons."
+    },
+    "gabarito": "A",
+    "comentario": "Os elementos de um grupo têm configuração de valência semelhante e, por isso, propriedades químicas parecidas. O número de camadas é igual para elementos de um mesmo período.",
+    "fundamento": "Química (edital CBMPE – 2º Tenente, item 1: propriedades periódicas).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 698,
+    "disciplina": "Química",
+    "assunto": "Ligações químicas",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "O cloreto de sódio (NaCl) é formado por uma ligação",
+    "alternativas": {
+      "A": "covalente apolar entre dois ametais.",
+      "B": "metálica, entre dois metais.",
+      "C": "iônica, entre um metal e um ametal.",
+      "D": "covalente dativa.",
+      "E": "de hidrogênio."
+    },
+    "gabarito": "C",
+    "comentario": "O sódio (metal) doa um elétron ao cloro (ametal), formando íons Na⁺ e Cl⁻ que se atraem eletrostaticamente: é a ligação iônica.",
+    "fundamento": "Química (edital CBMPE – 2º Tenente, item 1: ligação química).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 699,
+    "disciplina": "Química",
+    "assunto": "Funções inorgânicas",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "O hidróxido de sódio (NaOH), segundo Arrhenius, é classificado como base porque",
+    "alternativas": {
+      "A": "libera o cátion H⁺ em solução aquosa.",
+      "B": "é formado por dois ametais.",
+      "C": "libera o ânion OH⁻ em solução aquosa.",
+      "D": "não se dissocia em água.",
+      "E": "tem pH menor que 7 em solução."
+    },
+    "gabarito": "C",
+    "comentario": "Para Arrhenius, base é a substância que, em água, libera o íon hidróxido (OH⁻). Soluções básicas têm pH maior que 7.",
+    "fundamento": "Química (edital CBMPE – 2º Tenente, item 1: funções inorgânicas).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 700,
+    "disciplina": "Química",
+    "assunto": "pH",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Fácil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Uma solução aquosa com pH igual a 3, a 25 °C, é",
+    "alternativas": {
+      "A": "neutra.",
+      "B": "básica.",
+      "C": "alcalina.",
+      "D": "ácida.",
+      "E": "um sal neutro."
+    },
+    "gabarito": "D",
+    "comentario": "A 25 °C, pH menor que 7 indica solução ácida; igual a 7, neutra; maior que 7, básica.",
+    "fundamento": "Química (edital CBMPE – 2º Tenente, item 1: ácidos e bases).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 701,
+    "disciplina": "Química",
+    "assunto": "Estequiometria",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Na reação 2 H₂ + O₂ → 2 H₂O, a massa de água formada a partir de 4 g de hidrogênio, com oxigênio em excesso, é de (massas atômicas: H = 1; O = 16)",
+    "alternativas": {
+      "A": "18 g",
+      "B": "72 g",
+      "C": "4 g",
+      "D": "32 g",
+      "E": "36 g"
+    },
+    "gabarito": "E",
+    "comentario": "4 g de H₂ correspondem a 2 mol (H₂ = 2 g/mol). A proporção é 2 mol de H₂ para 2 mol de H₂O, então formam-se 2 mol de água, ou 2 × 18 = 36 g.",
+    "fundamento": "Química (edital CBMPE – 2º Tenente, item 1: estequiometria).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 702,
+    "disciplina": "Química",
+    "assunto": "Estequiometria",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A massa molar do dióxido de carbono (CO₂), com C = 12 e O = 16, é de 44 g/mol. Assim, 88 g desse gás correspondem a",
+    "alternativas": {
+      "A": "1 mol",
+      "B": "4 mol",
+      "C": "0,5 mol",
+      "D": "2 mol",
+      "E": "44 mol"
+    },
+    "gabarito": "D",
+    "comentario": "n = m/M = 88/44 = 2 mol.",
+    "fundamento": "Química (edital CBMPE – 2º Tenente, item 1: mol e massa molar).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 703,
+    "disciplina": "Química",
+    "assunto": "Termoquímica",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Uma reação exotérmica é aquela que",
+    "alternativas": {
+      "A": "absorve calor do ambiente, com ΔH positivo.",
+      "B": "não troca calor com o ambiente.",
+      "C": "ocorre sempre de forma lenta.",
+      "D": "só ocorre sob aquecimento contínuo.",
+      "E": "libera calor para o ambiente, com ΔH negativo."
+    },
+    "gabarito": "E",
+    "comentario": "Na reação exotérmica, a entalpia dos produtos é menor que a dos reagentes e o calor é liberado (ΔH < 0). A combustão é um exemplo.",
+    "fundamento": "Química (edital CBMPE – 2º Tenente, item 2: termoquímica).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 704,
+    "disciplina": "Química",
+    "assunto": "Cinética química",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Um catalisador acelera uma reação química porque",
+    "alternativas": {
+      "A": "aumenta a energia de ativação.",
+      "B": "é consumido integralmente na reação.",
+      "C": "diminui a energia de ativação, sem ser consumido no processo.",
+      "D": "altera o valor da variação de entalpia da reação.",
+      "E": "aumenta a quantidade de produto que seria obtida no equilíbrio."
+    },
+    "gabarito": "C",
+    "comentario": "O catalisador oferece um caminho alternativo com menor energia de ativação e é regenerado ao final. Ele não altera o ΔH nem o rendimento do equilíbrio, só a velocidade.",
+    "fundamento": "Química (edital CBMPE – 2º Tenente, item 2: cinética química).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 705,
+    "disciplina": "Química",
+    "assunto": "Soluções",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Dissolvendo-se 20 g de sal em água até completar 500 mL de solução, a concentração comum obtida é de",
+    "alternativas": {
+      "A": "10 g/L",
+      "B": "0,04 g/L",
+      "C": "25 g/L",
+      "D": "40 g/L",
+      "E": "4 g/L"
+    },
+    "gabarito": "D",
+    "comentario": "C = m/V = 20 g / 0,5 L = 40 g/L. É preciso converter os mL em litros.",
+    "fundamento": "Química (edital CBMPE – 2º Tenente, item 1: soluções e concentração).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 706,
+    "disciplina": "Química",
+    "assunto": "Eletroquímica",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Em uma pilha, a semirreação de oxidação ocorre",
+    "alternativas": {
+      "A": "no cátodo, que é o polo positivo.",
+      "B": "na ponte salina.",
+      "C": "no fio condutor.",
+      "D": "no ânodo, que é o polo negativo.",
+      "E": "em ambos os eletrodos ao mesmo tempo."
+    },
+    "gabarito": "D",
+    "comentario": "Na pilha, no ânodo ocorre a oxidação (perda de elétrons) e ele é o polo negativo. No cátodo ocorre a redução e ele é o polo positivo.",
+    "fundamento": "Química (edital CBMPE – 2º Tenente, item 2: eletroquímica).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 707,
+    "disciplina": "Química",
+    "assunto": "Química orgânica",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Fácil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "O etanol (C₂H₆O), presente no álcool combustível, pertence à função orgânica",
+    "alternativas": {
+      "A": "álcool, caracterizada pela hidroxila ligada a carbono saturado.",
+      "B": "ácido carboxílico.",
+      "C": "aldeído.",
+      "D": "éter.",
+      "E": "cetona."
+    },
+    "gabarito": "A",
+    "comentario": "O etanol possui o grupo –OH ligado a carbono saturado, característico dos álcoois.",
+    "fundamento": "Química (edital CBMPE – 2º Tenente, item 3: funções orgânicas).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 708,
+    "disciplina": "Química",
+    "assunto": "Química aplicada",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "O petróleo é separado em frações (gasolina, querosene, diesel) pelo processo de",
+    "alternativas": {
+      "A": "destilação fracionada, com base nos diferentes pontos de ebulição.",
+      "B": "filtração simples.",
+      "C": "decantação.",
+      "D": "fusão fracionada.",
+      "E": "eletrólise."
+    },
+    "gabarito": "A",
+    "comentario": "Os componentes do petróleo têm pontos de ebulição diferentes. Na torre de destilação, as frações condensam em alturas distintas.",
+    "fundamento": "Química (edital CBMPE – 2º Tenente, item 4: petróleo e combustíveis).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 709,
+    "disciplina": "Química",
+    "assunto": "Química aplicada",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "O polietileno, usado em sacolas plásticas, é um polímero obtido a partir do etileno por",
+    "alternativas": {
+      "A": "combustão completa.",
+      "B": "hidrólise de proteínas.",
+      "C": "destilação.",
+      "D": "fermentação.",
+      "E": "polimerização por adição."
+    },
+    "gabarito": "E",
+    "comentario": "No polietileno, muitas moléculas de etileno (eteno) se ligam por abertura da ligação dupla e formam uma longa cadeia, sem liberar subproduto: é a polimerização por adição.",
+    "fundamento": "Química (edital CBMPE – 2º Tenente, item 4: polímeros vinílicos).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 710,
+    "disciplina": "Química",
+    "assunto": "Química orgânica",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "O metano (CH₄), principal componente do gás natural, é classificado como",
+    "alternativas": {
+      "A": "álcool.",
+      "B": "ácido carboxílico.",
+      "C": "hidrocarboneto aromático.",
+      "D": "composto com ligação tripla.",
+      "E": "hidrocarboneto saturado, da classe dos alcanos."
+    },
+    "gabarito": "E",
+    "comentario": "O metano contém apenas carbono e hidrogênio, com ligações simples: é o alcano mais simples.",
+    "fundamento": "Química (edital CBMPE – 2º Tenente, item 3: hidrocarbonetos).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 711,
+    "disciplina": "Atualidades",
+    "assunto": "América Latina",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Fácil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Os países fundadores do Mercosul, criado pelo Tratado de Assunção em 1991, foram",
+    "alternativas": {
+      "A": "Argentina, Brasil, Paraguai e Uruguai.",
+      "B": "Brasil, Chile, Peru e Bolívia.",
+      "C": "Argentina, Brasil, Colômbia e Venezuela.",
+      "D": "Brasil, Equador, Paraguai e Chile.",
+      "E": "Brasil, Argentina, México e Uruguai."
+    },
+    "gabarito": "A",
+    "comentario": "O bloco foi formado em 1991 por Argentina, Brasil, Paraguai e Uruguai, com o objetivo de integrar as economias da região.",
+    "fundamento": "Atualidades (edital CBMPE, item 2: Mercosul).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 712,
+    "disciplina": "Atualidades",
+    "assunto": "Cotidiano brasileiro",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Fácil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A Lei Maria da Penha (Lei nº 11.340/2006) prevê, entre outros mecanismos de proteção à mulher em situação de violência doméstica,",
+    "alternativas": {
+      "A": "as medidas protetivas de urgência.",
+      "B": "a revogação do direito de defesa do agressor.",
+      "C": "a aplicação exclusiva de multas.",
+      "D": "a vedação a qualquer prisão preventiva.",
+      "E": "a restrição do atendimento às vítimas casadas."
+    },
+    "gabarito": "A",
+    "comentario": "A lei prevê medidas protetivas de urgência, como afastamento do agressor do lar e proibição de aproximação, além de medidas de assistência à vítima.",
+    "fundamento": "Atualidades (edital CBMPE, item 3: Lei Maria da Penha).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 713,
+    "disciplina": "Atualidades",
+    "assunto": "Cotidiano brasileiro",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A Lei nº 13.104/2015 incluiu no Código Penal o feminicídio, que é",
+    "alternativas": {
+      "A": "uma causa de diminuição de pena do homicídio.",
+      "B": "um crime de menor potencial ofensivo.",
+      "C": "uma contravenção penal.",
+      "D": "uma qualificadora do homicídio praticado contra a mulher por razões da condição de sexo feminino.",
+      "E": "uma excludente de ilicitude."
+    },
+    "gabarito": "D",
+    "comentario": "O feminicídio é circunstância qualificadora do homicídio: ocorre quando o crime envolve violência doméstica e familiar ou menosprezo e discriminação à condição de mulher.",
+    "fundamento": "Atualidades (edital CBMPE, item 3: combate ao feminicídio).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 714,
+    "disciplina": "Atualidades",
+    "assunto": "Cotidiano brasileiro",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Fácil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "São princípios doutrinários do Sistema Único de Saúde (SUS):",
+    "alternativas": {
+      "A": "universalidade, integralidade e equidade.",
+      "B": "privatização, seletividade e gratuidade parcial.",
+      "C": "exclusividade, centralização e hierarquização.",
+      "D": "especialização, seletividade e territorialização.",
+      "E": "cobrança por serviços e gestão federal exclusiva."
+    },
+    "gabarito": "A",
+    "comentario": "O SUS garante acesso universal, atenção integral à saúde e equidade (tratar desigualmente os desiguais, na medida de suas necessidades).",
+    "fundamento": "Atualidades (edital CBMPE, item 3: Sistema Único de Saúde).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 715,
+    "disciplina": "Atualidades",
+    "assunto": "Mundo contemporâneo",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "O Acordo de Paris, firmado em 2015 no âmbito da ONU, tem como objetivo central",
+    "alternativas": {
+      "A": "proibir totalmente o uso de petróleo em todos os países.",
+      "B": "criar um bloco comercial entre países europeus.",
+      "C": "regulamentar a pesca em águas internacionais.",
+      "D": "limitar o aquecimento global bem abaixo de 2 °C em relação aos níveis pré-industriais, buscando 1,5 °C.",
+      "E": "extinguir a camada de ozônio nos países em desenvolvimento."
+    },
+    "gabarito": "D",
+    "comentario": "O acordo reúne metas nacionais voluntárias de redução de emissões para conter o aumento da temperatura média global, com esforço para 1,5 °C.",
+    "fundamento": "Atualidades (edital CBMPE, item 1: mudanças climáticas).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 716,
+    "disciplina": "Atualidades",
+    "assunto": "Mundo contemporâneo",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A globalização é um processo que, entre outras características,",
+    "alternativas": {
+      "A": "isola as economias nacionais.",
+      "B": "intensifica a integração econômica, cultural e de informações entre países.",
+      "C": "impede o comércio internacional.",
+      "D": "elimina as desigualdades entre os países.",
+      "E": "extingue as empresas multinacionais."
+    },
+    "gabarito": "B",
+    "comentario": "A globalização é marcada pelo avanço das comunicações e dos transportes, que integra mercados e culturas, mas não elimina desigualdades entre regiões e países.",
+    "fundamento": "Atualidades (edital CBMPE, item 1: globalização).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 717,
+    "disciplina": "Atualidades",
+    "assunto": "Mundo contemporâneo",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A questão migratória e os conflitos no Oriente Médio e na África levam ao aumento do número de refugiados, que são pessoas que",
+    "alternativas": {
+      "A": "deixam seu país por fundado temor de perseguição, conflito ou violação grave de direitos humanos.",
+      "B": "viajam apenas a turismo.",
+      "C": "mudam de país exclusivamente por estudo.",
+      "D": "são sempre trabalhadores temporários.",
+      "E": "deixam seu país por vontade de mudar de profissão, apenas."
+    },
+    "gabarito": "A",
+    "comentario": "Refugiado é quem deixa seu país por perseguição ou grave violação de direitos e precisa de proteção internacional. No Brasil, o tema é tratado na Lei nº 9.474/1997.",
+    "fundamento": "Atualidades (edital CBMPE, item 1: questão migratória e conflitos).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 718,
+    "disciplina": "Atualidades",
+    "assunto": "Mundo contemporâneo",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A crise hídrica, associada às mudanças climáticas, ao desmatamento e ao uso inadequado dos recursos, exige como medida de enfrentamento",
+    "alternativas": {
+      "A": "o aumento do desperdício para garantir abastecimento.",
+      "B": "a poluição controlada dos rios, apenas.",
+      "C": "o uso racional da água, a proteção de nascentes e o investimento em saneamento.",
+      "D": "a redução da fiscalização ambiental.",
+      "E": "a eliminação de áreas de vegetação ciliar."
+    },
+    "gabarito": "C",
+    "comentario": "O enfrentamento envolve uso racional, proteção de mananciais e matas ciliares, reuso e ampliação do saneamento, em vez de práticas que degradam as fontes de água.",
+    "fundamento": "Atualidades (edital CBMPE, item 1: crise energética e hídrica).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 719,
+    "disciplina": "Atualidades",
+    "assunto": "Cotidiano brasileiro",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Fácil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "O Estatuto da Juventude (Lei nº 12.852/2013) considera jovens as pessoas com idade entre",
+    "alternativas": {
+      "A": "12 e 18 anos.",
+      "B": "18 e 24 anos.",
+      "C": "14 e 21 anos.",
+      "D": "16 e 35 anos.",
+      "E": "15 e 29 anos."
+    },
+    "gabarito": "E",
+    "comentario": "O Estatuto da Juventude define como jovens as pessoas com idade entre 15 e 29 anos, ainda que o ECA continue a proteger os adolescentes até os 18.",
+    "fundamento": "Edital CBMPE, Direito Constitucional, item 8 (Estatuto da Juventude).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 720,
+    "disciplina": "Atualidades",
+    "assunto": "Cotidiano brasileiro",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Fácil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Segundo o Estatuto da Criança e do Adolescente (Lei nº 8.069/1990), considera-se criança a pessoa com",
+    "alternativas": {
+      "A": "até 14 anos completos.",
+      "B": "até 16 anos.",
+      "C": "até 10 anos.",
+      "D": "até 18 anos.",
+      "E": "até 12 anos de idade incompletos."
+    },
+    "gabarito": "E",
+    "comentario": "O ECA considera criança a pessoa até 12 anos de idade incompletos e adolescente aquela entre 12 e 18 anos.",
+    "fundamento": "Edital CBMPE, Direito Constitucional, item 7 (ECA).",
+    "oficial": false,
+    "concurso": "CBMPE"
   }
 ];

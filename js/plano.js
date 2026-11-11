@@ -36,6 +36,26 @@
         { nome: "Direito Penal Militar", questoes: 5 }, { nome: "Direito Processual Penal Militar", questoes: 5 }
       ]
     }
+    ,
+    {
+      id: "cbmpe-soldado", nome: "CBMPE — Soldado (QBMG)", banca: "Instituto AOCP", tag: "CBMPE",
+      resumo: "60 questões em 3 blocos: básico (30), ciências (10) e específico (20).",
+      disciplinas: [
+        { nome: "Português", questoes: 10 }, { nome: "Informática", questoes: 5 }, { nome: "Matemática", questoes: 10 },
+        { nome: "Raciocínio Lógico", questoes: 5 }, { nome: "Física", questoes: 5 }, { nome: "Biologia", questoes: 5 },
+        { nome: "Direito Constitucional", questoes: 10 }, { nome: "Atualidades", questoes: 5 }, { nome: "História de Pernambuco", questoes: 5 }
+      ]
+    },
+    {
+      id: "cbmpe-oficial", nome: "CBMPE — 2º Tenente (QOC)", banca: "Instituto AOCP", tag: "CBMPE",
+      resumo: "60 das 70 questões (falta a legislação militar de PE no banco).",
+      disciplinas: [
+        { nome: "Português", questoes: 5 }, { nome: "Língua Estrangeira (Inglês)", questoes: 5 }, { nome: "Informática", questoes: 5 },
+        { nome: "Estatística", questoes: 5 }, { nome: "Matemática", questoes: 5 }, { nome: "Física", questoes: 5 },
+        { nome: "Química", questoes: 5 }, { nome: "Biologia", questoes: 5 }, { nome: "Direito Constitucional", questoes: 8 },
+        { nome: "Direito Administrativo", questoes: 7 }, { nome: "Direito Penal Militar", questoes: 5 }
+      ]
+    }
   ];
 
   const ALIASES = { // nome que costuma aparecer no edital → disciplina do banco
@@ -48,8 +68,8 @@
     "direitos humanos": "Direitos Humanos e Legislação Extravagante",
     "legislacao extravagante": "Direitos Humanos e Legislação Extravagante",
     "direitos e garantias fundamentais": "Direitos e Garantias Fundamentais",
-    "execucao penal": "Execucao Penal", "lingua estrangeira": "Língua Estrangeira (Inglês)", "ingles": "Língua Estrangeira (Inglês)",
-    "direito previdenciario": "Direito Previdenciário"
+    "lingua estrangeira": "Língua Estrangeira (Inglês)", "ingles": "Língua Estrangeira (Inglês)",
+    "direito previdenciario": "Direito Previdenciário", "fisica": "Física", "quimica": "Química", "biologia": "Biologia", "matematica": "Matemática", "atualidades": "Atualidades"
   };
 
   /* ---------------------------------------------------------------- utilidades */
