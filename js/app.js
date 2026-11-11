@@ -360,9 +360,11 @@ function finalizarSimulado() {
     pararCronometro();
     sim.finished = true;
     const resultado = calcularResultado(sim);
+    if (sim.diagnostico) resultado.diagnostico = sim.diagnostico;
     state.history.unshift(resultado);
     salvarHistorico();
     state.ultimoResultado = resultado;
+    if (sim.diagnostico && window.Plano) { renderResultado(resultado); window.Plano.aoFinalizarDiagnostico(); return; }
     renderResultado(resultado);
     setView("resultado");
   };
@@ -385,7 +387,7 @@ function finalizarSimulado() {
 
 /* ----- navegação entre "views" (seções) ----- */
 function setView(viewName) {
-  ["home", "dashboard", "simulado", "resultado"].forEach(v => {
+  ["home", "dashboard", "plano", "simulado", "resultado"].forEach(v => {
     document.getElementById("view-" + v).classList.toggle("hidden", v !== viewName);
   });
   document.querySelectorAll("#navTabs button").forEach(btn => {
@@ -394,6 +396,7 @@ function setView(viewName) {
   try { window.scrollTo({ top: 0, behavior: "smooth" }); } catch (e) { /* ambiente sem suporte a scrollTo */ }
   if (viewName === "dashboard") renderDashboard();
   if (viewName === "home") atualizarContagemFiltro();
+  if (viewName === "plano" && window.Plano) window.Plano.render();
 }
 
 /* ----- popular selects de filtro ----- */
