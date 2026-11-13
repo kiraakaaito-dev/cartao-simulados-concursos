@@ -169,7 +169,7 @@
   /* ----------------------------------------------------------- estado */
   const vazio = () => ({
     passo: 1, edital: null, modelo: "geral", criterios: null, penal: PENAL_PADRAO.slice(),
-    linhasMin: 20, linhasMax: 30, textoEdital: "", tema: "", temaCustom: "", texto: "", historico: [], filtroEixo: "todos"
+    linhasMin: 20, linhasMax: 30, textoEdital: "", tema: "", temaCustom: "", texto: "", historico: [], filtroEixo: "prov"
   });
   let R = carregar() || vazio();
   function carregar() { try { const s = JSON.parse(localStorage.getItem(KEY)); return s ? Object.assign(vazio(), s) : null; } catch (e) { return null; } }
@@ -178,7 +178,7 @@
   const root = () => document.getElementById("redacaoRoot");
   const criterios = () => R.criterios || MODELOS[R.modelo].criterios.map(c => Object.assign({}, c));
   const totalMax = () => criterios().reduce((a, c) => a + (Number(c.max) || 0), 0);
-  const temaAtual = () => (R.tema === "__custom" ? R.temaCustom : R.tema).trim();
+  const temaAtual = () => (R.tema === "__custom" ? R.temaCustom : R.tema || "").trim();
 
   /* ----------------------------------------------------------- lógica */
   function eixosDoEdital() {
@@ -281,37 +281,49 @@
     <div class="pl-nav"><span></span><button class="btn btn-accent" id="rdIr2" ${R.edital ? "" : "disabled"}>Ver temas prováveis →</button></div>`;
   }
 
+  function grupoTemas() {
+    const rank = temasRankeados().map(x => x.t);
+    const f = R.filtroEixo;
+    if (f === "todos") return rank;
+    if (f === "prov" || !EIXOS[f]) return rank.slice(0, 8);
+    return rank.filter(t => t.e.includes(f));
+  }
   function p2() {
-    const rank = temasRankeados();
-    const { base, achados } = eixosDoEdital();
-    const top = rank.slice(0, 8).map(x => x.t);
-    const filtro = R.filtroEixo;
-    const lista = rank.map(x => x.t).filter(t => filtro === "todos" || t.e.includes(filtro));
-    const card = (t, destaque) => {
-      const sel = R.tema === t.t;
-      return `<div class="rd-tema ${sel ? "sel" : ""}">
-        <div class="rd-tema-t">${destaque ? "⭐ " : ""}${esc(t.t)}</div>
+    const { achados } = eixosDoEdital();
+    const grupo = grupoTemas();
+    const t = TEMAS.find(x => x.t === R.tema);
+    const f = R.filtroEixo;
+    const cardTema = t ? `<div class="rd-tema sel">
+        <div class="rd-tema-t">${esc(t.t)}</div>
         <div class="rd-tags">${t.e.map(x => `<span>${esc(EIXOS[x])}</span>`).join("")}</div>
         <p><b>Caminho de tese:</b> ${esc(t.tese)}</p>
         <p><b>Repertório:</b> ${t.rep.map(esc).join(" · ")}</p>
-        <button class="btn btn-sm ${sel ? "btn-accent" : "btn-ghost"}" data-rd-tema="${esc(t.t)}">${sel ? "✓ Tema escolhido" : "Treinar este tema"}</button>
-      </div>`;
-    };
+      </div>` : (R.tema === "__custom" && R.temaCustom ? `<div class="rd-tema sel"><div class="rd-tema-t">${esc(R.temaCustom)}</div><p class="hint">Tema digitado por você.</p></div>` : `<p class="hint">Escolha um tema nos menus acima ou clique em sortear.</p>`);
     return `
     <div class="card">
-      <h3>2. Temas que podem cair</h3>
-      <p class="hint">Ordenei pelos eixos do seu concurso${achados.length ? " e pelo que apareceu no trecho do edital (" + achados.map(a => EIXOS[a]).join(", ") + ")" : ""}. São previsões baseadas no que as bancas costumam cobrar, não garantia. Confira as leis citadas antes de usar na prova.</p>
-      <div class="pl-row" style="margin-bottom:12px"><button class="btn btn-accent btn-sm" id="rdSortear">🎲 Sortear um dos mais prováveis</button></div>
-      <h4>Mais prováveis para o seu concurso</h4>
-      <div class="rd-temas">${top.map(t => card(t, true)).join("")}</div>
-    </div>
-    <div class="card">
-      <h4>Todos os temas</h4>
-      <div class="pl-row" style="margin-bottom:12px"><select id="rdFiltro" class="rd-in" style="max-width:280px"><option value="todos">Todos os eixos</option>${Object.keys(EIXOS).map(k => `<option value="${k}" ${filtro === k ? "selected" : ""}>${esc(EIXOS[k])}</option>`).join("")}</select></div>
-      <div class="rd-temas">${lista.map(t => card(t, false)).join("")}</div>
-      <h4 style="margin-top:16px">Tenho outro tema</h4>
-      <input class="rd-in" id="rdTemaCustom" placeholder="Digite o tema do seu treino" value="${esc(R.temaCustom)}">
-      <div class="pl-row" style="margin-top:8px"><button class="btn btn-ghost btn-sm" id="rdUsarCustom">Usar este tema</button></div>
+      <h3>2. Tema da redação</h3>
+      <p class="hint">Os temas são previsões a partir do que as bancas costumam cobrar${achados.length ? " e do edital colado (" + achados.map(a => EIXOS[a]).join(", ") + ")" : ""}, não garantia. Confira as leis citadas antes de usar na prova.</p>
+      <div class="rd-menus">
+        <label>Assunto
+          <select id="rdFiltro" class="rd-in">
+            <option value="prov" ${f === "prov" || !EIXOS[f] && f !== "todos" ? "selected" : ""}>⭐ Mais prováveis para o meu concurso</option>
+            <option value="todos" ${f === "todos" ? "selected" : ""}>Todos os temas</option>
+            ${Object.keys(EIXOS).map(k => `<option value="${k}" ${f === k ? "selected" : ""}>${esc(EIXOS[k])}</option>`).join("")}
+          </select>
+        </label>
+        <label>Tema
+          <select id="rdSelTema" class="rd-in">
+            <option value="">Selecione um tema…</option>
+            ${grupo.map(x => `<option value="${esc(x.t)}" ${R.tema === x.t ? "selected" : ""}>${esc(x.t)}</option>`).join("")}
+          </select>
+        </label>
+        <button class="btn btn-accent" id="rdSortear">🎲 Sortear</button>
+      </div>
+      ${cardTema}
+      <details class="rd-custom"><summary>Tenho outro tema</summary>
+        <input class="rd-in" id="rdTemaCustom" placeholder="Digite o tema do seu treino" value="${esc(R.temaCustom)}">
+        <div class="pl-row" style="margin-top:8px"><button class="btn btn-ghost btn-sm" id="rdUsarCustom">Usar este tema</button></div>
+      </details>
     </div>
     <div class="pl-nav"><button class="btn btn-ghost" data-rd-passo="1">← Critérios</button><button class="btn btn-accent" id="rdIr3" ${temaAtual() ? "" : "disabled"}>Escrever →</button></div>`;
   }
@@ -395,10 +407,12 @@
     const ir2 = $("#rdIr2"); if (ir2) ir2.addEventListener("click", () => { R.passo = 2; salvar(); render(); });
     const ir3 = $("#rdIr3"); if (ir3) ir3.addEventListener("click", () => { R.passo = 3; salvar(); render(); });
     const ir4 = $("#rdIr4"); if (ir4) ir4.addEventListener("click", () => { R.passo = 4; salvar(); render(); });
-    $$("[data-rd-tema]").forEach(b => b.addEventListener("click", () => { R.tema = b.dataset.rdTema; salvar(); render(); }));
+    const st = $("#rdSelTema"); if (st) st.addEventListener("change", () => { R.tema = st.value; salvar(); render(); });
     const fil = $("#rdFiltro"); if (fil) fil.addEventListener("change", () => { R.filtroEixo = fil.value; salvar(); render(); });
     const sor = $("#rdSortear"); if (sor) sor.addEventListener("click", () => {
-      const top = temasRankeados().slice(0, 8).map(x => x.t); R.tema = top[Math.floor(Math.random() * top.length)].t; salvar(); render();
+      const g = grupoTemas(); if (!g.length) return;
+      let novo; do { novo = g[Math.floor(Math.random() * g.length)].t; } while (g.length > 1 && novo === R.tema);
+      R.tema = novo; salvar(); render();
     });
     const uc = $("#rdUsarCustom"); if (uc) uc.addEventListener("click", () => {
       const v = $("#rdTemaCustom").value.trim(); if (!v) return; R.temaCustom = v; R.tema = "__custom"; salvar(); render();
