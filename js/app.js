@@ -55,8 +55,39 @@ window.state = state; // exposto para depuração via console do navegador
    2) PERSISTÊNCIA (localStorage)
 --------------------------------------------------------------------------- */
 function carregarHistorico() {
-  try { return JSON.parse(localStorage.getItem(STORAGE_KEYS.HISTORY)) || []; }
-  catch (e) { return []; }
+  let hist = [];
+  try { hist = JSON.parse(localStorage.getItem(STORAGE_KEYS.HISTORY)) || []; }
+  catch (e) { hist = []; }
+  return migrarHistorico(hist);
+}
+
+/* Mantém o histórico antigo coerente com os nomes atuais de disciplina/assunto:
+   se um assunto foi renomeado no banco, o resultado salvo é atualizado pelo id da questão. */
+function migrarHistorico(hist) {
+  if (typeof QUESTION_BANK === "undefined") return hist;
+  const porId = new Map(QUESTION_BANK.map(q => [q.id, q]));
+  let mudou = false;
+  hist.forEach(r => {
+    if (!r || !Array.isArray(r.questions)) return;
+    let alterou = false;
+    r.questions.forEach(q => {
+      const b = porId.get(q.id);
+      if (b && (b.assunto !== q.assunto || b.disciplina !== q.disciplina)) {
+        q.assunto = b.assunto; q.disciplina = b.disciplina; alterou = true;
+      }
+    });
+    if (!alterou) return;
+    const pa = {};
+    r.questions.forEach(q => {
+      pa[q.assunto] = pa[q.assunto] || { questoes: 0, acertos: 0 };
+      pa[q.assunto].questoes++;
+      const resp = r.answers ? r.answers[q.id] : undefined;
+      if (resp !== undefined && resp !== null && respostaEstaCorreta(q, resp)) pa[q.assunto].acertos++;
+    });
+    r.porAssunto = pa; mudou = true;
+  });
+  if (mudou) { try { localStorage.setItem(STORAGE_KEYS.HISTORY, JSON.stringify(hist)); } catch (e) { /* sem storage */ } }
+  return hist;
 }
 function salvarHistorico() {
   localStorage.setItem(STORAGE_KEYS.HISTORY, JSON.stringify(state.history));

@@ -819,6 +819,25 @@
     root.querySelectorAll(".pl-actions [data-step], .pl-nav [data-step]").forEach((b) => b.addEventListener("click", () => { P.passo = Number(b.dataset.step); salvar(); render(); }));
   }
 
+  /* ---------------------------------------------------------------- migração (assuntos renomeados) */
+  function migrarPlano() {
+    if (!P.edital) return;
+    const base = EDITAIS.find((e) => e.id === P.edital.id);
+    const prova = P.edital.prova || "";
+    const disciplinas = P.edital.disciplinas;
+    const universo = {};
+    disciplinas.forEach((d) => { universo[d.nome] = universoDe(d.nome, P.edital.tag || null, P._textoEdital || ""); });
+    const mudou = disciplinas.some((d) => JSON.stringify(universo[d.nome]) !== JSON.stringify((P.edital.universo || {})[d.nome]));
+    if (!mudou) return;
+    P.edital.universo = universo; P.edital.prova = prova;
+    if (P.cronograma) {
+      const desatualizado = P.cronograma.blocos.some((b) => b.disc !== "Geral" && !(universo[b.disc] || []).includes(b.assunto) && b.assunto !== "Revisão geral");
+      if (desatualizado && analisar().avaliadosTot) gerarCronograma();
+    }
+    salvar();
+  }
+  try { migrarPlano(); } catch (e) { /* plano antigo incompatível: segue sem migrar */ }
+
   /* ---------------------------------------------------------------- integração com o app */
   window.Plano = {
     render,

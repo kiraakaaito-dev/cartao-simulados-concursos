@@ -12,6 +12,14 @@
    apenas para testar o sistema. Nenhuma delas deve ser tratada como questão
    oficial de qualquer banca. Cada questão carrega oficial:false e um aviso
    próprio, e a interface exibe isso claramente ao usuário.
+
+   PADRÃO DO CAMPO "assunto" (evita assuntos duplicados no filtro):
+     • Um assunto por tema, reunindo todas as questões dele (nunca um assunto
+       por questão).
+     • Matérias jurídicas: "Tema (Lei x/ano, arts. y)" ou "Tema (CF/88, arts. y)",
+       sempre com a lei ou os artigos estudados entre parênteses.
+     • Grafia idêntica para o mesmo tema (maiúsculas, minúsculas e acentos).
+     • Antes de publicar, rodar:  node tools/check-banco.js
    ========================================================================== */
 
 /* ---------------------------------------------------------------------------
@@ -53,7 +61,7 @@ const QUESTION_BANK = [
   {
     "id": 1,
     "disciplina": "Português",
-    "assunto": "Interpretação de texto",
+    "assunto": "Interpretação de textos",
     "banca": "CEBRASPE",
     "ano": 2023,
     "dificuldade": "Fácil",
@@ -135,7 +143,7 @@ const QUESTION_BANK = [
   {
     "id": 5,
     "disciplina": "Raciocínio Lógico",
-    "assunto": "Proposições e negação",
+    "assunto": "Equivalências e negações",
     "banca": "CEBRASPE",
     "ano": 2023,
     "dificuldade": "Médio",
@@ -154,7 +162,7 @@ const QUESTION_BANK = [
   {
     "id": 6,
     "disciplina": "Raciocínio Lógico",
-    "assunto": "Lógica de argumentação",
+    "assunto": "Argumentos e silogismos",
     "banca": "FGV",
     "ano": 2022,
     "dificuldade": "Difícil",
@@ -175,7 +183,7 @@ const QUESTION_BANK = [
   {
     "id": 7,
     "disciplina": "Informática",
-    "assunto": "Conceitos de internet",
+    "assunto": "Internet, navegadores e computação em nuvem",
     "banca": "CESGRANRIO",
     "ano": 2023,
     "dificuldade": "Fácil",
@@ -217,7 +225,7 @@ const QUESTION_BANK = [
   {
     "id": 9,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos e Garantias Fundamentais",
+    "assunto": "Direitos e garantias individuais (CF/88, art. 5º)",
     "banca": "CEBRASPE",
     "ano": 2025,
     "dificuldade": "Médio",
@@ -236,7 +244,7 @@ const QUESTION_BANK = [
   {
     "id": 10,
     "disciplina": "Direito Constitucional",
-    "assunto": "Organização do Estado",
+    "assunto": "Organização do Estado (CF/88, arts. 18 a 36)",
     "banca": "FGV",
     "ano": 2023,
     "dificuldade": "Médio",
@@ -257,7 +265,7 @@ const QUESTION_BANK = [
   {
     "id": 11,
     "disciplina": "Direito Constitucional",
-    "assunto": "Controle de constitucionalidade",
+    "assunto": "Controle de constitucionalidade (CF/88, arts. 102 e 103)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -276,7 +284,7 @@ const QUESTION_BANK = [
   {
     "id": 12,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "FCC",
     "ano": 2022,
     "dificuldade": "Fácil",
@@ -297,7 +305,7 @@ const QUESTION_BANK = [
   {
     "id": 13,
     "disciplina": "Direito Administrativo",
-    "assunto": "Atos Administrativos",
+    "assunto": "Atos administrativos (Lei 9.784/1999 e doutrina)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -316,7 +324,7 @@ const QUESTION_BANK = [
   {
     "id": 14,
     "disciplina": "Direito Administrativo",
-    "assunto": "Princípios da Administração Pública",
+    "assunto": "Princípios da Administração Pública (CF/88, art. 37, caput)",
     "banca": "FGV",
     "ano": 2023,
     "dificuldade": "Fácil",
@@ -337,7 +345,7 @@ const QUESTION_BANK = [
   {
     "id": 15,
     "disciplina": "Direito Administrativo",
-    "assunto": "Licitações (Lei nº 14.133/2021)",
+    "assunto": "Licitações (Lei 14.133/2021)",
     "banca": "VUNESP",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -358,7 +366,7 @@ const QUESTION_BANK = [
   {
     "id": 16,
     "disciplina": "Direito Administrativo",
-    "assunto": "Poderes Administrativos",
+    "assunto": "Poderes administrativos (CTN, art. 78 e doutrina)",
     "banca": "CONSULPLAN",
     "ano": 2022,
     "dificuldade": "Médio",
@@ -379,7 +387,7 @@ const QUESTION_BANK = [
   {
     "id": 17,
     "disciplina": "Direito Penal",
-    "assunto": "Crimes contra a administração pública",
+    "assunto": "Crimes contra a administração pública (CP, arts. 312 a 359-H)",
     "banca": "CEBRASPE",
     "ano": 2023,
     "dificuldade": "Difícil",
@@ -398,7 +406,7 @@ const QUESTION_BANK = [
   {
     "id": 18,
     "disciplina": "Direito Penal",
-    "assunto": "Teoria do Crime",
+    "assunto": "Teoria do crime (CP, arts. 13 a 25)",
     "banca": "FCC",
     "ano": 2021,
     "dificuldade": "Médio",
@@ -419,7 +427,7 @@ const QUESTION_BANK = [
   {
     "id": 19,
     "disciplina": "Administração Pública",
-    "assunto": "Orçamento público",
+    "assunto": "Orçamento público (Lei 4.320/1964; CF/88, art. 165)",
     "banca": "Instituto AOCP",
     "ano": 2023,
     "dificuldade": "Médio",
@@ -461,7 +469,7 @@ const QUESTION_BANK = [
   {
     "id": 21,
     "disciplina": "Português",
-    "assunto": "Regência nominal",
+    "assunto": "Regência (nominal e verbal)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Médio",
@@ -503,7 +511,7 @@ const QUESTION_BANK = [
   {
     "id": 23,
     "disciplina": "Português",
-    "assunto": "Correlação verbal",
+    "assunto": "Sintaxe, conjunções e relações entre orações",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -545,7 +553,7 @@ const QUESTION_BANK = [
   {
     "id": 25,
     "disciplina": "Português",
-    "assunto": "Classes gramaticais — conjunções",
+    "assunto": "Sintaxe, conjunções e relações entre orações",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Fácil",
@@ -566,7 +574,7 @@ const QUESTION_BANK = [
   {
     "id": 26,
     "disciplina": "Português",
-    "assunto": "Interpretação de texto",
+    "assunto": "Interpretação de textos",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Fácil",
@@ -608,7 +616,7 @@ const QUESTION_BANK = [
   {
     "id": 28,
     "disciplina": "Português",
-    "assunto": "Regência verbal",
+    "assunto": "Regência (nominal e verbal)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Médio",
@@ -671,7 +679,7 @@ const QUESTION_BANK = [
   {
     "id": 31,
     "disciplina": "Português",
-    "assunto": "Semântica e ambiguidade",
+    "assunto": "Semântica e figuras de linguagem",
     "banca": "IDECAN",
     "ano": 2022,
     "dificuldade": "Médio",
@@ -713,7 +721,7 @@ const QUESTION_BANK = [
   {
     "id": 33,
     "disciplina": "Raciocínio Lógico",
-    "assunto": "Proposições compostas",
+    "assunto": "Proposições e conectivos lógicos",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Fácil",
@@ -734,7 +742,7 @@ const QUESTION_BANK = [
   {
     "id": 34,
     "disciplina": "Raciocínio Lógico",
-    "assunto": "Negação de proposições condicionais",
+    "assunto": "Equivalências e negações",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -755,7 +763,7 @@ const QUESTION_BANK = [
   {
     "id": 35,
     "disciplina": "Raciocínio Lógico",
-    "assunto": "Silogismo categórico",
+    "assunto": "Argumentos e silogismos",
     "banca": "IDECAN",
     "ano": 2022,
     "dificuldade": "Difícil",
@@ -797,7 +805,7 @@ const QUESTION_BANK = [
   {
     "id": 37,
     "disciplina": "Raciocínio Lógico",
-    "assunto": "Diagramas lógicos (conjuntos)",
+    "assunto": "Diagramas lógicos",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Médio",
@@ -818,7 +826,7 @@ const QUESTION_BANK = [
   {
     "id": 38,
     "disciplina": "Raciocínio Lógico",
-    "assunto": "Modus ponens",
+    "assunto": "Argumentos e silogismos",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Fácil",
@@ -839,7 +847,7 @@ const QUESTION_BANK = [
   {
     "id": 39,
     "disciplina": "Raciocínio Lógico",
-    "assunto": "Princípio multiplicativo",
+    "assunto": "Análise combinatória",
     "banca": "IDECAN",
     "ano": 2022,
     "dificuldade": "Médio",
@@ -860,7 +868,7 @@ const QUESTION_BANK = [
   {
     "id": 40,
     "disciplina": "Raciocínio Lógico",
-    "assunto": "Valor lógico de proposições compostas",
+    "assunto": "Proposições e conectivos lógicos",
     "banca": "IDECAN",
     "ano": 2025,
     "dificuldade": "Médio",
@@ -881,7 +889,7 @@ const QUESTION_BANK = [
   {
     "id": 41,
     "disciplina": "Informática",
-    "assunto": "Hardware",
+    "assunto": "Hardware e organização de computadores",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Fácil",
@@ -902,7 +910,7 @@ const QUESTION_BANK = [
   {
     "id": 42,
     "disciplina": "Informática",
-    "assunto": "Sistemas operacionais",
+    "assunto": "Sistemas operacionais (Windows 11 e Prompt de Comando)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -923,7 +931,7 @@ const QUESTION_BANK = [
   {
     "id": 43,
     "disciplina": "Informática",
-    "assunto": "Editor de texto",
+    "assunto": "Editores de texto (Word)",
     "banca": "IDECAN",
     "ano": 2022,
     "dificuldade": "Fácil",
@@ -944,7 +952,7 @@ const QUESTION_BANK = [
   {
     "id": 44,
     "disciplina": "Informática",
-    "assunto": "Planilhas eletrônicas",
+    "assunto": "Planilhas eletrônicas (Excel)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Fácil",
@@ -965,7 +973,7 @@ const QUESTION_BANK = [
   {
     "id": 45,
     "disciplina": "Informática",
-    "assunto": "Internet e navegadores",
+    "assunto": "Internet, navegadores e computação em nuvem",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -1007,7 +1015,7 @@ const QUESTION_BANK = [
   {
     "id": 47,
     "disciplina": "Direito Constitucional",
-    "assunto": "Princípios fundamentais",
+    "assunto": "Princípios fundamentais (CF/88, arts. 1º a 4º)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Médio",
@@ -1028,7 +1036,7 @@ const QUESTION_BANK = [
   {
     "id": 48,
     "disciplina": "Direito Constitucional",
-    "assunto": "Remédios constitucionais",
+    "assunto": "Remédios constitucionais (CF/88, art. 5º, LXVIII a LXXIII)",
     "banca": "IDECAN",
     "ano": 2022,
     "dificuldade": "Fácil",
@@ -1049,7 +1057,7 @@ const QUESTION_BANK = [
   {
     "id": 49,
     "disciplina": "Direito Constitucional",
-    "assunto": "Organização dos Poderes",
+    "assunto": "Organização dos Poderes (CF/88, arts. 2º e 44 a 135)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -1070,7 +1078,7 @@ const QUESTION_BANK = [
   {
     "id": 50,
     "disciplina": "Direito Constitucional",
-    "assunto": "Administração Pública na CF/1988",
+    "assunto": "Administração Pública (CF/88, arts. 37 a 41)",
     "banca": "IDECAN",
     "ano": 2021,
     "dificuldade": "Fácil",
@@ -1091,7 +1099,7 @@ const QUESTION_BANK = [
   {
     "id": 51,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Fácil",
@@ -1112,7 +1120,7 @@ const QUESTION_BANK = [
   {
     "id": 52,
     "disciplina": "Direito Constitucional",
-    "assunto": "Processo legislativo",
+    "assunto": "Processo legislativo (CF/88, arts. 59 a 69)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -1133,7 +1141,7 @@ const QUESTION_BANK = [
   {
     "id": 53,
     "disciplina": "Direito Constitucional",
-    "assunto": "Controle de constitucionalidade",
+    "assunto": "Controle de constitucionalidade (CF/88, arts. 102 e 103)",
     "banca": "IDECAN",
     "ano": 2022,
     "dificuldade": "Difícil",
@@ -1154,7 +1162,7 @@ const QUESTION_BANK = [
   {
     "id": 54,
     "disciplina": "Direito Constitucional",
-    "assunto": "Nacionalidade",
+    "assunto": "Nacionalidade (CF/88, arts. 12 e 13)",
     "banca": "IDECAN",
     "ano": 2021,
     "dificuldade": "Médio",
@@ -1175,7 +1183,7 @@ const QUESTION_BANK = [
   {
     "id": 55,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos políticos",
+    "assunto": "Direitos políticos (CF/88, arts. 14 a 16)",
     "banca": "IDECAN",
     "ano": 2025,
     "dificuldade": "Difícil",
@@ -1196,7 +1204,7 @@ const QUESTION_BANK = [
   {
     "id": 56,
     "disciplina": "Direito Constitucional",
-    "assunto": "Ordem social — saúde",
+    "assunto": "Seguridade social: saúde (CF/88, arts. 196 a 200)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Fácil",
@@ -1217,7 +1225,7 @@ const QUESTION_BANK = [
   {
     "id": 57,
     "disciplina": "Direito Administrativo",
-    "assunto": "Atos administrativos — elementos",
+    "assunto": "Atos administrativos (Lei 9.784/1999 e doutrina)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Médio",
@@ -1238,7 +1246,7 @@ const QUESTION_BANK = [
   {
     "id": 58,
     "disciplina": "Direito Administrativo",
-    "assunto": "Atributos do ato administrativo",
+    "assunto": "Atos administrativos (Lei 9.784/1999 e doutrina)",
     "banca": "IDECAN",
     "ano": 2022,
     "dificuldade": "Fácil",
@@ -1259,7 +1267,7 @@ const QUESTION_BANK = [
   {
     "id": 59,
     "disciplina": "Direito Administrativo",
-    "assunto": "Atos vinculados e discricionários",
+    "assunto": "Atos administrativos (Lei 9.784/1999 e doutrina)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -1280,7 +1288,7 @@ const QUESTION_BANK = [
   {
     "id": 60,
     "disciplina": "Direito Administrativo",
-    "assunto": "Extinção dos atos administrativos",
+    "assunto": "Atos administrativos (Lei 9.784/1999 e doutrina)",
     "banca": "IDECAN",
     "ano": 2021,
     "dificuldade": "Difícil",
@@ -1301,7 +1309,7 @@ const QUESTION_BANK = [
   {
     "id": 61,
     "disciplina": "Direito Administrativo",
-    "assunto": "Princípio da eficiência",
+    "assunto": "Princípios da Administração Pública (CF/88, art. 37, caput)",
     "banca": "IDECAN",
     "ano": 2022,
     "dificuldade": "Fácil",
@@ -1322,7 +1330,7 @@ const QUESTION_BANK = [
   {
     "id": 62,
     "disciplina": "Direito Administrativo",
-    "assunto": "Princípio da moralidade",
+    "assunto": "Princípios da Administração Pública (CF/88, art. 37, caput)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Médio",
@@ -1343,7 +1351,7 @@ const QUESTION_BANK = [
   {
     "id": 63,
     "disciplina": "Direito Administrativo",
-    "assunto": "Organização administrativa — autarquia",
+    "assunto": "Organização administrativa (Decreto-Lei 200/1967)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -1364,7 +1372,7 @@ const QUESTION_BANK = [
   {
     "id": 64,
     "disciplina": "Direito Administrativo",
-    "assunto": "Organização administrativa — fundação pública",
+    "assunto": "Organização administrativa (Decreto-Lei 200/1967)",
     "banca": "IDECAN",
     "ano": 2021,
     "dificuldade": "Difícil",
@@ -1385,7 +1393,7 @@ const QUESTION_BANK = [
   {
     "id": 65,
     "disciplina": "Direito Administrativo",
-    "assunto": "Poder regulamentar",
+    "assunto": "Poderes administrativos (CTN, art. 78 e doutrina)",
     "banca": "IDECAN",
     "ano": 2022,
     "dificuldade": "Fácil",
@@ -1406,7 +1414,7 @@ const QUESTION_BANK = [
   {
     "id": 66,
     "disciplina": "Direito Administrativo",
-    "assunto": "Poder disciplinar",
+    "assunto": "Poderes administrativos (CTN, art. 78 e doutrina)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Fácil",
@@ -1427,7 +1435,7 @@ const QUESTION_BANK = [
   {
     "id": 67,
     "disciplina": "Direito Administrativo",
-    "assunto": "Licitações — princípios",
+    "assunto": "Licitações: princípios (Lei 14.133/2021, art. 5º)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -1448,7 +1456,7 @@ const QUESTION_BANK = [
   {
     "id": 68,
     "disciplina": "Direito Administrativo",
-    "assunto": "Licitações — modalidades",
+    "assunto": "Licitações: modalidades, fases e critérios (Lei 14.133/2021)",
     "banca": "IDECAN",
     "ano": 2025,
     "dificuldade": "Médio",
@@ -1469,7 +1477,7 @@ const QUESTION_BANK = [
   {
     "id": 69,
     "disciplina": "Direito Administrativo",
-    "assunto": "Improbidade administrativa",
+    "assunto": "Improbidade administrativa (Lei 8.429/1992)",
     "banca": "IDECAN",
     "ano": 2021,
     "dificuldade": "Difícil",
@@ -1490,7 +1498,7 @@ const QUESTION_BANK = [
   {
     "id": 70,
     "disciplina": "Direito Administrativo",
-    "assunto": "Servidores públicos — estabilidade",
+    "assunto": "Servidores públicos: estabilidade (CF/88, art. 41)",
     "banca": "IDECAN",
     "ano": 2022,
     "dificuldade": "Médio",
@@ -1511,7 +1519,7 @@ const QUESTION_BANK = [
   {
     "id": 71,
     "disciplina": "Direito Penal",
-    "assunto": "Crimes contra a Administração — peculato",
+    "assunto": "Crimes contra a administração pública (CP, arts. 312 a 359-H)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Médio",
@@ -1532,7 +1540,7 @@ const QUESTION_BANK = [
   {
     "id": 72,
     "disciplina": "Direito Penal",
-    "assunto": "Aplicação da lei penal no tempo",
+    "assunto": "Aplicação da lei penal (CP, arts. 1º a 12)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -1553,7 +1561,7 @@ const QUESTION_BANK = [
   {
     "id": 73,
     "disciplina": "Direito Penal",
-    "assunto": "Teoria do crime — dolo e culpa",
+    "assunto": "Teoria do crime (CP, arts. 13 a 25)",
     "banca": "IDECAN",
     "ano": 2022,
     "dificuldade": "Fácil",
@@ -1574,7 +1582,7 @@ const QUESTION_BANK = [
   {
     "id": 74,
     "disciplina": "Direito Penal",
-    "assunto": "Crimes contra a Administração — prevaricação",
+    "assunto": "Crimes contra a administração pública (CP, arts. 312 a 359-H)",
     "banca": "IDECAN",
     "ano": 2021,
     "dificuldade": "Difícil",
@@ -1637,7 +1645,7 @@ const QUESTION_BANK = [
   {
     "id": 77,
     "disciplina": "Administração Pública",
-    "assunto": "Orçamento público",
+    "assunto": "Orçamento público (Lei 4.320/1964; CF/88, art. 165)",
     "banca": "IDECAN",
     "ano": 2022,
     "dificuldade": "Médio",
@@ -1721,7 +1729,7 @@ const QUESTION_BANK = [
   {
     "id": 81,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "Licitações — Fases do processo licitatório",
+    "assunto": "Licitações: modalidades, fases e critérios (Lei 14.133/2021)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -1742,7 +1750,7 @@ const QUESTION_BANK = [
   {
     "id": 82,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "Licitações — Modalidades",
+    "assunto": "Licitações: modalidades, fases e critérios (Lei 14.133/2021)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Difícil",
@@ -1763,7 +1771,7 @@ const QUESTION_BANK = [
   {
     "id": 83,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "Licitações — Diálogo competitivo",
+    "assunto": "Licitações: modalidades, fases e critérios (Lei 14.133/2021)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -1784,7 +1792,7 @@ const QUESTION_BANK = [
   {
     "id": 84,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "Licitações — Dispensa de licitação",
+    "assunto": "Licitações: contratação direta (Lei 14.133/2021, arts. 72 a 75)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Difícil",
@@ -1805,7 +1813,7 @@ const QUESTION_BANK = [
   {
     "id": 85,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "Licitações — Inexigibilidade",
+    "assunto": "Licitações: contratação direta (Lei 14.133/2021, arts. 72 a 75)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -1826,7 +1834,7 @@ const QUESTION_BANK = [
   {
     "id": 86,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "Licitações — Credenciamento",
+    "assunto": "Licitações: modalidades, fases e critérios (Lei 14.133/2021)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Difícil",
@@ -1847,7 +1855,7 @@ const QUESTION_BANK = [
   {
     "id": 87,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "Licitações — Sistema de Registro de Preços",
+    "assunto": "Licitações: modalidades, fases e critérios (Lei 14.133/2021)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -1868,7 +1876,7 @@ const QUESTION_BANK = [
   {
     "id": 88,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "Licitações — Matriz de risco",
+    "assunto": "Licitações: contratos, garantias e sanções (Lei 14.133/2021)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Difícil",
@@ -1889,7 +1897,7 @@ const QUESTION_BANK = [
   {
     "id": 89,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "Licitações — Garantias contratuais",
+    "assunto": "Licitações: contratos, garantias e sanções (Lei 14.133/2021)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -1910,7 +1918,7 @@ const QUESTION_BANK = [
   {
     "id": 90,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "Licitações — Sanções administrativas",
+    "assunto": "Licitações: contratos, garantias e sanções (Lei 14.133/2021)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Difícil",
@@ -1931,7 +1939,7 @@ const QUESTION_BANK = [
   {
     "id": 91,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "Licitações — Formalização da contratação direta",
+    "assunto": "Licitações: contratação direta (Lei 14.133/2021, arts. 72 a 75)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -1952,7 +1960,7 @@ const QUESTION_BANK = [
   {
     "id": 92,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "Licitações — Agente de contratação",
+    "assunto": "Licitações: modalidades, fases e critérios (Lei 14.133/2021)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Difícil",
@@ -1973,7 +1981,7 @@ const QUESTION_BANK = [
   {
     "id": 93,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "Licitações — Plano de Contratações Anual",
+    "assunto": "Licitações: modalidades, fases e critérios (Lei 14.133/2021)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -1994,7 +2002,7 @@ const QUESTION_BANK = [
   {
     "id": 94,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "Licitações — Critérios de julgamento",
+    "assunto": "Licitações: modalidades, fases e critérios (Lei 14.133/2021)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Difícil",
@@ -2015,7 +2023,7 @@ const QUESTION_BANK = [
   {
     "id": 95,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "Licitações — Impedimentos e vedações",
+    "assunto": "Licitações: contratos, garantias e sanções (Lei 14.133/2021)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -2036,7 +2044,7 @@ const QUESTION_BANK = [
   {
     "id": 96,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "Licitações — Recursos administrativos",
+    "assunto": "Licitações: modalidades, fases e critérios (Lei 14.133/2021)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Difícil",
@@ -2057,7 +2065,7 @@ const QUESTION_BANK = [
   {
     "id": 97,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "Licitações — Concorrência e concurso",
+    "assunto": "Licitações: modalidades, fases e critérios (Lei 14.133/2021)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -2078,7 +2086,7 @@ const QUESTION_BANK = [
   {
     "id": 98,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "Licitações — Leilão",
+    "assunto": "Licitações: modalidades, fases e critérios (Lei 14.133/2021)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Difícil",
@@ -2099,7 +2107,7 @@ const QUESTION_BANK = [
   {
     "id": 99,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "Licitações — Contratação integrada e semi-integrada",
+    "assunto": "Licitações: modalidades, fases e critérios (Lei 14.133/2021)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -2120,7 +2128,7 @@ const QUESTION_BANK = [
   {
     "id": 100,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "Licitações — Pesquisa de preços",
+    "assunto": "Licitações: modalidades, fases e critérios (Lei 14.133/2021)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Difícil",
@@ -2141,7 +2149,7 @@ const QUESTION_BANK = [
   {
     "id": 101,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "Orcamento Publico - Principio da unidade",
+    "assunto": "Orçamento: princípios orçamentários (Lei 4.320/1964, arts. 2º e 3º; CF/88, arts. 165 e 167)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Médio",
@@ -2162,7 +2170,7 @@ const QUESTION_BANK = [
   {
     "id": 102,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "Orcamento Publico - Principio da universalidade",
+    "assunto": "Orçamento: princípios orçamentários (Lei 4.320/1964, arts. 2º e 3º; CF/88, arts. 165 e 167)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -2183,7 +2191,7 @@ const QUESTION_BANK = [
   {
     "id": 103,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "Orcamento Publico - Principio da exclusividade",
+    "assunto": "Orçamento: princípios orçamentários (Lei 4.320/1964, arts. 2º e 3º; CF/88, arts. 165 e 167)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Difícil",
@@ -2204,7 +2212,7 @@ const QUESTION_BANK = [
   {
     "id": 104,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "Orcamento Publico - Nao afetacao de receitas",
+    "assunto": "Orçamento: princípios orçamentários (Lei 4.320/1964, arts. 2º e 3º; CF/88, arts. 165 e 167)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -2225,7 +2233,7 @@ const QUESTION_BANK = [
   {
     "id": 105,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "Orcamento Publico - Ciclo orcamentario",
+    "assunto": "Orçamento: instrumentos de planejamento (CF/88, art. 165)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Fácil",
@@ -2246,7 +2254,7 @@ const QUESTION_BANK = [
   {
     "id": 106,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "Orcamento Publico - Plano Plurianual (PPA)",
+    "assunto": "Orçamento: instrumentos de planejamento (CF/88, art. 165)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -2267,7 +2275,7 @@ const QUESTION_BANK = [
   {
     "id": 107,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "Orcamento Publico - Lei de Diretrizes Orcamentarias",
+    "assunto": "Orçamento: instrumentos de planejamento (CF/88, art. 165)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Médio",
@@ -2288,7 +2296,7 @@ const QUESTION_BANK = [
   {
     "id": 108,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "Orcamento Publico - Lei Orcamentaria Anual",
+    "assunto": "Orçamento: instrumentos de planejamento (CF/88, art. 165)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -2309,7 +2317,7 @@ const QUESTION_BANK = [
   {
     "id": 109,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "Orcamento Publico - Creditos suplementares",
+    "assunto": "Orçamento: créditos adicionais (Lei 4.320/1964, arts. 40 a 46)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Médio",
@@ -2330,7 +2338,7 @@ const QUESTION_BANK = [
   {
     "id": 110,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "Orcamento Publico - Creditos especiais",
+    "assunto": "Orçamento: créditos adicionais (Lei 4.320/1964, arts. 40 a 46)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -2351,7 +2359,7 @@ const QUESTION_BANK = [
   {
     "id": 111,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "Orcamento Publico - Creditos extraordinarios",
+    "assunto": "Orçamento: créditos adicionais (Lei 4.320/1964, arts. 40 a 46)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Difícil",
@@ -2372,7 +2380,7 @@ const QUESTION_BANK = [
   {
     "id": 112,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "Orcamento Publico - Receita publica: classificacao",
+    "assunto": "Orçamento: receita e despesa públicas (Lei 4.320/1964)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -2393,7 +2401,7 @@ const QUESTION_BANK = [
   {
     "id": 113,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "Orcamento Publico - Estagios da receita publica",
+    "assunto": "Orçamento: receita e despesa públicas (Lei 4.320/1964)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Difícil",
@@ -2414,7 +2422,7 @@ const QUESTION_BANK = [
   {
     "id": 114,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "Orcamento Publico - Despesa publica: classificacao",
+    "assunto": "Orçamento: receita e despesa públicas (Lei 4.320/1964)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -2435,7 +2443,7 @@ const QUESTION_BANK = [
   {
     "id": 115,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "Orcamento Publico - Estagios da despesa publica",
+    "assunto": "Orçamento: receita e despesa públicas (Lei 4.320/1964)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Fácil",
@@ -2456,7 +2464,7 @@ const QUESTION_BANK = [
   {
     "id": 116,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "Orcamento Publico - Restos a pagar",
+    "assunto": "Orçamento: receita e despesa públicas (Lei 4.320/1964)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -2477,7 +2485,7 @@ const QUESTION_BANK = [
   {
     "id": 117,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "Orcamento Publico - Suprimento de fundos",
+    "assunto": "Orçamento: receita e despesa públicas (Lei 4.320/1964)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Médio",
@@ -2498,7 +2506,7 @@ const QUESTION_BANK = [
   {
     "id": 118,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "Orcamento Publico - Orcamento-programa",
+    "assunto": "Orçamento: princípios orçamentários (Lei 4.320/1964, arts. 2º e 3º; CF/88, arts. 165 e 167)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -2519,7 +2527,7 @@ const QUESTION_BANK = [
   {
     "id": 119,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "Orcamento Publico - Transparencia orcamentaria",
+    "assunto": "Orçamento: princípios orçamentários (Lei 4.320/1964, arts. 2º e 3º; CF/88, arts. 165 e 167)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Médio",
@@ -2540,7 +2548,7 @@ const QUESTION_BANK = [
   {
     "id": 120,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "Orcamento Publico - Vigencia dos creditos adicionais",
+    "assunto": "Orçamento: créditos adicionais (Lei 4.320/1964, arts. 40 a 46)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -2561,7 +2569,7 @@ const QUESTION_BANK = [
   {
     "id": 121,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "LRF - Objetivo e conceito",
+    "assunto": "LRF: conceitos, planejamento e transparência (LC 101/2000)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Fácil",
@@ -2582,7 +2590,7 @@ const QUESTION_BANK = [
   {
     "id": 122,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "LRF - Limite de despesa com pessoal (total)",
+    "assunto": "LRF: despesa com pessoal (LC 101/2000, arts. 18 a 23)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -2603,7 +2611,7 @@ const QUESTION_BANK = [
   {
     "id": 123,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "LRF - Repartição do limite de pessoal entre Poderes municipais",
+    "assunto": "LRF: despesa com pessoal (LC 101/2000, arts. 18 a 23)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Difícil",
@@ -2624,7 +2632,7 @@ const QUESTION_BANK = [
   {
     "id": 124,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "LRF - Limite prudencial de despesa com pessoal",
+    "assunto": "LRF: despesa com pessoal (LC 101/2000, arts. 18 a 23)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -2645,7 +2653,7 @@ const QUESTION_BANK = [
   {
     "id": 125,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "LRF - Excesso do limite de pessoal: prazo de enquadramento",
+    "assunto": "LRF: despesa com pessoal (LC 101/2000, arts. 18 a 23)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Difícil",
@@ -2666,7 +2674,7 @@ const QUESTION_BANK = [
   {
     "id": 126,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "LRF - Divida publica: limites",
+    "assunto": "LRF: dívida, crédito e transferências (LC 101/2000, arts. 25 a 40)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -2687,7 +2695,7 @@ const QUESTION_BANK = [
   {
     "id": 127,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "LRF - Operacoes de credito (regra de ouro)",
+    "assunto": "LRF: dívida, crédito e transferências (LC 101/2000, arts. 25 a 40)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Difícil",
@@ -2708,7 +2716,7 @@ const QUESTION_BANK = [
   {
     "id": 128,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "LRF - Renuncia de receita",
+    "assunto": "LRF: geração de despesa, renúncia de receita e final de mandato (LC 101/2000, arts. 14 a 17 e 42)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -2729,7 +2737,7 @@ const QUESTION_BANK = [
   {
     "id": 129,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "LRF - Geracao de despesa",
+    "assunto": "LRF: geração de despesa, renúncia de receita e final de mandato (LC 101/2000, arts. 14 a 17 e 42)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Médio",
@@ -2750,7 +2758,7 @@ const QUESTION_BANK = [
   {
     "id": 130,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "LRF - Despesa obrigatoria de carater continuado",
+    "assunto": "LRF: geração de despesa, renúncia de receita e final de mandato (LC 101/2000, arts. 14 a 17 e 42)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -2771,7 +2779,7 @@ const QUESTION_BANK = [
   {
     "id": 131,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "LRF - Relatorio Resumido de Execucao Orcamentaria",
+    "assunto": "LRF: conceitos, planejamento e transparência (LC 101/2000)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Médio",
@@ -2792,7 +2800,7 @@ const QUESTION_BANK = [
   {
     "id": 132,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "LRF - Relatorio de Gestao Fiscal",
+    "assunto": "LRF: conceitos, planejamento e transparência (LC 101/2000)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -2813,7 +2821,7 @@ const QUESTION_BANK = [
   {
     "id": 133,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "LRF - Anexo de Metas Fiscais",
+    "assunto": "LRF: conceitos, planejamento e transparência (LC 101/2000)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Difícil",
@@ -2834,7 +2842,7 @@ const QUESTION_BANK = [
   {
     "id": 134,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "LRF - Reserva de contingencia",
+    "assunto": "LRF: conceitos, planejamento e transparência (LC 101/2000)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -2855,7 +2863,7 @@ const QUESTION_BANK = [
   {
     "id": 135,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "LRF - Vedacoes em final de mandato (art. 42)",
+    "assunto": "LRF: geração de despesa, renúncia de receita e final de mandato (LC 101/2000, arts. 14 a 17 e 42)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Difícil",
@@ -2876,7 +2884,7 @@ const QUESTION_BANK = [
   {
     "id": 136,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "LRF - Transferencias voluntarias",
+    "assunto": "LRF: dívida, crédito e transferências (LC 101/2000, arts. 25 a 40)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -2897,7 +2905,7 @@ const QUESTION_BANK = [
   {
     "id": 137,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "LRF - Fundos publicos",
+    "assunto": "LRF: conceitos, planejamento e transparência (LC 101/2000)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Médio",
@@ -2918,7 +2926,7 @@ const QUESTION_BANK = [
   {
     "id": 138,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "LRF - Controle e fiscalizacao da gestao fiscal",
+    "assunto": "LRF: conceitos, planejamento e transparência (LC 101/2000)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -2939,7 +2947,7 @@ const QUESTION_BANK = [
   {
     "id": 139,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "LRF - Consequencias do descumprimento",
+    "assunto": "LRF: conceitos, planejamento e transparência (LC 101/2000)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Difícil",
@@ -2960,7 +2968,7 @@ const QUESTION_BANK = [
   {
     "id": 140,
     "disciplina": "Administração Financeira e Orçamentária",
-    "assunto": "LRF - Distincao entre LRF e Lei no 4.320/1964",
+    "assunto": "LRF: conceitos, planejamento e transparência (LC 101/2000)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -2981,7 +2989,7 @@ const QUESTION_BANK = [
   {
     "id": 141,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Lei 7.498/86 - Livre exercicio",
+    "assunto": "Exercício da enfermagem (Lei 7.498/1986)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Fácil",
@@ -3002,7 +3010,7 @@ const QUESTION_BANK = [
   {
     "id": 142,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Lei 7.498/86 - Inscricao no COREN",
+    "assunto": "Exercício da enfermagem (Lei 7.498/1986)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Fácil",
@@ -3023,7 +3031,7 @@ const QUESTION_BANK = [
   {
     "id": 143,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Lei 7.498/86 - Exercicio privativo",
+    "assunto": "Exercício da enfermagem (Lei 7.498/1986)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Médio",
@@ -3044,7 +3052,7 @@ const QUESTION_BANK = [
   {
     "id": 144,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Lei 7.498/86 - Planejamento e programacao",
+    "assunto": "Exercício da enfermagem (Lei 7.498/1986)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -3065,7 +3073,7 @@ const QUESTION_BANK = [
   {
     "id": 145,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Lei 7.498/86 - Programacao de enfermagem",
+    "assunto": "Exercício da enfermagem (Lei 7.498/1986)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Médio",
@@ -3086,7 +3094,7 @@ const QUESTION_BANK = [
   {
     "id": 146,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Lei 7.498/86 - Quem sao enfermeiros",
+    "assunto": "Exercício da enfermagem (Lei 7.498/1986)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -3107,7 +3115,7 @@ const QUESTION_BANK = [
   {
     "id": 147,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Lei 7.498/86 - Quem sao tecnicos de enfermagem",
+    "assunto": "Exercício da enfermagem (Lei 7.498/1986)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Médio",
@@ -3128,7 +3136,7 @@ const QUESTION_BANK = [
   {
     "id": 148,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Lei 7.498/86 - Quem sao auxiliares de enfermagem",
+    "assunto": "Exercício da enfermagem (Lei 7.498/1986)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -3149,7 +3157,7 @@ const QUESTION_BANK = [
   {
     "id": 149,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Lei 7.498/86 - Quem sao parteiras",
+    "assunto": "Exercício da enfermagem (Lei 7.498/1986)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Difícil",
@@ -3170,7 +3178,7 @@ const QUESTION_BANK = [
   {
     "id": 150,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Lei 7.498/86 - Atividades privativas do Enfermeiro",
+    "assunto": "Exercício da enfermagem (Lei 7.498/1986)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -3191,7 +3199,7 @@ const QUESTION_BANK = [
   {
     "id": 151,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Lei 7.498/86 - Consultoria e auditoria de enfermagem",
+    "assunto": "Exercício da enfermagem (Lei 7.498/1986)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Difícil",
@@ -3212,7 +3220,7 @@ const QUESTION_BANK = [
   {
     "id": 152,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Lei 7.498/86 - Cuidados a pacientes graves",
+    "assunto": "Exercício da enfermagem (Lei 7.498/1986)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -3233,7 +3241,7 @@ const QUESTION_BANK = [
   {
     "id": 153,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Lei 7.498/86 - Enfermeiro na equipe de saude",
+    "assunto": "Exercício da enfermagem (Lei 7.498/1986)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Médio",
@@ -3254,7 +3262,7 @@ const QUESTION_BANK = [
   {
     "id": 154,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Lei 7.498/86 - Prescricao de medicamentos em programas de saude publica",
+    "assunto": "Exercício da enfermagem (Lei 7.498/1986)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -3275,7 +3283,7 @@ const QUESTION_BANK = [
   {
     "id": 155,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Lei 7.498/86 - Execucao do parto sem distocia",
+    "assunto": "Exercício da enfermagem (Lei 7.498/1986)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Difícil",
@@ -3296,7 +3304,7 @@ const QUESTION_BANK = [
   {
     "id": 156,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Lei 7.498/86 - Atividades da Obstetriz/Enfermeira Obstetrica",
+    "assunto": "Exercício da enfermagem (Lei 7.498/1986)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -3317,7 +3325,7 @@ const QUESTION_BANK = [
   {
     "id": 157,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Lei 7.498/86 - Atividades do Tecnico de Enfermagem",
+    "assunto": "Exercício da enfermagem (Lei 7.498/1986)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Médio",
@@ -3338,7 +3346,7 @@ const QUESTION_BANK = [
   {
     "id": 158,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Lei 7.498/86 - Limite de atuacao do Tecnico de Enfermagem",
+    "assunto": "Exercício da enfermagem (Lei 7.498/1986)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -3359,7 +3367,7 @@ const QUESTION_BANK = [
   {
     "id": 159,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Lei 7.498/86 - Atividades do Auxiliar de Enfermagem",
+    "assunto": "Exercício da enfermagem (Lei 7.498/1986)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Médio",
@@ -3380,7 +3388,7 @@ const QUESTION_BANK = [
   {
     "id": 160,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Lei 7.498/86 - Atribuicoes especificas do Auxiliar de Enfermagem",
+    "assunto": "Exercício da enfermagem (Lei 7.498/1986)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -3401,7 +3409,7 @@ const QUESTION_BANK = [
   {
     "id": 161,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Lei 7.498/86 - Supervisao do Enfermeiro",
+    "assunto": "Exercício da enfermagem (Lei 7.498/1986)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Difícil",
@@ -3422,7 +3430,7 @@ const QUESTION_BANK = [
   {
     "id": 162,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Lei 7.498/86 - Piso salarial nacional dos Enfermeiros (CLT)",
+    "assunto": "Exercício da enfermagem (Lei 7.498/1986)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -3443,7 +3451,7 @@ const QUESTION_BANK = [
   {
     "id": 163,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Lei 7.498/86 - Administracao publica e provimento de cargos",
+    "assunto": "Exercício da enfermagem (Lei 7.498/1986)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Médio",
@@ -3464,7 +3472,7 @@ const QUESTION_BANK = [
   {
     "id": 164,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Lei 7.498/86 - Direitos adquiridos",
+    "assunto": "Exercício da enfermagem (Lei 7.498/1986)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -3485,7 +3493,7 @@ const QUESTION_BANK = [
   {
     "id": 165,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Lei 7.498/86 - Atendentes de enfermagem",
+    "assunto": "Exercício da enfermagem (Lei 7.498/1986)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Difícil",
@@ -3506,7 +3514,7 @@ const QUESTION_BANK = [
   {
     "id": 166,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Lei 7.498/86 - Regulamentacao da lei",
+    "assunto": "Exercício da enfermagem (Lei 7.498/1986)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Fácil",
@@ -3527,7 +3535,7 @@ const QUESTION_BANK = [
   {
     "id": 167,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Lei 7.498/86 - Objeto da lei",
+    "assunto": "Exercício da enfermagem (Lei 7.498/1986)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Fácil",
@@ -3548,7 +3556,7 @@ const QUESTION_BANK = [
   {
     "id": 168,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Lei 7.498/86 - Hierarquia tecnica da equipe de enfermagem",
+    "assunto": "Exercício da enfermagem (Lei 7.498/1986)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -3569,7 +3577,7 @@ const QUESTION_BANK = [
   {
     "id": 169,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Lei 7.498/86 - Distincao entre atividades privativas e de equipe",
+    "assunto": "Exercício da enfermagem (Lei 7.498/1986)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Difícil",
@@ -3590,7 +3598,7 @@ const QUESTION_BANK = [
   {
     "id": 170,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Decreto 94.406/87 - Objeto do decreto",
+    "assunto": "Regulamentação do exercício da enfermagem (Decreto 94.406/1987)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Fácil",
@@ -3611,7 +3619,7 @@ const QUESTION_BANK = [
   {
     "id": 171,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Decreto 94.406/87 - Exercicio privativo",
+    "assunto": "Regulamentação do exercício da enfermagem (Decreto 94.406/1987)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Fácil",
@@ -3632,7 +3640,7 @@ const QUESTION_BANK = [
   {
     "id": 172,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Decreto 94.406/87 - Planejamento institucional",
+    "assunto": "Regulamentação do exercício da enfermagem (Decreto 94.406/1987)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -3653,7 +3661,7 @@ const QUESTION_BANK = [
   {
     "id": 173,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Decreto 94.406/87 - Prescricao da assistencia de enfermagem",
+    "assunto": "Regulamentação do exercício da enfermagem (Decreto 94.406/1987)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Médio",
@@ -3674,7 +3682,7 @@ const QUESTION_BANK = [
   {
     "id": 174,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Decreto 94.406/87 - Quem sao Enfermeiros",
+    "assunto": "Regulamentação do exercício da enfermagem (Decreto 94.406/1987)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -3695,7 +3703,7 @@ const QUESTION_BANK = [
   {
     "id": 175,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Decreto 94.406/87 - Quem sao Tecnicos de Enfermagem",
+    "assunto": "Regulamentação do exercício da enfermagem (Decreto 94.406/1987)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Médio",
@@ -3716,7 +3724,7 @@ const QUESTION_BANK = [
   {
     "id": 176,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Decreto 94.406/87 - Quem sao Auxiliares de Enfermagem",
+    "assunto": "Regulamentação do exercício da enfermagem (Decreto 94.406/1987)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -3737,7 +3745,7 @@ const QUESTION_BANK = [
   {
     "id": 177,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Decreto 94.406/87 - Quem sao Parteiros",
+    "assunto": "Regulamentação do exercício da enfermagem (Decreto 94.406/1987)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Difícil",
@@ -3758,7 +3766,7 @@ const QUESTION_BANK = [
   {
     "id": 178,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Decreto 94.406/87 - Atividades privativas do Enfermeiro",
+    "assunto": "Regulamentação do exercício da enfermagem (Decreto 94.406/1987)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -3779,7 +3787,7 @@ const QUESTION_BANK = [
   {
     "id": 179,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Decreto 94.406/87 - Cuidados de maior complexidade tecnica",
+    "assunto": "Regulamentação do exercício da enfermagem (Decreto 94.406/1987)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Difícil",
@@ -3800,7 +3808,7 @@ const QUESTION_BANK = [
   {
     "id": 180,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Decreto 94.406/87 - Enfermeiro na equipe de saude",
+    "assunto": "Regulamentação do exercício da enfermagem (Decreto 94.406/1987)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -3821,7 +3829,7 @@ const QUESTION_BANK = [
   {
     "id": 181,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Decreto 94.406/87 - Participacao em bancas examinadoras",
+    "assunto": "Regulamentação do exercício da enfermagem (Decreto 94.406/1987)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Difícil",
@@ -3842,7 +3850,7 @@ const QUESTION_BANK = [
   {
     "id": 182,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Decreto 94.406/87 - Prevencao de infeccao hospitalar",
+    "assunto": "Regulamentação do exercício da enfermagem (Decreto 94.406/1987)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -3863,7 +3871,7 @@ const QUESTION_BANK = [
   {
     "id": 183,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Decreto 94.406/87 - Atividades da Obstetriz/Enfermeira Obstetrica",
+    "assunto": "Regulamentação do exercício da enfermagem (Decreto 94.406/1987)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Difícil",
@@ -3884,7 +3892,7 @@ const QUESTION_BANK = [
   {
     "id": 184,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Decreto 94.406/87 - Tecnico de Enfermagem assistindo o Enfermeiro",
+    "assunto": "Regulamentação do exercício da enfermagem (Decreto 94.406/1987)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -3905,7 +3913,7 @@ const QUESTION_BANK = [
   {
     "id": 185,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Decreto 94.406/87 - Limite de atuacao do Tecnico de Enfermagem",
+    "assunto": "Regulamentação do exercício da enfermagem (Decreto 94.406/1987)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Difícil",
@@ -3926,7 +3934,7 @@ const QUESTION_BANK = [
   {
     "id": 186,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Decreto 94.406/87 - Atividades do Auxiliar de Enfermagem",
+    "assunto": "Regulamentação do exercício da enfermagem (Decreto 94.406/1987)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -3947,7 +3955,7 @@ const QUESTION_BANK = [
   {
     "id": 187,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Decreto 94.406/87 - Auxiliar de Enfermagem em sala de cirurgia",
+    "assunto": "Regulamentação do exercício da enfermagem (Decreto 94.406/1987)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Difícil",
@@ -3968,7 +3976,7 @@ const QUESTION_BANK = [
   {
     "id": 188,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Decreto 94.406/87 - Cuidados de higiene e conforto",
+    "assunto": "Regulamentação do exercício da enfermagem (Decreto 94.406/1987)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -3989,7 +3997,7 @@ const QUESTION_BANK = [
   {
     "id": 189,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Decreto 94.406/87 - Procedimentos pos-morte",
+    "assunto": "Regulamentação do exercício da enfermagem (Decreto 94.406/1987)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Difícil",
@@ -4010,7 +4018,7 @@ const QUESTION_BANK = [
   {
     "id": 190,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Decreto 94.406/87 - Atribuicoes do Parteiro",
+    "assunto": "Regulamentação do exercício da enfermagem (Decreto 94.406/1987)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -4031,7 +4039,7 @@ const QUESTION_BANK = [
   {
     "id": 191,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Decreto 94.406/87 - Supervisao das atividades do Parteiro",
+    "assunto": "Regulamentação do exercício da enfermagem (Decreto 94.406/1987)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Difícil",
@@ -4052,7 +4060,7 @@ const QUESTION_BANK = [
   {
     "id": 192,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Decreto 94.406/87 - Supervisao geral do Enfermeiro",
+    "assunto": "Regulamentação do exercício da enfermagem (Decreto 94.406/1987)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -4073,7 +4081,7 @@ const QUESTION_BANK = [
   {
     "id": 193,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Decreto 94.406/87 - Codigo de Deontologia e anotacao em prontuario",
+    "assunto": "Regulamentação do exercício da enfermagem (Decreto 94.406/1987)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Médio",
@@ -4094,7 +4102,7 @@ const QUESTION_BANK = [
   {
     "id": 194,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Decreto 94.406/87 - Inscricao no COREN como condicao para provimento de cargos",
+    "assunto": "Regulamentação do exercício da enfermagem (Decreto 94.406/1987)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -4115,7 +4123,7 @@ const QUESTION_BANK = [
   {
     "id": 195,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Decreto 94.406/87 - Harmonizacao de situacoes existentes",
+    "assunto": "Regulamentação do exercício da enfermagem (Decreto 94.406/1987)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Difícil",
@@ -4136,7 +4144,7 @@ const QUESTION_BANK = [
   {
     "id": 196,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Decreto 94.406/87 - Relacao entre o Decreto e a Lei no 7.498/86",
+    "assunto": "Regulamentação do exercício da enfermagem (Decreto 94.406/1987)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -4157,7 +4165,7 @@ const QUESTION_BANK = [
   {
     "id": 197,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Lei 7.498/86 - Enfermeiro Obstetra e execucao de parto",
+    "assunto": "Exercício da enfermagem (Lei 7.498/1986)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Difícil",
@@ -4178,7 +4186,7 @@ const QUESTION_BANK = [
   {
     "id": 198,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Decreto 94.406/87 - Educacao continuada",
+    "assunto": "Regulamentação do exercício da enfermagem (Decreto 94.406/1987)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -4199,7 +4207,7 @@ const QUESTION_BANK = [
   {
     "id": 199,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Decreto 94.406/87 - Prevencao de doencas transmissiveis pelo Tecnico",
+    "assunto": "Regulamentação do exercício da enfermagem (Decreto 94.406/1987)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Médio",
@@ -4220,7 +4228,7 @@ const QUESTION_BANK = [
   {
     "id": 200,
     "disciplina": "Legislação de Enfermagem",
-    "assunto": "Decreto 94.406/87 - Educacao em saude pelo Auxiliar de Enfermagem",
+    "assunto": "Regulamentação do exercício da enfermagem (Decreto 94.406/1987)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -4241,7 +4249,7 @@ const QUESTION_BANK = [
   {
     "id": 201,
     "disciplina": "Estatuto Geral das Guardas Municipais",
-    "assunto": "Lei 13.022/14 — Objeto da lei",
+    "assunto": "Estatuto Geral das Guardas Municipais (Lei 13.022/2014)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Fácil",
@@ -4262,7 +4270,7 @@ const QUESTION_BANK = [
   {
     "id": 202,
     "disciplina": "Estatuto Geral das Guardas Municipais",
-    "assunto": "Lei 13.022/14 — Natureza jurídica",
+    "assunto": "Estatuto Geral das Guardas Municipais (Lei 13.022/2014)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -4283,7 +4291,7 @@ const QUESTION_BANK = [
   {
     "id": 203,
     "disciplina": "Estatuto Geral das Guardas Municipais",
-    "assunto": "Lei 13.022/14 — Princípios mínimos de atuação",
+    "assunto": "Estatuto Geral das Guardas Municipais (Lei 13.022/2014)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Difícil",
@@ -4304,7 +4312,7 @@ const QUESTION_BANK = [
   {
     "id": 204,
     "disciplina": "Estatuto Geral das Guardas Municipais",
-    "assunto": "Lei 13.022/14 — Competência geral",
+    "assunto": "Competências das Guardas Municipais (Lei 13.022/2014, arts. 4º e 5º)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -4325,7 +4333,7 @@ const QUESTION_BANK = [
   {
     "id": 205,
     "disciplina": "Estatuto Geral das Guardas Municipais",
-    "assunto": "Lei 13.022/14 — Competências específicas",
+    "assunto": "Competências das Guardas Municipais (Lei 13.022/2014, arts. 4º e 5º)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Difícil",
@@ -4346,7 +4354,7 @@ const QUESTION_BANK = [
   {
     "id": 206,
     "disciplina": "Estatuto Geral das Guardas Municipais",
-    "assunto": "Lei 13.022/14 — Criação e subordinação",
+    "assunto": "Estatuto Geral das Guardas Municipais (Lei 13.022/2014)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Fácil",
@@ -4367,7 +4375,7 @@ const QUESTION_BANK = [
   {
     "id": 207,
     "disciplina": "Estatuto Geral das Guardas Municipais",
-    "assunto": "Lei 13.022/14 — Limites de efetivo",
+    "assunto": "Estatuto Geral das Guardas Municipais (Lei 13.022/2014)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Difícil",
@@ -4388,7 +4396,7 @@ const QUESTION_BANK = [
   {
     "id": 208,
     "disciplina": "Estatuto Geral das Guardas Municipais",
-    "assunto": "Lei 13.022/14 — Requisitos para investidura",
+    "assunto": "Estatuto Geral das Guardas Municipais (Lei 13.022/2014)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -4409,7 +4417,7 @@ const QUESTION_BANK = [
   {
     "id": 209,
     "disciplina": "Estatuto Geral das Guardas Municipais",
-    "assunto": "Lei 13.022/14 — Controle interno e externo",
+    "assunto": "Estatuto Geral das Guardas Municipais (Lei 13.022/2014)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Difícil",
@@ -4430,7 +4438,7 @@ const QUESTION_BANK = [
   {
     "id": 210,
     "disciplina": "Estatuto Geral das Guardas Municipais",
-    "assunto": "Lei 13.022/14 — Vedações e natureza do regime disciplinar",
+    "assunto": "Estatuto Geral das Guardas Municipais (Lei 13.022/2014)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -4451,7 +4459,7 @@ const QUESTION_BANK = [
   {
     "id": 211,
     "disciplina": "Estatuto Geral das Guardas Municipais",
-    "assunto": "Situação-problema — Flagrante em bem municipal",
+    "assunto": "Situações-problema: Guardas Municipais (Lei 13.022/2014)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -4472,7 +4480,7 @@ const QUESTION_BANK = [
   {
     "id": 212,
     "disciplina": "Estatuto Geral das Guardas Municipais",
-    "assunto": "Situação-problema — Apoio a órgão de segurança pública",
+    "assunto": "Situações-problema: Guardas Municipais (Lei 13.022/2014)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Difícil",
@@ -4493,7 +4501,7 @@ const QUESTION_BANK = [
   {
     "id": 213,
     "disciplina": "Estatuto Geral das Guardas Municipais",
-    "assunto": "Situação-problema — Cálculo de efetivo máximo",
+    "assunto": "Situações-problema: Guardas Municipais (Lei 13.022/2014)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -4514,7 +4522,7 @@ const QUESTION_BANK = [
   {
     "id": 214,
     "disciplina": "Estatuto Geral das Guardas Municipais",
-    "assunto": "Situação-problema — Denúncia de conduta irregular",
+    "assunto": "Situações-problema: Guardas Municipais (Lei 13.022/2014)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Médio",
@@ -4535,7 +4543,7 @@ const QUESTION_BANK = [
   {
     "id": 215,
     "disciplina": "Estatuto Geral das Guardas Municipais",
-    "assunto": "Situação-problema — Uniforme e símbolos militares",
+    "assunto": "Situações-problema: Guardas Municipais (Lei 13.022/2014)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Fácil",
@@ -4556,7 +4564,7 @@ const QUESTION_BANK = [
   {
     "id": 216,
     "disciplina": "Estatuto Geral das Guardas Municipais",
-    "assunto": "Situação-problema — Segurança escolar",
+    "assunto": "Situações-problema: Guardas Municipais (Lei 13.022/2014)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Médio",
@@ -4577,7 +4585,7 @@ const QUESTION_BANK = [
   {
     "id": 217,
     "disciplina": "Estatuto Geral das Guardas Municipais",
-    "assunto": "Situação-problema — Prisão antes de condenação definitiva",
+    "assunto": "Situações-problema: Guardas Municipais (Lei 13.022/2014)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -4598,7 +4606,7 @@ const QUESTION_BANK = [
   {
     "id": 218,
     "disciplina": "Estatuto Geral das Guardas Municipais",
-    "assunto": "Situação-problema — Consórcio entre municípios",
+    "assunto": "Situações-problema: Guardas Municipais (Lei 13.022/2014)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Médio",
@@ -4619,7 +4627,7 @@ const QUESTION_BANK = [
   {
     "id": 219,
     "disciplina": "Estatuto Geral das Guardas Municipais",
-    "assunto": "Situação-problema — Suspensão do porte de arma",
+    "assunto": "Situações-problema: Guardas Municipais (Lei 13.022/2014)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -4640,7 +4648,7 @@ const QUESTION_BANK = [
   {
     "id": 220,
     "disciplina": "Estatuto Geral das Guardas Municipais",
-    "assunto": "Situação-problema — Atuação conjunta em evento de grande porte",
+    "assunto": "Situações-problema: Guardas Municipais (Lei 13.022/2014)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Médio",
@@ -4661,7 +4669,7 @@ const QUESTION_BANK = [
   {
     "id": 221,
     "disciplina": "Direito Penal",
-    "assunto": "Teoria do crime — dolo e culpa",
+    "assunto": "Teoria do crime (CP, arts. 13 a 25)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -4682,7 +4690,7 @@ const QUESTION_BANK = [
   {
     "id": 222,
     "disciplina": "Direito Penal",
-    "assunto": "Excludentes de ilicitude — legítima defesa",
+    "assunto": "Excludentes de ilicitude (CP, arts. 23 a 25)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Difícil",
@@ -4703,7 +4711,7 @@ const QUESTION_BANK = [
   {
     "id": 223,
     "disciplina": "Direito Penal",
-    "assunto": "Excludentes de ilicitude — estado de necessidade",
+    "assunto": "Excludentes de ilicitude (CP, arts. 23 a 25)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -4724,7 +4732,7 @@ const QUESTION_BANK = [
   {
     "id": 224,
     "disciplina": "Direito Penal",
-    "assunto": "Iter criminis — tentativa",
+    "assunto": "Teoria do crime (CP, arts. 13 a 25)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Médio",
@@ -4745,7 +4753,7 @@ const QUESTION_BANK = [
   {
     "id": 225,
     "disciplina": "Direito Penal",
-    "assunto": "Crimes contra a Administração Pública — resistência",
+    "assunto": "Crimes contra a administração pública (CP, arts. 312 a 359-H)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -4766,7 +4774,7 @@ const QUESTION_BANK = [
   {
     "id": 226,
     "disciplina": "Direito Penal",
-    "assunto": "Crimes contra a Administração Pública — desobediência",
+    "assunto": "Crimes contra a administração pública (CP, arts. 312 a 359-H)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Médio",
@@ -4787,7 +4795,7 @@ const QUESTION_BANK = [
   {
     "id": 227,
     "disciplina": "Direito Penal",
-    "assunto": "Crimes contra a Administração Pública — desacato",
+    "assunto": "Crimes contra a administração pública (CP, arts. 312 a 359-H)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Fácil",
@@ -4808,7 +4816,7 @@ const QUESTION_BANK = [
   {
     "id": 228,
     "disciplina": "Direito Penal",
-    "assunto": "Crimes contra o patrimônio — furto e roubo",
+    "assunto": "Crimes contra o patrimônio (CP, arts. 155 a 183)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Difícil",
@@ -4829,7 +4837,7 @@ const QUESTION_BANK = [
   {
     "id": 229,
     "disciplina": "Direito Penal",
-    "assunto": "Prisão em flagrante — modalidades",
+    "assunto": "Prisão em flagrante (CPP, arts. 301 a 310)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -4850,7 +4858,7 @@ const QUESTION_BANK = [
   {
     "id": 230,
     "disciplina": "Direito Penal",
-    "assunto": "Excludentes de ilicitude — rol do art. 23 CP",
+    "assunto": "Excludentes de ilicitude (CP, arts. 23 a 25)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Médio",
@@ -4871,7 +4879,7 @@ const QUESTION_BANK = [
   {
     "id": 231,
     "disciplina": "Direito Penal",
-    "assunto": "Situação-problema — Subtração sem violência",
+    "assunto": "Situações-problema de atuação policial (CP e CPP)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -4892,7 +4900,7 @@ const QUESTION_BANK = [
   {
     "id": 232,
     "disciplina": "Direito Penal",
-    "assunto": "Situação-problema — Recusa a ordem legal",
+    "assunto": "Situações-problema de atuação policial (CP e CPP)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Fácil",
@@ -4913,7 +4921,7 @@ const QUESTION_BANK = [
   {
     "id": 233,
     "disciplina": "Direito Penal",
-    "assunto": "Situação-problema — Contenção de pessoa em surto",
+    "assunto": "Situações-problema de atuação policial (CP e CPP)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -4934,7 +4942,7 @@ const QUESTION_BANK = [
   {
     "id": 234,
     "disciplina": "Direito Penal",
-    "assunto": "Situação-problema — Perseguição e captura",
+    "assunto": "Situações-problema de atuação policial (CP e CPP)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Difícil",
@@ -4955,7 +4963,7 @@ const QUESTION_BANK = [
   {
     "id": 235,
     "disciplina": "Direito Penal",
-    "assunto": "Situação-problema — Intervenção em briga com risco de lesão grave",
+    "assunto": "Situações-problema de atuação policial (CP e CPP)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -4976,7 +4984,7 @@ const QUESTION_BANK = [
   {
     "id": 236,
     "disciplina": "Direito Penal",
-    "assunto": "Situação-problema — Ordem de afastamento de área interditada",
+    "assunto": "Situações-problema de atuação policial (CP e CPP)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Fácil",
@@ -4997,7 +5005,7 @@ const QUESTION_BANK = [
   {
     "id": 237,
     "disciplina": "Direito Penal",
-    "assunto": "Situação-problema — Tentativa interrompida",
+    "assunto": "Situações-problema de atuação policial (CP e CPP)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -5018,7 +5026,7 @@ const QUESTION_BANK = [
   {
     "id": 238,
     "disciplina": "Direito Penal",
-    "assunto": "Situação-problema — Menor flagrado em conduta análoga a furto",
+    "assunto": "Situações-problema de atuação policial (CP e CPP)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Difícil",
@@ -5039,7 +5047,7 @@ const QUESTION_BANK = [
   {
     "id": 239,
     "disciplina": "Direito Penal",
-    "assunto": "Situação-problema — Acidente de trânsito com vítima",
+    "assunto": "Situações-problema de atuação policial (CP e CPP)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -5060,7 +5068,7 @@ const QUESTION_BANK = [
   {
     "id": 240,
     "disciplina": "Direito Penal",
-    "assunto": "Situação-problema — Abordagem com objeto ambíguo",
+    "assunto": "Situações-problema de atuação policial (CP e CPP)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Difícil",
@@ -5081,7 +5089,7 @@ const QUESTION_BANK = [
   {
     "id": 241,
     "disciplina": "Direitos Humanos e Uso da Força",
-    "assunto": "CF/88 — Vedação à tortura",
+    "assunto": "Direitos fundamentais na atuação policial (CF/88, art. 5º, III, LIV e LV; DUDH)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Fácil",
@@ -5102,7 +5110,7 @@ const QUESTION_BANK = [
   {
     "id": 242,
     "disciplina": "Direitos Humanos e Uso da Força",
-    "assunto": "Declaração Universal dos Direitos Humanos",
+    "assunto": "Direitos fundamentais na atuação policial (CF/88, art. 5º, III, LIV e LV; DUDH)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -5123,7 +5131,7 @@ const QUESTION_BANK = [
   {
     "id": 243,
     "disciplina": "Direitos Humanos e Uso da Força",
-    "assunto": "Princípios da ONU sobre uso da força e armas de fogo",
+    "assunto": "Uso da força e instrumentos de menor potencial ofensivo (Lei 13.060/2014 e Portaria Interministerial 4.226/2010)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Difícil",
@@ -5144,7 +5152,7 @@ const QUESTION_BANK = [
   {
     "id": 244,
     "disciplina": "Direitos Humanos e Uso da Força",
-    "assunto": "Uso progressivo da força — conceito",
+    "assunto": "Uso da força e instrumentos de menor potencial ofensivo (Lei 13.060/2014 e Portaria Interministerial 4.226/2010)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -5165,7 +5173,7 @@ const QUESTION_BANK = [
   {
     "id": 245,
     "disciplina": "Direitos Humanos e Uso da Força",
-    "assunto": "Lei 13.060/2014 — Princípios do uso de instrumentos de menor potencial ofensivo",
+    "assunto": "Uso da força e instrumentos de menor potencial ofensivo (Lei 13.060/2014 e Portaria Interministerial 4.226/2010)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Difícil",
@@ -5186,7 +5194,7 @@ const QUESTION_BANK = [
   {
     "id": 246,
     "disciplina": "Direitos Humanos e Uso da Força",
-    "assunto": "Lei 13.060/2014 — Vedação de arma de fogo contra pessoa em fuga desarmada",
+    "assunto": "Uso da força e instrumentos de menor potencial ofensivo (Lei 13.060/2014 e Portaria Interministerial 4.226/2010)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -5207,7 +5215,7 @@ const QUESTION_BANK = [
   {
     "id": 247,
     "disciplina": "Direitos Humanos e Uso da Força",
-    "assunto": "Diretrizes nacionais sobre uso da força",
+    "assunto": "Uso da força e instrumentos de menor potencial ofensivo (Lei 13.060/2014 e Portaria Interministerial 4.226/2010)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Médio",
@@ -5228,7 +5236,7 @@ const QUESTION_BANK = [
   {
     "id": 248,
     "disciplina": "Direitos Humanos e Uso da Força",
-    "assunto": "Conceito de instrumento de menor potencial ofensivo",
+    "assunto": "Uso da força e instrumentos de menor potencial ofensivo (Lei 13.060/2014 e Portaria Interministerial 4.226/2010)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Fácil",
@@ -5249,7 +5257,7 @@ const QUESTION_BANK = [
   {
     "id": 249,
     "disciplina": "Direitos Humanos e Uso da Força",
-    "assunto": "Devido processo legal e ampla defesa",
+    "assunto": "Direitos fundamentais na atuação policial (CF/88, art. 5º, III, LIV e LV; DUDH)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Médio",
@@ -5270,7 +5278,7 @@ const QUESTION_BANK = [
   {
     "id": 250,
     "disciplina": "Direitos Humanos e Uso da Força",
-    "assunto": "Princípio da proporcionalidade no uso da força",
+    "assunto": "Uso da força e instrumentos de menor potencial ofensivo (Lei 13.060/2014 e Portaria Interministerial 4.226/2010)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -5291,7 +5299,7 @@ const QUESTION_BANK = [
   {
     "id": 251,
     "disciplina": "Direitos Humanos e Uso da Força",
-    "assunto": "Situação-problema — Pessoa desarmada em fuga",
+    "assunto": "Situações-problema: uso da força e direitos humanos (Lei 13.060/2014)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -5312,7 +5320,7 @@ const QUESTION_BANK = [
   {
     "id": 252,
     "disciplina": "Direitos Humanos e Uso da Força",
-    "assunto": "Situação-problema — Resistência passiva",
+    "assunto": "Situações-problema: uso da força e direitos humanos (Lei 13.060/2014)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Médio",
@@ -5333,7 +5341,7 @@ const QUESTION_BANK = [
   {
     "id": 253,
     "disciplina": "Direitos Humanos e Uso da Força",
-    "assunto": "Situação-problema — Prioridade de instrumento de menor potencial ofensivo",
+    "assunto": "Situações-problema: uso da força e direitos humanos (Lei 13.060/2014)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -5354,7 +5362,7 @@ const QUESTION_BANK = [
   {
     "id": 254,
     "disciplina": "Direitos Humanos e Uso da Força",
-    "assunto": "Situação-problema — Assistência médica após uso da força",
+    "assunto": "Situações-problema: uso da força e direitos humanos (Lei 13.060/2014)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Difícil",
@@ -5375,7 +5383,7 @@ const QUESTION_BANK = [
   {
     "id": 255,
     "disciplina": "Direitos Humanos e Uso da Força",
-    "assunto": "Situação-problema — Uso desproporcional por colega",
+    "assunto": "Situações-problema: uso da força e direitos humanos (Lei 13.060/2014)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -5396,7 +5404,7 @@ const QUESTION_BANK = [
   {
     "id": 256,
     "disciplina": "Direitos Humanos e Uso da Força",
-    "assunto": "Situação-problema — Manifestação pública com tensão",
+    "assunto": "Situações-problema: uso da força e direitos humanos (Lei 13.060/2014)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Médio",
@@ -5417,7 +5425,7 @@ const QUESTION_BANK = [
   {
     "id": 257,
     "disciplina": "Direitos Humanos e Uso da Força",
-    "assunto": "Situação-problema — Necessidades básicas de pessoa detida",
+    "assunto": "Situações-problema: uso da força e direitos humanos (Lei 13.060/2014)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Fácil",
@@ -5438,7 +5446,7 @@ const QUESTION_BANK = [
   {
     "id": 258,
     "disciplina": "Direitos Humanos e Uso da Força",
-    "assunto": "Situação-problema — Abordagem de adolescente",
+    "assunto": "Situações-problema: uso da força e direitos humanos (Lei 13.060/2014)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Difícil",
@@ -5459,7 +5467,7 @@ const QUESTION_BANK = [
   {
     "id": 259,
     "disciplina": "Direitos Humanos e Uso da Força",
-    "assunto": "Situação-problema — Uso de algemas",
+    "assunto": "Situações-problema: uso da força e direitos humanos (Lei 13.060/2014)",
     "banca": "IDECAN",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -5480,7 +5488,7 @@ const QUESTION_BANK = [
   {
     "id": 260,
     "disciplina": "Direitos Humanos e Uso da Força",
-    "assunto": "Situação-problema — Revista pessoal e respeito à dignidade",
+    "assunto": "Situações-problema: uso da força e direitos humanos (Lei 13.060/2014)",
     "banca": "IDECAN",
     "ano": 2023,
     "dificuldade": "Médio",
@@ -5501,7 +5509,7 @@ const QUESTION_BANK = [
   {
     "id": 261,
     "disciplina": "Execução Penal",
-    "assunto": "LEP - Objetivo da execucao penal",
+    "assunto": "Objetivo, indulto e monitoração eletrônica (LEP, arts. 1º, 146-A a 146-D e 187 a 193)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Fácil",
@@ -5523,7 +5531,7 @@ const QUESTION_BANK = [
   {
     "id": 262,
     "disciplina": "Execução Penal",
-    "assunto": "LEP - Direitos do condenado",
+    "assunto": "Assistência, direitos e deveres do preso (LEP, arts. 10 a 27 e 38 a 43)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -5545,7 +5553,7 @@ const QUESTION_BANK = [
   {
     "id": 263,
     "disciplina": "Execução Penal",
-    "assunto": "LEP - Assistencia ao preso",
+    "assunto": "Assistência, direitos e deveres do preso (LEP, arts. 10 a 27 e 38 a 43)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Médio",
@@ -5567,7 +5575,7 @@ const QUESTION_BANK = [
   {
     "id": 264,
     "disciplina": "Execução Penal",
-    "assunto": "LEP - Trabalho do preso",
+    "assunto": "Trabalho e remição (LEP, arts. 28 a 37 e 126 a 130)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -5589,7 +5597,7 @@ const QUESTION_BANK = [
   {
     "id": 265,
     "disciplina": "Execução Penal",
-    "assunto": "LEP - Jornada de trabalho",
+    "assunto": "Trabalho e remição (LEP, arts. 28 a 37 e 126 a 130)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Médio",
@@ -5611,7 +5619,7 @@ const QUESTION_BANK = [
   {
     "id": 266,
     "disciplina": "Execução Penal",
-    "assunto": "LEP - Faltas disciplinares graves",
+    "assunto": "Disciplina: faltas graves e RDD (LEP, arts. 44 a 60)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -5633,7 +5641,7 @@ const QUESTION_BANK = [
   {
     "id": 267,
     "disciplina": "Execução Penal",
-    "assunto": "LEP - Regime Disciplinar Diferenciado (RDD)",
+    "assunto": "Disciplina: faltas graves e RDD (LEP, arts. 44 a 60)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Difícil",
@@ -5655,7 +5663,7 @@ const QUESTION_BANK = [
   {
     "id": 268,
     "disciplina": "Execução Penal",
-    "assunto": "LEP - Estabelecimentos penais",
+    "assunto": "Estabelecimentos penais e órgãos da execução (LEP, arts. 61 a 104)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -5677,7 +5685,7 @@ const QUESTION_BANK = [
   {
     "id": 269,
     "disciplina": "Execução Penal",
-    "assunto": "LEP - Progressao de regime",
+    "assunto": "Regimes, progressão e regressão (LEP, arts. 112 a 119; Súmula 439/STJ)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Difícil",
@@ -5699,7 +5707,7 @@ const QUESTION_BANK = [
   {
     "id": 270,
     "disciplina": "Execução Penal",
-    "assunto": "LEP - Regressao de regime",
+    "assunto": "Regimes, progressão e regressão (LEP, arts. 112 a 119; Súmula 439/STJ)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -5721,7 +5729,7 @@ const QUESTION_BANK = [
   {
     "id": 271,
     "disciplina": "Execução Penal",
-    "assunto": "LEP - Saida temporaria",
+    "assunto": "Saída temporária e livramento condicional (LEP, arts. 122 a 125 e 131 a 146; CP, art. 83)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Difícil",
@@ -5743,7 +5751,7 @@ const QUESTION_BANK = [
   {
     "id": 272,
     "disciplina": "Execução Penal",
-    "assunto": "LEP - Remicao pelo trabalho e pelo estudo",
+    "assunto": "Trabalho e remição (LEP, arts. 28 a 37 e 126 a 130)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -5765,7 +5773,7 @@ const QUESTION_BANK = [
   {
     "id": 273,
     "disciplina": "Execução Penal",
-    "assunto": "LEP - Livramento condicional",
+    "assunto": "Saída temporária e livramento condicional (LEP, arts. 122 a 125 e 131 a 146; CP, art. 83)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Médio",
@@ -5787,7 +5795,7 @@ const QUESTION_BANK = [
   {
     "id": 274,
     "disciplina": "Execução Penal",
-    "assunto": "LEP - Monitoracao eletronica",
+    "assunto": "Objetivo, indulto e monitoração eletrônica (LEP, arts. 1º, 146-A a 146-D e 187 a 193)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -5809,7 +5817,7 @@ const QUESTION_BANK = [
   {
     "id": 275,
     "disciplina": "Execução Penal",
-    "assunto": "LEP - Indulto e comutacao",
+    "assunto": "Objetivo, indulto e monitoração eletrônica (LEP, arts. 1º, 146-A a 146-D e 187 a 193)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Difícil",
@@ -5831,7 +5839,7 @@ const QUESTION_BANK = [
   {
     "id": 276,
     "disciplina": "Legislação Específica",
-    "assunto": "Lei 8.072/90 - Rol de crimes hediondos",
+    "assunto": "Lei dos Crimes Hediondos (Lei 8.072/1990)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Difícil",
@@ -5853,7 +5861,7 @@ const QUESTION_BANK = [
   {
     "id": 277,
     "disciplina": "Legislação Específica",
-    "assunto": "Lei 8.072/90 - Regime de cumprimento de pena",
+    "assunto": "Lei dos Crimes Hediondos (Lei 8.072/1990)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -5875,7 +5883,7 @@ const QUESTION_BANK = [
   {
     "id": 278,
     "disciplina": "Legislação Específica",
-    "assunto": "Lei 8.072/90 - Livramento condicional",
+    "assunto": "Lei dos Crimes Hediondos (Lei 8.072/1990)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Difícil",
@@ -5897,7 +5905,7 @@ const QUESTION_BANK = [
   {
     "id": 279,
     "disciplina": "Legislação Específica",
-    "assunto": "Lei 8.072/90 - Fianca e liberdade provisoria",
+    "assunto": "Lei dos Crimes Hediondos (Lei 8.072/1990)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -5919,7 +5927,7 @@ const QUESTION_BANK = [
   {
     "id": 280,
     "disciplina": "Legislação Específica",
-    "assunto": "Lei 11.343/06 - Distincao usuario x traficante",
+    "assunto": "Lei de Drogas (Lei 11.343/2006)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Difícil",
@@ -5941,7 +5949,7 @@ const QUESTION_BANK = [
   {
     "id": 281,
     "disciplina": "Legislação Específica",
-    "assunto": "Lei 11.343/06 - Penas do usuario",
+    "assunto": "Lei de Drogas (Lei 11.343/2006)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -5963,7 +5971,7 @@ const QUESTION_BANK = [
   {
     "id": 282,
     "disciplina": "Legislação Específica",
-    "assunto": "Lei 11.343/06 - Trafico privilegiado",
+    "assunto": "Lei de Drogas (Lei 11.343/2006)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Difícil",
@@ -5985,7 +5993,7 @@ const QUESTION_BANK = [
   {
     "id": 283,
     "disciplina": "Legislação Específica",
-    "assunto": "Lei 11.343/06 - Natureza hedionda",
+    "assunto": "Lei de Drogas (Lei 11.343/2006)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -6007,7 +6015,7 @@ const QUESTION_BANK = [
   {
     "id": 284,
     "disciplina": "Legislação Específica",
-    "assunto": "Lei 12.850/13 - Conceito de organizacao criminosa",
+    "assunto": "Lei de Organizações Criminosas (Lei 12.850/2013)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Difícil",
@@ -6029,7 +6037,7 @@ const QUESTION_BANK = [
   {
     "id": 285,
     "disciplina": "Legislação Específica",
-    "assunto": "Lei 12.850/13 - Colaboracao premiada",
+    "assunto": "Lei de Organizações Criminosas (Lei 12.850/2013)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -6051,7 +6059,7 @@ const QUESTION_BANK = [
   {
     "id": 286,
     "disciplina": "Legislação Específica",
-    "assunto": "Lei 12.850/13 - Meios de obtencao de prova",
+    "assunto": "Lei de Organizações Criminosas (Lei 12.850/2013)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Médio",
@@ -6073,7 +6081,7 @@ const QUESTION_BANK = [
   {
     "id": 287,
     "disciplina": "Legislação Específica",
-    "assunto": "Lei 12.850/13 - Acao controlada",
+    "assunto": "Lei de Organizações Criminosas (Lei 12.850/2013)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -6095,7 +6103,7 @@ const QUESTION_BANK = [
   {
     "id": 288,
     "disciplina": "Legislação Específica",
-    "assunto": "Lei 9.455/97 - Conceito de tortura",
+    "assunto": "Lei de Tortura (Lei 9.455/1997)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Difícil",
@@ -6117,7 +6125,7 @@ const QUESTION_BANK = [
   {
     "id": 289,
     "disciplina": "Legislação Específica",
-    "assunto": "Lei 9.455/97 - Tortura por omissao",
+    "assunto": "Lei de Tortura (Lei 9.455/1997)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -6139,7 +6147,7 @@ const QUESTION_BANK = [
   {
     "id": 290,
     "disciplina": "Legislação Específica",
-    "assunto": "Lei 9.455/97 - Efeitos da condenacao",
+    "assunto": "Lei de Tortura (Lei 9.455/1997)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Médio",
@@ -6161,7 +6169,7 @@ const QUESTION_BANK = [
   {
     "id": 291,
     "disciplina": "Legislação Específica",
-    "assunto": "Lei 13.869/19 - Sujeito ativo",
+    "assunto": "Lei de Abuso de Autoridade (Lei 13.869/2019)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -6183,7 +6191,7 @@ const QUESTION_BANK = [
   {
     "id": 292,
     "disciplina": "Legislação Específica",
-    "assunto": "Lei 13.869/19 - Elemento subjetivo",
+    "assunto": "Lei de Abuso de Autoridade (Lei 13.869/2019)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Difícil",
@@ -6205,7 +6213,7 @@ const QUESTION_BANK = [
   {
     "id": 293,
     "disciplina": "Legislação Específica",
-    "assunto": "Lei 13.869/19 - Exemplo de conduta tipificada",
+    "assunto": "Lei de Abuso de Autoridade (Lei 13.869/2019)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -6227,7 +6235,7 @@ const QUESTION_BANK = [
   {
     "id": 294,
     "disciplina": "Legislação Específica",
-    "assunto": "Lei 10.826/03 - Porte de arma por agente de seguranca",
+    "assunto": "Estatuto do Desarmamento (Lei 10.826/2003)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Médio",
@@ -6249,7 +6257,7 @@ const QUESTION_BANK = [
   {
     "id": 295,
     "disciplina": "Legislação Específica",
-    "assunto": "Lei 10.826/03 - Crimes do Estatuto do Desarmamento",
+    "assunto": "Estatuto do Desarmamento (Lei 10.826/2003)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -6271,7 +6279,7 @@ const QUESTION_BANK = [
   {
     "id": 296,
     "disciplina": "Direito Penal e Processo Penal",
-    "assunto": "Teoria do crime - tipicidade, ilicitude e culpabilidade",
+    "assunto": "Teoria do crime (CP, arts. 13 a 25)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Médio",
@@ -6293,7 +6301,7 @@ const QUESTION_BANK = [
   {
     "id": 297,
     "disciplina": "Direito Penal e Processo Penal",
-    "assunto": "Concurso de pessoas",
+    "assunto": "Concurso de pessoas (CP, arts. 29 a 31)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -6315,7 +6323,7 @@ const QUESTION_BANK = [
   {
     "id": 298,
     "disciplina": "Direito Penal e Processo Penal",
-    "assunto": "Crimes contra a pessoa - homicidio qualificado",
+    "assunto": "Crimes contra a pessoa: homicídio qualificado (CP, art. 121, § 2º)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Difícil",
@@ -6337,7 +6345,7 @@ const QUESTION_BANK = [
   {
     "id": 299,
     "disciplina": "Direito Penal e Processo Penal",
-    "assunto": "Crimes contra o patrimonio - roubo",
+    "assunto": "Crimes contra o patrimônio (CP, arts. 155 a 183)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -6359,7 +6367,7 @@ const QUESTION_BANK = [
   {
     "id": 300,
     "disciplina": "Direito Penal e Processo Penal",
-    "assunto": "Aplicacao da pena - circunstancias judiciais",
+    "assunto": "Aplicação da pena (CP, arts. 59 a 68)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Médio",
@@ -6381,7 +6389,7 @@ const QUESTION_BANK = [
   {
     "id": 301,
     "disciplina": "Direito Penal e Processo Penal",
-    "assunto": "Inquerito policial - natureza juridica",
+    "assunto": "Inquérito policial (CPP, arts. 4º a 23)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -6403,7 +6411,7 @@ const QUESTION_BANK = [
   {
     "id": 302,
     "disciplina": "Direito Penal e Processo Penal",
-    "assunto": "Prisao em flagrante - modalidades",
+    "assunto": "Prisão em flagrante (CPP, arts. 301 a 310)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Difícil",
@@ -6425,7 +6433,7 @@ const QUESTION_BANK = [
   {
     "id": 303,
     "disciplina": "Direito Penal e Processo Penal",
-    "assunto": "Prisao preventiva - requisitos",
+    "assunto": "Prisão preventiva e medidas cautelares (CPP, arts. 311 a 316 e 319)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -6447,7 +6455,7 @@ const QUESTION_BANK = [
   {
     "id": 304,
     "disciplina": "Direito Penal e Processo Penal",
-    "assunto": "Medidas cautelares diversas da prisao",
+    "assunto": "Prisão preventiva e medidas cautelares (CPP, arts. 311 a 316 e 319)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Médio",
@@ -6469,7 +6477,7 @@ const QUESTION_BANK = [
   {
     "id": 305,
     "disciplina": "Direito Penal e Processo Penal",
-    "assunto": "Cadeia de custodia da prova",
+    "assunto": "Provas (CPP, arts. 155 a 250)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -6491,7 +6499,7 @@ const QUESTION_BANK = [
   {
     "id": 306,
     "disciplina": "Execução Penal",
-    "assunto": "Art. 112 LEP - fracoes de progressao",
+    "assunto": "Regimes, progressão e regressão (LEP, arts. 112 a 119; Súmula 439/STJ)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Difícil",
@@ -6513,7 +6521,7 @@ const QUESTION_BANK = [
   {
     "id": 307,
     "disciplina": "Execução Penal",
-    "assunto": "Art. 83 CP - livramento condicional",
+    "assunto": "Saída temporária e livramento condicional (LEP, arts. 122 a 125 e 131 a 146; CP, art. 83)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -6535,7 +6543,7 @@ const QUESTION_BANK = [
   {
     "id": 308,
     "disciplina": "Execução Penal",
-    "assunto": "Art. 52 LEP - duracao do RDD",
+    "assunto": "Disciplina: faltas graves e RDD (LEP, arts. 44 a 60)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Difícil",
@@ -6557,7 +6565,7 @@ const QUESTION_BANK = [
   {
     "id": 309,
     "disciplina": "Execução Penal",
-    "assunto": "Art. 52 LEP - requisitos do RDD",
+    "assunto": "Disciplina: faltas graves e RDD (LEP, arts. 44 a 60)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -6579,7 +6587,7 @@ const QUESTION_BANK = [
   {
     "id": 310,
     "disciplina": "Execução Penal",
-    "assunto": "Art. 126 LEP - remicao pelo trabalho e estudo",
+    "assunto": "Trabalho e remição (LEP, arts. 28 a 37 e 126 a 130)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Difícil",
@@ -6601,7 +6609,7 @@ const QUESTION_BANK = [
   {
     "id": 311,
     "disciplina": "Execução Penal",
-    "assunto": "Art. 123 LEP - requisitos da saida temporaria",
+    "assunto": "Saída temporária e livramento condicional (LEP, arts. 122 a 125 e 131 a 146; CP, art. 83)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -6623,7 +6631,7 @@ const QUESTION_BANK = [
   {
     "id": 312,
     "disciplina": "Execução Penal",
-    "assunto": "Art. 122 LEP - saida temporaria e crime hediondo com resultado morte",
+    "assunto": "Saída temporária e livramento condicional (LEP, arts. 122 a 125 e 131 a 146; CP, art. 83)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Difícil",
@@ -6645,7 +6653,7 @@ const QUESTION_BANK = [
   {
     "id": 313,
     "disciplina": "Execução Penal",
-    "assunto": "Art. 50 LEP - rol de faltas graves",
+    "assunto": "Disciplina: faltas graves e RDD (LEP, arts. 44 a 60)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -6667,7 +6675,7 @@ const QUESTION_BANK = [
   {
     "id": 314,
     "disciplina": "Execução Penal",
-    "assunto": "Sumula 439 STJ - exame criminologico",
+    "assunto": "Regimes, progressão e regressão (LEP, arts. 112 a 119; Súmula 439/STJ)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Difícil",
@@ -6689,7 +6697,7 @@ const QUESTION_BANK = [
   {
     "id": 315,
     "disciplina": "Execução Penal",
-    "assunto": "Art. 118 LEP - regressao de regime",
+    "assunto": "Regimes, progressão e regressão (LEP, arts. 112 a 119; Súmula 439/STJ)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -6711,7 +6719,7 @@ const QUESTION_BANK = [
   {
     "id": 316,
     "disciplina": "Execução Penal",
-    "assunto": "Art. 24 LEP - natureza da assistencia religiosa",
+    "assunto": "Assistência, direitos e deveres do preso (LEP, arts. 10 a 27 e 38 a 43)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Difícil",
@@ -6733,7 +6741,7 @@ const QUESTION_BANK = [
   {
     "id": 317,
     "disciplina": "Execução Penal",
-    "assunto": "Art. 25 LEP - assistencia ao egresso",
+    "assunto": "Assistência, direitos e deveres do preso (LEP, arts. 10 a 27 e 38 a 43)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -6755,7 +6763,7 @@ const QUESTION_BANK = [
   {
     "id": 318,
     "disciplina": "Execução Penal",
-    "assunto": "Art. 36 LEP - trabalho externo em regime fechado",
+    "assunto": "Trabalho e remição (LEP, arts. 28 a 37 e 126 a 130)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Difícil",
@@ -6777,7 +6785,7 @@ const QUESTION_BANK = [
   {
     "id": 319,
     "disciplina": "Execução Penal",
-    "assunto": "Art. 70 LEP - Conselho Penitenciario",
+    "assunto": "Estabelecimentos penais e órgãos da execução (LEP, arts. 61 a 104)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -6799,7 +6807,7 @@ const QUESTION_BANK = [
   {
     "id": 320,
     "disciplina": "Execução Penal",
-    "assunto": "Art. 78 LEP - Patronato",
+    "assunto": "Estabelecimentos penais e órgãos da execução (LEP, arts. 61 a 104)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Difícil",
@@ -6821,7 +6829,7 @@ const QUESTION_BANK = [
   {
     "id": 321,
     "disciplina": "Execução Penal",
-    "assunto": "Art. 93/94 LEP - Casa do Albergado",
+    "assunto": "Estabelecimentos penais e órgãos da execução (LEP, arts. 61 a 104)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -6843,7 +6851,7 @@ const QUESTION_BANK = [
   {
     "id": 322,
     "disciplina": "Execução Penal",
-    "assunto": "Art. 102/103 LEP - Cadeia Publica",
+    "assunto": "Estabelecimentos penais e órgãos da execução (LEP, arts. 61 a 104)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Difícil",
@@ -6865,7 +6873,7 @@ const QUESTION_BANK = [
   {
     "id": 323,
     "disciplina": "Execução Penal",
-    "assunto": "Art. 41 LEP - direitos do preso",
+    "assunto": "Assistência, direitos e deveres do preso (LEP, arts. 10 a 27 e 38 a 43)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -6887,7 +6895,7 @@ const QUESTION_BANK = [
   {
     "id": 324,
     "disciplina": "Execução Penal",
-    "assunto": "Art. 39 LEP - deveres do condenado",
+    "assunto": "Assistência, direitos e deveres do preso (LEP, arts. 10 a 27 e 38 a 43)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Difícil",
@@ -6909,7 +6917,7 @@ const QUESTION_BANK = [
   {
     "id": 325,
     "disciplina": "Execução Penal",
-    "assunto": "Art. 10/11 LEP - assistencia material",
+    "assunto": "Assistência, direitos e deveres do preso (LEP, arts. 10 a 27 e 38 a 43)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -6931,7 +6939,7 @@ const QUESTION_BANK = [
   {
     "id": 326,
     "disciplina": "Legislação Específica",
-    "assunto": "Lei 8.072/90 - rol taxativo de hediondos",
+    "assunto": "Lei dos Crimes Hediondos (Lei 8.072/1990)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Difícil",
@@ -6953,7 +6961,7 @@ const QUESTION_BANK = [
   {
     "id": 327,
     "disciplina": "Legislação Específica",
-    "assunto": "Lei 8.072/90 - lesao corporal contra agente de seguranca",
+    "assunto": "Lei dos Crimes Hediondos (Lei 8.072/1990)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -6975,7 +6983,7 @@ const QUESTION_BANK = [
   {
     "id": 328,
     "disciplina": "Legislação Específica",
-    "assunto": "Lei 8.072/90 - beneficios vedados",
+    "assunto": "Lei dos Crimes Hediondos (Lei 8.072/1990)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Difícil",
@@ -6997,7 +7005,7 @@ const QUESTION_BANK = [
   {
     "id": 329,
     "disciplina": "Legislação Específica",
-    "assunto": "Lei 11.343/06 - pena do trafico (art. 33, caput)",
+    "assunto": "Lei de Drogas (Lei 11.343/2006)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -7019,7 +7027,7 @@ const QUESTION_BANK = [
   {
     "id": 330,
     "disciplina": "Legislação Específica",
-    "assunto": "Lei 11.343/06 - associacao para o trafico",
+    "assunto": "Lei de Drogas (Lei 11.343/2006)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Difícil",
@@ -7041,7 +7049,7 @@ const QUESTION_BANK = [
   {
     "id": 331,
     "disciplina": "Legislação Específica",
-    "assunto": "Lei 11.343/06 - liberdade provisoria",
+    "assunto": "Lei de Drogas (Lei 11.343/2006)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -7063,7 +7071,7 @@ const QUESTION_BANK = [
   {
     "id": 332,
     "disciplina": "Legislação Específica",
-    "assunto": "Lei 12.850/13 - pena da organizacao criminosa",
+    "assunto": "Lei de Organizações Criminosas (Lei 12.850/2013)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Difícil",
@@ -7085,7 +7093,7 @@ const QUESTION_BANK = [
   {
     "id": 333,
     "disciplina": "Legislação Específica",
-    "assunto": "Lei 12.850/13 - causa de aumento por arma de fogo",
+    "assunto": "Lei de Organizações Criminosas (Lei 12.850/2013)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -7107,7 +7115,7 @@ const QUESTION_BANK = [
   {
     "id": 334,
     "disciplina": "Legislação Específica",
-    "assunto": "Lei 12.850/13 - prazo da infiltracao de agentes",
+    "assunto": "Lei de Organizações Criminosas (Lei 12.850/2013)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Difícil",
@@ -7129,7 +7137,7 @@ const QUESTION_BANK = [
   {
     "id": 335,
     "disciplina": "Legislação Específica",
-    "assunto": "Lei 9.455/97 - pena da tortura (caput)",
+    "assunto": "Lei de Tortura (Lei 9.455/1997)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -7151,7 +7159,7 @@ const QUESTION_BANK = [
   {
     "id": 336,
     "disciplina": "Legislação Específica",
-    "assunto": "Lei 9.455/97 - tortura-castigo",
+    "assunto": "Lei de Tortura (Lei 9.455/1997)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Difícil",
@@ -7173,7 +7181,7 @@ const QUESTION_BANK = [
   {
     "id": 337,
     "disciplina": "Legislação Específica",
-    "assunto": "Lei 9.455/97 - regime inicial de cumprimento",
+    "assunto": "Lei de Tortura (Lei 9.455/1997)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -7195,7 +7203,7 @@ const QUESTION_BANK = [
   {
     "id": 338,
     "disciplina": "Legislação Específica",
-    "assunto": "Lei 13.869/19 - pena-regra geral",
+    "assunto": "Lei de Abuso de Autoridade (Lei 13.869/2019)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Difícil",
@@ -7217,7 +7225,7 @@ const QUESTION_BANK = [
   {
     "id": 339,
     "disciplina": "Legislação Específica",
-    "assunto": "Lei 13.869/19 - natureza da acao penal",
+    "assunto": "Lei de Abuso de Autoridade (Lei 13.869/2019)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -7239,7 +7247,7 @@ const QUESTION_BANK = [
   {
     "id": 340,
     "disciplina": "Legislação Específica",
-    "assunto": "Lei 13.869/19 - exclusao de abuso de autoridade",
+    "assunto": "Lei de Abuso de Autoridade (Lei 13.869/2019)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Difícil",
@@ -7261,7 +7269,7 @@ const QUESTION_BANK = [
   {
     "id": 341,
     "disciplina": "Legislação Específica",
-    "assunto": "Lei 10.826/03 - pena da posse irregular",
+    "assunto": "Estatuto do Desarmamento (Lei 10.826/2003)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -7283,7 +7291,7 @@ const QUESTION_BANK = [
   {
     "id": 342,
     "disciplina": "Legislação Específica",
-    "assunto": "Lei 10.826/03 - pena do porte ilegal",
+    "assunto": "Estatuto do Desarmamento (Lei 10.826/2003)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Difícil",
@@ -7305,7 +7313,7 @@ const QUESTION_BANK = [
   {
     "id": 343,
     "disciplina": "Legislação Específica",
-    "assunto": "Lei 10.826/03 - arma de uso restrito",
+    "assunto": "Estatuto do Desarmamento (Lei 10.826/2003)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -7327,7 +7335,7 @@ const QUESTION_BANK = [
   {
     "id": 344,
     "disciplina": "Legislação Específica",
-    "assunto": "Lei 10.826/03 - disparo de arma de fogo",
+    "assunto": "Estatuto do Desarmamento (Lei 10.826/2003)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Difícil",
@@ -7349,7 +7357,7 @@ const QUESTION_BANK = [
   {
     "id": 345,
     "disciplina": "Legislação Específica",
-    "assunto": "Lei 12.850/13 - conceito de organizacao criminosa (requisito numerico)",
+    "assunto": "Lei de Organizações Criminosas (Lei 12.850/2013)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -7371,7 +7379,7 @@ const QUESTION_BANK = [
   {
     "id": 346,
     "disciplina": "Direito Penal e Processo Penal",
-    "assunto": "Art. 14 CP - tentativa",
+    "assunto": "Teoria do crime (CP, arts. 13 a 25)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Difícil",
@@ -7393,7 +7401,7 @@ const QUESTION_BANK = [
   {
     "id": 347,
     "disciplina": "Direito Penal e Processo Penal",
-    "assunto": "Art. 15 CP - desistencia voluntaria e arrependimento eficaz",
+    "assunto": "Teoria do crime (CP, arts. 13 a 25)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -7415,7 +7423,7 @@ const QUESTION_BANK = [
   {
     "id": 348,
     "disciplina": "Direito Penal e Processo Penal",
-    "assunto": "Art. 16 CP - arrependimento posterior",
+    "assunto": "Teoria do crime (CP, arts. 13 a 25)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Difícil",
@@ -7437,7 +7445,7 @@ const QUESTION_BANK = [
   {
     "id": 349,
     "disciplina": "Direito Penal e Processo Penal",
-    "assunto": "Art. 20 CP - erro de tipo",
+    "assunto": "Teoria do crime (CP, arts. 13 a 25)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -7459,7 +7467,7 @@ const QUESTION_BANK = [
   {
     "id": 350,
     "disciplina": "Direito Penal e Processo Penal",
-    "assunto": "Art. 21 CP - erro de proibicao",
+    "assunto": "Teoria do crime (CP, arts. 13 a 25)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Difícil",
@@ -7481,7 +7489,7 @@ const QUESTION_BANK = [
   {
     "id": 351,
     "disciplina": "Direito Penal e Processo Penal",
-    "assunto": "Art. 44 CP - substituicao por penas restritivas de direitos",
+    "assunto": "Penas e regimes (CP, arts. 32 a 52)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -7503,7 +7511,7 @@ const QUESTION_BANK = [
   {
     "id": 352,
     "disciplina": "Direito Penal e Processo Penal",
-    "assunto": "Art. 65 CP - atenuantes genericas (idade)",
+    "assunto": "Aplicação da pena (CP, arts. 59 a 68)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Difícil",
@@ -7525,7 +7533,7 @@ const QUESTION_BANK = [
   {
     "id": 353,
     "disciplina": "Direito Penal e Processo Penal",
-    "assunto": "Art. 61/62 CP - agravantes genericas",
+    "assunto": "Aplicação da pena (CP, arts. 59 a 68)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -7547,7 +7555,7 @@ const QUESTION_BANK = [
   {
     "id": 354,
     "disciplina": "Direito Penal e Processo Penal",
-    "assunto": "Art. 5o CPP - instauracao do inquerito policial",
+    "assunto": "Inquérito policial (CPP, arts. 4º a 23)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Difícil",
@@ -7569,7 +7577,7 @@ const QUESTION_BANK = [
   {
     "id": 355,
     "disciplina": "Direito Penal e Processo Penal",
-    "assunto": "Art. 310 CPP - audiencia de custodia",
+    "assunto": "Prisão em flagrante (CPP, arts. 301 a 310)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -7591,7 +7599,7 @@ const QUESTION_BANK = [
   {
     "id": 356,
     "disciplina": "Direito Penal e Processo Penal",
-    "assunto": "Art. 311 CPP - vedacao a decretacao de oficio",
+    "assunto": "Prisão preventiva e medidas cautelares (CPP, arts. 311 a 316 e 319)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Difícil",
@@ -7613,7 +7621,7 @@ const QUESTION_BANK = [
   {
     "id": 357,
     "disciplina": "Direito Penal e Processo Penal",
-    "assunto": "Art. 313 CPP - hipoteses de cabimento da preventiva",
+    "assunto": "Prisão preventiva e medidas cautelares (CPP, arts. 311 a 316 e 319)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -7635,7 +7643,7 @@ const QUESTION_BANK = [
   {
     "id": 358,
     "disciplina": "Direito Penal e Processo Penal",
-    "assunto": "Art. 316 CPP - revisao periodica da preventiva",
+    "assunto": "Prisão preventiva e medidas cautelares (CPP, arts. 311 a 316 e 319)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Difícil",
@@ -7657,7 +7665,7 @@ const QUESTION_BANK = [
   {
     "id": 359,
     "disciplina": "Direito Penal e Processo Penal",
-    "assunto": "Art. 155 CPP - livre convicção motivada e elementos da investigacao",
+    "assunto": "Provas (CPP, arts. 155 a 250)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -7679,7 +7687,7 @@ const QUESTION_BANK = [
   {
     "id": 360,
     "disciplina": "Direito Penal e Processo Penal",
-    "assunto": "Art. 212 CPP - inquiricao de testemunhas",
+    "assunto": "Provas (CPP, arts. 155 a 250)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Difícil",
@@ -7701,7 +7709,7 @@ const QUESTION_BANK = [
   {
     "id": 361,
     "disciplina": "Direito Penal e Processo Penal",
-    "assunto": "Art. 5o, LXII, CF - comunicacao da prisao",
+    "assunto": "Prisão em flagrante (CPP, arts. 301 a 310)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -7723,7 +7731,7 @@ const QUESTION_BANK = [
   {
     "id": 362,
     "disciplina": "Direito Penal e Processo Penal",
-    "assunto": "Art. 302 CPP - flagrante preparado (crime impossivel)",
+    "assunto": "Prisão em flagrante (CPP, arts. 301 a 310)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Difícil",
@@ -7745,7 +7753,7 @@ const QUESTION_BANK = [
   {
     "id": 363,
     "disciplina": "Direito Penal e Processo Penal",
-    "assunto": "Art. 158-A CPP - cadeia de custodia (etapas)",
+    "assunto": "Provas (CPP, arts. 155 a 250)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -7767,7 +7775,7 @@ const QUESTION_BANK = [
   {
     "id": 364,
     "disciplina": "Direito Penal e Processo Penal",
-    "assunto": "Art. 33 CP - regimes de cumprimento de pena",
+    "assunto": "Penas e regimes (CP, arts. 32 a 52)",
     "banca": "Instituto Avalia",
     "ano": 2025,
     "dificuldade": "Difícil",
@@ -7789,7 +7797,7 @@ const QUESTION_BANK = [
   {
     "id": 365,
     "disciplina": "Direito Penal e Processo Penal",
-    "assunto": "Art. 63/64 CP - reincidencia e periodo depurador",
+    "assunto": "Aplicação da pena (CP, arts. 59 a 68)",
     "banca": "Instituto Avalia",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -7811,7 +7819,7 @@ const QUESTION_BANK = [
   {
     "id": 366,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado empregado",
+    "assunto": "Segurado empregado (Lei 8.213/1991, art. 11, I)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Fácil",
@@ -7829,7 +7837,7 @@ const QUESTION_BANK = [
   {
     "id": 367,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado empregado",
+    "assunto": "Segurado empregado (Lei 8.213/1991, art. 11, I)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -7847,7 +7855,7 @@ const QUESTION_BANK = [
   {
     "id": 368,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado empregado",
+    "assunto": "Segurado empregado (Lei 8.213/1991, art. 11, I)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -7865,7 +7873,7 @@ const QUESTION_BANK = [
   {
     "id": 369,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado empregado",
+    "assunto": "Segurado empregado (Lei 8.213/1991, art. 11, I)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -7883,7 +7891,7 @@ const QUESTION_BANK = [
   {
     "id": 370,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado empregado",
+    "assunto": "Segurado empregado (Lei 8.213/1991, art. 11, I)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -7901,7 +7909,7 @@ const QUESTION_BANK = [
   {
     "id": 371,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado empregado",
+    "assunto": "Segurado empregado (Lei 8.213/1991, art. 11, I)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -7919,7 +7927,7 @@ const QUESTION_BANK = [
   {
     "id": 372,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado empregado",
+    "assunto": "Segurado empregado (Lei 8.213/1991, art. 11, I)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -7937,7 +7945,7 @@ const QUESTION_BANK = [
   {
     "id": 373,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado empregado",
+    "assunto": "Segurado empregado (Lei 8.213/1991, art. 11, I)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -7955,7 +7963,7 @@ const QUESTION_BANK = [
   {
     "id": 374,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado empregado",
+    "assunto": "Segurado empregado (Lei 8.213/1991, art. 11, I)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -7973,7 +7981,7 @@ const QUESTION_BANK = [
   {
     "id": 375,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado empregado",
+    "assunto": "Segurado empregado (Lei 8.213/1991, art. 11, I)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -7991,7 +7999,7 @@ const QUESTION_BANK = [
   {
     "id": 376,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado empregado",
+    "assunto": "Segurado empregado (Lei 8.213/1991, art. 11, I)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -8009,7 +8017,7 @@ const QUESTION_BANK = [
   {
     "id": 377,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado empregado",
+    "assunto": "Segurado empregado (Lei 8.213/1991, art. 11, I)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -8027,7 +8035,7 @@ const QUESTION_BANK = [
   {
     "id": 378,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado empregado",
+    "assunto": "Segurado empregado (Lei 8.213/1991, art. 11, I)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -8045,7 +8053,7 @@ const QUESTION_BANK = [
   {
     "id": 379,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado empregado",
+    "assunto": "Segurado empregado (Lei 8.213/1991, art. 11, I)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -8063,7 +8071,7 @@ const QUESTION_BANK = [
   {
     "id": 380,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado empregado",
+    "assunto": "Segurado empregado (Lei 8.213/1991, art. 11, I)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -8081,7 +8089,7 @@ const QUESTION_BANK = [
   {
     "id": 381,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado empregado",
+    "assunto": "Segurado empregado (Lei 8.213/1991, art. 11, I)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -8099,7 +8107,7 @@ const QUESTION_BANK = [
   {
     "id": 382,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado empregado",
+    "assunto": "Segurado empregado (Lei 8.213/1991, art. 11, I)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -8117,7 +8125,7 @@ const QUESTION_BANK = [
   {
     "id": 383,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado empregado",
+    "assunto": "Segurado empregado (Lei 8.213/1991, art. 11, I)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -8135,7 +8143,7 @@ const QUESTION_BANK = [
   {
     "id": 384,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado empregado",
+    "assunto": "Segurado empregado (Lei 8.213/1991, art. 11, I)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -8153,7 +8161,7 @@ const QUESTION_BANK = [
   {
     "id": 385,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado empregado",
+    "assunto": "Segurado empregado (Lei 8.213/1991, art. 11, I)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -8171,7 +8179,7 @@ const QUESTION_BANK = [
   {
     "id": 386,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado especial",
+    "assunto": "Segurado especial (Lei 8.213/1991, art. 11, VII)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Fácil",
@@ -8189,7 +8197,7 @@ const QUESTION_BANK = [
   {
     "id": 387,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado especial",
+    "assunto": "Segurado especial (Lei 8.213/1991, art. 11, VII)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -8207,7 +8215,7 @@ const QUESTION_BANK = [
   {
     "id": 388,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado especial",
+    "assunto": "Segurado especial (Lei 8.213/1991, art. 11, VII)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -8225,7 +8233,7 @@ const QUESTION_BANK = [
   {
     "id": 389,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado especial",
+    "assunto": "Segurado especial (Lei 8.213/1991, art. 11, VII)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Fácil",
@@ -8243,7 +8251,7 @@ const QUESTION_BANK = [
   {
     "id": 390,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado especial",
+    "assunto": "Segurado especial (Lei 8.213/1991, art. 11, VII)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -8261,7 +8269,7 @@ const QUESTION_BANK = [
   {
     "id": 391,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado especial",
+    "assunto": "Segurado especial (Lei 8.213/1991, art. 11, VII)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -8279,7 +8287,7 @@ const QUESTION_BANK = [
   {
     "id": 392,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado especial",
+    "assunto": "Segurado especial (Lei 8.213/1991, art. 11, VII)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -8297,7 +8305,7 @@ const QUESTION_BANK = [
   {
     "id": 393,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado especial",
+    "assunto": "Segurado especial (Lei 8.213/1991, art. 11, VII)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -8315,7 +8323,7 @@ const QUESTION_BANK = [
   {
     "id": 394,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado especial",
+    "assunto": "Segurado especial (Lei 8.213/1991, art. 11, VII)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -8333,7 +8341,7 @@ const QUESTION_BANK = [
   {
     "id": 395,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado especial",
+    "assunto": "Segurado especial (Lei 8.213/1991, art. 11, VII)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -8351,7 +8359,7 @@ const QUESTION_BANK = [
   {
     "id": 396,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado especial",
+    "assunto": "Segurado especial (Lei 8.213/1991, art. 11, VII)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -8369,7 +8377,7 @@ const QUESTION_BANK = [
   {
     "id": 397,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado especial",
+    "assunto": "Segurado especial (Lei 8.213/1991, art. 11, VII)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -8387,7 +8395,7 @@ const QUESTION_BANK = [
   {
     "id": 398,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado especial",
+    "assunto": "Segurado especial (Lei 8.213/1991, art. 11, VII)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -8405,7 +8413,7 @@ const QUESTION_BANK = [
   {
     "id": 399,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado especial",
+    "assunto": "Segurado especial (Lei 8.213/1991, art. 11, VII)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -8423,7 +8431,7 @@ const QUESTION_BANK = [
   {
     "id": 400,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado especial",
+    "assunto": "Segurado especial (Lei 8.213/1991, art. 11, VII)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -8441,7 +8449,7 @@ const QUESTION_BANK = [
   {
     "id": 401,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado especial",
+    "assunto": "Segurado especial (Lei 8.213/1991, art. 11, VII)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -8459,7 +8467,7 @@ const QUESTION_BANK = [
   {
     "id": 402,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado especial",
+    "assunto": "Segurado especial (Lei 8.213/1991, art. 11, VII)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -8477,7 +8485,7 @@ const QUESTION_BANK = [
   {
     "id": 403,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado especial",
+    "assunto": "Segurado especial (Lei 8.213/1991, art. 11, VII)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -8495,7 +8503,7 @@ const QUESTION_BANK = [
   {
     "id": 404,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado especial",
+    "assunto": "Segurado especial (Lei 8.213/1991, art. 11, VII)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -8513,7 +8521,7 @@ const QUESTION_BANK = [
   {
     "id": 405,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado especial",
+    "assunto": "Segurado especial (Lei 8.213/1991, art. 11, VII)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -8531,7 +8539,7 @@ const QUESTION_BANK = [
   {
     "id": 406,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Empregado doméstico",
+    "assunto": "Empregado doméstico (LC 150/2015)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Fácil",
@@ -8549,7 +8557,7 @@ const QUESTION_BANK = [
   {
     "id": 407,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Empregado doméstico",
+    "assunto": "Empregado doméstico (LC 150/2015)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -8567,7 +8575,7 @@ const QUESTION_BANK = [
   {
     "id": 408,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Empregado doméstico",
+    "assunto": "Empregado doméstico (LC 150/2015)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -8585,7 +8593,7 @@ const QUESTION_BANK = [
   {
     "id": 409,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Empregado doméstico",
+    "assunto": "Empregado doméstico (LC 150/2015)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -8603,7 +8611,7 @@ const QUESTION_BANK = [
   {
     "id": 410,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Empregado doméstico",
+    "assunto": "Empregado doméstico (LC 150/2015)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -8621,7 +8629,7 @@ const QUESTION_BANK = [
   {
     "id": 411,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Empregado doméstico",
+    "assunto": "Empregado doméstico (LC 150/2015)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -8639,7 +8647,7 @@ const QUESTION_BANK = [
   {
     "id": 412,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Empregado doméstico",
+    "assunto": "Empregado doméstico (LC 150/2015)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -8657,7 +8665,7 @@ const QUESTION_BANK = [
   {
     "id": 413,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Empregado doméstico",
+    "assunto": "Empregado doméstico (LC 150/2015)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -8675,7 +8683,7 @@ const QUESTION_BANK = [
   {
     "id": 414,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Empregado doméstico",
+    "assunto": "Empregado doméstico (LC 150/2015)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -8693,7 +8701,7 @@ const QUESTION_BANK = [
   {
     "id": 415,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Empregado doméstico",
+    "assunto": "Empregado doméstico (LC 150/2015)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -8711,7 +8719,7 @@ const QUESTION_BANK = [
   {
     "id": 416,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Trabalhador avulso",
+    "assunto": "Trabalhador avulso (Lei 8.213/1991, art. 11, VI)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Fácil",
@@ -8729,7 +8737,7 @@ const QUESTION_BANK = [
   {
     "id": 417,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Trabalhador avulso",
+    "assunto": "Trabalhador avulso (Lei 8.213/1991, art. 11, VI)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -8747,7 +8755,7 @@ const QUESTION_BANK = [
   {
     "id": 418,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Trabalhador avulso",
+    "assunto": "Trabalhador avulso (Lei 8.213/1991, art. 11, VI)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -8765,7 +8773,7 @@ const QUESTION_BANK = [
   {
     "id": 419,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Trabalhador avulso",
+    "assunto": "Trabalhador avulso (Lei 8.213/1991, art. 11, VI)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -8783,7 +8791,7 @@ const QUESTION_BANK = [
   {
     "id": 420,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Trabalhador avulso",
+    "assunto": "Trabalhador avulso (Lei 8.213/1991, art. 11, VI)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -8801,7 +8809,7 @@ const QUESTION_BANK = [
   {
     "id": 421,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Trabalhador avulso",
+    "assunto": "Trabalhador avulso (Lei 8.213/1991, art. 11, VI)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -8819,7 +8827,7 @@ const QUESTION_BANK = [
   {
     "id": 422,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Trabalhador avulso",
+    "assunto": "Trabalhador avulso (Lei 8.213/1991, art. 11, VI)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -8837,7 +8845,7 @@ const QUESTION_BANK = [
   {
     "id": 423,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Trabalhador avulso",
+    "assunto": "Trabalhador avulso (Lei 8.213/1991, art. 11, VI)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -8855,7 +8863,7 @@ const QUESTION_BANK = [
   {
     "id": 424,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Trabalhador avulso",
+    "assunto": "Trabalhador avulso (Lei 8.213/1991, art. 11, VI)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -8873,7 +8881,7 @@ const QUESTION_BANK = [
   {
     "id": 425,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Trabalhador avulso",
+    "assunto": "Trabalhador avulso (Lei 8.213/1991, art. 11, VI)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -8892,7 +8900,7 @@ const QUESTION_BANK = [
   {
     "id": 426,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Contribuinte individual",
+    "assunto": "Contribuinte individual (Lei 8.213/1991, art. 11, V)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Fácil",
@@ -8910,7 +8918,7 @@ const QUESTION_BANK = [
   {
     "id": 427,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Contribuinte individual",
+    "assunto": "Contribuinte individual (Lei 8.213/1991, art. 11, V)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -8928,7 +8936,7 @@ const QUESTION_BANK = [
   {
     "id": 428,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Contribuinte individual",
+    "assunto": "Contribuinte individual (Lei 8.213/1991, art. 11, V)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -8946,7 +8954,7 @@ const QUESTION_BANK = [
   {
     "id": 429,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Contribuinte individual",
+    "assunto": "Contribuinte individual (Lei 8.213/1991, art. 11, V)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -8964,7 +8972,7 @@ const QUESTION_BANK = [
   {
     "id": 430,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Contribuinte individual",
+    "assunto": "Contribuinte individual (Lei 8.213/1991, art. 11, V)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -8982,7 +8990,7 @@ const QUESTION_BANK = [
   {
     "id": 431,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Contribuinte individual",
+    "assunto": "Contribuinte individual (Lei 8.213/1991, art. 11, V)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -9000,7 +9008,7 @@ const QUESTION_BANK = [
   {
     "id": 432,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Contribuinte individual",
+    "assunto": "Contribuinte individual (Lei 8.213/1991, art. 11, V)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -9018,7 +9026,7 @@ const QUESTION_BANK = [
   {
     "id": 433,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Contribuinte individual",
+    "assunto": "Contribuinte individual (Lei 8.213/1991, art. 11, V)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -9036,7 +9044,7 @@ const QUESTION_BANK = [
   {
     "id": 434,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Contribuinte individual",
+    "assunto": "Contribuinte individual (Lei 8.213/1991, art. 11, V)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -9054,7 +9062,7 @@ const QUESTION_BANK = [
   {
     "id": 435,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Contribuinte individual",
+    "assunto": "Contribuinte individual (Lei 8.213/1991, art. 11, V)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -9072,7 +9080,7 @@ const QUESTION_BANK = [
   {
     "id": 436,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Contribuinte individual",
+    "assunto": "Contribuinte individual (Lei 8.213/1991, art. 11, V)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -9090,7 +9098,7 @@ const QUESTION_BANK = [
   {
     "id": 437,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Contribuinte individual",
+    "assunto": "Contribuinte individual (Lei 8.213/1991, art. 11, V)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -9108,7 +9116,7 @@ const QUESTION_BANK = [
   {
     "id": 438,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Contribuinte individual",
+    "assunto": "Contribuinte individual (Lei 8.213/1991, art. 11, V)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -9126,7 +9134,7 @@ const QUESTION_BANK = [
   {
     "id": 439,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Contribuinte individual",
+    "assunto": "Contribuinte individual (Lei 8.213/1991, art. 11, V)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -9144,7 +9152,7 @@ const QUESTION_BANK = [
   {
     "id": 440,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Contribuinte individual",
+    "assunto": "Contribuinte individual (Lei 8.213/1991, art. 11, V)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -9162,7 +9170,7 @@ const QUESTION_BANK = [
   {
     "id": 441,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Contribuinte individual",
+    "assunto": "Contribuinte individual (Lei 8.213/1991, art. 11, V)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -9180,7 +9188,7 @@ const QUESTION_BANK = [
   {
     "id": 442,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Contribuinte individual",
+    "assunto": "Contribuinte individual (Lei 8.213/1991, art. 11, V)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -9198,7 +9206,7 @@ const QUESTION_BANK = [
   {
     "id": 443,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Contribuinte individual",
+    "assunto": "Contribuinte individual (Lei 8.213/1991, art. 11, V)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -9216,7 +9224,7 @@ const QUESTION_BANK = [
   {
     "id": 444,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Contribuinte individual",
+    "assunto": "Contribuinte individual (Lei 8.213/1991, art. 11, V)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -9234,7 +9242,7 @@ const QUESTION_BANK = [
   {
     "id": 445,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Contribuinte individual",
+    "assunto": "Contribuinte individual (Lei 8.213/1991, art. 11, V)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -9252,7 +9260,7 @@ const QUESTION_BANK = [
   {
     "id": 446,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado facultativo",
+    "assunto": "Segurado facultativo (Lei 8.213/1991, art. 13)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Fácil",
@@ -9270,7 +9278,7 @@ const QUESTION_BANK = [
   {
     "id": 447,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado facultativo",
+    "assunto": "Segurado facultativo (Lei 8.213/1991, art. 13)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -9288,7 +9296,7 @@ const QUESTION_BANK = [
   {
     "id": 448,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado facultativo",
+    "assunto": "Segurado facultativo (Lei 8.213/1991, art. 13)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -9306,7 +9314,7 @@ const QUESTION_BANK = [
   {
     "id": 449,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado facultativo",
+    "assunto": "Segurado facultativo (Lei 8.213/1991, art. 13)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -9324,7 +9332,7 @@ const QUESTION_BANK = [
   {
     "id": 450,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado facultativo",
+    "assunto": "Segurado facultativo (Lei 8.213/1991, art. 13)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -9342,7 +9350,7 @@ const QUESTION_BANK = [
   {
     "id": 451,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado facultativo",
+    "assunto": "Segurado facultativo (Lei 8.213/1991, art. 13)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -9360,7 +9368,7 @@ const QUESTION_BANK = [
   {
     "id": 452,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado facultativo",
+    "assunto": "Segurado facultativo (Lei 8.213/1991, art. 13)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -9378,7 +9386,7 @@ const QUESTION_BANK = [
   {
     "id": 453,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado facultativo",
+    "assunto": "Segurado facultativo (Lei 8.213/1991, art. 13)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -9396,7 +9404,7 @@ const QUESTION_BANK = [
   {
     "id": 454,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado facultativo",
+    "assunto": "Segurado facultativo (Lei 8.213/1991, art. 13)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -9414,7 +9422,7 @@ const QUESTION_BANK = [
   {
     "id": 455,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado facultativo",
+    "assunto": "Segurado facultativo (Lei 8.213/1991, art. 13)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -9432,7 +9440,7 @@ const QUESTION_BANK = [
   {
     "id": 456,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado facultativo",
+    "assunto": "Segurado facultativo (Lei 8.213/1991, art. 13)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -9450,7 +9458,7 @@ const QUESTION_BANK = [
   {
     "id": 457,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado facultativo",
+    "assunto": "Segurado facultativo (Lei 8.213/1991, art. 13)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -9468,7 +9476,7 @@ const QUESTION_BANK = [
   {
     "id": 458,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado facultativo",
+    "assunto": "Segurado facultativo (Lei 8.213/1991, art. 13)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -9486,7 +9494,7 @@ const QUESTION_BANK = [
   {
     "id": 459,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado facultativo",
+    "assunto": "Segurado facultativo (Lei 8.213/1991, art. 13)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -9504,7 +9512,7 @@ const QUESTION_BANK = [
   {
     "id": 460,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado facultativo",
+    "assunto": "Segurado facultativo (Lei 8.213/1991, art. 13)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -9522,7 +9530,7 @@ const QUESTION_BANK = [
   {
     "id": 461,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado facultativo",
+    "assunto": "Segurado facultativo (Lei 8.213/1991, art. 13)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -9540,7 +9548,7 @@ const QUESTION_BANK = [
   {
     "id": 462,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado facultativo",
+    "assunto": "Segurado facultativo (Lei 8.213/1991, art. 13)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -9558,7 +9566,7 @@ const QUESTION_BANK = [
   {
     "id": 463,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado facultativo",
+    "assunto": "Segurado facultativo (Lei 8.213/1991, art. 13)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -9576,7 +9584,7 @@ const QUESTION_BANK = [
   {
     "id": 464,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado facultativo",
+    "assunto": "Segurado facultativo (Lei 8.213/1991, art. 13)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -9594,7 +9602,7 @@ const QUESTION_BANK = [
   {
     "id": 465,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Segurado facultativo",
+    "assunto": "Segurado facultativo (Lei 8.213/1991, art. 13)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -9612,7 +9620,7 @@ const QUESTION_BANK = [
   {
     "id": 466,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Empregado doméstico",
+    "assunto": "Empregado doméstico (LC 150/2015)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -9630,7 +9638,7 @@ const QUESTION_BANK = [
   {
     "id": 467,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Empregado doméstico",
+    "assunto": "Empregado doméstico (LC 150/2015)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -9648,7 +9656,7 @@ const QUESTION_BANK = [
   {
     "id": 468,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Empregado doméstico",
+    "assunto": "Empregado doméstico (LC 150/2015)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -9666,7 +9674,7 @@ const QUESTION_BANK = [
   {
     "id": 469,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Empregado doméstico",
+    "assunto": "Empregado doméstico (LC 150/2015)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -9684,7 +9692,7 @@ const QUESTION_BANK = [
   {
     "id": 470,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Empregado doméstico",
+    "assunto": "Empregado doméstico (LC 150/2015)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -9702,7 +9710,7 @@ const QUESTION_BANK = [
   {
     "id": 471,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Empregado doméstico",
+    "assunto": "Empregado doméstico (LC 150/2015)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -9720,7 +9728,7 @@ const QUESTION_BANK = [
   {
     "id": 472,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Empregado doméstico",
+    "assunto": "Empregado doméstico (LC 150/2015)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -9738,7 +9746,7 @@ const QUESTION_BANK = [
   {
     "id": 473,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Empregado doméstico",
+    "assunto": "Empregado doméstico (LC 150/2015)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -9756,7 +9764,7 @@ const QUESTION_BANK = [
   {
     "id": 474,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Empregado doméstico",
+    "assunto": "Empregado doméstico (LC 150/2015)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -9774,7 +9782,7 @@ const QUESTION_BANK = [
   {
     "id": 475,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Empregado doméstico",
+    "assunto": "Empregado doméstico (LC 150/2015)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -9792,7 +9800,7 @@ const QUESTION_BANK = [
   {
     "id": 476,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Trabalhador avulso",
+    "assunto": "Trabalhador avulso (Lei 8.213/1991, art. 11, VI)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -9810,7 +9818,7 @@ const QUESTION_BANK = [
   {
     "id": 477,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Trabalhador avulso",
+    "assunto": "Trabalhador avulso (Lei 8.213/1991, art. 11, VI)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -9828,7 +9836,7 @@ const QUESTION_BANK = [
   {
     "id": 478,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Trabalhador avulso",
+    "assunto": "Trabalhador avulso (Lei 8.213/1991, art. 11, VI)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -9846,7 +9854,7 @@ const QUESTION_BANK = [
   {
     "id": 479,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Trabalhador avulso",
+    "assunto": "Trabalhador avulso (Lei 8.213/1991, art. 11, VI)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -9864,7 +9872,7 @@ const QUESTION_BANK = [
   {
     "id": 480,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Trabalhador avulso",
+    "assunto": "Trabalhador avulso (Lei 8.213/1991, art. 11, VI)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -9882,7 +9890,7 @@ const QUESTION_BANK = [
   {
     "id": 481,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Trabalhador avulso",
+    "assunto": "Trabalhador avulso (Lei 8.213/1991, art. 11, VI)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -9900,7 +9908,7 @@ const QUESTION_BANK = [
   {
     "id": 482,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Trabalhador avulso",
+    "assunto": "Trabalhador avulso (Lei 8.213/1991, art. 11, VI)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -9918,7 +9926,7 @@ const QUESTION_BANK = [
   {
     "id": 483,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Trabalhador avulso",
+    "assunto": "Trabalhador avulso (Lei 8.213/1991, art. 11, VI)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -9936,7 +9944,7 @@ const QUESTION_BANK = [
   {
     "id": 484,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Trabalhador avulso",
+    "assunto": "Trabalhador avulso (Lei 8.213/1991, art. 11, VI)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Médio",
@@ -9954,7 +9962,7 @@ const QUESTION_BANK = [
   {
     "id": 485,
     "disciplina": "Direito Previdenciário",
-    "assunto": "Trabalhador avulso",
+    "assunto": "Trabalhador avulso (Lei 8.213/1991, art. 11, VI)",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -10017,7 +10025,7 @@ const QUESTION_BANK = [
   {
     "id": 488,
     "disciplina": "Português",
-    "assunto": "Figuras de linguagem",
+    "assunto": "Semântica e figuras de linguagem",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Fácil",
@@ -10039,7 +10047,7 @@ const QUESTION_BANK = [
   {
     "id": 489,
     "disciplina": "Português",
-    "assunto": "Relações semânticas entre orações",
+    "assunto": "Sintaxe, conjunções e relações entre orações",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -10061,7 +10069,7 @@ const QUESTION_BANK = [
   {
     "id": 490,
     "disciplina": "Português",
-    "assunto": "Ortografia e acentuação gráfica",
+    "assunto": "Ortografia e acentuação",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Fácil",
@@ -10149,7 +10157,7 @@ const QUESTION_BANK = [
   {
     "id": 494,
     "disciplina": "Português",
-    "assunto": "Regência verbal",
+    "assunto": "Regência (nominal e verbal)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -10435,7 +10443,7 @@ const QUESTION_BANK = [
   {
     "id": 507,
     "disciplina": "Raciocínio Lógico",
-    "assunto": "Negação de proposições",
+    "assunto": "Equivalências e negações",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -10457,7 +10465,7 @@ const QUESTION_BANK = [
   {
     "id": 508,
     "disciplina": "Raciocínio Lógico",
-    "assunto": "Equivalência lógica",
+    "assunto": "Equivalências e negações",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -10501,7 +10509,7 @@ const QUESTION_BANK = [
   {
     "id": 510,
     "disciplina": "Raciocínio Lógico",
-    "assunto": "Inferências e deduções",
+    "assunto": "Argumentos e silogismos",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -10545,7 +10553,7 @@ const QUESTION_BANK = [
   {
     "id": 512,
     "disciplina": "Raciocínio Lógico",
-    "assunto": "Princípio multiplicativo",
+    "assunto": "Análise combinatória",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -10567,7 +10575,7 @@ const QUESTION_BANK = [
   {
     "id": 513,
     "disciplina": "Raciocínio Lógico",
-    "assunto": "Permutações com repetição",
+    "assunto": "Análise combinatória",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -10589,7 +10597,7 @@ const QUESTION_BANK = [
   {
     "id": 514,
     "disciplina": "Raciocínio Lógico",
-    "assunto": "Combinações",
+    "assunto": "Análise combinatória",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -10633,7 +10641,7 @@ const QUESTION_BANK = [
   {
     "id": 516,
     "disciplina": "Informática",
-    "assunto": "Segurança da informação: phishing",
+    "assunto": "Segurança da informação",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Fácil",
@@ -10655,7 +10663,7 @@ const QUESTION_BANK = [
   {
     "id": 517,
     "disciplina": "Informática",
-    "assunto": "Segurança da informação: malwares",
+    "assunto": "Segurança da informação",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -10677,7 +10685,7 @@ const QUESTION_BANK = [
   {
     "id": 518,
     "disciplina": "Informática",
-    "assunto": "Segurança da informação: criptografia e HTTPS",
+    "assunto": "Segurança da informação",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -10699,7 +10707,7 @@ const QUESTION_BANK = [
   {
     "id": 519,
     "disciplina": "Informática",
-    "assunto": "Segurança da informação: autenticação",
+    "assunto": "Segurança da informação",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -10743,7 +10751,7 @@ const QUESTION_BANK = [
   {
     "id": 521,
     "disciplina": "Informática",
-    "assunto": "Internet, intranet e computação em nuvem",
+    "assunto": "Internet, navegadores e computação em nuvem",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Fácil",
@@ -10765,7 +10773,7 @@ const QUESTION_BANK = [
   {
     "id": 522,
     "disciplina": "Informática",
-    "assunto": "Navegadores",
+    "assunto": "Internet, navegadores e computação em nuvem",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -10787,7 +10795,7 @@ const QUESTION_BANK = [
   {
     "id": 523,
     "disciplina": "Informática",
-    "assunto": "Organização de computadores",
+    "assunto": "Hardware e organização de computadores",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Fácil",
@@ -10809,7 +10817,7 @@ const QUESTION_BANK = [
   {
     "id": 524,
     "disciplina": "Informática",
-    "assunto": "Ambientes operacionais: Windows 11",
+    "assunto": "Sistemas operacionais (Windows 11 e Prompt de Comando)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -10853,7 +10861,7 @@ const QUESTION_BANK = [
   {
     "id": 526,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos e garantias individuais: inviolabilidade do domicílio",
+    "assunto": "Direitos e garantias individuais (CF/88, art. 5º)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -10875,7 +10883,7 @@ const QUESTION_BANK = [
   {
     "id": 527,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos e garantias individuais: prisão",
+    "assunto": "Direitos e garantias individuais (CF/88, art. 5º)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -10897,7 +10905,7 @@ const QUESTION_BANK = [
   {
     "id": 528,
     "disciplina": "Direito Constitucional",
-    "assunto": "Remédios constitucionais",
+    "assunto": "Remédios constitucionais (CF/88, art. 5º, LXVIII a LXXIII)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -10919,7 +10927,7 @@ const QUESTION_BANK = [
   {
     "id": 529,
     "disciplina": "Direito Constitucional",
-    "assunto": "Nacionalidade",
+    "assunto": "Nacionalidade (CF/88, arts. 12 e 13)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -10941,7 +10949,7 @@ const QUESTION_BANK = [
   {
     "id": 530,
     "disciplina": "Direito Constitucional",
-    "assunto": "Princípios fundamentais",
+    "assunto": "Princípios fundamentais (CF/88, arts. 1º a 4º)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Fácil",
@@ -10963,7 +10971,7 @@ const QUESTION_BANK = [
   {
     "id": 531,
     "disciplina": "Direito Constitucional",
-    "assunto": "Organização do Estado: repartição de competências",
+    "assunto": "Organização do Estado (CF/88, arts. 18 a 36)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -10985,7 +10993,7 @@ const QUESTION_BANK = [
   {
     "id": 532,
     "disciplina": "Direito Constitucional",
-    "assunto": "Administração Pública: dos militares dos Estados",
+    "assunto": "Militares dos Estados (CF/88, art. 42)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -11007,7 +11015,7 @@ const QUESTION_BANK = [
   {
     "id": 533,
     "disciplina": "Direito Constitucional",
-    "assunto": "Organização dos Poderes: Poder Legislativo",
+    "assunto": "Poder Legislativo (CF/88, arts. 44 a 75)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -11029,7 +11037,7 @@ const QUESTION_BANK = [
   {
     "id": 534,
     "disciplina": "Direito Constitucional",
-    "assunto": "Defesa do Estado: segurança pública",
+    "assunto": "Segurança pública (CF/88, art. 144)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -11051,7 +11059,7 @@ const QUESTION_BANK = [
   {
     "id": 535,
     "disciplina": "Direito Constitucional",
-    "assunto": "Defesa do Estado e das instituições democráticas: estado de defesa",
+    "assunto": "Estado de defesa e estado de sítio (CF/88, arts. 136 a 141)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -11073,7 +11081,7 @@ const QUESTION_BANK = [
   {
     "id": 536,
     "disciplina": "Direitos Humanos e Legislação Extravagante",
-    "assunto": "Teoria geral dos direitos humanos: gerações",
+    "assunto": "Teoria geral dos direitos humanos: gerações (doutrina)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Fácil",
@@ -11117,7 +11125,7 @@ const QUESTION_BANK = [
   {
     "id": 538,
     "disciplina": "Direitos Humanos e Legislação Extravagante",
-    "assunto": "Incorporação dos tratados internacionais de Direitos Humanos",
+    "assunto": "Tratados internacionais de direitos humanos (CF/88, art. 5º, §§ 2º e 3º)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -11139,7 +11147,7 @@ const QUESTION_BANK = [
   {
     "id": 539,
     "disciplina": "Direitos Humanos e Legislação Extravagante",
-    "assunto": "Convenção Americana sobre Direitos Humanos (Pacto de San José)",
+    "assunto": "Convenção Americana sobre Direitos Humanos (Pacto de San José – Decreto 678/1992)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -11161,7 +11169,7 @@ const QUESTION_BANK = [
   {
     "id": 540,
     "disciplina": "Direitos Humanos e Legislação Extravagante",
-    "assunto": "Estatuto da Criança e do Adolescente",
+    "assunto": "Estatuto da Criança e do Adolescente (Lei 8.069/1990)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Fácil",
@@ -11183,7 +11191,7 @@ const QUESTION_BANK = [
   {
     "id": 541,
     "disciplina": "Direitos Humanos e Legislação Extravagante",
-    "assunto": "Estatuto da Criança e do Adolescente: apreensão do adolescente",
+    "assunto": "Estatuto da Criança e do Adolescente (Lei 8.069/1990)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -11360,7 +11368,7 @@ const QUESTION_BANK = [
   {
     "id": 549,
     "disciplina": "Português",
-    "assunto": "Mecanismos de coesão textual",
+    "assunto": "Coesão textual",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -11382,7 +11390,7 @@ const QUESTION_BANK = [
   {
     "id": 550,
     "disciplina": "Português",
-    "assunto": "Sintaxe da oração e do período",
+    "assunto": "Sintaxe, conjunções e relações entre orações",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -11470,7 +11478,7 @@ const QUESTION_BANK = [
   {
     "id": 554,
     "disciplina": "Português",
-    "assunto": "Emprego do sinal indicativo de crase",
+    "assunto": "Crase",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -11492,7 +11500,7 @@ const QUESTION_BANK = [
   {
     "id": 555,
     "disciplina": "Português",
-    "assunto": "Significação das palavras",
+    "assunto": "Semântica e figuras de linguagem",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Fácil",
@@ -11624,7 +11632,7 @@ const QUESTION_BANK = [
   {
     "id": 561,
     "disciplina": "Raciocínio Lógico",
-    "assunto": "Equivalência e negação (De Morgan)",
+    "assunto": "Equivalências e negações",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -11646,7 +11654,7 @@ const QUESTION_BANK = [
   {
     "id": 562,
     "disciplina": "Raciocínio Lógico",
-    "assunto": "Conectivos lógicos: condicional",
+    "assunto": "Proposições e conectivos lógicos",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Fácil",
@@ -11668,7 +11676,7 @@ const QUESTION_BANK = [
   {
     "id": 563,
     "disciplina": "Raciocínio Lógico",
-    "assunto": "Argumentos válidos",
+    "assunto": "Argumentos e silogismos",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -11690,7 +11698,7 @@ const QUESTION_BANK = [
   {
     "id": 564,
     "disciplina": "Raciocínio Lógico",
-    "assunto": "Combinações",
+    "assunto": "Análise combinatória",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -11844,7 +11852,7 @@ const QUESTION_BANK = [
   {
     "id": 571,
     "disciplina": "Informática",
-    "assunto": "Segurança da informação: criptografia",
+    "assunto": "Segurança da informação",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -11866,7 +11874,7 @@ const QUESTION_BANK = [
   {
     "id": 572,
     "disciplina": "Informática",
-    "assunto": "Ambientes operacionais: Prompt de Comando",
+    "assunto": "Sistemas operacionais (Windows 11 e Prompt de Comando)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Fácil",
@@ -11932,7 +11940,7 @@ const QUESTION_BANK = [
   {
     "id": 575,
     "disciplina": "Informática",
-    "assunto": "Computação em nuvem",
+    "assunto": "Internet, navegadores e computação em nuvem",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Fácil",
@@ -11954,7 +11962,7 @@ const QUESTION_BANK = [
   {
     "id": 576,
     "disciplina": "Direito Constitucional",
-    "assunto": "Controle de constitucionalidade",
+    "assunto": "Controle de constitucionalidade (CF/88, arts. 102 e 103)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -11976,7 +11984,7 @@ const QUESTION_BANK = [
   {
     "id": 577,
     "disciplina": "Direito Constitucional",
-    "assunto": "Poder constituinte",
+    "assunto": "Poder constituinte (doutrina; CF/88, art. 60)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -11998,7 +12006,7 @@ const QUESTION_BANK = [
   {
     "id": 578,
     "disciplina": "Direito Constitucional",
-    "assunto": "Eficácia e aplicabilidade das normas constitucionais",
+    "assunto": "Aplicabilidade das normas constitucionais (CF/88, art. 5º, § 1º, e doutrina)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -12020,7 +12028,7 @@ const QUESTION_BANK = [
   {
     "id": 579,
     "disciplina": "Direito Constitucional",
-    "assunto": "Organização do Estado: repartição de competências",
+    "assunto": "Organização do Estado (CF/88, arts. 18 a 36)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -12042,7 +12050,7 @@ const QUESTION_BANK = [
   {
     "id": 580,
     "disciplina": "Direito Constitucional",
-    "assunto": "Funções essenciais à Justiça",
+    "assunto": "Funções essenciais à Justiça (CF/88, arts. 127 a 135)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -12064,7 +12072,7 @@ const QUESTION_BANK = [
   {
     "id": 581,
     "disciplina": "Direito Administrativo",
-    "assunto": "Regime jurídico-administrativo: princípios",
+    "assunto": "Princípios da Administração Pública (CF/88, art. 37, caput)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -12086,7 +12094,7 @@ const QUESTION_BANK = [
   {
     "id": 582,
     "disciplina": "Direito Administrativo",
-    "assunto": "Poderes administrativos: poder de polícia",
+    "assunto": "Poderes administrativos (CTN, art. 78 e doutrina)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -12108,7 +12116,7 @@ const QUESTION_BANK = [
   {
     "id": 583,
     "disciplina": "Direito Administrativo",
-    "assunto": "Responsabilidade civil do Estado",
+    "assunto": "Responsabilidade civil do Estado (CF/88, art. 37, § 6º)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -12130,7 +12138,7 @@ const QUESTION_BANK = [
   {
     "id": 584,
     "disciplina": "Direito Administrativo",
-    "assunto": "Atos administrativos: anulação e revogação",
+    "assunto": "Atos administrativos (Lei 9.784/1999 e doutrina)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -12152,7 +12160,7 @@ const QUESTION_BANK = [
   {
     "id": 585,
     "disciplina": "Direito Administrativo",
-    "assunto": "Improbidade administrativa",
+    "assunto": "Improbidade administrativa (Lei 8.429/1992)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -12174,7 +12182,7 @@ const QUESTION_BANK = [
   {
     "id": 586,
     "disciplina": "Direito Penal",
-    "assunto": "Lei penal: princípio da legalidade",
+    "assunto": "Aplicação da lei penal (CP, arts. 1º a 12)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Fácil",
@@ -12196,7 +12204,7 @@ const QUESTION_BANK = [
   {
     "id": 587,
     "disciplina": "Direito Penal",
-    "assunto": "Erro de tipo",
+    "assunto": "Teoria do crime (CP, arts. 13 a 25)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -12218,7 +12226,7 @@ const QUESTION_BANK = [
   {
     "id": 588,
     "disciplina": "Direito Penal",
-    "assunto": "Excludentes de ilicitude: legítima defesa",
+    "assunto": "Excludentes de ilicitude (CP, arts. 23 a 25)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -12240,7 +12248,7 @@ const QUESTION_BANK = [
   {
     "id": 589,
     "disciplina": "Direito Penal",
-    "assunto": "Consumação e tentativa",
+    "assunto": "Teoria do crime (CP, arts. 13 a 25)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -12262,7 +12270,7 @@ const QUESTION_BANK = [
   {
     "id": 590,
     "disciplina": "Direito Penal",
-    "assunto": "Crimes contra a administração pública",
+    "assunto": "Crimes contra a administração pública (CP, arts. 312 a 359-H)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -12284,7 +12292,7 @@ const QUESTION_BANK = [
   {
     "id": 591,
     "disciplina": "Direito Processual Penal",
-    "assunto": "Inquérito policial",
+    "assunto": "Inquérito policial (CPP, arts. 4º a 23)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -12306,7 +12314,7 @@ const QUESTION_BANK = [
   {
     "id": 592,
     "disciplina": "Direito Processual Penal",
-    "assunto": "Prisão em flagrante",
+    "assunto": "Prisão em flagrante (CPP, arts. 301 a 310)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -12328,7 +12336,7 @@ const QUESTION_BANK = [
   {
     "id": 593,
     "disciplina": "Direito Processual Penal",
-    "assunto": "Prisão preventiva",
+    "assunto": "Prisão preventiva e medidas cautelares (CPP, arts. 311 a 316 e 319)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -12350,7 +12358,7 @@ const QUESTION_BANK = [
   {
     "id": 594,
     "disciplina": "Direito Processual Penal",
-    "assunto": "Acordo de não persecução penal",
+    "assunto": "Acordo de não persecução penal (CPP, art. 28-A)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -12372,7 +12380,7 @@ const QUESTION_BANK = [
   {
     "id": 595,
     "disciplina": "Direito Processual Penal",
-    "assunto": "Provas: provas ilícitas",
+    "assunto": "Provas (CPP, arts. 155 a 250)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -12394,7 +12402,7 @@ const QUESTION_BANK = [
   {
     "id": 596,
     "disciplina": "Direitos e Garantias Fundamentais",
-    "assunto": "CF/88, art. 5º: sigilo das comunicações",
+    "assunto": "Direitos e garantias individuais (CF/88, art. 5º)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -12416,7 +12424,7 @@ const QUESTION_BANK = [
   {
     "id": 597,
     "disciplina": "Direitos e Garantias Fundamentais",
-    "assunto": "CF/88, art. 5º: direitos do preso",
+    "assunto": "Direitos e garantias individuais (CF/88, art. 5º)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Fácil",
@@ -12438,7 +12446,7 @@ const QUESTION_BANK = [
   {
     "id": 598,
     "disciplina": "Direitos e Garantias Fundamentais",
-    "assunto": "CF/88, art. 144: polícias",
+    "assunto": "Segurança pública (CF/88, art. 144)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -12460,7 +12468,7 @@ const QUESTION_BANK = [
   {
     "id": 599,
     "disciplina": "Direitos e Garantias Fundamentais",
-    "assunto": "CF/88, art. 42: militares dos Estados",
+    "assunto": "Militares dos Estados (CF/88, art. 42)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -12482,7 +12490,7 @@ const QUESTION_BANK = [
   {
     "id": 600,
     "disciplina": "Direitos e Garantias Fundamentais",
-    "assunto": "Declaração Universal dos Direitos Humanos",
+    "assunto": "Declaração Universal dos Direitos Humanos (ONU, 1948)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Fácil",
@@ -12526,7 +12534,7 @@ const QUESTION_BANK = [
   {
     "id": 602,
     "disciplina": "Direitos e Garantias Fundamentais",
-    "assunto": "Convenção Interamericana para Prevenir e Punir a Tortura",
+    "assunto": "Convenção Interamericana para Prevenir e Punir a Tortura (Decreto 98.386/1989)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -12548,7 +12556,7 @@ const QUESTION_BANK = [
   {
     "id": 603,
     "disciplina": "Direitos e Garantias Fundamentais",
-    "assunto": "Estatuto da Criança e do Adolescente: ato infracional",
+    "assunto": "Estatuto da Criança e do Adolescente (Lei 8.069/1990)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -12570,7 +12578,7 @@ const QUESTION_BANK = [
   {
     "id": 604,
     "disciplina": "Direitos e Garantias Fundamentais",
-    "assunto": "Estatuto da Pessoa Idosa",
+    "assunto": "Estatuto da Pessoa Idosa (Lei 10.741/2003)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Fácil",
@@ -12592,7 +12600,7 @@ const QUESTION_BANK = [
   {
     "id": 605,
     "disciplina": "Direitos e Garantias Fundamentais",
-    "assunto": "Lei 13.060/2014: instrumentos de menor potencial ofensivo",
+    "assunto": "Uso da força e instrumentos de menor potencial ofensivo (Lei 13.060/2014)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -12614,7 +12622,7 @@ const QUESTION_BANK = [
   {
     "id": 606,
     "disciplina": "Direito Penal Militar",
-    "assunto": "Aplicação da lei penal militar: tempo do crime",
+    "assunto": "Tempo do crime (CPM, art. 5º)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -12636,7 +12644,7 @@ const QUESTION_BANK = [
   {
     "id": 607,
     "disciplina": "Direito Penal Militar",
-    "assunto": "Crimes militares: competência do júri",
+    "assunto": "Competência da Justiça Militar estadual (CF/88, art. 125, § 4º)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -12658,7 +12666,7 @@ const QUESTION_BANK = [
   {
     "id": 608,
     "disciplina": "Direito Penal Militar",
-    "assunto": "Concurso de agentes",
+    "assunto": "Concurso de agentes (CPM, art. 53)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -12680,7 +12688,7 @@ const QUESTION_BANK = [
   {
     "id": 609,
     "disciplina": "Direito Penal Militar",
-    "assunto": "Crimes militares em tempo de paz: deserção",
+    "assunto": "Crimes militares em tempo de paz (CPM, arts. 163 e 187)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Fácil",
@@ -12702,7 +12710,7 @@ const QUESTION_BANK = [
   {
     "id": 610,
     "disciplina": "Direito Penal Militar",
-    "assunto": "Crimes militares em tempo de paz: recusa de obediência",
+    "assunto": "Crimes militares em tempo de paz (CPM, arts. 163 e 187)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -12724,7 +12732,7 @@ const QUESTION_BANK = [
   {
     "id": 611,
     "disciplina": "Direito Processual Penal Militar",
-    "assunto": "Polícia judiciária militar",
+    "assunto": "Polícia judiciária militar (CPPM – Decreto-Lei 1.002/1969)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -12746,7 +12754,7 @@ const QUESTION_BANK = [
   {
     "id": 612,
     "disciplina": "Direito Processual Penal Militar",
-    "assunto": "Inquérito policial militar: prazo",
+    "assunto": "Inquérito policial militar (CPPM, art. 20)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -12768,7 +12776,7 @@ const QUESTION_BANK = [
   {
     "id": 613,
     "disciplina": "Direito Processual Penal Militar",
-    "assunto": "Ação penal militar",
+    "assunto": "Ação penal militar (CPPM – Decreto-Lei 1.002/1969)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -12790,7 +12798,7 @@ const QUESTION_BANK = [
   {
     "id": 614,
     "disciplina": "Direito Processual Penal Militar",
-    "assunto": "Foro militar e competência",
+    "assunto": "Foro militar e competência (CPPM – Decreto-Lei 1.002/1969)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -12812,7 +12820,7 @@ const QUESTION_BANK = [
   {
     "id": 615,
     "disciplina": "Direito Processual Penal Militar",
-    "assunto": "Medidas preventivas: prisão preventiva",
+    "assunto": "Prisão preventiva militar (CPPM – Decreto-Lei 1.002/1969)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -13065,7 +13073,7 @@ const QUESTION_BANK = [
   {
     "id": 626,
     "disciplina": "Física",
-    "assunto": "Atrito",
+    "assunto": "Leis de Newton",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -13502,7 +13510,7 @@ const QUESTION_BANK = [
   {
     "id": 645,
     "disciplina": "Física",
-    "assunto": "Magnetismo",
+    "assunto": "Eletrostática e magnetismo",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Fácil",
@@ -13709,7 +13717,7 @@ const QUESTION_BANK = [
   {
     "id": 654,
     "disciplina": "Biologia",
-    "assunto": "Genética",
+    "assunto": "Genética molecular",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -14675,7 +14683,7 @@ const QUESTION_BANK = [
   {
     "id": 696,
     "disciplina": "Química",
-    "assunto": "Estrutura da matéria",
+    "assunto": "Estrutura e estados da matéria",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Fácil",
@@ -14836,7 +14844,7 @@ const QUESTION_BANK = [
   {
     "id": 703,
     "disciplina": "Química",
-    "assunto": "Termoquímica",
+    "assunto": "Termoquímica, cinética e equilíbrio",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -14859,7 +14867,7 @@ const QUESTION_BANK = [
   {
     "id": 704,
     "disciplina": "Química",
-    "assunto": "Cinética química",
+    "assunto": "Termoquímica, cinética e equilíbrio",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -15572,7 +15580,7 @@ const QUESTION_BANK = [
   {
     "id": 735,
     "disciplina": "Física",
-    "assunto": "Eletrostática",
+    "assunto": "Eletrostática e magnetismo",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -16860,7 +16868,7 @@ const QUESTION_BANK = [
   {
     "id": 791,
     "disciplina": "Química",
-    "assunto": "Forças intermoleculares",
+    "assunto": "Estrutura e estados da matéria",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -16929,7 +16937,7 @@ const QUESTION_BANK = [
   {
     "id": 794,
     "disciplina": "Química",
-    "assunto": "Estados da matéria",
+    "assunto": "Estrutura e estados da matéria",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -17021,7 +17029,7 @@ const QUESTION_BANK = [
   {
     "id": 798,
     "disciplina": "Química",
-    "assunto": "Equilíbrio químico",
+    "assunto": "Termoquímica, cinética e equilíbrio",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -17573,7 +17581,7 @@ const QUESTION_BANK = [
   {
     "id": 822,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -17595,7 +17603,7 @@ const QUESTION_BANK = [
   {
     "id": 823,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "CEBRASPE",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -17614,7 +17622,7 @@ const QUESTION_BANK = [
   {
     "id": 824,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "IDECAN",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -17636,7 +17644,7 @@ const QUESTION_BANK = [
   {
     "id": 825,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -17658,7 +17666,7 @@ const QUESTION_BANK = [
   {
     "id": 826,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "CEBRASPE",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -17677,7 +17685,7 @@ const QUESTION_BANK = [
   {
     "id": 827,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -17699,7 +17707,7 @@ const QUESTION_BANK = [
   {
     "id": 828,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "IDECAN",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -17721,7 +17729,7 @@ const QUESTION_BANK = [
   {
     "id": 829,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "CEBRASPE",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -17740,7 +17748,7 @@ const QUESTION_BANK = [
   {
     "id": 830,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -17762,7 +17770,7 @@ const QUESTION_BANK = [
   {
     "id": 831,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "IDECAN",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -17784,7 +17792,7 @@ const QUESTION_BANK = [
   {
     "id": 832,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -17806,7 +17814,7 @@ const QUESTION_BANK = [
   {
     "id": 833,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "CEBRASPE",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -17825,7 +17833,7 @@ const QUESTION_BANK = [
   {
     "id": 834,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "IDECAN",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -17847,7 +17855,7 @@ const QUESTION_BANK = [
   {
     "id": 835,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -17869,7 +17877,7 @@ const QUESTION_BANK = [
   {
     "id": 836,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "CEBRASPE",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -17888,7 +17896,7 @@ const QUESTION_BANK = [
   {
     "id": 837,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "IDECAN",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -17910,7 +17918,7 @@ const QUESTION_BANK = [
   {
     "id": 838,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -17932,7 +17940,7 @@ const QUESTION_BANK = [
   {
     "id": 839,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "CEBRASPE",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -17951,7 +17959,7 @@ const QUESTION_BANK = [
   {
     "id": 840,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "IDECAN",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -17973,7 +17981,7 @@ const QUESTION_BANK = [
   {
     "id": 841,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -17995,7 +18003,7 @@ const QUESTION_BANK = [
   {
     "id": 842,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "CEBRASPE",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -18014,7 +18022,7 @@ const QUESTION_BANK = [
   {
     "id": 843,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "IDECAN",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -18036,7 +18044,7 @@ const QUESTION_BANK = [
   {
     "id": 844,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -18058,7 +18066,7 @@ const QUESTION_BANK = [
   {
     "id": 845,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "IDECAN",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -18080,7 +18088,7 @@ const QUESTION_BANK = [
   {
     "id": 846,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -18102,7 +18110,7 @@ const QUESTION_BANK = [
   {
     "id": 847,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "IDECAN",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -18124,7 +18132,7 @@ const QUESTION_BANK = [
   {
     "id": 848,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -18146,7 +18154,7 @@ const QUESTION_BANK = [
   {
     "id": 849,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "IDECAN",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -18168,7 +18176,7 @@ const QUESTION_BANK = [
   {
     "id": 850,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -18190,7 +18198,7 @@ const QUESTION_BANK = [
   {
     "id": 851,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "IDECAN",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -18212,7 +18220,7 @@ const QUESTION_BANK = [
   {
     "id": 852,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -18234,7 +18242,7 @@ const QUESTION_BANK = [
   {
     "id": 853,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "IDECAN",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -18256,7 +18264,7 @@ const QUESTION_BANK = [
   {
     "id": 854,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "CEBRASPE",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -18275,7 +18283,7 @@ const QUESTION_BANK = [
   {
     "id": 855,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -18297,7 +18305,7 @@ const QUESTION_BANK = [
   {
     "id": 856,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "CEBRASPE",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -18316,7 +18324,7 @@ const QUESTION_BANK = [
   {
     "id": 857,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "IDECAN",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -18338,7 +18346,7 @@ const QUESTION_BANK = [
   {
     "id": 858,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -18360,7 +18368,7 @@ const QUESTION_BANK = [
   {
     "id": 859,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "CEBRASPE",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -18379,7 +18387,7 @@ const QUESTION_BANK = [
   {
     "id": 860,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "IDECAN",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -18401,7 +18409,7 @@ const QUESTION_BANK = [
   {
     "id": 861,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -18423,7 +18431,7 @@ const QUESTION_BANK = [
   {
     "id": 862,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "IDECAN",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -18445,7 +18453,7 @@ const QUESTION_BANK = [
   {
     "id": 863,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -18467,7 +18475,7 @@ const QUESTION_BANK = [
   {
     "id": 864,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "CEBRASPE",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -18486,7 +18494,7 @@ const QUESTION_BANK = [
   {
     "id": 865,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -18508,7 +18516,7 @@ const QUESTION_BANK = [
   {
     "id": 866,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "IDECAN",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -18530,7 +18538,7 @@ const QUESTION_BANK = [
   {
     "id": 867,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -18552,7 +18560,7 @@ const QUESTION_BANK = [
   {
     "id": 868,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "CEBRASPE",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -18571,7 +18579,7 @@ const QUESTION_BANK = [
   {
     "id": 869,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -18593,7 +18601,7 @@ const QUESTION_BANK = [
   {
     "id": 870,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "CEBRASPE",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -18612,7 +18620,7 @@ const QUESTION_BANK = [
   {
     "id": 871,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "IDECAN",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -18634,7 +18642,7 @@ const QUESTION_BANK = [
   {
     "id": 872,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -18656,7 +18664,7 @@ const QUESTION_BANK = [
   {
     "id": 873,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "CEBRASPE",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -18675,7 +18683,7 @@ const QUESTION_BANK = [
   {
     "id": 874,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "IDECAN",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -18697,7 +18705,7 @@ const QUESTION_BANK = [
   {
     "id": 875,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "CEBRASPE",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -18716,7 +18724,7 @@ const QUESTION_BANK = [
   {
     "id": 876,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -18738,7 +18746,7 @@ const QUESTION_BANK = [
   {
     "id": 877,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "IDECAN",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -18760,7 +18768,7 @@ const QUESTION_BANK = [
   {
     "id": 878,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -18782,7 +18790,7 @@ const QUESTION_BANK = [
   {
     "id": 879,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "CEBRASPE",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -18801,7 +18809,7 @@ const QUESTION_BANK = [
   {
     "id": 880,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "IDECAN",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -18823,7 +18831,7 @@ const QUESTION_BANK = [
   {
     "id": 881,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais",
+    "assunto": "Direitos sociais (CF/88, arts. 6º a 11)",
     "banca": "CEBRASPE",
     "ano": 2026,
     "dificuldade": "Médio",
