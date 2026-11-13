@@ -598,8 +598,12 @@ function renderSimulado() {
 function renderAlternativas(q, respostaDada, revelarGabarito) {
   const cont = document.getElementById("qAltList");
   const letras = Object.keys(q.alternativas);
+  const sim = state.sim;
+  sim.cortes = sim.cortes || {};
+  const cortadas = new Set(sim.cortes[q.id] || []);
   cont.innerHTML = letras.map(letra => {
     let classe = "alt-item";
+    if (cortadas.has(letra)) classe += " cortada";
     if (respostaDada === letra) classe += " selected";
     if (revelarGabarito) {
       classe += " disabled";
@@ -610,8 +614,20 @@ function renderAlternativas(q, respostaDada, revelarGabarito) {
       <div class="${classe}" data-letra="${letra}">
         <span class="alt-letter">${letra}</span>
         <span class="alt-text">${q.alternativas[letra]}</span>
+        ${revelarGabarito ? "" : `<button type="button" class="alt-cut" title="${cortadas.has(letra) ? "Restaurar alternativa" : "Descartar alternativa (acho que está errada)"}" aria-label="Descartar alternativa ${letra}" aria-pressed="${cortadas.has(letra)}">✂</button>`}
       </div>`;
   }).join("");
+
+  cont.querySelectorAll(".alt-cut").forEach(btn => {
+    btn.addEventListener("click", ev => {
+      ev.stopPropagation();
+      const letra = btn.closest(".alt-item").dataset.letra;
+      const set = new Set(sim.cortes[q.id] || []);
+      if (set.has(letra)) set.delete(letra); else set.add(letra);
+      sim.cortes[q.id] = [...set];
+      renderAlternativas(q, respostaDada, revelarGabarito);
+    });
+  });
 
   cont.querySelectorAll(".alt-item").forEach(el => {
     el.addEventListener("click", () => {
