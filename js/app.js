@@ -418,7 +418,7 @@ function finalizarSimulado() {
 
 /* ----- navegação entre "views" (seções) ----- */
 function setView(viewName) {
-  ["home", "dashboard", "plano", "simulado", "resultado"].forEach(v => {
+  ["home", "dashboard", "plano", "redacao", "simulado", "resultado"].forEach(v => {
     document.getElementById("view-" + v).classList.toggle("hidden", v !== viewName);
   });
   document.querySelectorAll("#navTabs button").forEach(btn => {
@@ -428,6 +428,7 @@ function setView(viewName) {
   if (viewName === "dashboard") renderDashboard();
   if (viewName === "home") atualizarContagemFiltro();
   if (viewName === "plano" && window.Plano) window.Plano.render();
+  if (viewName === "redacao" && window.Redacao) window.Redacao.render();
 }
 
 /* ----- popular selects de filtro ----- */

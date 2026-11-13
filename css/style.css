@@ -503,3 +503,25 @@ main.view-wrap{ flex:1; width:100%; max-width:1180px; margin:0 auto; padding:28p
 @media (max-width:980px){.pl-grid{grid-template-columns:1fr}.pl-tema{grid-template-columns:1fr 1fr}}
 @media (max-width:760px){#navTabs button[data-view="plano"]{display:none}}
 @media print{.topbar,header,.pl-steps,.pl-actions,.pl-nav,.tabs-row,.btn,.hero,#navTabs{display:none!important}.pl-grid{grid-template-columns:repeat(2,1fr)}.card{break-inside:avoid;box-shadow:none}}
+
+/* ---- Redação ---- */
+.rd-head h2{margin:0 0 4px}
+.rd-in{width:100%;padding:9px 11px;border-radius:10px;border:1px solid var(--card-border);background:var(--paper);color:var(--ink);font:inherit;box-sizing:border-box}
+.rd-crit{display:flex;flex-direction:column;gap:10px;margin-bottom:12px}
+.rd-crit-row{display:grid;grid-template-columns:1fr auto auto;gap:10px;align-items:start}
+.rd-crit-row .rd-in+.rd-in{margin-top:6px}
+.rd-crit-row label{display:flex;align-items:center;gap:6px;font-weight:600;white-space:nowrap}
+.rd-pts{width:72px;padding:8px;border-radius:10px;border:1px solid var(--card-border);background:var(--paper);color:var(--ink);font:inherit}
+.rd-nota{align-items:center}
+.rd-temas{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:12px}
+.rd-tema{border:2px solid var(--card-border);border-radius:14px;padding:14px;background:var(--card)}
+.rd-tema.sel{border-color:var(--accent);background:var(--accent-soft)}
+.rd-tema-t{font-weight:700;margin-bottom:6px}
+.rd-tema p{margin:6px 0;font-size:.88rem;line-height:1.5}
+.rd-tags{display:flex;flex-wrap:wrap;gap:5px}
+.rd-tags span{font-size:.7rem;background:var(--paper);border:1px solid var(--card-border);border-radius:99px;padding:2px 8px;color:var(--muted)}
+.rd-ol{line-height:1.7;margin:0 0 10px;padding-left:20px}
+.rd-hist-row{display:grid;grid-template-columns:1fr 120px auto auto;gap:10px;align-items:center;padding:8px 0;border-bottom:1px solid var(--card-border)}
+.rd-bar{height:8px;border-radius:99px;background:var(--paper);overflow:hidden}
+.rd-bar i{display:block;height:100%;background:var(--accent)}
+@media(max-width:560px){.rd-crit-row{grid-template-columns:1fr auto}.rd-hist-row{grid-template-columns:1fr auto auto}.rd-bar{display:none}}
