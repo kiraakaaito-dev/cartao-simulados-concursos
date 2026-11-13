@@ -17568,5 +17568,1274 @@ const QUESTION_BANK = [
     "fundamento": "Atualidades (edital CBMPE, item 1: questão migratória na Europa).",
     "oficial": false,
     "concurso": "CBMPE"
+  },
+
+  {
+    "id": 822,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: art. 6º",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "De acordo com o art. 6º da Constituição Federal, assinale a alternativa que NÃO apresenta um direito social expressamente previsto no dispositivo.",
+    "alternativas": {
+      "A": "A assistência aos desamparados.",
+      "B": "O transporte.",
+      "C": "A alimentação.",
+      "D": "A propriedade privada.",
+      "E": "A proteção à maternidade e à infância."
+    },
+    "gabarito": "D",
+    "comentario": "O art. 6º enumera: educação, saúde, alimentação, trabalho, moradia, transporte, lazer, segurança, previdência social, proteção à maternidade e à infância e assistência aos desamparados. A propriedade é direito individual, tratado no art. 5º, caput e XXII.",
+    "fundamento": "CF/88, art. 6º, caput.",
+    "oficial": false
+  },
+
+  {
+    "id": 823,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: art. 6º",
+    "banca": "CEBRASPE",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Julgue o item. De acordo com o art. 6º da CF, a alimentação e o transporte integram o rol de direitos sociais, ao lado da educação, da saúde e da moradia.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Os dois direitos constam expressamente do rol atual: a alimentação foi incluída pela EC 64/2010 e o transporte, pela EC 90/2015. A moradia já havia entrado pela EC 26/2000.",
+    "fundamento": "CF/88, art. 6º, caput (redação das ECs 26/2000, 64/2010 e 90/2015).",
+    "oficial": false
+  },
+
+  {
+    "id": 824,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: art. 6º",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "O parágrafo único do art. 6º da Constituição Federal, incluído pela Emenda Constitucional nº 114/2021, assegura a todo brasileiro em situação de vulnerabilidade social",
+    "alternativas": {
+      "A": "o direito a uma renda universal, paga a todos os brasileiros, sem necessidade de lei regulamentadora.",
+      "B": "o direito a uma renda básica familiar, garantida pelo poder público em programa permanente de transferência de renda, com normas e requisitos de acesso definidos em lei, observada a legislação fiscal e orçamentária.",
+      "C": "o direito a um benefício temporário, de pagamento por prazo determinado e definido em decreto do Poder Executivo.",
+      "D": "a garantia de um salário mínimo mensal, vinculado ao reajuste da Previdência Social.",
+      "E": "o direito a uma renda condicionada exclusivamente ao exercício de atividade laboral formal."
+    },
+    "gabarito": "B",
+    "comentario": "O texto constitucional fala em renda básica familiar, em programa permanente de transferência de renda, com requisitos fixados em lei, e ressalva a observância da legislação fiscal e orçamentária. Não se trata de renda universal nem de benefício temporário.",
+    "fundamento": "CF/88, art. 6º, parágrafo único.",
+    "oficial": false
+  },
+
+  {
+    "id": 825,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: art. 6º",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A respeito da natureza e da localização dos direitos sociais na Constituição Federal de 1988, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Estão situados no Título VIII, da Ordem Social, e não integram o rol dos direitos fundamentais.",
+      "B": "São direitos de primeira dimensão, que exigem do Estado, em regra, apenas uma conduta de abstenção.",
+      "C": "Constituem normas meramente programáticas, sem qualquer eficácia jurídica enquanto não houver lei regulamentadora.",
+      "D": "Estão no Capítulo II do Título II, que cuida dos direitos e garantias fundamentais, o que lhes confere aplicação imediata, nos termos do art. 5º, § 1º.",
+      "E": "Aplicam-se apenas aos brasileiros natos, pois o art. 5º restringe os direitos fundamentais a essa categoria."
+    },
+    "gabarito": "D",
+    "comentario": "O Título II (Dos Direitos e Garantias Fundamentais) abriga o Capítulo II, Dos Direitos Sociais (arts. 6º a 11). Assim, para a doutrina majoritária, têm aplicação imediata (art. 5º, § 1º). Os direitos sociais são, em regra, de segunda dimensão e exigem prestações positivas do Estado. A Ordem Social (Título VIII) detalha esses direitos, mas não os retira do rol dos direitos fundamentais.",
+    "fundamento": "CF/88, Título II, Capítulo II (arts. 6º a 11), e art. 5º, § 1º.",
+    "oficial": false
+  },
+
+  {
+    "id": 826,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: art. 6º",
+    "banca": "CEBRASPE",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Julgue o item. O parágrafo único do art. 6º da CF assegura renda básica familiar a todos os brasileiros, independentemente de sua situação de vulnerabilidade social.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "O direito é destinado ao brasileiro em situação de vulnerabilidade social. A renda não é universal, e as normas e os requisitos de acesso serão definidos em lei, observada a legislação fiscal e orçamentária.",
+    "fundamento": "CF/88, art. 6º, parágrafo único.",
+    "oficial": false
+  },
+
+  {
+    "id": 827,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "O caput do art. 7º da Constituição Federal declara que são direitos dos trabalhadores urbanos e rurais os que enumera, “além de outros que visem à melhoria de sua condição social”. A interpretação correta dessa expressão é a de que",
+    "alternativas": {
+      "A": "o rol do art. 7º é taxativo e não admite outros direitos trabalhistas.",
+      "B": "apenas a Constituição Federal pode criar novos direitos dos trabalhadores.",
+      "C": "o rol de direitos do art. 7º é exemplificativo, podendo ser ampliado por outras normas que melhorem a condição social do trabalhador.",
+      "D": "os direitos do art. 7º aplicam-se apenas aos trabalhadores urbanos.",
+      "E": "a norma impede a negociação coletiva de condições mais benéficas."
+    },
+    "gabarito": "C",
+    "comentario": "A cláusula “além de outros que visem à melhoria de sua condição social” mostra que o rol é aberto: leis, convenções e acordos coletivos podem acrescentar direitos, desde que melhorem a condição do trabalhador. O art. 7º beneficia tanto urbanos quanto rurais.",
+    "fundamento": "CF/88, art. 7º, caput.",
+    "oficial": false
+  },
+
+  {
+    "id": 828,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Nos termos do art. 7º, inciso I, da Constituição Federal, é direito dos trabalhadores urbanos e rurais",
+    "alternativas": {
+      "A": "estabilidade absoluta no emprego após dois anos de serviço.",
+      "B": "relação de emprego protegida contra qualquer despedida, nos termos de lei ordinária.",
+      "C": "relação de emprego protegida contra despedida arbitrária ou sem justa causa, nos termos de lei complementar, que preverá indenização compensatória, dentre outros direitos.",
+      "D": "reintegração obrigatória em caso de qualquer dispensa.",
+      "E": "proteção contra a despedida apenas por justa causa, nos termos de decreto."
+    },
+    "gabarito": "C",
+    "comentario": "O inciso I protege a relação de emprego contra a despedida arbitrária ou sem justa causa e exige lei complementar, que preverá indenização compensatória, entre outros direitos. Não garante estabilidade absoluta nem reintegração obrigatória.",
+    "fundamento": "CF/88, art. 7º, I.",
+    "oficial": false
+  },
+
+  {
+    "id": 829,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "banca": "CEBRASPE",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Julgue o item. Enquanto não for editada a lei complementar prevista no art. 7º, I, da CF, o ADCT limita a proteção contra a despedida arbitrária ou sem justa causa ao aumento, para quatro vezes, da multa sobre os depósitos do FGTS (40%).",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "O art. 10, I, do ADCT estabelece essa regra transitória, que corresponde à multa de 40% sobre o saldo do FGTS na dispensa sem justa causa, até que a lei complementar seja editada.",
+    "fundamento": "CF/88, art. 7º, I, e ADCT, art. 10, I.",
+    "oficial": false
+  },
+
+  {
+    "id": 830,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Segundo o art. 7º, inciso II, da Constituição Federal, os trabalhadores urbanos e rurais têm direito a seguro-desemprego",
+    "alternativas": {
+      "A": "em caso de desemprego involuntário.",
+      "B": "em caso de qualquer desemprego, inclusive o voluntário.",
+      "C": "apenas quando a dispensa ocorrer por justa causa.",
+      "D": "somente se o trabalhador for sindicalizado.",
+      "E": "apenas se o desemprego ocorrer por mais de um ano."
+    },
+    "gabarito": "A",
+    "comentario": "O seguro-desemprego é devido em caso de desemprego involuntário, isto é, quando o trabalhador perde o emprego contra a sua vontade. O pedido de demissão não dá direito ao benefício.",
+    "fundamento": "CF/88, art. 7º, II.",
+    "oficial": false
+  },
+
+  {
+    "id": 831,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A respeito do salário mínimo, o art. 7º, inciso IV, da Constituição Federal estabelece que ele será",
+    "alternativas": {
+      "A": "fixado em lei, nacionalmente unificado, capaz de atender às necessidades vitais básicas do trabalhador e de sua família, com reajustes periódicos que lhe preservem o poder aquisitivo, sendo vedada sua vinculação para qualquer fim.",
+      "B": "fixado por decreto presidencial e regionalizado por Estado, conforme o custo de vida local.",
+      "C": "fixado por convenção coletiva de cada categoria profissional.",
+      "D": "vinculável a vantagens de servidores públicos, como indexador da base de cálculo.",
+      "E": "reajustado apenas quando houver acordo entre empregados e empregadores."
+    },
+    "gabarito": "A",
+    "comentario": "O inciso IV exige lei, unificação nacional, suficiência para as necessidades vitais básicas (moradia, alimentação, educação, saúde, lazer, vestuário, higiene, transporte e previdência social), reajustes periódicos e proíbe a vinculação para qualquer fim.",
+    "fundamento": "CF/88, art. 7º, IV.",
+    "oficial": false
+  },
+
+  {
+    "id": 832,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "De acordo com a Súmula Vinculante nº 4 do STF, salvo nos casos previstos na Constituição,",
+    "alternativas": {
+      "A": "o salário mínimo pode ser usado como indexador de qualquer vantagem de servidor público.",
+      "B": "o Judiciário pode substituir o indexador do salário mínimo por outro índice, se houver omissão legislativa.",
+      "C": "a vantagem do servidor deve ser calculada sempre sobre o salário mínimo vigente.",
+      "D": "o salário mínimo pode ser fixado livremente pelos Estados.",
+      "E": "o salário mínimo não pode ser usado como indexador de base de cálculo de vantagem de servidor público ou de empregado, nem ser substituído por decisão judicial."
+    },
+    "gabarito": "E",
+    "comentario": "A SV 4 reforça a vedação do art. 7º, IV, à vinculação do salário mínimo para qualquer fim. Isso impede usá-lo como indexador de vantagens e impede que o juiz crie outro indexador no lugar.",
+    "fundamento": "Súmula Vinculante 4/STF; CF/88, art. 7º, IV.",
+    "oficial": false
+  },
+
+  {
+    "id": 833,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "banca": "CEBRASPE",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Julgue o item. Segundo a Súmula Vinculante nº 6 do STF, não viola a Constituição o estabelecimento de remuneração inferior ao salário mínimo para as praças prestadoras de serviço militar inicial.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "A SV 6 admite remuneração inferior ao salário mínimo para os praças que prestam o serviço militar inicial (conscritos). O entendimento é relevante nas carreiras militares.",
+    "fundamento": "Súmula Vinculante 6/STF.",
+    "oficial": false
+  },
+
+  {
+    "id": 834,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Conforme a Súmula Vinculante nº 16 do STF, os arts. 7º, IV, e 39, § 3º, da Constituição Federal, que tratam do salário mínimo, referem-se",
+    "alternativas": {
+      "A": "ao total da remuneração percebida pelo servidor público.",
+      "B": "apenas ao vencimento básico do servidor, sem as vantagens.",
+      "C": "apenas às gratificações de natureza permanente.",
+      "D": "apenas ao valor da remuneração do servidor de nível médio.",
+      "E": "ao valor líquido recebido após os descontos legais."
+    },
+    "gabarito": "A",
+    "comentario": "Para o STF, o piso do salário mínimo é verificado sobre a remuneração total do servidor, e não apenas sobre o vencimento básico. Se o total atinge o salário mínimo, o direito é observado.",
+    "fundamento": "Súmula Vinculante 16/STF.",
+    "oficial": false
+  },
+
+  {
+    "id": 835,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "O art. 7º, inciso VI, da Constituição Federal assegura a irredutibilidade do salário",
+    "alternativas": {
+      "A": "salvo o disposto em convenção ou acordo coletivo.",
+      "B": "salvo decisão unilateral do empregador em caso de crise econômica.",
+      "C": "sem qualquer exceção.",
+      "D": "salvo previsão em lei estadual.",
+      "E": "salvo no primeiro ano de contrato de trabalho."
+    },
+    "gabarito": "A",
+    "comentario": "A irredutibilidade salarial admite a exceção de redução fixada em convenção ou acordo coletivo. Exige, portanto, negociação coletiva, e não decisão unilateral do empregador.",
+    "fundamento": "CF/88, art. 7º, VI.",
+    "oficial": false
+  },
+
+  {
+    "id": 836,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "banca": "CEBRASPE",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Julgue o item. O trabalho noturno deve ser remunerado em valor superior ao do trabalho diurno, conforme direito previsto expressamente na Constituição Federal.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "O art. 7º, IX, assegura remuneração do trabalho noturno superior à do diurno.",
+    "fundamento": "CF/88, art. 7º, IX.",
+    "oficial": false
+  },
+
+  {
+    "id": 837,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A Constituição Federal estabelece, em seu art. 7º, inciso X, que a proteção do salário será feita na forma da lei, constituindo",
+    "alternativas": {
+      "A": "infração administrativa a sua retenção culposa.",
+      "B": "crime a sua retenção dolosa.",
+      "C": "crime a sua retenção culposa.",
+      "D": "contravenção penal o seu atraso por até 30 dias.",
+      "E": "falta grave do empregador, sem repercussão penal."
+    },
+    "gabarito": "B",
+    "comentario": "A retenção dolosa do salário é crime, na forma da lei. A Constituição não tipifica a retenção culposa.",
+    "fundamento": "CF/88, art. 7º, X.",
+    "oficial": false
+  },
+
+  {
+    "id": 838,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "De acordo com o art. 7º, inciso XI, da Constituição Federal, é direito dos trabalhadores a participação nos lucros, ou resultados,",
+    "alternativas": {
+      "A": "integrada à remuneração para todos os fins, e participação obrigatória na gestão da empresa.",
+      "B": "vinculada ao salário para fins de incidência de encargos.",
+      "C": "apenas para empregados de empresas públicas.",
+      "D": "condicionada à aprovação do sindicato patronal.",
+      "E": "desvinculada da remuneração, e, excepcionalmente, participação na gestão da empresa, conforme definido em lei."
+    },
+    "gabarito": "E",
+    "comentario": "A participação nos lucros ou resultados é desvinculada da remuneração, o que afasta, por exemplo, a incidência de encargos trabalhistas. A participação na gestão é excepcional e depende de definição em lei.",
+    "fundamento": "CF/88, art. 7º, XI.",
+    "oficial": false
+  },
+
+  {
+    "id": 839,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "banca": "CEBRASPE",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Julgue o item. O salário-família, previsto no art. 7º, XII, da CF, é pago a todo trabalhador, independentemente de sua renda, em razão de cada dependente.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "O salário-família é pago em razão do dependente do trabalhador de baixa renda, nos termos da lei. Não é devido a todos os trabalhadores.",
+    "fundamento": "CF/88, art. 7º, XII.",
+    "oficial": false
+  },
+
+  {
+    "id": 840,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A Constituição Federal prevê, em seu art. 7º, inciso XIII, duração do trabalho normal",
+    "alternativas": {
+      "A": "não superior a seis horas diárias e trinta e seis semanais, sem possibilidade de compensação.",
+      "B": "não superior a dez horas diárias e quarenta e oito semanais, salvo previsão em contrato.",
+      "C": "não superior a oito horas diárias e quarenta e quatro semanais, facultada a compensação de horários e a redução da jornada, mediante acordo ou convenção coletiva de trabalho.",
+      "D": "não superior a oito horas diárias e quarenta semanais, vedada a compensação.",
+      "E": "fixada livremente pelo empregador, desde que não ultrapasse doze horas diárias."
+    },
+    "gabarito": "C",
+    "comentario": "Os limites constitucionais são 8 horas diárias e 44 semanais. A compensação de horários e a redução da jornada são admitidas por acordo ou convenção coletiva.",
+    "fundamento": "CF/88, art. 7º, XIII.",
+    "oficial": false
+  },
+
+  {
+    "id": 841,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "No que se refere ao trabalho realizado em turnos ininterruptos de revezamento, o art. 7º, inciso XIV, da Constituição Federal prevê jornada",
+    "alternativas": {
+      "A": "de oito horas, sem exceções.",
+      "B": "de quatro horas, vedada a negociação coletiva.",
+      "C": "de seis horas, salvo negociação coletiva.",
+      "D": "de dez horas, salvo previsão em lei estadual.",
+      "E": "de seis horas, sem possibilidade de negociação coletiva."
+    },
+    "gabarito": "C",
+    "comentario": "A jornada é de seis horas nos turnos ininterruptos de revezamento, mas a regra pode ser alterada por negociação coletiva. Por isso a alternativa que impede a negociação está incorreta.",
+    "fundamento": "CF/88, art. 7º, XIV.",
+    "oficial": false
+  },
+
+  {
+    "id": 842,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "banca": "CEBRASPE",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Julgue o item. A Constituição Federal determina que o repouso semanal remunerado seja gozado obrigatoriamente aos domingos.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "O art. 7º, XV, assegura o repouso semanal remunerado, “preferencialmente aos domingos”. A Constituição não impõe o domingo como dia obrigatório.",
+    "fundamento": "CF/88, art. 7º, XV.",
+    "oficial": false
+  },
+
+  {
+    "id": 843,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Conforme o art. 7º, inciso XVI, da Constituição Federal, a remuneração do serviço extraordinário será superior, no mínimo, em",
+    "alternativas": {
+      "A": "cinquenta por cento à do normal.",
+      "B": "vinte por cento à do normal.",
+      "C": "trinta por cento à do normal.",
+      "D": "setenta por cento à do normal.",
+      "E": "cem por cento à do normal."
+    },
+    "gabarito": "A",
+    "comentario": "O adicional mínimo constitucional para as horas extras é de 50% sobre a remuneração normal. Leis ou normas coletivas podem prever percentual maior.",
+    "fundamento": "CF/88, art. 7º, XVI.",
+    "oficial": false
+  },
+
+  {
+    "id": 844,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "O gozo de férias anuais remuneradas com, pelo menos, determinado acréscimo sobre o salário normal é direito previsto no art. 7º, XVII, da CF. Esse acréscimo é de",
+    "alternativas": {
+      "A": "metade.",
+      "B": "um quarto.",
+      "C": "um terço.",
+      "D": "dois terços.",
+      "E": "um quinto."
+    },
+    "gabarito": "C",
+    "comentario": "As férias anuais são remuneradas com, pelo menos, um terço a mais do que o salário normal.",
+    "fundamento": "CF/88, art. 7º, XVII.",
+    "oficial": false
+  },
+
+  {
+    "id": 845,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A licença à gestante, prevista no art. 7º, inciso XVIII, da Constituição Federal, é assegurada",
+    "alternativas": {
+      "A": "sem prejuízo do emprego, mas com redução de metade do salário, por cento e oitenta dias.",
+      "B": "com duração de noventa dias, sem garantia de salário.",
+      "C": "sem prejuízo do emprego e do salário, com duração de cento e vinte dias.",
+      "D": "com duração de cento e vinte dias, mas somente à empregada urbana.",
+      "E": "sem prejuízo do salário, mas com possibilidade de dispensa imotivada."
+    },
+    "gabarito": "C",
+    "comentario": "O texto constitucional prevê licença-gestante de cento e vinte dias, sem prejuízo do emprego e do salário. A ampliação para cento e oitenta dias é facultativa, por adesão em programas como o Empresa Cidadã.",
+    "fundamento": "CF/88, art. 7º, XVIII.",
+    "oficial": false
+  },
+
+  {
+    "id": 846,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Nos termos do art. 10, inciso II, alínea “b”, do ADCT, fica vedada a dispensa arbitrária ou sem justa causa da empregada gestante",
+    "alternativas": {
+      "A": "desde a concepção até o fim da licença-maternidade de cento e vinte dias.",
+      "B": "apenas durante o período da licença-maternidade.",
+      "C": "desde a confirmação da gravidez até cinco meses após o parto.",
+      "D": "desde o primeiro dia do contrato de trabalho até seis meses após o parto.",
+      "E": "apenas depois do sexto mês de gestação."
+    },
+    "gabarito": "C",
+    "comentario": "A estabilidade provisória da gestante vai da confirmação da gravidez até cinco meses após o parto. O que importa é a confirmação objetiva da gravidez, e não a data em que o empregador tomou conhecimento.",
+    "fundamento": "CF/88, art. 7º, XVIII, e ADCT, art. 10, II, “b”.",
+    "oficial": false
+  },
+
+  {
+    "id": 847,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Enquanto não for editada a lei a que se refere o art. 7º, inciso XIX, da Constituição Federal, o prazo da licença-paternidade é de",
+    "alternativas": {
+      "A": "sete dias, nos termos do art. 10, § 1º, do ADCT.",
+      "B": "trinta dias, nos termos do art. 7º, XIX, da CF.",
+      "C": "quinze dias, fixados pelo art. 7º, XIX, da CF.",
+      "D": "cinco dias, nos termos do art. 10, § 1º, do ADCT.",
+      "E": "um dia, equivalente à licença de falecimento."
+    },
+    "gabarito": "D",
+    "comentario": "O inciso XIX remete a licença-paternidade à lei. Até que ela seja editada, o ADCT fixa o prazo de cinco dias.",
+    "fundamento": "CF/88, art. 7º, XIX, e ADCT, art. 10, § 1º.",
+    "oficial": false
+  },
+
+  {
+    "id": 848,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "O aviso prévio proporcional ao tempo de serviço, previsto no art. 7º, inciso XXI, da Constituição Federal, será de, no mínimo,",
+    "alternativas": {
+      "A": "trinta dias, nos termos da lei.",
+      "B": "quinze dias, nos termos da lei.",
+      "C": "sessenta dias, nos termos da lei.",
+      "D": "noventa dias, nos termos da lei.",
+      "E": "sete dias, nos termos da lei."
+    },
+    "gabarito": "A",
+    "comentario": "A Constituição fixa o mínimo de trinta dias para o aviso prévio e prevê a proporcionalidade ao tempo de serviço, nos termos da lei.",
+    "fundamento": "CF/88, art. 7º, XXI.",
+    "oficial": false
+  },
+
+  {
+    "id": 849,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "O art. 7º, inciso XXIII, da Constituição Federal assegura aos trabalhadores adicional de remuneração para as atividades",
+    "alternativas": {
+      "A": "noturnas, extraordinárias ou aos domingos, na forma da lei.",
+      "B": "exercidas em locais distantes, na forma da lei.",
+      "C": "de risco, apenas para servidores públicos, na forma da lei.",
+      "D": "penosas, insalubres ou perigosas, na forma da lei.",
+      "E": "penosas, apenas, vedada a acumulação com outros adicionais."
+    },
+    "gabarito": "D",
+    "comentario": "O inciso XXIII prevê adicional para as atividades penosas, insalubres ou perigosas. O trabalho noturno e as horas extras têm tratamento próprio, em outros incisos (IX e XVI).",
+    "fundamento": "CF/88, art. 7º, XXIII.",
+    "oficial": false
+  },
+
+  {
+    "id": 850,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A assistência gratuita aos filhos e dependentes dos trabalhadores, em creches e pré-escolas, nos termos do art. 7º, inciso XXV, da Constituição Federal, vale",
+    "alternativas": {
+      "A": "desde o nascimento até seis anos de idade.",
+      "B": "dos três aos cinco anos de idade.",
+      "C": "desde o nascimento até três anos de idade.",
+      "D": "apenas aos filhos de mulheres trabalhadoras.",
+      "E": "desde o nascimento até cinco anos de idade."
+    },
+    "gabarito": "E",
+    "comentario": "O inciso XXV, com a redação da EC 53/2006, assegura assistência gratuita aos filhos e dependentes desde o nascimento até cinco anos de idade em creches e pré-escolas.",
+    "fundamento": "CF/88, art. 7º, XXV.",
+    "oficial": false
+  },
+
+  {
+    "id": 851,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Sobre o seguro contra acidentes de trabalho, o art. 7º, inciso XXVIII, da Constituição Federal estabelece que ele é",
+    "alternativas": {
+      "A": "a cargo do empregado, que arca com os custos de sua própria proteção.",
+      "B": "a cargo do Estado, que exclui qualquer indenização do empregador.",
+      "C": "a cargo do empregador, sem excluir a indenização a que este está obrigado, quando incorrer em dolo ou culpa.",
+      "D": "a cargo do empregador, e exclui a indenização, ainda que haja dolo ou culpa.",
+      "E": "a cargo do empregador, com indenização devida apenas em caso de dolo."
+    },
+    "gabarito": "C",
+    "comentario": "O seguro é custeado pelo empregador e não afasta a indenização quando este agir com dolo ou culpa. O dever de indenizar abrange as duas modalidades.",
+    "fundamento": "CF/88, art. 7º, XXVIII.",
+    "oficial": false
+  },
+
+  {
+    "id": 852,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "No tocante aos créditos resultantes das relações de trabalho, o art. 7º, inciso XXIX, da Constituição Federal prevê prazo prescricional de",
+    "alternativas": {
+      "A": "dois anos para os trabalhadores urbanos e rurais, durante a vigência do contrato.",
+      "B": "cinco anos para os urbanos, e dez anos para os rurais.",
+      "C": "dez anos para os trabalhadores urbanos e rurais, após a extinção do contrato.",
+      "D": "cinco anos, contados do início do contrato, sem prazo posterior à extinção.",
+      "E": "cinco anos para os trabalhadores urbanos e rurais, até o limite de dois anos após a extinção do contrato de trabalho."
+    },
+    "gabarito": "E",
+    "comentario": "A prescrição é de cinco anos para a ação sobre créditos trabalhistas, até o limite de dois anos após a extinção do contrato (prescrição bienal). Urbanos e rurais têm o mesmo tratamento.",
+    "fundamento": "CF/88, art. 7º, XXIX.",
+    "oficial": false
+  },
+
+  {
+    "id": 853,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "O art. 7º, inciso XXX, da Constituição Federal proíbe diferença de salários, de exercício de funções e de critério de admissão por determinados motivos. Assinale a alternativa que apresenta um motivo que NÃO consta expressamente desse inciso.",
+    "alternativas": {
+      "A": "Sexo.",
+      "B": "Religião.",
+      "C": "Idade.",
+      "D": "Cor.",
+      "E": "Estado civil."
+    },
+    "gabarito": "B",
+    "comentario": "O inciso XXX cita sexo, idade, cor ou estado civil. A religião é protegida por outras normas, como o art. 5º, VI, mas não é citada nesse inciso.",
+    "fundamento": "CF/88, art. 7º, XXX.",
+    "oficial": false
+  },
+
+  {
+    "id": 854,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "banca": "CEBRASPE",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Julgue o item. A Constituição Federal proíbe qualquer discriminação no tocante a salário e a critérios de admissão do trabalhador portador de deficiência.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "É o que dispõe o art. 7º, XXXI. A norma busca promover a igualdade material e dialoga com a reserva de vagas e as cotas de inclusão.",
+    "fundamento": "CF/88, art. 7º, XXXI.",
+    "oficial": false
+  },
+
+  {
+    "id": 855,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "De acordo com o art. 7º, inciso XXXIII, da Constituição Federal, é proibido o trabalho noturno, perigoso ou insalubre aos menores de",
+    "alternativas": {
+      "A": "dezoito anos, e qualquer trabalho aos menores de dezesseis anos, salvo na condição de aprendiz, a partir de quatorze anos.",
+      "B": "dezesseis anos, e qualquer trabalho aos menores de quatorze anos, salvo na condição de aprendiz, a partir de doze anos.",
+      "C": "dezoito anos, e qualquer trabalho aos menores de quatorze anos, sem exceções.",
+      "D": "vinte e um anos, e qualquer trabalho aos menores de dezoito anos, salvo na condição de aprendiz.",
+      "E": "dezesseis anos, e qualquer trabalho aos menores de dezesseis anos, sem exceções."
+    },
+    "gabarito": "A",
+    "comentario": "Os menores de 18 anos não podem fazer trabalho noturno, perigoso ou insalubre. Qualquer trabalho é proibido aos menores de 16 anos, salvo como aprendiz, a partir dos 14.",
+    "fundamento": "CF/88, art. 7º, XXXIII.",
+    "oficial": false
+  },
+
+  {
+    "id": 856,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "banca": "CEBRASPE",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Julgue o item. A Constituição Federal permite o trabalho noturno, perigoso ou insalubre aos adolescentes maiores de dezesseis anos, desde que haja autorização dos responsáveis legais.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "A proibição do trabalho noturno, perigoso ou insalubre alcança todos os menores de dezoito anos, sem a ressalva do consentimento dos responsáveis. O trabalho de aprendiz, a partir dos 14 anos, é outra hipótese.",
+    "fundamento": "CF/88, art. 7º, XXXIII.",
+    "oficial": false
+  },
+
+  {
+    "id": 857,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "O art. 7º, inciso XXXIV, da Constituição Federal assegura",
+    "alternativas": {
+      "A": "distinção de direitos entre o empregado permanente e o avulso, cabendo ao avulso apenas o salário mínimo.",
+      "B": "igualdade de direitos entre o trabalhador permanente e o servidor público.",
+      "C": "direito de greve exclusivo ao trabalhador avulso.",
+      "D": "extensão dos direitos do art. 7º apenas ao trabalhador temporário.",
+      "E": "igualdade de direitos entre o trabalhador com vínculo empregatício permanente e o trabalhador avulso."
+    },
+    "gabarito": "E",
+    "comentario": "O trabalhador avulso, que presta serviços a diversos tomadores por intermédio de sindicato ou órgão gestor de mão de obra, tem os mesmos direitos do trabalhador com vínculo permanente.",
+    "fundamento": "CF/88, art. 7º, XXXIV.",
+    "oficial": false
+  },
+
+  {
+    "id": 858,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "O parágrafo único do art. 7º da Constituição Federal estende direitos aos trabalhadores domésticos. Alguns deles dependem de condições estabelecidas em lei e da simplificação do cumprimento das obrigações tributárias. Entre esses direitos está",
+    "alternativas": {
+      "A": "o décimo terceiro salário.",
+      "B": "o fundo de garantia do tempo de serviço (FGTS).",
+      "C": "as férias anuais com acréscimo de um terço.",
+      "D": "a licença à gestante.",
+      "E": "a jornada de oito horas diárias e quarenta e quatro semanais."
+    },
+    "gabarito": "B",
+    "comentario": "Dependem de condições estabelecidas em lei os incisos I, II, III (FGTS), IX, XII, XXV e XXVIII. O 13º salário, as férias com 1/3, a licença à gestante e a jornada (XIII) são de aplicação direta aos domésticos.",
+    "fundamento": "CF/88, art. 7º, parágrafo único (EC 72/2013).",
+    "oficial": false
+  },
+
+  {
+    "id": 859,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "banca": "CEBRASPE",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Julgue o item. O parágrafo único do art. 7º da CF estende aos trabalhadores domésticos o adicional de remuneração para as atividades penosas, insalubres ou perigosas.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "O adicional previsto no inciso XXIII não consta do rol de direitos dos domésticos do parágrafo único. Estão incluídos, por exemplo, os incisos IV, VI, VII, VIII, X, XIII, XV, XVI, XVII, XVIII, XIX, XXI, XXII, XXIV, XXVI, XXX, XXXI e XXXIII.",
+    "fundamento": "CF/88, art. 7º, parágrafo único.",
+    "oficial": false
+  },
+
+  {
+    "id": 860,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Os militares dos Estados e do Distrito Federal estão sujeitos às regras do art. 142, § 3º, da Constituição Federal, por força do art. 42, § 1º. Entre os direitos do art. 7º que a Constituição estende expressamente aos militares, NÃO está",
+    "alternativas": {
+      "A": "o décimo terceiro salário.",
+      "B": "a remuneração do serviço extraordinário superior, no mínimo, em cinquenta por cento à do normal.",
+      "C": "o gozo de férias anuais remuneradas com, pelo menos, um terço a mais do que o salário normal.",
+      "D": "a licença-paternidade.",
+      "E": "o salário-família."
+    },
+    "gabarito": "B",
+    "comentario": "O art. 142, § 3º, VIII, aplica aos militares os incisos VIII (13º), XII (salário-família), XVII (férias com 1/3), XVIII (licença à gestante), XIX (licença-paternidade) e XXV (creche) do art. 7º. A remuneração das horas extras (XVI) não está na lista.",
+    "fundamento": "CF/88, arts. 42, § 1º, e 142, § 3º, VIII.",
+    "oficial": false
+  },
+
+  {
+    "id": 861,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Assinale a alternativa que apresenta um direito que NÃO consta do art. 7º da Constituição Federal.",
+    "alternativas": {
+      "A": "Estabilidade no emprego após dez anos de serviço na mesma empresa.",
+      "B": "Proteção em face da automação, na forma da lei.",
+      "C": "Reconhecimento das convenções e acordos coletivos de trabalho.",
+      "D": "Redução dos riscos inerentes ao trabalho, por meio de normas de saúde, higiene e segurança.",
+      "E": "Proibição de distinção entre trabalho manual, técnico e intelectual."
+    },
+    "gabarito": "A",
+    "comentario": "A estabilidade decenal era prevista na antiga legislação trabalhista e foi substituída pelo regime do FGTS. As demais alternativas correspondem aos incisos XXVII, XXVI, XXII e XXXII do art. 7º.",
+    "fundamento": "CF/88, art. 7º, XXII, XXVI, XXVII e XXXII.",
+    "oficial": false
+  },
+
+  {
+    "id": 862,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: liberdade sindical (art. 8º)",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "De acordo com o art. 8º, inciso I, da Constituição Federal, a lei não poderá exigir autorização do Estado para a fundação de sindicato,",
+    "alternativas": {
+      "A": "ressalvada a aprovação do Ministério Público, que poderá intervir na organização sindical.",
+      "B": "ressalvada a autorização do Poder Executivo, que fiscalizará o sindicato.",
+      "C": "sem qualquer ressalva, nem mesmo o registro.",
+      "D": "ressalvado o registro no órgão competente, vedadas ao Poder Público a interferência e a intervenção na organização sindical.",
+      "E": "ressalvada a prévia autorização do Poder Judiciário."
+    },
+    "gabarito": "D",
+    "comentario": "A criação de sindicato dispensa autorização estatal. Exige-se o registro no órgão competente (por entendimento do STF, Súmula 677, o Ministério do Trabalho), e o Poder Público não pode interferir nem intervir na organização sindical.",
+    "fundamento": "CF/88, art. 8º, I.",
+    "oficial": false
+  },
+
+  {
+    "id": 863,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: liberdade sindical (art. 8º)",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A Constituição Federal, em seu art. 8º, inciso II, veda a criação de mais de uma organização sindical, em qualquer grau, representativa de categoria profissional ou econômica, na mesma base territorial. Essa base será definida pelos interessados e",
+    "alternativas": {
+      "A": "não poderá ser inferior à área de um Estado.",
+      "B": "não poderá ser inferior à área de um Município.",
+      "C": "poderá ser inferior à área de um Município, em caso de distritos.",
+      "D": "deverá ter, obrigatoriamente, abrangência nacional.",
+      "E": "será definida pela lei federal para cada categoria."
+    },
+    "gabarito": "B",
+    "comentario": "É o princípio da unicidade sindical: um só sindicato da categoria na mesma base territorial, que deve ser, no mínimo, do tamanho de um Município. A base é definida pelos próprios interessados.",
+    "fundamento": "CF/88, art. 8º, II.",
+    "oficial": false
+  },
+
+  {
+    "id": 864,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: liberdade sindical (art. 8º)",
+    "banca": "CEBRASPE",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Julgue o item. A Constituição Federal adota a pluralidade sindical, permitindo a criação de vários sindicatos da mesma categoria profissional na mesma base territorial.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "A Constituição adota a unicidade sindical (art. 8º, II) no que se refere à organização por categoria e base territorial. Por isso, não admite mais de um sindicato da mesma categoria na mesma base.",
+    "fundamento": "CF/88, art. 8º, II.",
+    "oficial": false
+  },
+
+  {
+    "id": 865,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: liberdade sindical (art. 8º)",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Segundo o art. 8º, inciso III, da Constituição Federal, ao sindicato cabe",
+    "alternativas": {
+      "A": "a defesa exclusiva dos direitos coletivos dos filiados, vedada a atuação judicial.",
+      "B": "a defesa apenas dos interesses individuais dos associados.",
+      "C": "a defesa dos interesses da categoria somente em questões administrativas.",
+      "D": "a defesa dos direitos e interesses coletivos ou individuais da categoria, inclusive em questões judiciais ou administrativas.",
+      "E": "a atuação restrita a negociações coletivas, sem representação em juízo."
+    },
+    "gabarito": "D",
+    "comentario": "O sindicato atua em defesa dos direitos e interesses coletivos ou individuais da categoria, em juízo ou fora dele. A atuação alcança a categoria e não apenas os filiados.",
+    "fundamento": "CF/88, art. 8º, III.",
+    "oficial": false
+  },
+
+  {
+    "id": 866,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: liberdade sindical (art. 8º)",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Sobre a contribuição para o custeio do sistema confederativo, prevista no art. 8º, inciso IV, da Constituição Federal, e a Súmula Vinculante nº 40 do STF, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "É fixada em lei e exigível de todos os integrantes da categoria, filiados ou não.",
+      "B": "É exigível de toda a categoria, e substitui a contribuição prevista em lei.",
+      "C": "É facultativa para os filiados, e obrigatória para os não filiados.",
+      "D": "É fixada pela assembleia geral, descontada em folha para a categoria profissional, e só é exigível dos filiados ao sindicato.",
+      "E": "É devida apenas pelos empregadores, e nunca pelos empregados."
+    },
+    "gabarito": "D",
+    "comentario": "A assembleia geral fixa a contribuição confederativa, que independe da contribuição prevista em lei. Segundo a SV 40, ela só é exigível dos filiados ao sindicato respectivo.",
+    "fundamento": "CF/88, art. 8º, IV; Súmula Vinculante 40/STF.",
+    "oficial": false
+  },
+
+  {
+    "id": 867,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: liberdade sindical (art. 8º)",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "O art. 8º, inciso V, da Constituição Federal estabelece que",
+    "alternativas": {
+      "A": "a filiação ao sindicato da categoria é obrigatória para o exercício da profissão.",
+      "B": "o trabalhador deverá manter-se filiado por, no mínimo, um ano.",
+      "C": "a filiação é obrigatória aos empregados de empresas públicas.",
+      "D": "o empregador pode condicionar a contratação à filiação sindical.",
+      "E": "ninguém será obrigado a filiar-se ou a manter-se filiado a sindicato."
+    },
+    "gabarito": "E",
+    "comentario": "É a liberdade sindical individual, nas suas dimensões positiva e negativa: ninguém é obrigado a se filiar nem a permanecer filiado.",
+    "fundamento": "CF/88, art. 8º, V.",
+    "oficial": false
+  },
+
+  {
+    "id": 868,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: liberdade sindical (art. 8º)",
+    "banca": "CEBRASPE",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Julgue o item. É obrigatória a participação dos sindicatos nas negociações coletivas de trabalho.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "É o que determina o art. 8º, VI. Os sindicatos devem participar das negociações coletivas de trabalho.",
+    "fundamento": "CF/88, art. 8º, VI.",
+    "oficial": false
+  },
+
+  {
+    "id": 869,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: liberdade sindical (art. 8º)",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Segundo o art. 8º, inciso VIII, da Constituição Federal, é vedada a dispensa do empregado sindicalizado a partir do registro da candidatura a cargo de direção ou representação sindical e, se eleito, ainda que suplente,",
+    "alternativas": {
+      "A": "até seis meses após o final do mandato, sem qualquer exceção.",
+      "B": "apenas durante o mandato, não havendo proteção posterior.",
+      "C": "até dois anos após o final do mandato, inclusive em caso de falta grave.",
+      "D": "somente se for eleito como titular, sendo o suplente excluído da garantia.",
+      "E": "até um ano após o final do mandato, salvo se cometer falta grave nos termos da lei."
+    },
+    "gabarito": "E",
+    "comentario": "A garantia começa com o registro da candidatura e vai até um ano após o fim do mandato, também para o suplente. Só cede em caso de falta grave, nos termos da lei.",
+    "fundamento": "CF/88, art. 8º, VIII.",
+    "oficial": false
+  },
+
+  {
+    "id": 870,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: liberdade sindical (art. 8º)",
+    "banca": "CEBRASPE",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Julgue o item. Ao militar são proibidas a sindicalização e a greve, vedação que se aplica também aos militares dos Estados, por força do art. 42, § 1º, da Constituição Federal.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "O art. 142, § 3º, IV, proíbe ao militar a sindicalização e a greve. O art. 42, § 1º, estende essa regra aos policiais militares e aos bombeiros militares.",
+    "fundamento": "CF/88, arts. 42, § 1º, e 142, § 3º, IV.",
+    "oficial": false
+  },
+
+  {
+    "id": 871,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: direito de greve (art. 9º)",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "O art. 9º da Constituição Federal assegura o direito de greve, competindo",
+    "alternativas": {
+      "A": "ao sindicato patronal decidir sobre a oportunidade de exercê-lo.",
+      "B": "ao Poder Judiciário definir os interesses que podem ser defendidos pela greve.",
+      "C": "à lei ordinária definir a oportunidade da greve e os interesses defendidos.",
+      "D": "aos trabalhadores decidir sobre a oportunidade de exercê-lo e sobre os interesses que devam por meio dele defender.",
+      "E": "ao Poder Executivo autorizar previamente a deflagração do movimento."
+    },
+    "gabarito": "D",
+    "comentario": "A Constituição confere aos trabalhadores a decisão sobre quando fazer greve e quais interesses defender. A lei trata dos serviços essenciais e dos abusos, mas não pode esvaziar essa liberdade.",
+    "fundamento": "CF/88, art. 9º, caput.",
+    "oficial": false
+  },
+
+  {
+    "id": 872,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: direito de greve (art. 9º)",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "De acordo com o art. 9º, § 1º, da Constituição Federal, no tocante ao direito de greve,",
+    "alternativas": {
+      "A": "a Constituição proíbe a greve nos serviços ou atividades essenciais.",
+      "B": "decreto do Poder Executivo definirá os serviços essenciais, sem necessidade de lei.",
+      "C": "a lei definirá os serviços ou atividades essenciais e disporá sobre o atendimento das necessidades inadiáveis da comunidade.",
+      "D": "a própria Constituição enumera os serviços essenciais, de forma taxativa.",
+      "E": "a greve nas atividades essenciais depende de autorização judicial prévia."
+    },
+    "gabarito": "C",
+    "comentario": "A Constituição não proíbe a greve em atividades essenciais. Remete à lei a definição desses serviços e das regras para atender às necessidades inadiáveis da comunidade (hoje, a Lei nº 7.783/1989).",
+    "fundamento": "CF/88, art. 9º, § 1º.",
+    "oficial": false
+  },
+
+  {
+    "id": 873,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: direito de greve (art. 9º)",
+    "banca": "CEBRASPE",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Julgue o item. De acordo com o art. 9º, § 2º, da CF, os abusos cometidos no exercício do direito de greve sujeitam os responsáveis às penas da lei.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "É o texto do § 2º. O direito de greve é amplo, mas não exime de responsabilidade quem comete abusos.",
+    "fundamento": "CF/88, art. 9º, § 2º.",
+    "oficial": false
+  },
+
+  {
+    "id": 874,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: direito de greve (art. 9º)",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Conforme a Súmula Vinculante nº 23 do STF, a Justiça do Trabalho é competente para processar e julgar",
+    "alternativas": {
+      "A": "ação possessória ajuizada em decorrência do exercício do direito de greve pelos trabalhadores da iniciativa privada.",
+      "B": "ação de reintegração de posse decorrente de greve de servidores estatutários.",
+      "C": "ação penal por crimes cometidos durante a greve.",
+      "D": "ação que discuta a regularidade de todas as greves do setor público.",
+      "E": "ação civil pública contra o sindicato por abuso, na esfera federal."
+    },
+    "gabarito": "A",
+    "comentario": "A SV 23 trata da competência da Justiça do Trabalho para ações possessórias (por exemplo, ocupação do estabelecimento) decorrentes de greve de trabalhadores da iniciativa privada.",
+    "fundamento": "Súmula Vinculante 23/STF; CF/88, art. 9º.",
+    "oficial": false
+  },
+
+  {
+    "id": 875,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: direito de greve (art. 9º)",
+    "banca": "CEBRASPE",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Julgue o item. O art. 9º da CF permite que a lei restrinja os interesses que os trabalhadores podem defender por meio da greve.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "O art. 9º atribui aos trabalhadores a decisão sobre a oportunidade da greve e sobre os interesses a defender. A lei trata dos serviços essenciais e dos abusos, mas não pode limitar os interesses defendidos.",
+    "fundamento": "CF/88, art. 9º, caput.",
+    "oficial": false
+  },
+
+  {
+    "id": 876,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: direito de greve (art. 9º)",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "No julgamento do ARE 654.432 (Tema 541), o Supremo Tribunal Federal fixou entendimento sobre o direito de greve dos servidores da segurança pública. Segundo essa tese,",
+    "alternativas": {
+      "A": "os policiais civis podem fazer greve, desde que mantenham parte do efetivo em serviço.",
+      "B": "o direito de greve dos policiais civis é livre, aplicando-se a Lei nº 7.783/1989.",
+      "C": "a greve é permitida aos policiais civis, mas vedada aos policiais militares.",
+      "D": "a proibição da greve alcança apenas as polícias militares.",
+      "E": "o exercício do direito de greve, sob qualquer forma ou modalidade, é vedado aos policiais civis e a todos os servidores públicos que atuem diretamente na área de segurança pública."
+    },
+    "gabarito": "E",
+    "comentario": "Para o STF, a vedação alcança os policiais civis e todos os servidores que atuem diretamente na segurança pública, por serem atividades essenciais à manutenção da ordem. A Corte também determinou a participação do Poder Público em mediação instaurada pelos órgãos classistas.",
+    "fundamento": "STF, ARE 654.432 (Tema 541); CF/88, arts. 9º e 37, VII.",
+    "oficial": false
+  },
+
+  {
+    "id": 877,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: direito de greve (art. 9º)",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Segundo a tese firmada pelo STF no RE 693.456 (Tema 531), em relação aos dias de paralisação por greve de servidores públicos,",
+    "alternativas": {
+      "A": "é proibido descontar os dias de greve, em qualquer hipótese.",
+      "B": "o desconto é obrigatório mesmo quando a greve for provocada por conduta ilícita do Poder Público.",
+      "C": "o desconto só é possível mediante decisão judicial, caso a caso.",
+      "D": "o desconto é facultativo e depende do critério do chefe imediato.",
+      "E": "a administração deve descontar os dias parados, em razão da suspensão do vínculo funcional, permitida a compensação em caso de acordo, e o desconto é incabível se a greve tiver sido provocada por conduta ilícita do Poder Público."
+    },
+    "gabarito": "E",
+    "comentario": "A paralisação suspende o vínculo funcional e, por isso, a Administração deve descontar os dias, podendo haver compensação por acordo. A exceção é a greve provocada por conduta ilícita do Poder Público.",
+    "fundamento": "STF, RE 693.456 (Tema 531); CF/88, art. 37, VII.",
+    "oficial": false
+  },
+
+  {
+    "id": 878,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: participação e representação (arts. 10 e 11)",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "O art. 10 da Constituição Federal assegura a participação dos trabalhadores e empregadores nos colegiados dos órgãos públicos",
+    "alternativas": {
+      "A": "em que seus interesses profissionais sejam apenas informados, sem direito a voz.",
+      "B": "em que seus interesses profissionais ou previdenciários sejam objeto de discussão e deliberação.",
+      "C": "apenas do Poder Judiciário, quando tratarem de matéria trabalhista.",
+      "D": "apenas do Poder Executivo, nas decisões orçamentárias.",
+      "E": "em que estejam em discussão matérias tributárias."
+    },
+    "gabarito": "B",
+    "comentario": "A norma garante a participação de trabalhadores e empregadores, nos colegiados dos órgãos públicos, quando estiverem em debate interesses profissionais ou previdenciários. Um exemplo é a presença de representantes em conselhos de previdência.",
+    "fundamento": "CF/88, art. 10.",
+    "oficial": false
+  },
+
+  {
+    "id": 879,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: participação e representação (arts. 10 e 11)",
+    "banca": "CEBRASPE",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Julgue o item. O art. 10 da CF assegura a participação, nos colegiados dos órgãos públicos em que seus interesses profissionais ou previdenciários sejam discutidos, apenas dos trabalhadores, sendo vedada a dos empregadores.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "O art. 10 assegura a participação de trabalhadores e empregadores nos colegiados dos órgãos públicos em que os seus interesses profissionais ou previdenciários forem objeto de discussão e deliberação.",
+    "fundamento": "CF/88, art. 10.",
+    "oficial": false
+  },
+
+  {
+    "id": 880,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: participação e representação (arts. 10 e 11)",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Nos termos do art. 11 da Constituição Federal, nas empresas de mais de duzentos empregados é assegurada",
+    "alternativas": {
+      "A": "a criação de um sindicato interno com poder de greve.",
+      "B": "a eleição de um representante destes com a finalidade exclusiva de promover-lhes o entendimento direto com os empregadores.",
+      "C": "a eleição de uma comissão de três representantes com poderes para celebrar acordos coletivos.",
+      "D": "a indicação de um representante pelo empregador, que o escolherá livremente.",
+      "E": "a escolha de um representante com mandato vitalício."
+    },
+    "gabarito": "B",
+    "comentario": "A representação prevista no art. 11 tem a finalidade exclusiva de promover o entendimento direto entre empregados e empregadores. Não substitui o sindicato nem tem poder para negociar em nome da categoria.",
+    "fundamento": "CF/88, art. 11.",
+    "oficial": false
+  },
+
+  {
+    "id": 881,
+    "disciplina": "Direito Constitucional",
+    "assunto": "Direitos sociais: participação e representação (arts. 10 e 11)",
+    "banca": "CEBRASPE",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Julgue o item. Nas empresas com mais de cem empregados, a Constituição Federal assegura a eleição de um representante destes com a finalidade exclusiva de promover-lhes o entendimento direto com os empregadores.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "O limite do art. 11 é de mais de duzentos empregados, e não de cem.",
+    "fundamento": "CF/88, art. 11.",
+    "oficial": false
   }
 ];
