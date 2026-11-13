@@ -257,7 +257,7 @@ const QUESTION_BANK = [
   {
     "id": 11,
     "disciplina": "Direito Constitucional",
-    "assunto": "Controle de Constitucionalidade",
+    "assunto": "Controle de constitucionalidade",
     "banca": "CEBRASPE",
     "ano": 2024,
     "dificuldade": "Difícil",
@@ -276,7 +276,7 @@ const QUESTION_BANK = [
   {
     "id": 12,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos Sociais",
+    "assunto": "Direitos sociais",
     "banca": "FCC",
     "ano": 2022,
     "dificuldade": "Fácil",
@@ -379,7 +379,7 @@ const QUESTION_BANK = [
   {
     "id": 17,
     "disciplina": "Direito Penal",
-    "assunto": "Crimes contra a Administração Pública",
+    "assunto": "Crimes contra a administração pública",
     "banca": "CEBRASPE",
     "ano": 2023,
     "dificuldade": "Difícil",
@@ -419,7 +419,7 @@ const QUESTION_BANK = [
   {
     "id": 19,
     "disciplina": "Administração Pública",
-    "assunto": "Orçamento Público",
+    "assunto": "Orçamento público",
     "banca": "Instituto AOCP",
     "ano": 2023,
     "dificuldade": "Médio",
@@ -17573,7 +17573,7 @@ const QUESTION_BANK = [
   {
     "id": 822,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: art. 6º",
+    "assunto": "Direitos sociais",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -17595,7 +17595,7 @@ const QUESTION_BANK = [
   {
     "id": 823,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: art. 6º",
+    "assunto": "Direitos sociais",
     "banca": "CEBRASPE",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -17614,7 +17614,7 @@ const QUESTION_BANK = [
   {
     "id": 824,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: art. 6º",
+    "assunto": "Direitos sociais",
     "banca": "IDECAN",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -17636,7 +17636,7 @@ const QUESTION_BANK = [
   {
     "id": 825,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: art. 6º",
+    "assunto": "Direitos sociais",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -17658,7 +17658,7 @@ const QUESTION_BANK = [
   {
     "id": 826,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: art. 6º",
+    "assunto": "Direitos sociais",
     "banca": "CEBRASPE",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -17677,7 +17677,7 @@ const QUESTION_BANK = [
   {
     "id": 827,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "assunto": "Direitos sociais",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -17699,7 +17699,7 @@ const QUESTION_BANK = [
   {
     "id": 828,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "assunto": "Direitos sociais",
     "banca": "IDECAN",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -17721,7 +17721,7 @@ const QUESTION_BANK = [
   {
     "id": 829,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "assunto": "Direitos sociais",
     "banca": "CEBRASPE",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -17740,7 +17740,7 @@ const QUESTION_BANK = [
   {
     "id": 830,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "assunto": "Direitos sociais",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -17762,7 +17762,7 @@ const QUESTION_BANK = [
   {
     "id": 831,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "assunto": "Direitos sociais",
     "banca": "IDECAN",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -17784,7 +17784,7 @@ const QUESTION_BANK = [
   {
     "id": 832,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "assunto": "Direitos sociais",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -17806,7 +17806,7 @@ const QUESTION_BANK = [
   {
     "id": 833,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "assunto": "Direitos sociais",
     "banca": "CEBRASPE",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -17825,7 +17825,7 @@ const QUESTION_BANK = [
   {
     "id": 834,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "assunto": "Direitos sociais",
     "banca": "IDECAN",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -17847,7 +17847,7 @@ const QUESTION_BANK = [
   {
     "id": 835,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "assunto": "Direitos sociais",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -17869,7 +17869,7 @@ const QUESTION_BANK = [
   {
     "id": 836,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "assunto": "Direitos sociais",
     "banca": "CEBRASPE",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -17888,7 +17888,7 @@ const QUESTION_BANK = [
   {
     "id": 837,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "assunto": "Direitos sociais",
     "banca": "IDECAN",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -17910,7 +17910,7 @@ const QUESTION_BANK = [
   {
     "id": 838,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "assunto": "Direitos sociais",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -17932,7 +17932,7 @@ const QUESTION_BANK = [
   {
     "id": 839,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "assunto": "Direitos sociais",
     "banca": "CEBRASPE",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -17951,7 +17951,7 @@ const QUESTION_BANK = [
   {
     "id": 840,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "assunto": "Direitos sociais",
     "banca": "IDECAN",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -17973,7 +17973,7 @@ const QUESTION_BANK = [
   {
     "id": 841,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "assunto": "Direitos sociais",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -17995,7 +17995,7 @@ const QUESTION_BANK = [
   {
     "id": 842,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "assunto": "Direitos sociais",
     "banca": "CEBRASPE",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -18014,7 +18014,7 @@ const QUESTION_BANK = [
   {
     "id": 843,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "assunto": "Direitos sociais",
     "banca": "IDECAN",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -18036,7 +18036,7 @@ const QUESTION_BANK = [
   {
     "id": 844,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "assunto": "Direitos sociais",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -18058,7 +18058,7 @@ const QUESTION_BANK = [
   {
     "id": 845,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "assunto": "Direitos sociais",
     "banca": "IDECAN",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -18080,7 +18080,7 @@ const QUESTION_BANK = [
   {
     "id": 846,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "assunto": "Direitos sociais",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -18102,7 +18102,7 @@ const QUESTION_BANK = [
   {
     "id": 847,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "assunto": "Direitos sociais",
     "banca": "IDECAN",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -18124,7 +18124,7 @@ const QUESTION_BANK = [
   {
     "id": 848,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "assunto": "Direitos sociais",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -18146,7 +18146,7 @@ const QUESTION_BANK = [
   {
     "id": 849,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "assunto": "Direitos sociais",
     "banca": "IDECAN",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -18168,7 +18168,7 @@ const QUESTION_BANK = [
   {
     "id": 850,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "assunto": "Direitos sociais",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -18190,7 +18190,7 @@ const QUESTION_BANK = [
   {
     "id": 851,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "assunto": "Direitos sociais",
     "banca": "IDECAN",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -18212,7 +18212,7 @@ const QUESTION_BANK = [
   {
     "id": 852,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "assunto": "Direitos sociais",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -18234,7 +18234,7 @@ const QUESTION_BANK = [
   {
     "id": 853,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "assunto": "Direitos sociais",
     "banca": "IDECAN",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -18256,7 +18256,7 @@ const QUESTION_BANK = [
   {
     "id": 854,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "assunto": "Direitos sociais",
     "banca": "CEBRASPE",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -18275,7 +18275,7 @@ const QUESTION_BANK = [
   {
     "id": 855,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "assunto": "Direitos sociais",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -18297,7 +18297,7 @@ const QUESTION_BANK = [
   {
     "id": 856,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "assunto": "Direitos sociais",
     "banca": "CEBRASPE",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -18316,7 +18316,7 @@ const QUESTION_BANK = [
   {
     "id": 857,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "assunto": "Direitos sociais",
     "banca": "IDECAN",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -18338,7 +18338,7 @@ const QUESTION_BANK = [
   {
     "id": 858,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "assunto": "Direitos sociais",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -18360,7 +18360,7 @@ const QUESTION_BANK = [
   {
     "id": 859,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "assunto": "Direitos sociais",
     "banca": "CEBRASPE",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -18379,7 +18379,7 @@ const QUESTION_BANK = [
   {
     "id": 860,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "assunto": "Direitos sociais",
     "banca": "IDECAN",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -18401,7 +18401,7 @@ const QUESTION_BANK = [
   {
     "id": 861,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: direitos dos trabalhadores (art. 7º)",
+    "assunto": "Direitos sociais",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -18423,7 +18423,7 @@ const QUESTION_BANK = [
   {
     "id": 862,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: liberdade sindical (art. 8º)",
+    "assunto": "Direitos sociais",
     "banca": "IDECAN",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -18445,7 +18445,7 @@ const QUESTION_BANK = [
   {
     "id": 863,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: liberdade sindical (art. 8º)",
+    "assunto": "Direitos sociais",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -18467,7 +18467,7 @@ const QUESTION_BANK = [
   {
     "id": 864,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: liberdade sindical (art. 8º)",
+    "assunto": "Direitos sociais",
     "banca": "CEBRASPE",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -18486,7 +18486,7 @@ const QUESTION_BANK = [
   {
     "id": 865,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: liberdade sindical (art. 8º)",
+    "assunto": "Direitos sociais",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -18508,7 +18508,7 @@ const QUESTION_BANK = [
   {
     "id": 866,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: liberdade sindical (art. 8º)",
+    "assunto": "Direitos sociais",
     "banca": "IDECAN",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -18530,7 +18530,7 @@ const QUESTION_BANK = [
   {
     "id": 867,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: liberdade sindical (art. 8º)",
+    "assunto": "Direitos sociais",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -18552,7 +18552,7 @@ const QUESTION_BANK = [
   {
     "id": 868,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: liberdade sindical (art. 8º)",
+    "assunto": "Direitos sociais",
     "banca": "CEBRASPE",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -18571,7 +18571,7 @@ const QUESTION_BANK = [
   {
     "id": 869,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: liberdade sindical (art. 8º)",
+    "assunto": "Direitos sociais",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -18593,7 +18593,7 @@ const QUESTION_BANK = [
   {
     "id": 870,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: liberdade sindical (art. 8º)",
+    "assunto": "Direitos sociais",
     "banca": "CEBRASPE",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -18612,7 +18612,7 @@ const QUESTION_BANK = [
   {
     "id": 871,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: direito de greve (art. 9º)",
+    "assunto": "Direitos sociais",
     "banca": "IDECAN",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -18634,7 +18634,7 @@ const QUESTION_BANK = [
   {
     "id": 872,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: direito de greve (art. 9º)",
+    "assunto": "Direitos sociais",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -18656,7 +18656,7 @@ const QUESTION_BANK = [
   {
     "id": 873,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: direito de greve (art. 9º)",
+    "assunto": "Direitos sociais",
     "banca": "CEBRASPE",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -18675,7 +18675,7 @@ const QUESTION_BANK = [
   {
     "id": 874,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: direito de greve (art. 9º)",
+    "assunto": "Direitos sociais",
     "banca": "IDECAN",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -18697,7 +18697,7 @@ const QUESTION_BANK = [
   {
     "id": 875,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: direito de greve (art. 9º)",
+    "assunto": "Direitos sociais",
     "banca": "CEBRASPE",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -18716,7 +18716,7 @@ const QUESTION_BANK = [
   {
     "id": 876,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: direito de greve (art. 9º)",
+    "assunto": "Direitos sociais",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -18738,7 +18738,7 @@ const QUESTION_BANK = [
   {
     "id": 877,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: direito de greve (art. 9º)",
+    "assunto": "Direitos sociais",
     "banca": "IDECAN",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -18760,7 +18760,7 @@ const QUESTION_BANK = [
   {
     "id": 878,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: participação e representação (arts. 10 e 11)",
+    "assunto": "Direitos sociais",
     "banca": "Instituto AOCP",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -18782,7 +18782,7 @@ const QUESTION_BANK = [
   {
     "id": 879,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: participação e representação (arts. 10 e 11)",
+    "assunto": "Direitos sociais",
     "banca": "CEBRASPE",
     "ano": 2026,
     "dificuldade": "Médio",
@@ -18801,7 +18801,7 @@ const QUESTION_BANK = [
   {
     "id": 880,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: participação e representação (arts. 10 e 11)",
+    "assunto": "Direitos sociais",
     "banca": "IDECAN",
     "ano": 2026,
     "dificuldade": "Difícil",
@@ -18823,7 +18823,7 @@ const QUESTION_BANK = [
   {
     "id": 881,
     "disciplina": "Direito Constitucional",
-    "assunto": "Direitos sociais: participação e representação (arts. 10 e 11)",
+    "assunto": "Direitos sociais",
     "banca": "CEBRASPE",
     "ano": 2026,
     "dificuldade": "Médio",
