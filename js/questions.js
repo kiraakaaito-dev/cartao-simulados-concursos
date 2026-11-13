@@ -18845,5 +18845,1289 @@ const QUESTION_BANK = [
     "comentario": "O limite do art. 11 é de mais de duzentos empregados, e não de cem.",
     "fundamento": "CF/88, art. 11.",
     "oficial": false
+  },
+
+  {
+    "id": 882,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Assinale a alternativa em que todos os substantivos são abstratos.",
+    "alternativas": {
+      "A": "bravura, justiça, hierarquia, obediência",
+      "B": "viatura, farda, coragem, ordem",
+      "C": "delegado, justiça, lealdade, disciplina",
+      "D": "fuzil, bravura, respeito, algema",
+      "E": "coragem, quartel, honra, perigo"
+    },
+    "gabarito": "A",
+    "comentario": "Substantivo abstrato nomeia ações, qualidades, estados ou noções que dependem de outro ser para existir (bravura, justiça, hierarquia, obediência). Viatura, farda, delegado, fuzil, algema e quartel são concretos.",
+    "fundamento": "Gramática normativa: Substantivo: classificação (concreto e abstrato).",
+    "oficial": false
+  },
+
+  {
+    "id": 883,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Assinale a alternativa em que a associação entre o substantivo coletivo e o conjunto que ele designa está INCORRETA.",
+    "alternativas": {
+      "A": "alcateia — conjunto de lobos",
+      "B": "cardume — conjunto de peixes",
+      "C": "cordilheira — conjunto de ilhas",
+      "D": "matilha — conjunto de cães",
+      "E": "enxame — conjunto de abelhas"
+    },
+    "gabarito": "C",
+    "comentario": "Cordilheira designa um conjunto de montanhas. O conjunto de ilhas chama-se arquipélago. As demais associações estão corretas.",
+    "fundamento": "Gramática normativa: Substantivo: coletivos.",
+    "oficial": false
+  },
+
+  {
+    "id": 884,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Assinale a alternativa em que todos os substantivos são primitivos.",
+    "alternativas": {
+      "A": "pedreiro, ferro, casa, rio",
+      "B": "pedra, ferro, casa, rio",
+      "C": "pedra, ferreiro, casa, rio",
+      "D": "pedra, ferro, casebre, rio",
+      "E": "pedra, ferro, casa, riacho"
+    },
+    "gabarito": "B",
+    "comentario": "Substantivo primitivo não deriva de outra palavra: pedra, ferro, casa e rio. Pedreiro (de pedra), ferreiro (de ferro), casebre (de casa) e riacho (de rio) são derivados.",
+    "fundamento": "Gramática normativa: Substantivo: primitivos e derivados.",
+    "oficial": false
+  },
+
+  {
+    "id": 885,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Assinale a alternativa em que o substantivo composto foi formado por aglutinação.",
+    "alternativas": {
+      "A": "passatempo",
+      "B": "guarda-roupa",
+      "C": "couve-flor",
+      "D": "girassol",
+      "E": "planalto"
+    },
+    "gabarito": "E",
+    "comentario": "Na aglutinação, os elementos se fundem e um deles perde fonema (plano + alto = planalto). Em passatempo, girassol, guarda-roupa e couve-flor, os elementos se juntam sem perda de fonema, ou seja, há justaposição.",
+    "fundamento": "Gramática normativa: Substantivo: composição (justaposição e aglutinação).",
+    "oficial": false
+  },
+
+  {
+    "id": 886,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Em qual alternativa a palavra entre aspas NÃO está substantivada?",
+    "alternativas": {
+      "A": "O “jantar” foi servido às 20 horas.",
+      "B": "Ouviu-se um “não” firme no corredor.",
+      "C": "Os “porquês” da operação foram explicados.",
+      "D": "Os policiais “jantarão” antes da operação.",
+      "E": "O “saber” é uma arma do investigador."
+    },
+    "gabarito": "D",
+    "comentario": "Na primeira frase, “jantarão” é verbo (forma conjugada). Nas demais, palavras de outras classes passam a nomes por derivação imprópria: jantar (verbo), não (advérbio), porquês (conjunção) e saber (verbo).",
+    "fundamento": "Gramática normativa: Substantivo: substantivação (derivação imprópria).",
+    "oficial": false
+  },
+
+  {
+    "id": 887,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "CEBRASPE",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Julgue o item. No período “O delegado-geral assinou o decreto”, o termo “delegado-geral” é substantivo composto e seu plural é “delegados-gerais”.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Substantivo + adjetivo: os dois elementos variam no plural, de modo que o plural correto é “delegados-gerais”.",
+    "fundamento": "Gramática normativa: Substantivo: plural dos compostos.",
+    "oficial": false
+  },
+
+  {
+    "id": 888,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Assinale a alternativa em que todos os substantivos são sobrecomuns.",
+    "alternativas": {
+      "A": "o jovem, o colega, o intérprete, o cônjuge",
+      "B": "a cobra, o jacaré, a baleia, o tigre",
+      "C": "o pai, a mãe, o genro, a nora",
+      "D": "o aluno, a aluna, o soldado, o policial",
+      "E": "a vítima, a testemunha, a criança, o indivíduo"
+    },
+    "gabarito": "E",
+    "comentario": "Sobrecomuns têm um só gênero gramatical, qualquer que seja o sexo do ser: a vítima, a testemunha, a criança e o indivíduo. Jovem, colega, intérprete e cônjuge são comuns de dois gêneros. Cobra, jacaré, baleia e tigre são epicenos. Pai/mãe e genro/nora são heterônimos.",
+    "fundamento": "Gramática normativa: Substantivo: gênero (sobrecomuns).",
+    "oficial": false
+  },
+
+  {
+    "id": 889,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Assinale a alternativa em que os dois pares de substantivos são heterônimos.",
+    "alternativas": {
+      "A": "aluno / aluna e gato / gata",
+      "B": "doutor / doutora e leão / leoa",
+      "C": "cavalo / égua e menino / menina",
+      "D": "bode / cabra e genro / nora",
+      "E": "cidadão / cidadã e juiz / juíza"
+    },
+    "gabarito": "D",
+    "comentario": "Heterônimos têm radicais diferentes para o masculino e o feminino: bode/cabra e genro/nora. Os demais pares citados são formados por flexão, com o mesmo radical (aluno/aluna, gato/gata, doutor/doutora, leão/leoa, menino/menina, cidadão/cidadã, juiz/juíza). Cavalo/égua também é heterônimo, mas na alternativa vem acompanhado de um par flexionado.",
+    "fundamento": "Gramática normativa: Substantivo: gênero (heterônimos).",
+    "oficial": false
+  },
+
+  {
+    "id": 890,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Observe os sentidos indicados entre parênteses. Assinale a alternativa em que o gênero dos substantivos está adequado a esses sentidos.",
+    "alternativas": {
+      "A": "A capital (dinheiro) da organização foi bloqueada, e a capital (cidade) do estado foi isolada.",
+      "B": "O capital (dinheiro) da organização foi bloqueado, e o capital (cidade) do estado foi isolado.",
+      "C": "A capital (dinheiro) da organização foi bloqueada, e o capital (cidade) do estado foi isolado.",
+      "D": "O capital (cidade) do estado foi isolado, e a capital (dinheiro) da organização foi bloqueada.",
+      "E": "O capital (dinheiro) da organização foi bloqueado, e a capital (cidade) do estado foi isolada."
+    },
+    "gabarito": "E",
+    "comentario": "“O capital” designa dinheiro ou bens (masculino), e “a capital”, a cidade sede do governo (feminino). A mudança de gênero altera o sentido, como em o guia/a guia e o cabeça/a cabeça.",
+    "fundamento": "Gramática normativa: Substantivo: gênero e mudança de sentido.",
+    "oficial": false
+  },
+
+  {
+    "id": 891,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Assinale a alternativa em que todos os substantivos são masculinos.",
+    "alternativas": {
+      "A": "o champanhe, a alface, o telefonema, o lança-perfume",
+      "B": "o sanduíche, a cal, o telefonema, o lança-perfume",
+      "C": "o champanhe, o sanduíche, a omoplata, o lança-perfume",
+      "D": "o champanhe, o sanduíche, o telefonema, o lança-perfume",
+      "E": "o champanhe, o sanduíche, o telefonema, a hélice"
+    },
+    "gabarito": "D",
+    "comentario": "São masculinos: o champanhe, o sanduíche, o telefonema e o lança-perfume. São femininos: a alface, a cal, a omoplata e a hélice.",
+    "fundamento": "Gramática normativa: Substantivo: gênero (casos especiais).",
+    "oficial": false
+  },
+
+  {
+    "id": 892,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "CEBRASPE",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Julgue o item. O substantivo “personagem” admite os dois gêneros, de modo que se pode dizer tanto “o personagem” quanto “a personagem”.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Segundo os dicionários e a gramática normativa, “personagem” é substantivo de dois gêneros, de uso corrente no masculino e no feminino.",
+    "fundamento": "Gramática normativa: Substantivo: gênero.",
+    "oficial": false
+  },
+
+  {
+    "id": 893,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Assinale a alternativa em que o feminino do substantivo está INCORRETO.",
+    "alternativas": {
+      "A": "réu — ré",
+      "B": "monge — monga",
+      "C": "ateu — ateia",
+      "D": "judeu — judia",
+      "E": "conde — condessa"
+    },
+    "gabarito": "B",
+    "comentario": "O feminino de monge é monja. Estão corretos réu/ré, ateu/ateia, judeu/judia e conde/condessa.",
+    "fundamento": "Gramática normativa: Substantivo: formação do feminino.",
+    "oficial": false
+  },
+
+  {
+    "id": 894,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "CEBRASPE",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Julgue o item. O substantivo “cônjuge” é comum de dois gêneros: o gênero é indicado pelo artigo ou por outro determinante, como em “o cônjuge” e “a cônjuge”.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Substantivos comuns de dois gêneros têm uma só forma para os dois gêneros, e o gênero se identifica pelos determinantes. É o caso de cônjuge, colega, jovem e intérprete.",
+    "fundamento": "Gramática normativa: Substantivo: gênero (comuns de dois gêneros).",
+    "oficial": false
+  },
+
+  {
+    "id": 895,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Assinale a frase em que o gênero dos substantivos está de acordo com o sentido indicado.",
+    "alternativas": {
+      "A": "Comprei uma grama (unidade de massa) de ouro, e o grama (relva) do pátio foi cortado.",
+      "B": "Comprei uma grama (unidade de massa) de ouro, e a grama (relva) do pátio foi cortada.",
+      "C": "Comprei um grama (unidade de massa) de ouro, e o grama (relva) do pátio foi cortado.",
+      "D": "Comprei um grama (unidade de massa) de ouro, e a grama (relva) do pátio foi cortada.",
+      "E": "Comprei um grama (relva) de ouro, e a grama (unidade de massa) do pátio foi cortada."
+    },
+    "gabarito": "D",
+    "comentario": "“O grama” é a unidade de massa, e “a grama” é a relva. O gênero distingue os sentidos.",
+    "fundamento": "Gramática normativa: Substantivo: gênero e mudança de sentido.",
+    "oficial": false
+  },
+
+  {
+    "id": 896,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Assinale a alternativa em que o plural dos substantivos compostos está correto.",
+    "alternativas": {
+      "A": "tenente-coronéis, primeiros-sargentos, guardas-civis, abaixo-assinados",
+      "B": "tenentes-coronéis, primeiro-sargentos, guardas-civis, abaixo-assinados",
+      "C": "tenentes-coronéis, primeiros-sargentos, guardas-civis, abaixo-assinados",
+      "D": "tenentes-coronéis, primeiros-sargentos, guarda-civis, abaixo-assinados",
+      "E": "tenentes-coronéis, primeiros-sargentos, guardas-civis, abaixos-assinados"
+    },
+    "gabarito": "C",
+    "comentario": "Nos compostos formados por substantivo + substantivo, substantivo + adjetivo e numeral + substantivo, os dois elementos variam: tenentes-coronéis, primeiros-sargentos, guardas-civis. Em abaixo-assinado, o primeiro elemento é advérbio e fica invariável.",
+    "fundamento": "Gramática normativa: Substantivo: plural dos compostos.",
+    "oficial": false
+  },
+
+  {
+    "id": 897,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Assinale a alternativa em que todos os plurais dos substantivos compostos estão corretos.",
+    "alternativas": {
+      "A": "guardas-chuvas, beija-flores, arranha-céus, quebra-cabeças",
+      "B": "guarda-chuvas, beija-flores, arranha-céus, quebra-cabeças",
+      "C": "guarda-chuvas, beijas-flores, arranha-céus, quebra-cabeças",
+      "D": "guarda-chuvas, beija-flores, arranhas-céus, quebra-cabeças",
+      "E": "guarda-chuvas, beija-flores, arranha-céus, quebras-cabeças"
+    },
+    "gabarito": "B",
+    "comentario": "Nos compostos formados por verbo + substantivo, só o segundo elemento varia: guarda-chuvas, beija-flores, arranha-céus e quebra-cabeças. O verbo não vai ao plural.",
+    "fundamento": "Gramática normativa: Substantivo: plural dos compostos.",
+    "oficial": false
+  },
+
+  {
+    "id": 898,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Assinale a alternativa em que todos os plurais dos substantivos compostos estão corretos.",
+    "alternativas": {
+      "A": "couves-flor, pães-de-ló, bem-te-vis, arcos-íris",
+      "B": "couves-flores, pão-de-lós, bem-te-vis, arcos-íris",
+      "C": "couves-flores, pães-de-ló, bens-te-vis, arcos-íris",
+      "D": "couves-flores, pães-de-ló, bem-te-vis, arco-íris",
+      "E": "couves-flores, pães-de-ló, bem-te-vis, arcos-íris"
+    },
+    "gabarito": "E",
+    "comentario": "Os plurais corretos são couves-flores (substantivo + substantivo), pães-de-ló (só o primeiro varia, pois o de-ló é um elemento ligado por preposição), bem-te-vis (a frase vira substantivo e só o último elemento varia) e arcos-íris (os dois substantivos de nomes iguais).",
+    "fundamento": "Gramática normativa: Substantivo: plural dos compostos.",
+    "oficial": false
+  },
+
+  {
+    "id": 899,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Assinale a alternativa em que os plurais estão todos corretos.",
+    "alternativas": {
+      "A": "cidadões, capitães, corações, pães",
+      "B": "cidadãos, capitões, corações, pães",
+      "C": "cidadãos, capitães, coraçãos, pães",
+      "D": "cidadãos, capitães, corações, pães",
+      "E": "cidadãos, capitães, corações, pãos"
+    },
+    "gabarito": "D",
+    "comentario": "Cidadão faz cidadãos; capitão, capitães; coração, corações; pão, pães. Não existem formas como cidadões, capitões (para o posto militar), coraçãos ou pãos.",
+    "fundamento": "Gramática normativa: Substantivo: plural dos terminados em -ão.",
+    "oficial": false
+  },
+
+  {
+    "id": 900,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Assinale a alternativa em que todos os plurais estão corretos.",
+    "alternativas": {
+      "A": "fósseis, répteis, projetis, funis",
+      "B": "fósseis, réptis, projéteis, funis",
+      "C": "fóssis, répteis, projéteis, funis",
+      "D": "fósseis, répteis, projéteis, funis",
+      "E": "fósseis, répteis, projéteis, funeis"
+    },
+    "gabarito": "D",
+    "comentario": "Nas paroxítonas terminadas em -il, o plural é -eis (fóssil/fósseis, réptil/répteis, projétil/projéteis). Nas oxítonas, é -is (funil/funis).",
+    "fundamento": "Gramática normativa: Substantivo: plural dos terminados em -l.",
+    "oficial": false
+  },
+
+  {
+    "id": 901,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Assinale a alternativa em que todos os substantivos permanecem invariáveis no plural.",
+    "alternativas": {
+      "A": "o lápis, o país, o ônibus, o pires",
+      "B": "o gás, o lápis, o ônibus, o tênis",
+      "C": "o mês, o lápis, o ônibus, o pires",
+      "D": "o freguês, o lápis, o ônibus, o tênis",
+      "E": "o lápis, o ônibus, o tênis, o pires"
+    },
+    "gabarito": "E",
+    "comentario": "Substantivos terminados em -s, quando paroxítonos (lápis, ônibus, tênis, pires), são invariáveis. Os oxítonos fazem -es: país/países, gás/gases, mês/meses, freguês/fregueses.",
+    "fundamento": "Gramática normativa: Substantivo: plural dos terminados em -s.",
+    "oficial": false
+  },
+
+  {
+    "id": 902,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "CEBRASPE",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Julgue o item. O plural de “cidadão” é “cidadões”.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "E",
+    "comentario": "O plural de cidadão é “cidadãos”, como em irmão/irmãos, órfão/órfãos, cristão/cristãos.",
+    "fundamento": "Gramática normativa: Substantivo: plural dos terminados em -ão.",
+    "oficial": false
+  },
+
+  {
+    "id": 903,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "CEBRASPE",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Julgue o item. O substantivo “guardião” admite os plurais “guardiões” e “guardiães”.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Guardião é um dos substantivos que admitem mais de um plural: guardiões e guardiães. Também é o caso de vilão (vilões/vilãos) e ancião (anciões/anciães/anciãos).",
+    "fundamento": "Gramática normativa: Substantivo: plural dos terminados em -ão.",
+    "oficial": false
+  },
+
+  {
+    "id": 904,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Em “Os recém-nascidos foram socorridos pela equipe”, o plural de “recém-nascido” está correto porque",
+    "alternativas": {
+      "A": "os dois elementos variam, pois formam um substantivo composto.",
+      "B": "só o primeiro elemento varia, pois o segundo é particípio.",
+      "C": "o elemento “recém” é advérbio e fica invariável, e só o segundo elemento vai ao plural.",
+      "D": "o composto é sempre invariável, pelo uso do hífen.",
+      "E": "o prefixo recém- exige a forma recéns-nascidos."
+    },
+    "gabarito": "C",
+    "comentario": "Em recém-nascido, “recém” é advérbio (antes do particípio) e não varia. Só o segundo elemento vai ao plural. O mesmo ocorre em abaixo-assinado.",
+    "fundamento": "Gramática normativa: Substantivo: plural dos compostos.",
+    "oficial": false
+  },
+
+  {
+    "id": 905,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "No plural “segundos-tenentes”, os dois elementos variam porque",
+    "alternativas": {
+      "A": "o composto é formado por numeral ordinal + substantivo.",
+      "B": "o composto é formado por verbo + substantivo.",
+      "C": "o segundo elemento é um adjetivo de cor.",
+      "D": "o primeiro elemento é advérbio.",
+      "E": "são palavras ligadas por preposição."
+    },
+    "gabarito": "A",
+    "comentario": "Nos compostos de numeral + substantivo (segundos-tenentes, primeiros-sargentos, terceiros-sargentos), as duas palavras flexionam no plural.",
+    "fundamento": "Gramática normativa: Substantivo: plural dos compostos.",
+    "oficial": false
+  },
+
+  {
+    "id": 906,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Assinale a alternativa em que o plural dos substantivos no diminutivo está correto.",
+    "alternativas": {
+      "A": "pãozinhos, florezinhas, papeizinhos, animaizinhos",
+      "B": "pãezinhos, florzinhas, papeizinhos, animaizinhos",
+      "C": "pãezinhos, florezinhas, papelzinhos, animaizinhos",
+      "D": "pãezinhos, florezinhas, papeizinhos, animalzinhos",
+      "E": "pãezinhos, florezinhas, papeizinhos, animaizinhos"
+    },
+    "gabarito": "E",
+    "comentario": "Para o plural do diminutivo em -zinho, passa-se o substantivo-base ao plural, retira-se o -s e acrescenta-se -zinhos: pães → pãezinhos; flores → florezinhas; papéis → papeizinhos; animais → animaizinhos.",
+    "fundamento": "Gramática normativa: Substantivo: grau e plural do diminutivo.",
+    "oficial": false
+  },
+
+  {
+    "id": 907,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "CEBRASPE",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Julgue o item. Em “Os policiais cercaram o casebre”, o substantivo “casebre” tem valor de diminutivo com sentido pejorativo em relação a “casa”.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "O sufixo -ebre forma diminutivos pejorativos: casebre (casa pequena e pobre), sendo que o valor depreciativo é parte do sentido.",
+    "fundamento": "Gramática normativa: Substantivo: grau.",
+    "oficial": false
+  },
+
+  {
+    "id": 908,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Em “O uso de armas pelos agentes foi regulamentado”, o termo “de armas” exerce a função de",
+    "alternativas": {
+      "A": "adjunto adnominal.",
+      "B": "complemento nominal.",
+      "C": "objeto indireto.",
+      "D": "agente da passiva.",
+      "E": "adjunto adverbial."
+    },
+    "gabarito": "B",
+    "comentario": "“Uso” é substantivo abstrato derivado do verbo transitivo usar. O termo “de armas” é paciente da ação (usam-se armas) e completa o sentido do nome: complemento nominal. “Pelos agentes” é o agente.",
+    "fundamento": "Gramática normativa: Substantivo: complemento nominal.",
+    "oficial": false
+  },
+
+  {
+    "id": 909,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Em “A confiança do povo na polícia aumentou”, os termos “do povo” e “na polícia” exercem, respectivamente, a função de",
+    "alternativas": {
+      "A": "complemento nominal e adjunto adnominal.",
+      "B": "adjunto adnominal e complemento nominal.",
+      "C": "adjunto adnominal e adjunto adnominal.",
+      "D": "complemento nominal e complemento nominal.",
+      "E": "adjunto adverbial e objeto indireto."
+    },
+    "gabarito": "B",
+    "comentario": "“Do povo” indica quem confia (agente), sendo adjunto adnominal. “Na polícia” é o alvo da confiança (paciente) e completa o substantivo abstrato “confiança”: complemento nominal.",
+    "fundamento": "Gramática normativa: Substantivo: adjunto adnominal e complemento nominal.",
+    "oficial": false
+  },
+
+  {
+    "id": 910,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Assinale a alternativa em que todos os adjetivos são compostos.",
+    "alternativas": {
+      "A": "luso-brasileiro, azul, surdo-mudo, greco-romano",
+      "B": "luso-brasileiro, azul-marinho, surdo-mudo, greco-romano",
+      "C": "belo, azul-marinho, surdo-mudo, greco-romano",
+      "D": "luso-brasileiro, azul-marinho, forte, greco-romano",
+      "E": "luso-brasileiro, azul-marinho, surdo-mudo, rápido"
+    },
+    "gabarito": "B",
+    "comentario": "Adjetivo composto tem mais de um radical (luso-brasileiro, azul-marinho, surdo-mudo, greco-romano). Azul, belo, forte e rápido são adjetivos simples.",
+    "fundamento": "Gramática normativa: Adjetivo: classificação (simples e composto).",
+    "oficial": false
+  },
+
+  {
+    "id": 911,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Entre os adjetivos abaixo, o único que é primitivo é",
+    "alternativas": {
+      "A": "perigoso",
+      "B": "policial",
+      "C": "criminoso",
+      "D": "incansável",
+      "E": "forte"
+    },
+    "gabarito": "E",
+    "comentario": "“Forte” não deriva de outra palavra da língua. Perigoso (de perigo), policial (de polícia), criminoso (de crime) e incansável (de cansar, com prefixo e sufixo) são derivados.",
+    "fundamento": "Gramática normativa: Adjetivo: classificação (primitivo e derivado).",
+    "oficial": false
+  },
+
+  {
+    "id": 912,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Assinale a alternativa em que o adjetivo NÃO corresponde à locução adjetiva indicada.",
+    "alternativas": {
+      "A": "de pulmão — pulmonar",
+      "B": "de olho — ocular",
+      "C": "de cão — canino",
+      "D": "de rim — hepático",
+      "E": "de rio — fluvial"
+    },
+    "gabarito": "D",
+    "comentario": "O adjetivo correspondente à locução “de rim” é renal. Hepático corresponde a “de fígado”.",
+    "fundamento": "Gramática normativa: Adjetivo: locução adjetiva.",
+    "oficial": false
+  },
+
+  {
+    "id": 913,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Assinale a alternativa em que os adjetivos correspondem, respectivamente, às locuções “de boi”, “de cavalo”, “de lobo” e “de porco”.",
+    "alternativas": {
+      "A": "bovino, equino, canino, suíno",
+      "B": "ovino, equino, lupino, suíno",
+      "C": "bovino, equino, lupino, suíno",
+      "D": "bovino, felino, lupino, suíno",
+      "E": "bovino, equino, lupino, caprino"
+    },
+    "gabarito": "C",
+    "comentario": "De boi = bovino; de cavalo = equino; de lobo = lupino; de porco = suíno. Canino é de cão; ovino, de ovelha; felino, de gato; caprino, de cabra.",
+    "fundamento": "Gramática normativa: Adjetivo: locução adjetiva.",
+    "oficial": false
+  },
+
+  {
+    "id": 914,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Assinale a alternativa em que os adjetivos correspondem, respectivamente, às locuções “de chuva”, “de vento”, “de inverno” e “de campo”.",
+    "alternativas": {
+      "A": "fluvial, eólico, hibernal, campestre",
+      "B": "pluvial, eólico, estival, campestre",
+      "C": "pluvial, eólico, hibernal, campestre",
+      "D": "pluvial, eólico, hibernal, urbano",
+      "E": "pluvial, glacial, hibernal, campestre"
+    },
+    "gabarito": "C",
+    "comentario": "De chuva = pluvial; de vento = eólico; de inverno = hibernal (ou invernal); de campo = campestre. Fluvial é de rio; estival, de verão; urbano, de cidade; glacial, de gelo.",
+    "fundamento": "Gramática normativa: Adjetivo: locução adjetiva.",
+    "oficial": false
+  },
+
+  {
+    "id": 915,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Assinale a alternativa em que os adjetivos correspondem, respectivamente, às locuções “de fígado”, “de pescoço”, “de rosto” e “de sangue”.",
+    "alternativas": {
+      "A": "gástrico, cervical, facial, sanguíneo",
+      "B": "hepático, capilar, facial, sanguíneo",
+      "C": "hepático, cervical, ocular, sanguíneo",
+      "D": "hepático, cervical, facial, sanguíneo",
+      "E": "hepático, cervical, facial, ósseo"
+    },
+    "gabarito": "D",
+    "comentario": "De fígado = hepático; de pescoço = cervical; de rosto = facial; de sangue = sanguíneo. Gástrico é de estômago; capilar, de cabelo; ocular, de olho; ósseo, de osso.",
+    "fundamento": "Gramática normativa: Adjetivo: locução adjetiva.",
+    "oficial": false
+  },
+
+  {
+    "id": 916,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Assinale a alternativa em que os adjetivos pátrios correspondem corretamente a Pernambuco, Recife, Olinda e Caruaru.",
+    "alternativas": {
+      "A": "pernambucano, recifeano, olindense, caruaruense",
+      "B": "pernambucano, recifense, olindano, caruaruense",
+      "C": "pernambucano, recifense, olindense, caruaruano",
+      "D": "pernambucano, recifense, olindense, caruaruense",
+      "E": "pernambuquense, recifense, olindense, caruaruense"
+    },
+    "gabarito": "D",
+    "comentario": "Os gentílicos são pernambucano, recifense, olindense e caruaruense. Formas como recifeano, olindano e caruaruano não são as registradas.",
+    "fundamento": "Gramática normativa: Adjetivo: pátrios e gentílicos.",
+    "oficial": false
+  },
+
+  {
+    "id": 917,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Assinale a alternativa em que o adjetivo pátrio está INCORRETO.",
+    "alternativas": {
+      "A": "Maranhão — maranhense",
+      "B": "Piauí — piauiense",
+      "C": "Paraná — paranaense",
+      "D": "Mato Grosso — mato-grossense",
+      "E": "Paraíba — paraibense"
+    },
+    "gabarito": "E",
+    "comentario": "O gentílico de Paraíba é paraibano. Os demais estão corretos.",
+    "fundamento": "Gramática normativa: Adjetivo: pátrios e gentílicos.",
+    "oficial": false
+  },
+
+  {
+    "id": 918,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Assinale a alternativa em que todos os gentílicos estão corretos.",
+    "alternativas": {
+      "A": "Goiânia — goiano; Natal — natalense; Fortaleza — fortalezense; Teresina — teresinense",
+      "B": "Goiânia — goianiense; Natal — natalino; Fortaleza — fortalezense; Teresina — teresinense",
+      "C": "Goiânia — goianiense; Natal — natalense; Fortaleza — fortalezano; Teresina — teresinense",
+      "D": "Goiânia — goianiense; Natal — natalense; Fortaleza — fortalezense; Teresina — teresino",
+      "E": "Goiânia — goianiense; Natal — natalense; Fortaleza — fortalezense; Teresina — teresinense"
+    },
+    "gabarito": "E",
+    "comentario": "Os gentílicos de cidade são goianiense (de Goiânia, e não goiano, que é de Goiás), natalense, fortalezense e teresinense.",
+    "fundamento": "Gramática normativa: Adjetivo: pátrios e gentílicos.",
+    "oficial": false
+  },
+
+  {
+    "id": 919,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "CEBRASPE",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Julgue o item. O adjetivo pátrio referente a Portugal pode ser “português” ou “lusitano”.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "“Português” é o gentílico mais comum, e “lusitano” é o de Lusitânia, forma usada como sinônimo de português, em especial em textos formais.",
+    "fundamento": "Gramática normativa: Adjetivo: pátrios e gentílicos.",
+    "oficial": false
+  },
+
+  {
+    "id": 920,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Assinale a alternativa em que a flexão do adjetivo composto de cor está correta.",
+    "alternativas": {
+      "A": "uniformes verdes-oliva",
+      "B": "uniformes verde-olivas",
+      "C": "uniformes verde-oliva",
+      "D": "olhos azuis-claros",
+      "E": "camisas azuis-marinho"
+    },
+    "gabarito": "C",
+    "comentario": "Quando o segundo elemento da cor é um substantivo (verde-oliva, azul-marinho), o adjetivo composto fica invariável: uniformes verde-oliva e camisas azul-marinho. Já nos formados por dois adjetivos, só o último varia: olhos azul-claros.",
+    "fundamento": "Gramática normativa: Adjetivo: flexão dos compostos de cor.",
+    "oficial": false
+  },
+
+  {
+    "id": 921,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Assinale a frase em que a flexão do adjetivo composto está correta.",
+    "alternativas": {
+      "A": "Os alunos surdo-mudos foram atendidos.",
+      "B": "Os alunos surdos-mudos foram atendidos.",
+      "C": "Os alunos surdos-mudo foram atendidos.",
+      "D": "Os alunos surdo-mudo foram atendidos.",
+      "E": "Os alunos surdas-mudas foram atendidos."
+    },
+    "gabarito": "B",
+    "comentario": "Surdo-mudo é exceção à regra geral: os dois elementos variam (surdos-mudos). Na regra geral, só o último varia, como em luso-brasileiros.",
+    "fundamento": "Gramática normativa: Adjetivo: flexão dos compostos.",
+    "oficial": false
+  },
+
+  {
+    "id": 922,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "CEBRASPE",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Julgue o item. Nos adjetivos compostos formados por dois adjetivos, em regra só o último elemento varia, como em “conflitos político-econômicos”.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "A regra geral é a variação apenas do último elemento (político-econômicos, luso-brasileiros, afro-brasileiras). “Surdo-mudo” é a exceção mais conhecida, pois ambos os elementos variam.",
+    "fundamento": "Gramática normativa: Adjetivo: flexão dos compostos.",
+    "oficial": false
+  },
+
+  {
+    "id": 923,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Assinale a alternativa em que o superlativo absoluto sintético apresenta forma erudita (de origem latina).",
+    "alternativas": {
+      "A": "rápido — rapidíssimo",
+      "B": "forte — fortíssimo",
+      "C": "belo — belíssimo",
+      "D": "grande — grandíssimo",
+      "E": "pobre — paupérrimo"
+    },
+    "gabarito": "E",
+    "comentario": "Paupérrimo vem do latim pauperrimus e é a forma erudita de pobre. As demais são formadas por sufixo -íssimo sobre o adjetivo português.",
+    "fundamento": "Gramática normativa: Adjetivo: grau (superlativo absoluto sintético).",
+    "oficial": false
+  },
+
+  {
+    "id": 924,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Assinale a alternativa em que os superlativos absolutos sintéticos estão corretos para os adjetivos “fiel”, “antigo”, “doce” e “frio”, respectivamente.",
+    "alternativas": {
+      "A": "fielíssimo, antiquíssimo, dulcíssimo, frigidíssimo",
+      "B": "fidelíssimo, antiguíssimo, dulcíssimo, frigidíssimo",
+      "C": "fidelíssimo, antiquíssimo, dulcíssimo, frigidíssimo",
+      "D": "fidelíssimo, antiquíssimo, docíssimo, frigidíssimo",
+      "E": "fidelíssimo, antiquíssimo, dulcíssimo, frioíssimo"
+    },
+    "gabarito": "C",
+    "comentario": "Fiel → fidelíssimo; antigo → antiquíssimo; doce → dulcíssimo; frio → frigidíssimo (ou friíssimo). As outras formas não são as registradas.",
+    "fundamento": "Gramática normativa: Adjetivo: grau (superlativo absoluto sintético).",
+    "oficial": false
+  },
+
+  {
+    "id": 925,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Os superlativos “paupérrimo”, “celebérrimo”, “macérrimo” e “libérrimo” correspondem, respectivamente, aos adjetivos",
+    "alternativas": {
+      "A": "pobre, célebre, livre, magro",
+      "B": "pobre, magro, célebre, livre",
+      "C": "célebre, pobre, magro, livre",
+      "D": "pobre, célebre, magro, simples",
+      "E": "pobre, célebre, magro, livre"
+    },
+    "gabarito": "E",
+    "comentario": "Paupérrimo = pobre; celebérrimo = célebre; macérrimo = magro; libérrimo = livre.",
+    "fundamento": "Gramática normativa: Adjetivo: grau (superlativo absoluto sintético).",
+    "oficial": false
+  },
+
+  {
+    "id": 926,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Assinale a alternativa em que o emprego do comparativo está INADEQUADO segundo a norma-padrão.",
+    "alternativas": {
+      "A": "O atendimento foi pior do que o esperado.",
+      "B": "Este soldado é maior do que aquele.",
+      "C": "Esta viatura é mais boa do que a anterior.",
+      "D": "A nova sala é menor do que a antiga.",
+      "E": "O resultado foi melhor do que o previsto."
+    },
+    "gabarito": "C",
+    "comentario": "O comparativo de superioridade de “bom” é “melhor”, e não “mais bom”. Pior, maior e menor são comparativos sintéticos (de mau, grande e pequeno) e estão corretos.",
+    "fundamento": "Gramática normativa: Adjetivo: grau (comparativo).",
+    "oficial": false
+  },
+
+  {
+    "id": 927,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Em “O policial mais experiente da equipe conduziu a operação”, o adjetivo “experiente” está no grau",
+    "alternativas": {
+      "A": "comparativo de superioridade.",
+      "B": "superlativo relativo de superioridade.",
+      "C": "superlativo absoluto analítico.",
+      "D": "comparativo de igualdade.",
+      "E": "superlativo relativo de inferioridade."
+    },
+    "gabarito": "B",
+    "comentario": "A expressão “o mais ... da equipe” compara um ser com o grupo e indica o ponto mais alto: superlativo relativo de superioridade.",
+    "fundamento": "Gramática normativa: Adjetivo: grau (superlativo relativo).",
+    "oficial": false
+  },
+
+  {
+    "id": 928,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Em “A nova viatura é tão veloz quanto a anterior”, o adjetivo “veloz” está no grau",
+    "alternativas": {
+      "A": "comparativo de superioridade.",
+      "B": "comparativo de inferioridade.",
+      "C": "superlativo absoluto analítico.",
+      "D": "comparativo de igualdade.",
+      "E": "superlativo relativo de superioridade."
+    },
+    "gabarito": "D",
+    "comentario": "A estrutura “tão ... quanto” estabelece igualdade entre os termos comparados: comparativo de igualdade.",
+    "fundamento": "Gramática normativa: Adjetivo: grau (comparativo).",
+    "oficial": false
+  },
+
+  {
+    "id": 929,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "CEBRASPE",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Julgue o item. “Ótimo” é o superlativo absoluto sintético de “bom”.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "Os superlativos absolutos sintéticos irregulares são ótimo (bom), péssimo (mau), máximo (grande) e mínimo (pequeno).",
+    "fundamento": "Gramática normativa: Adjetivo: grau (superlativo absoluto sintético).",
+    "oficial": false
+  },
+
+  {
+    "id": 930,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "CEBRASPE",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Julgue o item. Em “O criminoso é perigosíssimo”, há superlativo absoluto sintético, e em “O criminoso é muito perigoso”, superlativo absoluto analítico.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "O superlativo absoluto sintético usa sufixo (perigosíssimo), enquanto o analítico usa advérbio de intensidade (muito perigoso).",
+    "fundamento": "Gramática normativa: Adjetivo: grau (superlativo absoluto).",
+    "oficial": false
+  },
+
+  {
+    "id": 931,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Em qual alternativa a palavra “barato” funciona como adjetivo?",
+    "alternativas": {
+      "A": "Comprei os coletes barato.",
+      "B": "Os coletes importados eram baratos.",
+      "C": "A empresa vendeu barato os equipamentos.",
+      "D": "Ela pagou barato pelo serviço.",
+      "E": "Eles venderam barato aquelas armas."
+    },
+    "gabarito": "B",
+    "comentario": "“Barato” é adjetivo quando qualifica o substantivo e com ele concorda (os coletes baratos). Quando modifica o verbo (comprar barato, vender barato, pagar barato), é advérbio e fica invariável.",
+    "fundamento": "Gramática normativa: Adjetivo: distinção entre adjetivo e advérbio.",
+    "oficial": false
+  },
+
+  {
+    "id": 932,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Em qual alternativa a palavra “alto” funciona como advérbio?",
+    "alternativas": {
+      "A": "Os soldados falaram alto durante a revista.",
+      "B": "O prédio é alto.",
+      "C": "Os muros altos dificultaram a fuga.",
+      "D": "Ele ocupa um alto cargo na corporação.",
+      "E": "Os altos oficiais foram homenageados."
+    },
+    "gabarito": "A",
+    "comentario": "Em “falaram alto”, a palavra modifica o verbo e é invariável: advérbio. Nas demais, “alto” qualifica substantivos e concorda com eles: adjetivo.",
+    "fundamento": "Gramática normativa: Adjetivo: distinção entre adjetivo e advérbio.",
+    "oficial": false
+  },
+
+  {
+    "id": 933,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A diferença de sentido entre “um velho amigo” e “um amigo velho” é a seguinte:",
+    "alternativas": {
+      "A": "a primeira expressão indica idade avançada, e a segunda, amizade de longa data.",
+      "B": "não há diferença de sentido, pois a posição do adjetivo é livre.",
+      "C": "a primeira expressão indica amizade de longa data, e a segunda, idade avançada do amigo.",
+      "D": "ambas indicam que o amigo é pouco confiável.",
+      "E": "a primeira expressão é incorreta segundo a norma-padrão."
+    },
+    "gabarito": "C",
+    "comentario": "Em alguns adjetivos, a posição altera o sentido. Antes do substantivo, “velho” tem valor subjetivo (de longa data); depois, tem sentido literal (de idade). Algo parecido ocorre em grande homem/homem grande e pobre homem/homem pobre.",
+    "fundamento": "Gramática normativa: Adjetivo: posição e sentido.",
+    "oficial": false
+  },
+
+  {
+    "id": 934,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Em qual alternativa o adjetivo está substantivado?",
+    "alternativas": {
+      "A": "Os policiais feridos foram socorridos pelo Samu.",
+      "B": "Os soldados estavam feridos.",
+      "C": "Encontraram feridos os dois suspeitos.",
+      "D": "Os feridos foram socorridos pelo Samu.",
+      "E": "Ficaram feridos os policiais."
+    },
+    "gabarito": "D",
+    "comentario": "O adjetivo se substantiva quando passa a designar um ser, antecedido de artigo e sem substantivo expresso (os feridos = as pessoas feridas). Nas demais, “feridos” qualifica um substantivo ou exerce a função de predicativo.",
+    "fundamento": "Gramática normativa: Adjetivo: adjetivo substantivado.",
+    "oficial": false
+  },
+
+  {
+    "id": 935,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "CEBRASPE",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Julgue o item. Em “O jovem foi detido”, a palavra “jovem” é substantivo, e em “O jovem soldado foi promovido”, é adjetivo.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "A classe depende do contexto. No primeiro caso, “jovem” é núcleo do sujeito (substantivo). No segundo, qualifica “soldado” (adjetivo).",
+    "fundamento": "Gramática normativa: Adjetivo e substantivo: classe pelo contexto.",
+    "oficial": false
+  },
+
+  {
+    "id": 936,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Em “Cansados, os policiais seguiram para o quartel”, o adjetivo “cansados” exerce a função sintática de",
+    "alternativas": {
+      "A": "adjunto adnominal.",
+      "B": "complemento nominal.",
+      "C": "aposto.",
+      "D": "objeto direto.",
+      "E": "predicativo do sujeito."
+    },
+    "gabarito": "E",
+    "comentario": "“Cansados” indica um estado do sujeito (os policiais) em relação ao verbo seguir: predicativo do sujeito, deslocado para o início da frase.",
+    "fundamento": "Gramática normativa: Adjetivo: função sintática.",
+    "oficial": false
+  },
+
+  {
+    "id": 937,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Em “O comandante considerou perigosa a manobra”, a palavra “perigosa” exerce a função de",
+    "alternativas": {
+      "A": "predicativo do sujeito.",
+      "B": "adjunto adnominal.",
+      "C": "objeto indireto.",
+      "D": "complemento nominal.",
+      "E": "predicativo do objeto."
+    },
+    "gabarito": "E",
+    "comentario": "Em “considerou perigosa a manobra”, “a manobra” é objeto direto, e “perigosa” atribui uma qualidade a esse objeto: predicativo do objeto.",
+    "fundamento": "Gramática normativa: Adjetivo: função sintática.",
+    "oficial": false
+  },
+
+  {
+    "id": 938,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Em qual expressão o adjetivo é relacional (classificatório) e, por isso, não admite, em regra, o uso de intensificadores como “muito”?",
+    "alternativas": {
+      "A": "policial corajoso",
+      "B": "viatura veloz",
+      "C": "Polícia Militar",
+      "D": "investigação rigorosa",
+      "E": "soldado forte"
+    },
+    "gabarito": "C",
+    "comentario": "Adjetivos relacionais indicam pertencimento ou classificação (militar, civil, federal, estadual) e não admitem graduação: não se diz “muito militar”. Corajoso, veloz, rigorosa e forte são qualificativos e admitem grau.",
+    "fundamento": "Gramática normativa: Adjetivo: relacional e qualificativo.",
+    "oficial": false
+  },
+
+  {
+    "id": 939,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Assinale a alternativa em que o plural do adjetivo está INCORRETO.",
+    "alternativas": {
+      "A": "ágil — ágeis",
+      "B": "fácil — fáceis",
+      "C": "azul — azuis",
+      "D": "cortês — cortêses",
+      "E": "português — portugueses"
+    },
+    "gabarito": "D",
+    "comentario": "O plural de cortês é corteses, sem acento. Nos adjetivos terminados em -ês, o plural faz -eses e o acento desaparece (português/portugueses, cortês/corteses).",
+    "fundamento": "Gramática normativa: Adjetivo: flexão em número.",
+    "oficial": false
+  },
+
+  {
+    "id": 940,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "CEBRASPE",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Certo ou Errado",
+    "enunciado": "Julgue o item. Os adjetivos terminados em -e, -l ou -z, como “inteligente”, “fácil” e “feliz”, são em geral uniformes, ou seja, têm a mesma forma no masculino e no feminino.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito": "C",
+    "comentario": "São uniformes adjetivos como inteligente, fácil, feliz e cruel. Os biformes têm formas distintas (corajoso/corajosa), e o sufixo -ês também gera feminino (português/portuguesa).",
+    "fundamento": "Gramática normativa: Adjetivo: flexão em gênero.",
+    "oficial": false
+  },
+
+  {
+    "id": 941,
+    "disciplina": "Português",
+    "assunto": "Substantivo e adjetivo",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Assinale a alternativa em que o feminino do adjetivo está INCORRETO.",
+    "alternativas": {
+      "A": "sabichão — sabichã",
+      "B": "bonachão — bonachona",
+      "C": "europeu — europeia",
+      "D": "cru — crua",
+      "E": "nu — nua"
+    },
+    "gabarito": "A",
+    "comentario": "Os adjetivos terminados em -ão que indicam características pejorativas ou aumentativas fazem o feminino em -ona: sabichão → sabichona e bonachão → bonachona. “Sabichã” não é a forma registrada.",
+    "fundamento": "Gramática normativa: Adjetivo: flexão em gênero.",
+    "oficial": false
   }
 ];
