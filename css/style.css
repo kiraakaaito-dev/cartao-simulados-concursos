@@ -532,3 +532,8 @@ main.view-wrap{ flex:1; width:100%; max-width:1180px; margin:0 auto; padding:28p
 
 .site-credit{ text-align:center; padding:22px 16px 30px; color:var(--muted); font-size:.82rem; border-top:1px solid var(--card-border); margin-top:30px; }
 .site-credit b{ color:var(--text); }
+.rd-prova{margin-top:14px;border:1.5px solid var(--card-border);border-radius:14px;padding:16px;background:var(--card)}
+.rd-prova-h{font-weight:800;letter-spacing:.06em;font-size:.8rem;color:var(--muted);margin-bottom:8px}
+.rd-cmd{line-height:1.6;margin:0 0 12px}
+.rd-txt{background:var(--paper);border-left:4px solid var(--accent);border-radius:8px;padding:10px 14px;margin-bottom:10px}
+.rd-txt p{margin:6px 0 0;line-height:1.65;font-family:Georgia,serif}
