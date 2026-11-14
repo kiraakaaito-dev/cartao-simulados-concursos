@@ -20129,5 +20129,1385 @@ const QUESTION_BANK = [
     "comentario": "Os adjetivos terminados em -ão que indicam características pejorativas ou aumentativas fazem o feminino em -ona: sabichão → sabichona e bonachão → bonachona. “Sabichã” não é a forma registrada.",
     "fundamento": "Gramática normativa: Adjetivo: flexão em gênero.",
     "oficial": false
+  },
+
+  {
+    "id": 942,
+    "disciplina": "Matemática",
+    "assunto": "Sistema de unidades e regra de três",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Uma viatura se desloca a 72 km/h. Essa velocidade, em m/s, é igual a",
+    "alternativas": {
+      "A": "18 m/s",
+      "B": "25 m/s",
+      "C": "72 m/s",
+      "D": "20 m/s",
+      "E": "259,2 m/s"
+    },
+    "gabarito": "D",
+    "comentario": "Para converter km/h em m/s, divide-se por 3,6: 72 ÷ 3,6 = 20 m/s. Multiplicar por 3,6 (259,2) é o erro mais comum.",
+    "fundamento": "Regra de três e unidades: conversão de unidades de velocidade.",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 943,
+    "disciplina": "Matemática",
+    "assunto": "Sistema de unidades e regra de três",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Um reservatório tem capacidade de 2,4 m³. Sabendo que 1 m³ equivale a 1.000 litros, a capacidade desse reservatório, em litros, é",
+    "alternativas": {
+      "A": "240",
+      "B": "2.400",
+      "C": "24.000",
+      "D": "24",
+      "E": "2,4"
+    },
+    "gabarito": "B",
+    "comentario": "1 m³ = 1.000 L, logo 2,4 m³ = 2,4 × 1.000 = 2.400 L.",
+    "fundamento": "Regra de três e unidades: unidades de volume.",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 944,
+    "disciplina": "Matemática",
+    "assunto": "Sistema de unidades e regra de três",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Cinco soldados limpam um pátio em 12 horas. Mantendo-se o mesmo ritmo de trabalho, o tempo necessário para 3 soldados limparem o mesmo pátio é de",
+    "alternativas": {
+      "A": "7,2 horas",
+      "B": "20 horas",
+      "C": "15 horas",
+      "D": "24 horas",
+      "E": "36 horas"
+    },
+    "gabarito": "B",
+    "comentario": "As grandezas são inversamente proporcionais (menos soldados, mais tempo): 5 × 12 = 3 × x, então x = 60 ÷ 3 = 20 horas.",
+    "fundamento": "Regra de três e unidades: regra de três simples inversa.",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 945,
+    "disciplina": "Matemática",
+    "assunto": "Sistema de unidades e regra de três",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Oito máquinas idênticas produzem 960 peças em 6 horas. Nas mesmas condições, 5 dessas máquinas, funcionando por 8 horas, produzirão",
+    "alternativas": {
+      "A": "768 peças",
+      "B": "900 peças",
+      "C": "1.024 peças",
+      "D": "640 peças",
+      "E": "800 peças"
+    },
+    "gabarito": "E",
+    "comentario": "Cada máquina produz 960 ÷ (8 × 6) = 20 peças por hora. Logo, 5 máquinas em 8 horas produzem 5 × 8 × 20 = 800 peças.",
+    "fundamento": "Regra de três e unidades: regra de três composta.",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 946,
+    "disciplina": "Matemática",
+    "assunto": "Sistema de unidades e regra de três",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Uma viatura consome 15 litros de combustível em 180 km. Mantido o mesmo consumo, o combustível necessário para percorrer 420 km é de",
+    "alternativas": {
+      "A": "30 litros",
+      "B": "28 litros",
+      "C": "35 litros",
+      "D": "42 litros",
+      "E": "45 litros"
+    },
+    "gabarito": "C",
+    "comentario": "Grandezas diretamente proporcionais: 15/180 = x/420, então x = 15 × 420 ÷ 180 = 35 litros.",
+    "fundamento": "Regra de três e unidades: regra de três simples direta.",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 947,
+    "disciplina": "Matemática",
+    "assunto": "Sistema de unidades e regra de três",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Em um mapa de escala 1:50.000, a distância entre dois pontos é de 6 cm. A distância real entre esses pontos é de",
+    "alternativas": {
+      "A": "300 m",
+      "B": "30 km",
+      "C": "0,3 km",
+      "D": "3 km",
+      "E": "12 km"
+    },
+    "gabarito": "D",
+    "comentario": "A escala 1:50.000 indica que 1 cm no mapa equivale a 50.000 cm na realidade. Assim, 6 × 50.000 = 300.000 cm = 3.000 m = 3 km.",
+    "fundamento": "Regra de três e unidades: escala e unidades de comprimento.",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 948,
+    "disciplina": "Matemática",
+    "assunto": "Sistema de unidades e regra de três",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A área de um terreno é de 2,5 hectares. Sabendo que 1 hectare equivale a 10.000 m², essa área, em metros quadrados, é de",
+    "alternativas": {
+      "A": "2.500 m²",
+      "B": "250.000 m²",
+      "C": "250 m²",
+      "D": "25 m²",
+      "E": "25.000 m²"
+    },
+    "gabarito": "E",
+    "comentario": "2,5 ha × 10.000 m²/ha = 25.000 m².",
+    "fundamento": "Regra de três e unidades: unidades de área.",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 949,
+    "disciplina": "Matemática",
+    "assunto": "Sistema de unidades e regra de três",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A soma 3 t + 450 kg, expressa em quilogramas, é igual a",
+    "alternativas": {
+      "A": "3.450 kg",
+      "B": "3.045 kg",
+      "C": "3.000.450 kg",
+      "D": "7.500 kg",
+      "E": "345 kg"
+    },
+    "gabarito": "A",
+    "comentario": "1 tonelada = 1.000 kg, então 3 t = 3.000 kg e 3.000 + 450 = 3.450 kg.",
+    "fundamento": "Regra de três e unidades: unidades de massa.",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 950,
+    "disciplina": "Matemática",
+    "assunto": "Sistema de unidades e regra de três",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Um tempo de 2 h 48 min corresponde, em horas decimais, a",
+    "alternativas": {
+      "A": "2,48 horas",
+      "B": "2,4 horas",
+      "C": "2,6 horas",
+      "D": "2,8 horas",
+      "E": "3,2 horas"
+    },
+    "gabarito": "D",
+    "comentario": "48 min = 48/60 h = 0,8 h. Logo, 2 h 48 min = 2,8 h. O erro comum é escrever 2,48.",
+    "fundamento": "Regra de três e unidades: unidades de tempo.",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 951,
+    "disciplina": "Matemática",
+    "assunto": "Sistema de unidades e regra de três",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Uma torneira despeja 120 litros de água em 15 minutos. Para despejar 500 litros, mantida a vazão, serão necessários",
+    "alternativas": {
+      "A": "1 h 5 min",
+      "B": "58 min 20 s",
+      "C": "1 h 10 min",
+      "D": "1 h 2 min",
+      "E": "1 h 2 min 30 s"
+    },
+    "gabarito": "E",
+    "comentario": "A vazão é de 8 L/min. O tempo é 500 ÷ 8 = 62,5 min = 1 h 2 min 30 s (0,5 min = 30 s).",
+    "fundamento": "Regra de três e unidades: regra de três e unidades de tempo.",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 952,
+    "disciplina": "Matemática",
+    "assunto": "Sistema de unidades e regra de três",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Uma receita usa 3 xícaras de farinha para servir 4 pessoas. Para servir 10 pessoas, mantida a proporção, serão necessárias",
+    "alternativas": {
+      "A": "7 xícaras",
+      "B": "8 xícaras",
+      "C": "7,5 xícaras",
+      "D": "12 xícaras",
+      "E": "6 xícaras"
+    },
+    "gabarito": "C",
+    "comentario": "3/4 = x/10, então x = 30 ÷ 4 = 7,5 xícaras.",
+    "fundamento": "Regra de três e unidades: regra de três simples direta.",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 953,
+    "disciplina": "Matemática",
+    "assunto": "Sistema de unidades e regra de três",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Quatro viaturas rodando 8 horas por dia consomem 640 litros de combustível em 5 dias. Mantido o mesmo consumo por viatura e por hora, 6 viaturas rodando 10 horas por dia consumirão, em 3 dias,",
+    "alternativas": {
+      "A": "600 litros",
+      "B": "640 litros",
+      "C": "800 litros",
+      "D": "960 litros",
+      "E": "720 litros"
+    },
+    "gabarito": "E",
+    "comentario": "O consumo por viatura-hora é 640 ÷ (4 × 8 × 5) = 4 L. Em 6 × 10 × 3 = 180 viatura-horas, o consumo é 180 × 4 = 720 L.",
+    "fundamento": "Regra de três e unidades: regra de três composta.",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 954,
+    "disciplina": "Matemática",
+    "assunto": "Sistema de unidades e regra de três",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Uma piscina tem formato de bloco retangular com 8 m de comprimento, 5 m de largura e 1,5 m de profundidade. Estando totalmente cheia, ela comporta",
+    "alternativas": {
+      "A": "6.000 litros",
+      "B": "600.000 litros",
+      "C": "40.000 litros",
+      "D": "60 litros",
+      "E": "60.000 litros"
+    },
+    "gabarito": "E",
+    "comentario": "V = 8 × 5 × 1,5 = 60 m³. Como 1 m³ = 1.000 L, a capacidade é 60.000 L.",
+    "fundamento": "Regra de três e unidades: volume e conversão de unidades.",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 955,
+    "disciplina": "Matemática",
+    "assunto": "Sistema de unidades e regra de três",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Três quilogramas de um produto custam R$ 24,60. Mantido o preço por quilo, 750 gramas do mesmo produto custam",
+    "alternativas": {
+      "A": "R$ 8,20",
+      "B": "R$ 18,45",
+      "C": "R$ 61,50",
+      "D": "R$ 6,15",
+      "E": "R$ 5,13"
+    },
+    "gabarito": "D",
+    "comentario": "750 g = 0,75 kg. O preço por quilo é 24,60 ÷ 3 = R$ 8,20, então 0,75 × 8,20 = R$ 6,15.",
+    "fundamento": "Regra de três e unidades: regra de três e unidades de massa.",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 956,
+    "disciplina": "Matemática",
+    "assunto": "Sistema de unidades e regra de três",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Sabendo que 1 polegada equivale a 2,54 cm, uma tela de 32 polegadas de diagonal mede, em centímetros,",
+    "alternativas": {
+      "A": "12,60 cm",
+      "B": "74,00 cm",
+      "C": "64,00 cm",
+      "D": "812,80 cm",
+      "E": "81,28 cm"
+    },
+    "gabarito": "E",
+    "comentario": "32 × 2,54 = 81,28 cm.",
+    "fundamento": "Regra de três e unidades: conversão entre sistemas de unidades.",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 957,
+    "disciplina": "Matemática",
+    "assunto": "Sistema de unidades e regra de três",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Um veículo trafega a 54 km/h em linha reta. O tempo gasto para percorrer 2,7 km nessa velocidade é de",
+    "alternativas": {
+      "A": "5 minutos",
+      "B": "2 minutos",
+      "C": "3 minutos",
+      "D": "3 minutos e 30 segundos",
+      "E": "1 minuto e 30 segundos"
+    },
+    "gabarito": "C",
+    "comentario": "54 km/h ÷ 3,6 = 15 m/s. Tempo = 2.700 m ÷ 15 m/s = 180 s = 3 min. Outra via: 2,7 ÷ 54 = 0,05 h = 3 min.",
+    "fundamento": "Regra de três e unidades: velocidade e conversão de unidades.",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 958,
+    "disciplina": "Matemática",
+    "assunto": "Sistema de unidades e regra de três",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Uma torneira A enche sozinha um tanque em 6 horas, e uma torneira B enche o mesmo tanque, sozinha, em 4 horas. Com as duas abertas ao mesmo tempo, o tanque ficará cheio em",
+    "alternativas": {
+      "A": "2 h 30 min",
+      "B": "2 h 24 min",
+      "C": "2 h 40 min",
+      "D": "5 h",
+      "E": "1 h 40 min"
+    },
+    "gabarito": "B",
+    "comentario": "Em 1 hora, as torneiras enchem 1/6 + 1/4 = 5/12 do tanque. O tempo é 12/5 h = 2,4 h = 2 h 24 min (0,4 h = 24 min).",
+    "fundamento": "Regra de três e unidades: regra de três: vazão e trabalho em conjunto.",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 959,
+    "disciplina": "Matemática",
+    "assunto": "Sistema de unidades e regra de três",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Uma torneira enche um tanque vazio em 5 horas, e um ralo, com o tanque cheio, esvazia-o em 8 horas. Estando o tanque vazio, com a torneira e o ralo abertos simultaneamente, o tanque ficará cheio em",
+    "alternativas": {
+      "A": "3 h",
+      "B": "13 h",
+      "C": "13 h 20 min",
+      "D": "12 h 30 min",
+      "E": "40 h"
+    },
+    "gabarito": "C",
+    "comentario": "Em 1 hora: 1/5 − 1/8 = 3/40 do tanque. O tempo é 40/3 h = 13,333… h = 13 h 20 min.",
+    "fundamento": "Regra de três e unidades: regra de três: vazão com enchimento e esvaziamento.",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 960,
+    "disciplina": "Matemática",
+    "assunto": "Sistema de unidades e regra de três",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Doze operários, trabalhando 8 horas por dia, constroem 240 m de estrada em 15 dias. Mantido o mesmo rendimento, 10 operários, trabalhando 9 horas por dia, construirão 360 m de estrada em",
+    "alternativas": {
+      "A": "20 dias",
+      "B": "25 dias",
+      "C": "24 dias",
+      "D": "30 dias",
+      "E": "18 dias"
+    },
+    "gabarito": "C",
+    "comentario": "O rendimento é 240 ÷ (12 × 8 × 15) = 1/6 m por operário-hora. Para 360 m: dias = 360 ÷ (10 × 9 × 1/6) = 360 ÷ 15 = 24 dias.",
+    "fundamento": "Regra de três e unidades: regra de três composta.",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 961,
+    "disciplina": "Matemática",
+    "assunto": "Sistema de unidades e regra de três",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Vinte homens constroem 3/5 de uma obra em 9 dias. Para concluir a obra restante em 4 dias, mantido o mesmo rendimento por homem, o número de homens a mais necessários é",
+    "alternativas": {
+      "A": "5",
+      "B": "10",
+      "C": "8",
+      "D": "12",
+      "E": "15"
+    },
+    "gabarito": "B",
+    "comentario": "20 × 9 = 180 homens-dia fazem 3/5 da obra; logo, 2/5 exigem 120 homens-dia. Em 4 dias, são 120 ÷ 4 = 30 homens, ou seja, 10 a mais.",
+    "fundamento": "Regra de três e unidades: regra de três composta com fração de trabalho.",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 962,
+    "disciplina": "Matemática",
+    "assunto": "Sistema de unidades e regra de três",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Uma piscina retangular de 12 m por 6 m recebeu água até o nível subir 2,5 cm. O volume de água acrescentado, em litros, foi de",
+    "alternativas": {
+      "A": "180",
+      "B": "18.000",
+      "C": "1,8",
+      "D": "180.000",
+      "E": "1.800"
+    },
+    "gabarito": "E",
+    "comentario": "2,5 cm = 0,025 m. V = 12 × 6 × 0,025 = 1,8 m³ = 1.800 L.",
+    "fundamento": "Regra de três e unidades: volume e conversão de unidades.",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 963,
+    "disciplina": "Matemática",
+    "assunto": "Sistema de unidades e regra de três",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Um combustível tem densidade de 0,8 g/cm³. A massa de 50 litros desse combustível é de",
+    "alternativas": {
+      "A": "4 kg",
+      "B": "400 kg",
+      "C": "62,5 kg",
+      "D": "40 kg",
+      "E": "0,4 kg"
+    },
+    "gabarito": "D",
+    "comentario": "50 L = 50.000 cm³. Massa = 0,8 g/cm³ × 50.000 cm³ = 40.000 g = 40 kg.",
+    "fundamento": "Regra de três e unidades: densidade e conversão de unidades.",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 964,
+    "disciplina": "Matemática",
+    "assunto": "Sistema de unidades e regra de três",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A área de 0,0036 km², expressa em metros quadrados, é igual a",
+    "alternativas": {
+      "A": "36 m²",
+      "B": "360 m²",
+      "C": "36.000 m²",
+      "D": "3,6 m²",
+      "E": "3.600 m²"
+    },
+    "gabarito": "E",
+    "comentario": "Como 1 km² = 1.000.000 m² (1.000 × 1.000), 0,0036 km² = 0,0036 × 10⁶ = 3.600 m². Converter áreas usa o quadrado do fator linear.",
+    "fundamento": "Regra de três e unidades: unidades de área.",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 965,
+    "disciplina": "Matemática",
+    "assunto": "Sistema de unidades e regra de três",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Um nó equivale a uma milha náutica por hora, e uma milha náutica corresponde a 1.852 metros. Uma embarcação a 20 nós navega, em km/h, a",
+    "alternativas": {
+      "A": "18,52",
+      "B": "72",
+      "C": "37,04",
+      "D": "10,29",
+      "E": "74,08"
+    },
+    "gabarito": "C",
+    "comentario": "20 nós = 20 × 1,852 km/h = 37,04 km/h. A resposta de 10,29 corresponde a m/s (37,04 ÷ 3,6).",
+    "fundamento": "Regra de três e unidades: conversão entre sistemas de unidades (milha náutica).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 966,
+    "disciplina": "Matemática",
+    "assunto": "Sistema de unidades e regra de três",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Um relógio atrasa 4 minutos a cada 24 horas. Ele foi acertado corretamente ao meio-dia de uma segunda-feira. Ao meio-dia (hora certa) da sexta-feira da mesma semana, esse relógio marcará",
+    "alternativas": {
+      "A": "11 h 48 min",
+      "B": "11 h 52 min",
+      "C": "11 h 40 min",
+      "D": "12 h 16 min",
+      "E": "11 h 44 min"
+    },
+    "gabarito": "E",
+    "comentario": "De segunda a sexta passam 4 dias, e o atraso acumulado é 4 × 4 = 16 min. O relógio marca 12 h − 16 min = 11 h 44 min.",
+    "fundamento": "Regra de três e unidades: regra de três simples direta com tempo.",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 967,
+    "disciplina": "Matemática",
+    "assunto": "Sistema de unidades e regra de três",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Seis homens abrem 30 metros de vala em 5 dias. Mantido o mesmo rendimento, 10 homens abrirão, em 6 dias,",
+    "alternativas": {
+      "A": "60 metros",
+      "B": "50 metros",
+      "C": "54 metros",
+      "D": "72 metros",
+      "E": "45 metros"
+    },
+    "gabarito": "A",
+    "comentario": "Rendimento: 30 ÷ (6 × 5) = 1 m por homem-dia. Em 10 × 6 = 60 homens-dia, abrem-se 60 m.",
+    "fundamento": "Regra de três e unidades: regra de três composta.",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 968,
+    "disciplina": "Matemática",
+    "assunto": "Sistema de unidades e regra de três",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Um trajeto é percorrido em 4 horas a 90 km/h. Se a velocidade média passar para 120 km/h, o tempo de viagem diminuirá em",
+    "alternativas": {
+      "A": "30 minutos",
+      "B": "45 minutos",
+      "C": "75 minutos",
+      "D": "90 minutos",
+      "E": "60 minutos"
+    },
+    "gabarito": "E",
+    "comentario": "Distância = 90 × 4 = 360 km. A 120 km/h, o tempo é 360 ÷ 120 = 3 h. A redução é 4 − 3 = 1 h = 60 min.",
+    "fundamento": "Regra de três e unidades: regra de três inversa (velocidade e tempo).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 969,
+    "disciplina": "Matemática",
+    "assunto": "Sistema de unidades e regra de três",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "O valor de R$ 3.600,00 será dividido entre três pessoas em partes inversamente proporcionais aos números 2, 3 e 6. A maior parte receberá",
+    "alternativas": {
+      "A": "R$ 1.200,00",
+      "B": "R$ 2.400,00",
+      "C": "R$ 1.800,00",
+      "D": "R$ 600,00",
+      "E": "R$ 1.500,00"
+    },
+    "gabarito": "C",
+    "comentario": "Partes inversamente proporcionais a 2, 3 e 6 são proporcionais a 1/2, 1/3 e 1/6, ou seja, a 3, 2 e 1 (multiplicando por 6). A soma é 6, então cada parte vale 600. A maior é 3 × 600 = R$ 1.800,00.",
+    "fundamento": "Regra de três e unidades: divisão proporcional inversa.",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 970,
+    "disciplina": "Matemática",
+    "assunto": "Sistema de unidades e regra de três",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Uma bomba tem vazão constante de 18 m³/h. O tempo necessário para encher, com essa bomba, um tanque de 9.000 litros é de",
+    "alternativas": {
+      "A": "50 minutos",
+      "B": "15 minutos",
+      "C": "18 minutos",
+      "D": "30 minutos",
+      "E": "1 hora"
+    },
+    "gabarito": "D",
+    "comentario": "18 m³/h = 18.000 L ÷ 3.600 s = 5 L/s. Tempo = 9.000 ÷ 5 = 1.800 s = 30 min.",
+    "fundamento": "Regra de três e unidades: vazão e conversão de unidades.",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 971,
+    "disciplina": "Matemática",
+    "assunto": "Sistema de unidades e regra de três",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Em um mapa na escala 1:25.000, uma região ocupa 8 cm². A área real dessa região é de",
+    "alternativas": {
+      "A": "50 hectares",
+      "B": "5 hectares",
+      "C": "500 hectares",
+      "D": "20 hectares",
+      "E": "200 hectares"
+    },
+    "gabarito": "A",
+    "comentario": "A razão de áreas é o quadrado da escala: 8 × (25.000)² = 5 × 10⁹ cm² = 500.000 m² (1 m² = 10⁴ cm²) = 50 ha (1 ha = 10⁴ m²).",
+    "fundamento": "Regra de três e unidades: escala e unidades de área.",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 972,
+    "disciplina": "Física",
+    "assunto": "Grandezas físicas e escalas termométricas",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Entre as grandezas abaixo, são todas fundamentais no Sistema Internacional de Unidades (SI):",
+    "alternativas": {
+      "A": "comprimento, massa e tempo",
+      "B": "força, massa e tempo",
+      "C": "velocidade, comprimento e tempo",
+      "D": "energia, massa e comprimento",
+      "E": "pressão, massa e tempo"
+    },
+    "gabarito": "A",
+    "comentario": "As grandezas fundamentais do SI incluem comprimento (m), massa (kg), tempo (s), corrente elétrica (A), temperatura termodinâmica (K), quantidade de matéria (mol) e intensidade luminosa (cd). Força, velocidade, energia e pressão são derivadas.",
+    "fundamento": "Física: Sistema Internacional de Unidades.",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 973,
+    "disciplina": "Física",
+    "assunto": "Grandezas físicas e escalas termométricas",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Uma temperatura de 25 °C corresponde, na escala Kelvin, a aproximadamente",
+    "alternativas": {
+      "A": "248 K",
+      "B": "298 K",
+      "C": "25 K",
+      "D": "-248 K",
+      "E": "273 K"
+    },
+    "gabarito": "B",
+    "comentario": "T(K) = T(°C) + 273 (ou 273,15). Logo, 25 + 273 = 298 K.",
+    "fundamento": "Física: escalas termométricas (Celsius e Kelvin).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 974,
+    "disciplina": "Física",
+    "assunto": "Grandezas físicas e escalas termométricas",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A temperatura corporal normal de 98,6 °F corresponde, em graus Celsius, a",
+    "alternativas": {
+      "A": "36 °C",
+      "B": "37 °C",
+      "C": "38 °C",
+      "D": "40 °C",
+      "E": "35,5 °C"
+    },
+    "gabarito": "B",
+    "comentario": "C/5 = (F − 32)/9. Então C = 5 × (98,6 − 32) ÷ 9 = 5 × 66,6 ÷ 9 = 37 °C.",
+    "fundamento": "Física: escalas termométricas (Celsius e Fahrenheit).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 975,
+    "disciplina": "Física",
+    "assunto": "Grandezas físicas e escalas termométricas",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Um corpo está a 300 K. Em graus Celsius, essa temperatura é de aproximadamente",
+    "alternativas": {
+      "A": "573 °C",
+      "B": "-27 °C",
+      "C": "300 °C",
+      "D": "27 °C",
+      "E": "3 °C"
+    },
+    "gabarito": "D",
+    "comentario": "T(°C) = T(K) − 273 = 300 − 273 = 27 °C.",
+    "fundamento": "Física: escalas termométricas (Celsius e Kelvin).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 976,
+    "disciplina": "Física",
+    "assunto": "Grandezas físicas e escalas termométricas",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A temperatura de 50 °C equivale, na escala Fahrenheit, a",
+    "alternativas": {
+      "A": "90 °F",
+      "B": "82 °F",
+      "C": "122 °F",
+      "D": "132 °F",
+      "E": "58 °F"
+    },
+    "gabarito": "C",
+    "comentario": "F = 9C/5 + 32 = 9 × 50/5 + 32 = 90 + 32 = 122 °F.",
+    "fundamento": "Física: escalas termométricas (Celsius e Fahrenheit).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 977,
+    "disciplina": "Física",
+    "assunto": "Grandezas físicas e escalas termométricas",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "O zero absoluto, temperatura teórica em que cessaria a agitação térmica das partículas, corresponde na escala Celsius a aproximadamente",
+    "alternativas": {
+      "A": "0 °C",
+      "B": "-100 °C",
+      "C": "-32 °C",
+      "D": "-373 °C",
+      "E": "-273 °C"
+    },
+    "gabarito": "E",
+    "comentario": "O zero absoluto é 0 K, que equivale a cerca de −273 °C (exatamente −273,15 °C).",
+    "fundamento": "Física: escala Kelvin e zero absoluto.",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 978,
+    "disciplina": "Física",
+    "assunto": "Grandezas físicas e escalas termométricas",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Assinale a alternativa que apresenta apenas grandezas vetoriais.",
+    "alternativas": {
+      "A": "massa, tempo e temperatura",
+      "B": "velocidade, energia e massa",
+      "C": "trabalho, potência e força",
+      "D": "força, deslocamento e aceleração",
+      "E": "distância, tempo e velocidade"
+    },
+    "gabarito": "D",
+    "comentario": "Grandezas vetoriais exigem módulo, direção e sentido: força, deslocamento, aceleração e velocidade. Massa, tempo, temperatura, energia, trabalho e potência são escalares.",
+    "fundamento": "Física: grandezas escalares e vetoriais.",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 979,
+    "disciplina": "Física",
+    "assunto": "Grandezas físicas e escalas termométricas",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "No Sistema Internacional de Unidades, a unidade de energia (joule) é equivalente a",
+    "alternativas": {
+      "A": "kg·m/s²",
+      "B": "kg·m²/s³",
+      "C": "kg·m²/s²",
+      "D": "kg/(m·s²)",
+      "E": "kg·m/s"
+    },
+    "gabarito": "C",
+    "comentario": "Joule = newton × metro = (kg·m/s²)·m = kg·m²/s². A alternativa kg·m/s² é o newton, e kg·m²/s³ é o watt.",
+    "fundamento": "Física: unidades derivadas do SI.",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 980,
+    "disciplina": "Física",
+    "assunto": "Grandezas físicas e escalas termométricas",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Uma corrente elétrica de 5 mA e uma frequência de 3 GHz, escritas em unidades do SI com potências de dez, são, respectivamente,",
+    "alternativas": {
+      "A": "5 × 10⁻⁶ A e 3 × 10⁶ Hz",
+      "B": "5 × 10³ A e 3 × 10⁻⁹ Hz",
+      "C": "5 × 10⁻³ A e 3 × 10⁶ Hz",
+      "D": "5 × 10⁻⁹ A e 3 × 10⁹ Hz",
+      "E": "5 × 10⁻³ A e 3 × 10⁹ Hz"
+    },
+    "gabarito": "E",
+    "comentario": "Mili (m) = 10⁻³ e giga (G) = 10⁹. Assim, 5 mA = 5 × 10⁻³ A e 3 GHz = 3 × 10⁹ Hz.",
+    "fundamento": "Física: prefixos do SI e notação científica.",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 981,
+    "disciplina": "Física",
+    "assunto": "Grandezas físicas e escalas termométricas",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "O comprimento de 0,00045 m escrito em notação científica é",
+    "alternativas": {
+      "A": "4,5 × 10⁻³ m",
+      "B": "4,5 × 10⁴ m",
+      "C": "45 × 10⁻⁵ m",
+      "D": "0,45 × 10⁻⁴ m",
+      "E": "4,5 × 10⁻⁴ m"
+    },
+    "gabarito": "E",
+    "comentario": "Desloca-se a vírgula 4 casas para a direita: 0,00045 = 4,5 × 10⁻⁴. A forma 45 × 10⁻⁵ é igual em valor, mas não está em notação científica.",
+    "fundamento": "Física: notação científica.",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 982,
+    "disciplina": "Física",
+    "assunto": "Grandezas físicas e escalas termométricas",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A temperatura de um corpo aumenta de 30 °C para 50 °C. Essa variação de temperatura corresponde a",
+    "alternativas": {
+      "A": "20 K e 20 °F",
+      "B": "68 K e 36 °F",
+      "C": "20 K e 68 °F",
+      "D": "20 K e 36 °F",
+      "E": "36 K e 20 °F"
+    },
+    "gabarito": "D",
+    "comentario": "A variação em Celsius e em Kelvin é a mesma: 20. Em Fahrenheit, a variação é 9/5 de 20 = 36 °F. Variações não levam o +32 nem o +273.",
+    "fundamento": "Física: variação de temperatura nas escalas.",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 983,
+    "disciplina": "Física",
+    "assunto": "Grandezas físicas e escalas termométricas",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A temperatura em que as escalas Celsius e Fahrenheit apresentam o mesmo valor numérico é",
+    "alternativas": {
+      "A": "0",
+      "B": "32",
+      "C": "-32",
+      "D": "100",
+      "E": "-40"
+    },
+    "gabarito": "E",
+    "comentario": "Fazendo C = F na relação F = 9C/5 + 32: C = 9C/5 + 32, então −4C/5 = 32 e C = −40. Logo, −40 °C = −40 °F.",
+    "fundamento": "Física: escalas termométricas (Celsius e Fahrenheit).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 984,
+    "disciplina": "Física",
+    "assunto": "Grandezas físicas e escalas termométricas",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Na pressão normal, o ponto de ebulição da água corresponde, nas escalas Celsius, Kelvin e Fahrenheit, respectivamente, a",
+    "alternativas": {
+      "A": "100 °C, 273 K e 180 °F",
+      "B": "100 °C, 373 K e 180 °F",
+      "C": "100 °C, 273 K e 212 °F",
+      "D": "0 °C, 373 K e 212 °F",
+      "E": "100 °C, 373 K e 212 °F"
+    },
+    "gabarito": "E",
+    "comentario": "A água ferve a 100 °C = 373 K (100 + 273) = 212 °F (9 × 100/5 + 32). O ponto de fusão do gelo é 0 °C = 273 K = 32 °F.",
+    "fundamento": "Física: pontos fixos das escalas termométricas.",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 985,
+    "disciplina": "Física",
+    "assunto": "Grandezas físicas e escalas termométricas",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A equação dimensional da velocidade é",
+    "alternativas": {
+      "A": "L·T⁻²",
+      "B": "L·T",
+      "C": "M·L·T⁻¹",
+      "D": "L²·T⁻¹",
+      "E": "L·T⁻¹"
+    },
+    "gabarito": "E",
+    "comentario": "Velocidade é distância por tempo: [v] = L/T = L·T⁻¹. L·T⁻² é aceleração, e M·L·T⁻¹ é quantidade de movimento.",
+    "fundamento": "Física: análise dimensional.",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 986,
+    "disciplina": "Física",
+    "assunto": "Grandezas físicas e escalas termométricas",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Médio",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A densidade de um líquido é de 1 g/cm³. No SI, esse valor corresponde a",
+    "alternativas": {
+      "A": "1 kg/m³",
+      "B": "100 kg/m³",
+      "C": "0,001 kg/m³",
+      "D": "10 kg/m³",
+      "E": "1.000 kg/m³"
+    },
+    "gabarito": "E",
+    "comentario": "1 g = 10⁻³ kg e 1 cm³ = 10⁻⁶ m³. Então 1 g/cm³ = 10⁻³ ÷ 10⁻⁶ = 10³ = 1.000 kg/m³.",
+    "fundamento": "Física: conversão de unidades (densidade).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 987,
+    "disciplina": "Física",
+    "assunto": "Grandezas físicas e escalas termométricas",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Um termômetro graduado em uma escala X marca 20 °X no ponto de fusão do gelo e 220 °X no ponto de ebulição da água, ambos sob pressão normal. Quando esse termômetro marcar 60 °X, a temperatura na escala Celsius será de",
+    "alternativas": {
+      "A": "20 °C",
+      "B": "40 °C",
+      "C": "30 °C",
+      "D": "60 °C",
+      "E": "25 °C"
+    },
+    "gabarito": "A",
+    "comentario": "Relação entre escalas: (X − 20)/(220 − 20) = C/100. Então (60 − 20)/200 = C/100, logo C = 20 °C.",
+    "fundamento": "Física: relação entre escalas termométricas arbitrárias.",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 988,
+    "disciplina": "Física",
+    "assunto": "Grandezas físicas e escalas termométricas",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Uma escala Y atribui −10 °Y ao ponto de fusão do gelo e 140 °Y ao ponto de ebulição da água, sob pressão normal. A temperatura de 50 °C corresponde, nessa escala, a",
+    "alternativas": {
+      "A": "75 °Y",
+      "B": "65 °Y",
+      "C": "90 °Y",
+      "D": "40 °Y",
+      "E": "60 °Y"
+    },
+    "gabarito": "B",
+    "comentario": "(Y − (−10))/(140 − (−10)) = C/100, então (Y + 10)/150 = 50/100 = 0,5. Logo Y + 10 = 75 e Y = 65 °Y.",
+    "fundamento": "Física: relação entre escalas termométricas arbitrárias.",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 989,
+    "disciplina": "Física",
+    "assunto": "Grandezas físicas e escalas termométricas",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Considere a escala X, com 20 °X no ponto de fusão do gelo e 220 °X no ponto de ebulição da água. O valor numérico em que as escalas X e Celsius coincidem é",
+    "alternativas": {
+      "A": "-20",
+      "B": "20",
+      "C": "0",
+      "D": "-40",
+      "E": "40"
+    },
+    "gabarito": "A",
+    "comentario": "A relação é X = 20 + 2C. Igualando X = C: C = 20 + 2C, então C = −20. Logo, −20 °X = −20 °C.",
+    "fundamento": "Física: relação entre escalas termométricas arbitrárias.",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 990,
+    "disciplina": "Física",
+    "assunto": "Grandezas físicas e escalas termométricas",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Na escala X, em que o ponto de fusão do gelo é 20 °X e o de ebulição da água é 220 °X, uma variação de 15 °C corresponde a uma variação, em °X, de",
+    "alternativas": {
+      "A": "15 °X",
+      "B": "30 °X",
+      "C": "7,5 °X",
+      "D": "35 °X",
+      "E": "27 °X"
+    },
+    "gabarito": "B",
+    "comentario": "Cada °C equivale a (220 − 20)/100 = 2 °X. Uma variação de 15 °C é, portanto, 15 × 2 = 30 °X. Variações não incluem deslocamento de origem.",
+    "fundamento": "Física: variação de temperatura em escalas arbitrárias.",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 991,
+    "disciplina": "Física",
+    "assunto": "Grandezas físicas e escalas termométricas",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A temperatura, em graus Celsius, na qual a leitura em graus Fahrenheit é o dobro da leitura em graus Celsius é",
+    "alternativas": {
+      "A": "100",
+      "B": "80",
+      "C": "40",
+      "D": "320",
+      "E": "160"
+    },
+    "gabarito": "E",
+    "comentario": "F = 2C e F = 9C/5 + 32. Então 2C = 9C/5 + 32, 0,2C = 32 e C = 160 °C (F = 320 °F).",
+    "fundamento": "Física: escalas termométricas (Celsius e Fahrenheit).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 992,
+    "disciplina": "Física",
+    "assunto": "Grandezas físicas e escalas termométricas",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A temperatura em que a leitura na escala Fahrenheit é 50 unidades maior que a leitura na escala Celsius é de",
+    "alternativas": {
+      "A": "50 °C",
+      "B": "22,5 °C",
+      "C": "18 °C",
+      "D": "32 °C",
+      "E": "27,5 °C"
+    },
+    "gabarito": "B",
+    "comentario": "F − C = 50 e F = 9C/5 + 32. Então 9C/5 + 32 − C = 50, 4C/5 = 18 e C = 22,5 °C (F = 72,5 °F).",
+    "fundamento": "Física: escalas termométricas (Celsius e Fahrenheit).",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 993,
+    "disciplina": "Física",
+    "assunto": "Grandezas físicas e escalas termométricas",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A temperatura de um corpo varia de 86 °F para 104 °F. Essa variação, em kelvin, é de",
+    "alternativas": {
+      "A": "10 K",
+      "B": "18 K",
+      "C": "283 K",
+      "D": "32,4 K",
+      "E": "5,6 K"
+    },
+    "gabarito": "A",
+    "comentario": "A variação em Fahrenheit é 18. Para converter variações: ΔK = ΔC = ΔF × 5/9 = 18 × 5/9 = 10 K. Não se soma 273 a variações.",
+    "fundamento": "Física: variação de temperatura nas escalas.",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 994,
+    "disciplina": "Física",
+    "assunto": "Grandezas físicas e escalas termométricas",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A temperatura na qual a leitura na escala Kelvin é numericamente o dobro da leitura na escala Celsius (adotando 0 °C = 273 K) é de",
+    "alternativas": {
+      "A": "546 °C",
+      "B": "273 °C",
+      "C": "136,5 °C",
+      "D": "100 °C",
+      "E": "373 °C"
+    },
+    "gabarito": "B",
+    "comentario": "K = C + 273 e K = 2C. Então 2C = C + 273, e C = 273 °C (K = 546 K).",
+    "fundamento": "Física: escalas Celsius e Kelvin.",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 995,
+    "disciplina": "Física",
+    "assunto": "Grandezas físicas e escalas termométricas",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A pressão é definida como força por unidade de área. A equação dimensional da pressão, em termos de massa (M), comprimento (L) e tempo (T), é",
+    "alternativas": {
+      "A": "M·L·T⁻²",
+      "B": "M·L²·T⁻²",
+      "C": "M·L⁻¹·T⁻²",
+      "D": "M·L⁻²·T⁻²",
+      "E": "M·L⁻¹·T⁻¹"
+    },
+    "gabarito": "C",
+    "comentario": "Força: M·L·T⁻². Área: L². Pressão = força/área = M·L·T⁻²/L² = M·L⁻¹·T⁻². A unidade SI correspondente é o pascal (kg/(m·s²)).",
+    "fundamento": "Física: análise dimensional.",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 996,
+    "disciplina": "Física",
+    "assunto": "Grandezas físicas e escalas termométricas",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A potência é a energia transferida por unidade de tempo. Em unidades fundamentais do SI, o watt é equivalente a",
+    "alternativas": {
+      "A": "kg·m²/s²",
+      "B": "kg·m/s²",
+      "C": "kg·m²/s³",
+      "D": "kg·m/s³",
+      "E": "kg/(m·s²)"
+    },
+    "gabarito": "C",
+    "comentario": "Watt = joule/segundo = (kg·m²/s²)/s = kg·m²/s³. O joule é kg·m²/s², o newton é kg·m/s² e o pascal é kg/(m·s²).",
+    "fundamento": "Física: unidades derivadas do SI.",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 997,
+    "disciplina": "Física",
+    "assunto": "Grandezas físicas e escalas termométricas",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Uma aceleração de 1 m/s², expressa em km/h², é igual a",
+    "alternativas": {
+      "A": "3,6 km/h²",
+      "B": "12.960 km/h²",
+      "C": "1.296 km/h²",
+      "D": "129.600 km/h²",
+      "E": "4,6 km/h²"
+    },
+    "gabarito": "B",
+    "comentario": "1 m = 10⁻³ km e 1 s = 1/3.600 h. Assim, 1 m/s² = 10⁻³ km ÷ (1/3.600 h)² = 10⁻³ × 12.960.000 = 12.960 km/h² (equivale a 3,6 × 3.600).",
+    "fundamento": "Física: conversão de unidades.",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 998,
+    "disciplina": "Física",
+    "assunto": "Grandezas físicas e escalas termométricas",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Entre as grandezas abaixo, a que é adimensional (não possui unidade) é",
+    "alternativas": {
+      "A": "a densidade absoluta de uma substância",
+      "B": "o módulo da velocidade",
+      "C": "a pressão",
+      "D": "a densidade relativa de uma substância",
+      "E": "a potência"
+    },
+    "gabarito": "D",
+    "comentario": "A densidade relativa é a razão entre duas densidades e, por isso, não tem unidade. Densidade absoluta (kg/m³), velocidade (m/s), pressão (Pa) e potência (W) possuem unidades.",
+    "fundamento": "Física: análise dimensional.",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 999,
+    "disciplina": "Física",
+    "assunto": "Grandezas físicas e escalas termométricas",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "O número de algarismos significativos da medida 0,00450 m é",
+    "alternativas": {
+      "A": "3",
+      "B": "5",
+      "C": "6",
+      "D": "2",
+      "E": "4"
+    },
+    "gabarito": "A",
+    "comentario": "Zeros à esquerda não são significativos. Em 0,00450, os algarismos significativos são 4, 5 e o 0 final (à direita da vírgula, indica precisão): 3 algarismos.",
+    "fundamento": "Física: algarismos significativos.",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 1000,
+    "disciplina": "Física",
+    "assunto": "Grandezas físicas e escalas termométricas",
+    "banca": "Instituto AOCP",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "A ordem de grandeza do número 4,2 × 10⁷ é",
+    "alternativas": {
+      "A": "10⁷",
+      "B": "10⁶",
+      "C": "4 × 10⁷",
+      "D": "10⁹",
+      "E": "10⁸"
+    },
+    "gabarito": "E",
+    "comentario": "Escreve-se N = a × 10ⁿ, com 1 ≤ a < 10. Se a ≥ √10 ≈ 3,16, a ordem de grandeza é 10ⁿ⁺¹; caso contrário, é 10ⁿ. Como 4,2 > 3,16, a ordem de grandeza é 10⁸.",
+    "fundamento": "Física: ordem de grandeza.",
+    "oficial": false,
+    "concurso": "CBMPE"
+  },
+
+  {
+    "id": 1001,
+    "disciplina": "Física",
+    "assunto": "Grandezas físicas e escalas termométricas",
+    "banca": "IDECAN",
+    "ano": 2026,
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "Dois corpos são colocados em contato: um a 20 °C e outro a 68 °F. Com relação ao equilíbrio térmico entre eles, é correto afirmar que",
+    "alternativas": {
+      "A": "o corpo a 68 °F cede calor ao outro, pois 68 é maior que 20.",
+      "B": "o corpo a 20 °C cede calor ao outro, pois a escala Celsius é maior.",
+      "C": "há fluxo de calor até que ambos atinjam 68 °C.",
+      "D": "não há troca líquida de calor, pois estão à mesma temperatura.",
+      "E": "o calor flui do corpo de menor valor numérico para o de maior."
+    },
+    "gabarito": "D",
+    "comentario": "68 °F equivalem a 5 × (68 − 32)/9 = 20 °C. Os dois corpos têm a mesma temperatura, logo estão em equilíbrio térmico e não há fluxo líquido de calor. Comparar valores numéricos de escalas diferentes é um erro.",
+    "fundamento": "Física: escalas termométricas e equilíbrio térmico.",
+    "oficial": false,
+    "concurso": "CBMPE"
   }
 ];
